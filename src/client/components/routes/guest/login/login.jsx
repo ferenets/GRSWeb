@@ -1,6 +1,6 @@
 import classes from './login.scss';
 import React from 'react';
-import {browserHistory, Link} from 'react-router';
+import {browserHistory} from 'react-router';
 import {
   changeLoginEmail,
   changeLoginPassword,
@@ -55,7 +55,7 @@ export default class Login extends React.Component {
     return (
       <Page>
 
-        <section className={classes.login}>
+        <div className={classes.login}>
 
             <div className={classes.content}>
 
@@ -99,7 +99,7 @@ export default class Login extends React.Component {
 
             </div>
 
-        </section>
+        </div>
 
         <Dialog
           title="Log In"
