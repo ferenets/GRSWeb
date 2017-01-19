@@ -71,7 +71,7 @@
     "image-webpack-loader": "^1.6.2",
     "json-loader": "^0.5.4",
     "lodash": "^4.17.4",
-    "material-ui": "^0.15.0",
+    "material-ui": "^0.16.7",
     "moment": "^2.14.1",
     "moment-timezone": "^0.5.4",
     "nodemon": "^1.9.1",

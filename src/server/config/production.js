@@ -11,8 +11,8 @@ module.exports = {
   //views: root + '/server/views-dist/',
   root: root,
   static: staticResources,
-  host: process.env.HOST || '138.68.83.193',
-  baseUrl: 'http://138.68.83.193',
+  host: process.env.HOST || '138.68.81.63',
+  baseUrl: 'http://138.68.81.63',
 
   logger: {
     app: 'app',
