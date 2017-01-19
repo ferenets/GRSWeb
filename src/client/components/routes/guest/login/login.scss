@@ -1,0 +1,32 @@
+.login {
+  width: 300px;
+  vertical-align: top;
+  margin: 0 auto;
+
+  .content {
+    text-align: center;
+    padding: 12px 24px 12px;
+    border: 1px solid #ebebeb;
+    border-radius: 2px;
+    background-color: rgba(255,255,255,.87);
+
+    .caption {
+      font-size: 40px;
+      line-height: 50px;
+      text-align: center;
+      color: #5d5d5c;
+      margin-bottom: 25px;
+    }
+
+    .input {
+      margin: 5px auto;
+    }
+
+    .submit {
+      text-align: center;
+      margin: 10px 0;
+    }
+
+  }
+}
+

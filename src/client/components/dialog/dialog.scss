@@ -1,0 +1,44 @@
+.label {
+  margin: 10px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.tip {
+  color: #13a7e7;
+  text-align: center;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.success {
+  color: #00a343;
+}
+
+.fail {
+  color: #d50000;
+}
+
+@media only screen and (min-width: 450px) {
+  .label {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .tip {
+    font-size: 16px;
+    line-height: 18px;
+  }
+}
+
+@media only screen and (min-width: 860px) {
+  .label {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .tip {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}

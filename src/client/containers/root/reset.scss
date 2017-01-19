@@ -1,0 +1,75 @@
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  font: 400 14px/20px 'Open Sans', sans-serif;
+  color: #737373;
+  background: #fdfcfa;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #5D5D5C;
+  margin: 0 0 10px;
+  line-height: normal;
+}
+
+html {
+  -webkit-overflow-scrolling: touch;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent; /* For some Androids */
+}
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+}
+
+h4 {
+
+}
+
+h6 {
+
+}
+
+p {
+  margin: 0;
+}
+
+input::-ms-clear,
+input::-ms-reveal {
+  width : 0;
+  height: 0;
+}
+
+img {
+  max-width: 100%;
+  //height: auto;
+}
+
+legend {
+  font-size: 18px;
+  padding: 7px 0;
+}
+
+label {
+  font-size: 12px;
+  font-weight: normal;
+}

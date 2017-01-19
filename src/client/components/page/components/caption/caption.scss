@@ -1,0 +1,37 @@
+.caption {
+
+}
+
+.mainCaption,
+.subCaption {
+  transition: all 0.3s ease 0s;
+  margin: 5px 12%;
+}
+
+.mainCaption {
+  padding: 25px 0 0 0;
+  font-size: 18px;
+  line-height: 24px;
+  color: #5d5d5c;
+  margin-bottom: 10px;
+}
+
+.subCaption {
+  padding: 0 0 10px 0;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14px;
+  margin-bottom: 15px;
+}
+
+@media only screen and (min-width: 760px) {
+  .mainCaption {
+    font-size: 26px;
+    line-height: 30px;
+  }
+
+  .subCaption {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "apps" : [{
+    "name"        : "GRS_WEB",
+    "script"      : "boot/app/app.js",
+    "args"        : [],
+    "error_file": "/srv/grs-web/logs/error.log",
+    "out_file": "/srv/grs-web/logs/info.log",
+    "ignore_watch" : ["node_modules"],
+    "watch"       : false,
+    "cwd"         : "/srv/grs-web/server",
+    "env": {
+      "NODE_ENV": "production",
+      "HOST": "127.0.0.1",
+      "PORT": "9028"
+    }
+  }]
+}

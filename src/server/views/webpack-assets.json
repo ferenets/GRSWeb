@@ -1,0 +1,6 @@
+{
+  "bundle.grs-web": {
+    "js": "/scripts/bundle.grs-web.js",
+    "css": "/styles/bundle.grs-web.css"
+  }
+}

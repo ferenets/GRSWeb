@@ -1,0 +1,79 @@
+.usersTable {
+
+}
+
+.table {
+  min-width: 500px;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.tdEmail,
+.tdRole,
+.tdName,
+.tdCreated {
+  text-align: center !important;
+  vertical-align: middle;
+  white-space: pre-wrap;
+  font-size: 14px;
+  padding: 0 !important;
+}
+
+.th {
+  text-shadow: rgba(0, 0, 0, 0.14902) 0 2px 2px;
+  background: rgba(0, 0, 0, 0) linear-gradient(#656565 0%, #535353 100%) repeat scroll 0% 0% / auto padding-box border-box;
+}
+
+.thEmail,
+.thRole,
+.thName,
+.thCreated {
+  color: #ffffff !important;
+  padding: 0 !important;
+  text-align: center !important;
+  font-size: 18px !important;
+}
+
+.thEmail,
+.tdEmail {
+  width: 160px;
+  font-weight: 600;
+
+  .email {
+    white-space: pre-wrap;
+    font-weight: 600;
+    color: #1B5E20;
+  }
+}
+
+.thRole,
+.tdRole {
+  width: 90px;
+  white-space: normal !important;
+  font-weight: 600;
+
+  .admin {
+    color: #e53935;
+  }
+  .role {
+    color: #13a7e7;
+  }
+}
+
+.thName,
+.tdName {
+  min-width: 130px;
+
+  .name {
+    white-space: pre-wrap;
+  }
+}
+
+.thCreated,
+.tdCreated {
+  width: 150px;
+
+  .created {
+    white-space: pre-wrap;
+  }
+}

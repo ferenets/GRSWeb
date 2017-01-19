@@ -1,0 +1,28 @@
+.input {
+  //min-height: 102px;
+  .in {
+    padding: 15px;
+    width: 100%;
+    border-radius: 2px;
+    border-style: solid;
+    border-color: #ebebeb;
+  }
+  .in:focus {
+    border-color: #13a7e7;
+    outline: none;
+  }
+
+  .error {
+    position: relative;
+    height: 0;
+
+    .text {
+      position: absolute;
+      top: -25px;
+      color: #e53935;
+      font-size: 0.65rem;
+      font-style: italic;
+      padding: 5px;
+    }
+  }
+}
