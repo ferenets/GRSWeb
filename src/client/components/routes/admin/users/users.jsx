@@ -20,7 +20,7 @@ export default class Users extends React.Component {
     } = this.props;
 
     return (
-      <Page headline="User list">
+      <Page headline="Users">
 
         <section className={classes.users}>
 

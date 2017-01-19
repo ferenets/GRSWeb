@@ -90,7 +90,9 @@ const User = MDB.collection({
    * @param password
    */
   auth: ($, email, password) => {
-    PasswordUtils.hash(password).then(data => console.log(data));
+    
+    // PasswordUtils.hash(password).then(data => console.log(data));
+
     return $
       .find({ email: email })
       .limit(1)
