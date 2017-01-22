@@ -1,18 +1,13 @@
 import classes from './login.scss';
 import React from 'react';
 import {browserHistory} from 'react-router';
-import {
-  changeLoginEmail,
-  changeLoginPassword,
-  closeLoginDialog,
-} from '../../../../redux/login/login.actions';
 
 import FlatButton from 'material-ui/FlatButton';
 import RaisedButton from 'material-ui/RaisedButton';
 
 import Page from '../../../page';
-import TextInput from '../../../text-input';
-import Dialog from '../../../dialog';
+import TextInput from '../../../inputs/text-input';
+import Dialog from '../../../info/dialog';
 
 export default class Login extends React.Component {
   constructor(props) {
@@ -22,18 +17,18 @@ export default class Login extends React.Component {
   }
 
   closeDialog() {
-    const {dispatch, loginForm:{err}} = this.props;
+    const {onCloseDialog, login:{err}} = this.props;
 
-    dispatch(closeLoginDialog());
-
+    onCloseDialog();
     if (!err) browserHistory.push('/');
   }
 
   render() {
     const {
-      dispatch,
+      onChangeEmail,
+      onChangePassword,
       onSubmit,
-      loginForm:{
+      login:{
         email,
         pwd,
         loading,
@@ -70,7 +65,7 @@ export default class Login extends React.Component {
                     placeholder="Email"
                     type="email"
                     value={email}
-                    onChange={(v) => dispatch(changeLoginEmail(v))}
+                    onChange={onChangeEmail}
                     required
                   />
                 </div>
@@ -80,7 +75,7 @@ export default class Login extends React.Component {
                     placeholder="Password"
                     type="password"
                     value={pwd}
-                    onChange={(v) => dispatch(changeLoginPassword(v))}
+                    onChange={onChangePassword}
                     required
                   />
                 </div>

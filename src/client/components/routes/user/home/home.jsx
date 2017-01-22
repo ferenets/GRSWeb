@@ -1,9 +1,9 @@
 import classes from './home.scss';
 import React from 'react';
-import {browserHistory, Link} from 'react-router';
+// import {browserHistory, Link} from 'react-router';
 
 import Page from '../../../page';
-import Loading from '../../../loading';
+import Loading from '../../../info/loading';
 
 export default class Home extends React.Component {
   constructor(props) {

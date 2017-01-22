@@ -1,9 +1,12 @@
 import React from 'react';
 import {connect} from 'react-redux';
 import {
-  clearLoginInputs,
-  startLoginLoading,
-  login
+  clearInputs,
+  startLoading,
+  submit,
+  changeEmail,
+  changePassword,
+  closeDialog,
 } from '../../redux/login/login.actions';
 
 import _Login from '../../components/routes/guest/login';
@@ -12,36 +15,57 @@ class Login extends React.Component {
   constructor(props) {
     super(props);
 
-    this.login = this.login.bind(this);
+    this.changeEmail = this.changeEmail.bind(this);
+    this.changePassword = this.changePassword.bind(this);
+    this.closeDialog = this.closeDialog.bind(this);
+    this.submit = this.submit.bind(this);
+  }
+
+  changeEmail(email) {
+    const {dispatch} = this.props;
+
+    dispatch(changeEmail(email));
+  }
+
+  changePassword(pwd) {
+    const {dispatch} = this.props;
+
+    dispatch(changePassword(pwd));
+  }
+
+  closeDialog() {
+    const {dispatch} = this.props;
+
+    dispatch(closeDialog());
   }
 
   componentDidMount() {
     const {dispatch} = this.props;
 
-    dispatch(clearLoginInputs());
+    dispatch(clearInputs());
   }
 
-  login(e) {
-    const {dispatch, loginForm} = this.props;
+  submit(e) {
+    const {dispatch, login:{ email, pwd }} = this.props;
     e.preventDefault();
   
-    dispatch(startLoginLoading());
-    dispatch(login({
-      email: loginForm.email,
-      pwd: loginForm.pwd
-    }));
+    dispatch(startLoading());
+    dispatch(submit({ email, pwd }));
   }
 
   render() {
     return (
-      <_Login 
-        onSubmit={this.login}
-        {...this.props}
+      <_Login
+        onChangeEmail={this.changeEmail}
+        onChangePassword={this.changePassword}
+        onCloseDialog={this.closeDialog}
+        onSubmit={this.submit}
+        login={this.props.login}
       />
     );
   }
 }
 
-const selector = (state) => ({loginForm: state.login});
+const selector = (state) => ({login: state.login});
 
 export default connect(selector)(Login);

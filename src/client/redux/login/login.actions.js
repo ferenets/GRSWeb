@@ -11,14 +11,14 @@ export const START_LOGIN_LOADING = 'START_LOGIN_LOADING';
 export const LOGIN_SUCCESS = 'LOGIN_SUCCESS';
 export const LOGIN_FAIL = 'LOGIN_FAIL';
 
-export const changeLoginEmail = (email) => ({type: CHANGE_LOGIN_EMAIL, email});
-export const changeLoginPassword = (pwd) => ({type: CHANGE_LOGIN_PASSWORD, pwd});
-export const clearLoginInputs = () => ({type: CLEAR_LOGIN_INPUTS});
-export const closeLoginDialog = () => ({type: CLOSE_LOGIN_DIALOG});
+export const changeEmail = (email) => ({type: CHANGE_LOGIN_EMAIL, email});
+export const changePassword = (pwd) => ({type: CHANGE_LOGIN_PASSWORD, pwd});
+export const clearInputs = () => ({type: CLEAR_LOGIN_INPUTS});
+export const closeDialog = () => ({type: CLOSE_LOGIN_DIALOG});
 
-export const startLoginLoading = () => ({type: START_LOGIN_LOADING});
+export const startLoading = () => ({type: START_LOGIN_LOADING});
 
-export const login = createAsyncAction({
+export const submit = createAsyncAction({
   fn: AuthApi.login,
   success: (body) => ({type: LOGIN_SUCCESS, body}),
   error: (err) => ({type: LOGIN_FAIL, err})

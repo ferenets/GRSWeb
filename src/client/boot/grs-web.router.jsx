@@ -5,7 +5,7 @@ import {checkAndSetJWT} from '../utils/auth.utils';
 import Dashboard from '../components/routes/admin/dashboard';
 import Users from '../containers/users';
 import Root from '../containers/root';
-import NotFound from '../components/not-found';
+import NotFound from '../components/info/not-found';
 import Home from '../components/routes/user/home';
 import Login from '../containers/login';
 

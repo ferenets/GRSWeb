@@ -1,5 +1,5 @@
 import thunk from 'redux-thunk';
-import {createStore, compose, applyMiddleware, combineReducers} from 'redux';
+import {createStore, applyMiddleware, combineReducers} from 'redux';
 import {syncHistory, routeReducer} from 'redux-simple-router';
 import { browserHistory } from 'react-router';
 

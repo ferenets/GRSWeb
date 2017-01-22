@@ -18,7 +18,6 @@ const initalState = {
   err: null
 };
 
-
 export default function (state = initalState, action) {
   switch (action.type) {
 
@@ -42,7 +41,6 @@ export default function (state = initalState, action) {
         loading: false,
         dialogIsOpen: true,
         dialogMsg: `Greetings! You successfully logged in as "${action.body.email}"`,
-        dialogTip: '',
         err: null
       });
 

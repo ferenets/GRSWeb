@@ -31,7 +31,7 @@ export default function (state = initalState, action) {
       return Object.assign({}, state, initalState, {err: action.err});
 
     case LOGIN_SUCCESS:
-     return Object.assign({}, state, { logout: false });
+     return Object.assign({}, state, {logout: false});
     
     case LOGIN_FAIL:
      return Object.assign({}, state, {err: action.err});

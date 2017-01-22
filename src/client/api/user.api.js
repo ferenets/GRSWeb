@@ -1,7 +1,7 @@
 import {createApi} from '../../client/libs/rapi';
 
 const UserApi = createApi({
-  getAll: {
+  get: {
     url: '/api/v1/user',
     method: 'get'
   }
