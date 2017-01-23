@@ -89,7 +89,7 @@ export default class Header extends React.Component {
             <div className={classes.left}>
               <HeaderLink to="/">Домашня сторінка</HeaderLink>
             </div>
-
+              
             <div className={classes.right}>
               {!logout && isLoaded ? user : auth}
             </div>
