@@ -61,7 +61,7 @@ export default class Header extends React.Component {
         </div>
         
         <div className={classes.authLinks}>
-          <HeaderLink to="/login">Log In</HeaderLink>
+          <HeaderLink to="/login">Вхід</HeaderLink>
         </div>
         
       </div>
@@ -126,7 +126,7 @@ export default class Header extends React.Component {
             
             <div className={classes.left}>
               <div className={classes.lin}>
-                <HeaderLink to="/">Home</HeaderLink>
+                <HeaderLink to="/">Домашня сторінка</HeaderLink>
               </div>
             </div>
 
