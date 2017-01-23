@@ -9,12 +9,12 @@ import getMuiTheme from 'material-ui/styles/getMuiTheme';
 
 const muiTheme = getMuiTheme({}, {
   fontFamily: 'Open Sans, sans-serif',
-  // palette: {
-  //   textColor: '#5d5d5c',
-  //   accent1Color: '#13a7e7',
-  //   primary1Color: '#13a7e7',
-  //   primary2Color: '#13a7e7',
-  // },
+  palette: {
+    // textColor: '#5d5d5c',
+    // accent1Color: '#13a7e7',
+    primary1Color: '#C0CA33',
+    // primary2Color: '#C0CA33',
+  },
   // radioButton: {
   //   checkedColor: '#13a7e7'
   // },

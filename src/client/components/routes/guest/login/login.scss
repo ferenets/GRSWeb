@@ -7,7 +7,7 @@
     text-align: center;
     padding: 12px 24px 12px;
     border: 1px solid #ebebeb;
-    border-radius: 2px;
+    border-radius: 5px;
     background-color: rgba(255,255,255,.87);
 
     .caption {
@@ -15,7 +15,7 @@
       line-height: 50px;
       text-align: center;
       color: #5d5d5c;
-      margin-bottom: 25px;
+      margin-bottom: 15px;
     }
 
     .input {
@@ -24,9 +24,8 @@
 
     .submit {
       text-align: center;
-      margin: 10px 0;
+      margin: 20px 0 10px;
     }
-
   }
 }
 

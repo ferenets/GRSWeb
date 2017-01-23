@@ -3,7 +3,7 @@ import React from 'react';
 
 export default class TextInput extends React.Component {
   render () {
-    const {required, placeholder, type, name, id, value, error, onChange, border} = this.props;
+    const {required, placeholder, type, name, id, value, error, onChange} = this.props;
 
     return (
       <div className={classes.input}>
@@ -16,7 +16,6 @@ export default class TextInput extends React.Component {
           id={id}
           value={value}
           onChange={(e) => onChange(e.target.value)}
-          style={{borderWidth: `${border}px`}}
         />
         <div className={classes.error}>
           <div className={classes.text}>
@@ -28,4 +27,4 @@ export default class TextInput extends React.Component {
   }
 }
 
-TextInput.defaultProps = { error: null, name: 'in', id: '', type: 'text', placeholder: '', border: 1 };
+TextInput.defaultProps = { error: null, name: 'in', id: '', type: 'text', placeholder: '' };

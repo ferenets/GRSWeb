@@ -5,7 +5,7 @@ import _Dialog from 'material-ui/Dialog';
 
 export default class Dialog extends React.Component {
   render () {
-    const {err, msg, tip} = this.props;
+    const {err, msg} = this.props;
 
     const styles = {
       title: {
@@ -28,15 +28,11 @@ export default class Dialog extends React.Component {
       <_Dialog
         titleStyle={styles.title}
         bodyStyle={styles.body}
-        //modal={true}
         {...this.props}
       >
         <div className={classes.label}>
           <div className={err ? classes.fail : classes.success}>
             {msg}
-          </div>
-          <div className={classes.tip}>
-            {tip}
           </div>
         </div>
         {this.props.children}

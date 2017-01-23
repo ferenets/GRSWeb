@@ -1,15 +1,16 @@
+@import '../../../containers/root/constants.scss';
+
 .input {
-  //min-height: 102px;
+
   .in {
     padding: 15px;
     width: 100%;
-    border-radius: 2px;
-    border-style: solid;
-    border-color: #ebebeb;
-  }
-  .in:focus {
-    border-color: #13a7e7;
-    outline: none;
+    border: 1px solid #ebebeb;
+
+    &:focus {
+      border-color: $color-secondary;
+      outline: none;
+    }
   }
 
   .error {
@@ -19,7 +20,7 @@
     .text {
       position: absolute;
       top: -25px;
-      color: #e53935;
+      color: $color-error;
       font-size: 0.65rem;
       font-style: italic;
       padding: 5px;

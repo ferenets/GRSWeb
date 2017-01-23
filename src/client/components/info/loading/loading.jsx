@@ -18,8 +18,7 @@ export default class Loading extends React.Component {
         <CircularProgress
           style={centerStyle}
           size={120}
-          thickness={5}
-          color="#13a7e7"
+          thickness={7}
         />
       </div>
     );

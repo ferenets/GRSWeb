@@ -1,140 +1,65 @@
+@import '../../../../containers/root/constants.scss';
+
 .header {
   width: 100%;
+  background-color: $color-primary;
   box-sizing: border-box;
-  margin: 0 0 10px;
-  height: 70px;
+  height: $header-height;
   vertical-align: middle;
   font-size: 24px;
   line-height: 32px;
   position: relative;
   z-index: 1;
-  border-bottom: 1px solid #ebebeb;
-}
+  //border-bottom: 1px solid #ebebeb;
 
-.link {
-  display: inline-block;
-  cursor: pointer;
-  color: #858585;
-  transition: all 0.3s ease 0s;
-  margin: 0 4px;
-}
+  .title {
 
-.link:hover {
-  text-shadow: 0 0 3px rgba(170, 170, 170, 0.8);
+  }
+
+  .links {
+    width: 98%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+    .left,
+    .right {
+      //display: inline-block;
+    }
+  }
+
+  @media only screen and (min-width: 450px) {
+    .links {
+      width: 96%;
+    }
+  }
+
+  @media only screen and (min-width: 1000px) {
+    .links {
+      width: 94%;
+    }
+  }
+
 }
 
 .auth,
 .user,
-.mainMenu,
-.authMenu,
 .userMenu {
   display: inline-block;
-  vertical-align: middle;
-}
-.mainLinks,
-.authLinks {
-  display: none;
-}
-
-@media only screen and (min-width: 770px) {
-  .mainMenu,
-  .authMenu {
-    display: none;
-  }
-  .mainLinks,
-  .authLinks {
-    display: inline-block;
-  }
-}
-
-.mainMenu,
-.authMenu {
-  position: relative;
-  top: 12px;
 }
 
 .userMenu {
-  line-height: 50px;
-  margin-left: 10px;
+  margin-top: 12px;
 }
 
-.title {
-  line-height: 40px;
-}
-
-.links {
-  position: relative;
-  width: 98%;
-  margin: 0 auto;
-}
-
-@media only screen and (min-width: 450px) {
-  .links {
-    width: 96%;
-  }
-}
-
-@media only screen and (min-width: 1000px) {
-  .links {
-    width: 94%;
-  }
-}
-
-.left,
-.right,
-.button {
-  display: inline-block;
-}
-
-.left {
-  float: left;
-  margin-top: 14px;
-}
-
-.right {
-  float: right;
-  margin-top: 14px;
-}
-
-.right:before {
-  content: "";
-  display: inline-block;
-  vertical-align: middle;
-  height: 100%;
-}
 
 .avatar {
   border-radius: 50%;
   border: 1px solid #bdbdbd;
   width: 48px;
   height: 48px;
-  //padding: 4px;
   background-position: center;
   background-origin: content-box;
   background-size: cover;
   display: inline-block;
 }
-
-/*
-.logo {
-  height: 57px;
-  width: 138px;
-  margin: 20px 0;
-}
-
-@media only screen and (min-width: 375px) {
-  .logo {
-    height: 80px;
-    width: 190px;
-    margin: 10px 0;
-  }
-}
-
-@media only screen and (min-width: 900px) {
-  .logo {
-    height: 100px;
-    width: 240px;
-    margin: 0;
-  }
-}
-*/

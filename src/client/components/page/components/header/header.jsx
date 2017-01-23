@@ -8,7 +8,6 @@ import MenuItem from 'material-ui/MenuItem';
 import IconButton from 'material-ui/IconButton';
 import Divider from 'material-ui/Divider';
 import IconDashboard from 'material-ui/svg-icons/action/dashboard';
-import IconPerson from 'material-ui/svg-icons/social/person';
 import IconLogout from 'material-ui/svg-icons/navigation/cancel';
 
 import HeaderLink from './components/header-link';
@@ -37,33 +36,7 @@ export default class Header extends React.Component {
     
     const auth = (
       <div className={classes.auth}>
-        
-        <div className={classes.authMenu}>
-          <IconMenu
-            key={0}
-            iconButtonElement={
-              <IconButton
-                style={styles.iconButton}
-              >
-                <IconPerson color="#858585" />
-              </IconButton>
-            }
-            anchorOrigin={{horizontal: 'left', vertical: 'top'}}
-            targetOrigin={{horizontal: 'left', vertical: 'bottom'}}
-          >
-
-            <MenuItem
-              primaryText="Log In"
-              onTouchTap={() => browserHistory.push('/login')}
-            />
-
-          </IconMenu>
-        </div>
-        
-        <div className={classes.authLinks}>
-          <HeaderLink to="/login">Log In</HeaderLink>
-        </div>
-        
+        <HeaderLink to="/login">Log In</HeaderLink>
       </div>
     );
     
@@ -123,17 +96,13 @@ export default class Header extends React.Component {
       <div className={classes.header}>
         <div className={classes.title}>
           <div className={classes.links}>
-            
             <div className={classes.left}>
-              <div className={classes.lin}>
-                <HeaderLink to="/">Home</HeaderLink>
-              </div>
+              <HeaderLink to="/">Home</HeaderLink>
             </div>
 
             <div className={classes.right}>
               {!logout && isLoaded ? user : auth}
             </div>
-            
           </div>
         </div>
       </div>

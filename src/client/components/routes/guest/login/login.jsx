@@ -84,8 +84,7 @@ export default class Login extends React.Component {
                   <RaisedButton
                     label={loading ? "Processing..." : "Log In"}
                     type="submit"
-                    backgroundColor="#13a7e7"
-                    labelColor="#ffffff"
+                    primary={true}
                     disabled={loading}
                   />
                 </div>

@@ -1,10 +1,12 @@
 .link {
   text-decoration: none;
-  color: #858585;
+  color: #fff;
+  font-weight: 600;
   transition: all 0.3s ease 0s;
-  margin: 0 8px;
-}
+  margin: 17px 8px 0;
+  display: block;
 
-.link:hover {
-  text-shadow: 0 0 3px rgba(170, 170, 170, 0.8);
+  &:hover {
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.51);
+  }
 }
