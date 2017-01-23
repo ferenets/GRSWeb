@@ -36,7 +36,7 @@ export default class Header extends React.Component {
     
     const auth = (
       <div className={classes.auth}>
-        <HeaderLink to="/login">Log In</HeaderLink>
+        <HeaderLink to="/login">Вхід</HeaderLink>
       </div>
     );
     
@@ -97,7 +97,7 @@ export default class Header extends React.Component {
         <div className={classes.title}>
           <div className={classes.links}>
             <div className={classes.left}>
-              <HeaderLink to="/">Home</HeaderLink>
+              <HeaderLink to="/">Домашня сторінка</HeaderLink>
             </div>
 
             <div className={classes.right}>

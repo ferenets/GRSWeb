@@ -27,7 +27,7 @@ function proxyToMainServer() {
 
     proxy.on('error', function (error) {
       if (res._headerSent) return;
-      res.status(500).send(new Error('Main server is unavailable'));
+      res.status(500).send(new Error('Основний сервер недоступний'));
     });
   };
 }

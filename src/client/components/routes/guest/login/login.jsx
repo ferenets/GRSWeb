@@ -55,7 +55,7 @@ export default class Login extends React.Component {
             <div className={classes.content}>
 
               <div className={classes.caption}>
-                Log In
+                Реєстрація
               </div>
 
               <form action="./" onSubmit={onSubmit}>
@@ -82,7 +82,7 @@ export default class Login extends React.Component {
 
                 <div className={classes.submit}>
                   <RaisedButton
-                    label={loading ? "Processing..." : "Log In"}
+                    label={loading ? "Зачекайте..." : "Вхід"}
                     type="submit"
                     primary={true}
                     disabled={loading}
@@ -96,7 +96,7 @@ export default class Login extends React.Component {
         </div>
 
         <Dialog
-          title="Log In"
+          title="Вхід"
           actions={actions}
           open={dialogIsOpen}
           modal={false}
