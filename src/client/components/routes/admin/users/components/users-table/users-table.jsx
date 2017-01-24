@@ -24,7 +24,7 @@ export default class UsersTable extends React.Component {
 
           <TableHeader adjustForCheckbox={false} displaySelectAll={false} className={classes.th}>
             <TableRow>
-              <TableHeaderColumn className={classes.thEmail}>Поштова адреса</TableHeaderColumn>
+              <TableHeaderColumn className={classes.thEmail}>E-mail</TableHeaderColumn>
               <TableHeaderColumn className={classes.thName}>Ім'я</TableHeaderColumn>
               <TableHeaderColumn className={classes.thRole}>Роль</TableHeaderColumn>
               <TableHeaderColumn className={classes.thCreated}>Дата створення</TableHeaderColumn>

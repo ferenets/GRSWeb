@@ -55,14 +55,14 @@ export default class Login extends React.Component {
             <div className={classes.content}>
 
               <div className={classes.caption}>
-                Реєстрація
+                Авторизація
               </div>
 
               <form action="./" onSubmit={onSubmit}>
 
                 <div className={classes.input}>
                   <TextInput
-                    placeholder="Поштова адреса"
+                    placeholder="E-mail"
                     type="email"
                     value={email}
                     onChange={onChangeEmail}
