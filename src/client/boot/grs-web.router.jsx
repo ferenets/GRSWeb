@@ -6,7 +6,7 @@ import Dashboard from '../components/routes/admin/dashboard';
 import Users from '../containers/users';
 import Root from '../containers/root';
 import NotFound from '../components/info/not-found';
-import Home from '../components/routes/user/home';
+import Home from '../containers/home';
 import Login from '../containers/login';
 
 const requireJWT = (state, replace) => {

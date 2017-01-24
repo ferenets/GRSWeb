@@ -1,0 +1,170 @@
+@import '../../../../containers/root/constants.scss';
+
+.wrapListBranch {
+  background-color: transparent;
+  color: #fff;
+  width: 35%;
+  display: inline-block;
+  font-weight: 600;
+  vertical-align: top;
+  box-shadow: $boxShadowHomeWrap;
+  margin-right: $padding-horizontal;
+  padding: $padding;
+  padding-top: $padingTopListMap;
+  overflow: hidden;
+  transition: all .3s ease-in-out;
+
+  .listTitle {
+    display: block;
+    position: relative;
+    width: calc(100% - 3 * $shift);
+    padding: 0;
+    margin-bottom: $space-bottom;
+    background-color: transparent;
+    text-align: center;
+    cursor: pointer;
+
+    .listTitle:before {
+      content: ' ';
+      position: absolute;
+      z-index: 1;
+      top: -$shift;
+      left: -$shift;
+      width: 50%;
+      height: calc($listTitle-height/2 + $shift);
+      border-bottom: 1px dashed rgba(50,50,50,0.5);
+    }
+    .listTitle:after {
+      content: ' ';
+      position: absolute;
+      z-index: 1;
+      top: -$shift;
+      left: -$shift;
+      width: 50%;
+      height: 100%;
+      border-left: 1px dashed rgba(50,50,50,0.5);
+    }
+
+    span {
+      display: block;
+      z-index: 100;
+      position: relative;
+      width: 100%;
+      height: $listTitle-height;
+      padding: 0 5px;
+      background-color: $bg-first;
+      cursor: pointer;
+      line-height: $listTitle-height;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+
+    span:first-child {
+      margin-bottom: 5px;
+    }
+
+    .listTitle span {
+      background-color: $bg-second;
+    }
+
+    .listTitle {
+      width: 100%;
+      margin-left: $shift;
+      .listTitle span {
+        background-color: $bg-third;
+      }
+    }
+
+    .listTitle {
+      .listTitle {
+        .listTitle span {
+          background-color: $bg-four;
+        }
+        /////////////////////////////////////////////////
+        // START ////////////////////////////////////////
+        /////////////////////////////////////////////////
+        // A tooltip.
+        // Use if the text exceeds the size of the container.
+        // Use for mobile layout.
+        /////////////////////////////////////////////////
+
+        //.listTitle span:hover::after {
+        //  content: attr(value);
+        //  position: absolute;
+        //  height: auto;
+        //  width: 100%;
+        //  min-height: 60px;
+        //  white-space: normal;
+        //  left: 0;
+        //  bottom: 0;
+        //  z-index: 1;
+        //  background: #fff;
+        //  color: $bg-four;
+        //  font-size: 11px;
+        //  padding: 5px 10px;
+        //  border: 1px solid $bg-four;
+        //}
+
+        //////////////////////////////////////////////////
+        // END ///////////////////////////////////////////
+        //////////////////////////////////////////////////
+      }
+    }
+  }
+  .listTitle:last-child:after {
+    height: $listTitle-height;
+  }
+}
+
+/////////////////////////////////////////////////
+// START
+/////////////////////////////////////////////////
+// Version without visible lateral limits.
+/////////////////////////////////////////////////
+
+//.wrapListBranch::-webkit-scrollbar{
+//  width:12px;
+//}
+//.wrapListBranch::-webkit-scrollbar-thumb{
+//  border-width:1px 1px 1px 2px;
+//  border-color: #777;
+//  background-color: #aaa;
+//}
+//.wrapListBranch::-webkit-scrollbar-thumb:hover{
+//  border-width: 1px 1px 1px 2px;
+//  border-color: #555;
+//  background-color: #777;
+//}
+//.wrapListBranch::-webkit-scrollbar-track{
+//  border-width:0;
+//}
+//.wrapListBranch::-webkit-scrollbar-track:hover{
+//  border-left: solid 1px #aaa;
+//  background-color: #eee;
+//}
+
+/////////////////////////////////////////////////
+// END
+/////////////////////////////////////////////////
+.listWrap {
+  height: 100%;
+  overflow-y: auto;
+  padding-right: 10px;
+}
+.listWrap::-webkit-scrollbar {
+  width: 5px;
+}
+.listWrap::-webkit-scrollbar-track {
+  background: #ebebeb;
+  border-radius: 10px;
+}
+.listWrap::-webkit-scrollbar-thumb {
+  background: $color-primary-lighten;
+  border-radius: 10px;
+}
+.listWrap::-webkit-scrollbar-thumb:hover{
+  border-width: 1px 1px 1px 2px;
+  border-color: #555;
+  background-color: #777;
+}

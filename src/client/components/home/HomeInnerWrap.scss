@@ -1,0 +1,10 @@
+@import '../../containers/root/constants.scss';
+
+.homeWrap {
+  margin: 0 auto 50px;
+  width: 100%;
+  min-height: 100%;
+  padding: 0 $padding-horizontal;
+  padding-top: $padding-vertical;
+  padding-bottom: $padding-vertical;
+}
