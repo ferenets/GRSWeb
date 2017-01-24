@@ -21,12 +21,12 @@ export default class Dashboard extends React.Component {
     };
 
     return (
-      <Page headline="Dashboard" label="Administrator tools for content managing">
+      <Page headline="Панель керування" label="Засоби адміністрування для управління контентом">
 
         <section className={classes.dashboard}>
 
           <RaisedButton
-            label="Users"
+            label="Користувачі"
             style={styles.button}
             labelStyle={styles.label}
             labelColor="#37474F"

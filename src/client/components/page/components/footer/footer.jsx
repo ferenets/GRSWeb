@@ -6,7 +6,7 @@ export default class Footer extends React.Component {
     return (
       <div className={classes.footer}>
         <div className={classes.info}>
-          Copyright © 2017 GRS WEB. All rights reserved
+          Copyright © 2017 GRS WEB. Всі права захищені.
         </div>
       </div>
     );

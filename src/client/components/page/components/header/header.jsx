@@ -70,7 +70,7 @@ export default class Header extends React.Component {
               if (role === 'admin') {
                 return (
                   <MenuItem
-                    primaryText="Dashboard"
+                    primaryText="Панель керування"
                     leftIcon={<IconDashboard />}
                     onTouchTap={() => browserHistory.push('/dashboard')}
                   />
@@ -82,7 +82,7 @@ export default class Header extends React.Component {
             <Divider />
 
             <MenuItem
-              primaryText="Log Out"
+              primaryText="Вихід"
               leftIcon={<IconLogout />}
               onTouchTap={() => dispatch(signout())}
             />
