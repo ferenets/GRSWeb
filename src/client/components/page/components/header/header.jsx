@@ -1,7 +1,6 @@
 import classes from './header.scss';
 import React from 'react';
-import {browserHistory, Link} from 'react-router';
-import {signout} from '../../../../redux/profile/profile.actions';
+import {browserHistory} from 'react-router';
 
 import IconMenu from 'material-ui/IconMenu';
 import MenuItem from 'material-ui/MenuItem';
@@ -19,7 +18,7 @@ export default class Header extends React.Component {
 
   render() {
     const {
-      dispatch,
+      onSignout,
       profile: {
         user: {email, role},
         isLoaded,
@@ -39,9 +38,7 @@ export default class Header extends React.Component {
         <HeaderLink to="/login">Вхід</HeaderLink>
       </div>
     );
-    
-    const avatarUrl = '/images/NoAvatar.png';
-    
+
     const user = (
       <div className={classes.user}>
         <div className={classes.userMenu}>
@@ -54,11 +51,8 @@ export default class Header extends React.Component {
                 touch={true}
                 style={styles.iconButton}
               >
-              <span>
-                <div
-                  className={classes.avatar}
-                  style={{ backgroundImage: `url('${avatarUrl}')`}}
-                ></div>
+                <span>
+                  <div className={classes.avatar}></div>
                 </span>
               </IconButton>
             }
@@ -84,7 +78,7 @@ export default class Header extends React.Component {
             <MenuItem
               primaryText="Вихід"
               leftIcon={<IconLogout />}
-              onTouchTap={() => dispatch(signout())}
+              onTouchTap={onSignout}
             />
 
           </IconMenu>
