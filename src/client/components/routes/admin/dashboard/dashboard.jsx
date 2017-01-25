@@ -29,8 +29,8 @@ export default class Dashboard extends React.Component {
             label="Користувачі"
             style={styles.button}
             labelStyle={styles.label}
-            labelColor="#37474F"
-            backgroundColor="#ffffff"
+            labelColor="#ffffff"
+            backgroundColor="#616161"
             icon={<IconUsers />}
             onTouchTap={() => browserHistory.push('/dashboard/users')}
           />
