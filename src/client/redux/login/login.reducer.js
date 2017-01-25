@@ -40,7 +40,7 @@ export default function (state = initalState, action) {
       return Object.assign({}, state, {
         loading: false,
         dialogIsOpen: true,
-        dialogMsg: `Greetings! You successfully logged in as "${action.body.email}"`,
+        dialogMsg: `Вітаємо! Ви успішно увійшли в систему як "${action.body.email}"`,
         err: null
       });
 

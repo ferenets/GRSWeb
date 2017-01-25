@@ -55,14 +55,14 @@ export default class Login extends React.Component {
             <div className={classes.content}>
 
               <div className={classes.caption}>
-                Log In
+                Авторизація
               </div>
 
               <form action="./" onSubmit={onSubmit}>
 
                 <div className={classes.input}>
                   <TextInput
-                    placeholder="Email"
+                    placeholder="E-mail"
                     type="email"
                     value={email}
                     onChange={onChangeEmail}
@@ -72,7 +72,7 @@ export default class Login extends React.Component {
 
                 <div className={classes.input}>
                   <TextInput
-                    placeholder="Password"
+                    placeholder="Пароль"
                     type="password"
                     value={pwd}
                     onChange={onChangePassword}
@@ -82,7 +82,7 @@ export default class Login extends React.Component {
 
                 <div className={classes.submit}>
                   <RaisedButton
-                    label={loading ? "Processing..." : "Log In"}
+                    label={loading ? "Зачекайте..." : "Вхід"}
                     type="submit"
                     primary={true}
                     disabled={loading}
@@ -96,7 +96,7 @@ export default class Login extends React.Component {
         </div>
 
         <Dialog
-          title="Log In"
+          title="Вхід"
           actions={actions}
           open={dialogIsOpen}
           modal={false}
