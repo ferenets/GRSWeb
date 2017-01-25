@@ -11,7 +11,6 @@ export default class Page extends React.Component {
     
     return (
       <section>
-
         <Header />
         
         <div className={classes.page}>
@@ -26,7 +25,6 @@ export default class Page extends React.Component {
         </div>
 
         <Footer />
-
       </section>
     );
   }

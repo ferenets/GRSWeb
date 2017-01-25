@@ -1,39 +1,42 @@
 import React from 'react';
 import {connect} from 'react-redux';
 import {fetchProfile} from '../../redux/profile/profile.actions';
-// import {storageAvailable} from '../../utils/project-tricks';
+import {signout} from '../../redux/profile/profile.actions';
+import {hasCookie} from '../../utils/tricks';
 
 import _Header from '../../components/page/components/header';
-
-const hasCookie = (name) => {
-  const pairs = document.cookie.split(";");
-
-  for ( let i = 0; i < pairs.length; ++i ) {
-    if (pairs[i].split("=")[0].trim() === name) return true;
-  }
-  return false;
-};
 
 class Header extends React.Component {
   constructor(props) {
     super(props);
+    
+     this.signout = this.signout.bind(this);
   }
 
   componentDidMount() {
-    const {dispatch, profile:{isLoaded, logout}} = this.props;
+    const {dispatch} = this.props;
 
     if (hasCookie('jwt')) {
       dispatch(fetchProfile());
     }
   }
 
+  signout() {
+    const {dispatch, profile:{}} = this.props;
+    
+    dispatch(signout());
+  }
+
   render() {
     return (
-      <_Header {...this.props} />
+      <_Header
+        onSignout={this.signout}
+        profile={this.props.profile}
+      />
     );
   }
 }
 
-const selector = (state) => ({profile: state.profile, randomLetter: state.randomLetter, root: state.root});
+const selector = (state) => ({profile: state.profile});
 
 export default connect(selector)(Header);
