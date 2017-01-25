@@ -16,3 +16,8 @@ export default class Caption extends React.Component {
     );
   }
 };
+
+Caption.propTypes = {
+  mainText: React.PropTypes.string.isRequired,
+  subText: React.PropTypes.string.isRequired
+};

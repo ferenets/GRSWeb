@@ -6,10 +6,6 @@ import Page from '../../../page';
 import Loading from '../../../info/loading';
 
 export default class Home extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
         <Page headline="Ласкаво просимо до порталу GRS WEB">

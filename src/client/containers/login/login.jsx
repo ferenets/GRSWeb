@@ -66,6 +66,11 @@ class Login extends React.Component {
   }
 }
 
+Login.PropTypes = {
+  dispatch: React.PropTypes.func.isRequired,
+  login: React.PropTypes.object.isRequired
+};
+
 const selector = (state) => ({login: state.login});
 
 export default connect(selector)(Login);

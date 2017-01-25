@@ -27,3 +27,10 @@ export default class SnackBar extends React.Component {
     );
   }
 }
+
+SnackBar.propTypes = {
+  open: React.PropTypes.bool.isRequired,
+  error: React.PropTypes.bool.isRequired,
+  message: React.PropTypes.string.isRequired,
+  onRequestClose: React.PropTypes.func.isRequired
+};

@@ -33,6 +33,11 @@ class Users extends React.Component {
   }
 }
 
+Users.PropTypes = {
+  dispatch: React.PropTypes.func.isRequired,
+  users: React.PropTypes.object.isRequired
+};
+
 const selector = (state) => ({users: state.users});
 
 export default connect(selector)(Users);

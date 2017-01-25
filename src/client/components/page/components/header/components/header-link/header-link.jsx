@@ -16,4 +16,5 @@ export default class HeaderLink extends React.Component {
   }
 }
 
+HeaderLink.propTypes = { to: React.PropTypes.string.isRequired };
 HeaderLink.defaultProps = { to: '/' };

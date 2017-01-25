@@ -37,6 +37,11 @@ class Header extends React.Component {
   }
 }
 
+Header.PropTypes = {
+  dispatch: React.PropTypes.func.isRequired,
+  profile: React.PropTypes.object.isRequired
+};
+
 const selector = (state) => ({profile: state.profile});
 
 export default connect(selector)(Header);

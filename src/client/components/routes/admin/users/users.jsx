@@ -41,3 +41,8 @@ export default class Users extends React.Component {
     );
   }
 }
+
+Users.propTypes = { 
+  onCloseSnackbar: React.PropTypes.func.isRequired,
+  users: React.PropTypes.object.isRequired,
+};

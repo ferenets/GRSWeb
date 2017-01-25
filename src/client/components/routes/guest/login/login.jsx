@@ -109,3 +109,11 @@ export default class Login extends React.Component {
     );
   }
 }
+
+Login.propTypes = {
+  onCloseDialog: React.PropTypes.func.isRequired,
+  onChangeEmail: React.PropTypes.func.isRequired,
+  onChangePassword: React.PropTypes.func.isRequired,
+  onSubmit: React.PropTypes.func.isRequired,
+  login: React.PropTypes.object.isRequired
+};

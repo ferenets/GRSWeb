@@ -30,4 +30,10 @@ export default class Page extends React.Component {
   }
 }
 
+Page.propTypes = {
+  headline: React.PropTypes.string.isRequired,
+  label: React.PropTypes.string.isRequired
+};
+
+
 Page.defaultProps = { headline: '', label: '' };

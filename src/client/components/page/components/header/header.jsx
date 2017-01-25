@@ -60,18 +60,14 @@ export default class Header extends React.Component {
             targetOrigin={{horizontal: 'left', vertical: 'bottom'}}
           >
 
-            {(() => {
-              if (role === 'admin') {
-                return (
-                  <MenuItem
-                    primaryText="Панель керування"
-                    leftIcon={<IconDashboard />}
-                    onTouchTap={() => browserHistory.push('/dashboard')}
-                  />
-                );
-              }
-              return (null);
-            })()}
+            {role === 'admin'
+              ? <MenuItem
+                  primaryText="Панель керування"
+                  leftIcon={<IconDashboard />}
+                  onTouchTap={() => browserHistory.push('/dashboard')}
+                />
+              : null
+            }
 
             <Divider />
 
@@ -103,3 +99,8 @@ export default class Header extends React.Component {
     );
   }
 }
+
+Header.propTypes = {
+  onSignout: React.PropTypes.func.isRequired,
+  profile: React.PropTypes.object.isRequired,
+};

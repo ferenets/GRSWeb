@@ -41,4 +41,9 @@ export default class Dialog extends React.Component {
   }
 }
 
+Dialog.propTypes = {
+  msg: React.PropTypes.string.isRequired,
+  err: React.PropTypes.object
+};
+
 Dialog.defaultProps = { err: null };

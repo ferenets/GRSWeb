@@ -27,4 +27,22 @@ export default class TextInput extends React.Component {
   }
 }
 
-TextInput.defaultProps = { error: null, name: 'in', id: '', type: 'text', placeholder: '' };
+TextInput.propTypes = {
+  required: React.PropTypes.bool,
+  placeholder: React.PropTypes.string.isRequired,
+  type: React.PropTypes.string.isRequired,
+  name: React.PropTypes.string.isRequired,
+  id: React.PropTypes.string.isRequired,
+  value: React.PropTypes.string.isRequired,
+  error: React.PropTypes.string,
+  onChange: React.PropTypes.func.isRequired
+};
+
+
+TextInput.defaultProps = { 
+  error: null,
+  name: 'in',
+  id: '',
+  type: 'text',
+  placeholder: ''
+};
