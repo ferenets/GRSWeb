@@ -12,7 +12,7 @@ const muiTheme = getMuiTheme({}, {
   palette: {
     // textColor: '#5d5d5c',
     // accent1Color: '#13a7e7',
-    primary1Color: '#C0CA33',
+    primary1Color: '#1e88e5',
     // primary2Color: '#C0CA33',
   },
   // radioButton: {

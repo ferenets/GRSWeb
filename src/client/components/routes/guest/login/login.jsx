@@ -62,7 +62,7 @@ export default class Login extends React.Component {
 
                 <div className={classes.input}>
                   <TextInput
-                    placeholder="E-mail"
+                    placeholder="Ім'я користувача"
                     type="email"
                     value={email}
                     onChange={onChangeEmail}

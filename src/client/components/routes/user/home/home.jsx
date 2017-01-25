@@ -12,7 +12,7 @@ export default class Home extends React.Component {
 
   render() {
     return (
-        <Page headline="Ласкаво просимо на портал GRS WEB">
+        <Page headline="Ласкаво просимо до порталу GRS WEB">
           <div className={classes.home}>
             <Loading />
           </div>
