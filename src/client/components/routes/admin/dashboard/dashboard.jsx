@@ -15,8 +15,9 @@ export default class Dashboard extends React.Component {
         margin: '10px 0 10px 0'
       },
       label: {
-        fontSize: '20px',
-        lineHeight: '36px'
+        fontSize: '14px',
+        lineHeight: '36px',
+        fontWeight: '600'
       }
     };
 
@@ -29,8 +30,8 @@ export default class Dashboard extends React.Component {
             label="Користувачі"
             style={styles.button}
             labelStyle={styles.label}
-            labelColor="#37474F"
-            backgroundColor="#ffffff"
+            labelColor="#ffffff"
+            backgroundColor="#616161"
             icon={<IconUsers />}
             onTouchTap={() => browserHistory.push('/dashboard/users')}
           />
