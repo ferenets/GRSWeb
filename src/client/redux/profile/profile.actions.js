@@ -13,7 +13,12 @@ export const LOGOUT_FAIL = 'LOGOUT_FAIL';
 export const fetchProfile = createAsyncAction({
   fn: ProfileApi.fetch,
   success: (body) => ({type: FETCH_PROFILE_SUCCESS, body}),
-  error: (err) => ({type: FETCH_PROFILE_FAIL, err})
+  error: (err) => {
+    if (err.status === 400 || err.status === 403) {
+      browserHistory.push('/login');
+    }
+    return {type: FETCH_PROFILE_FAIL, err};
+  }
 });
 
 /**
