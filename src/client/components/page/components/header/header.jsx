@@ -87,7 +87,7 @@ export default class Header extends React.Component {
         <div className={classes.title}>
           <div className={classes.links}>
             <div className={classes.left}>
-              <HeaderLink to="/">Домашня сторінка</HeaderLink>
+              <HeaderLink to="/">GRS WEB</HeaderLink>
             </div>
 
             <div className={classes.right}>
