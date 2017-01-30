@@ -1,6 +1,5 @@
 import React from 'react';
 import RaisedButton from 'material-ui/RaisedButton';
-import Constants from '../../../../containers/root/constants.scss';
 import {amber700} from 'material-ui/styles/colors';
 
 export default class Button extends React.Component {
@@ -9,19 +8,13 @@ export default class Button extends React.Component {
     }
 
     render() {
-        const {open} = this.props;
-        const paddingTop = parseInt(Constants['paddingTopListMap'].slice(0, -2));
-        const padding = parseInt(Constants['padding'].slice(0, -2));
-        const float = this.props.float;
+        const {open, onClick} = this.props;
+
         const styles = {
             root: {
-                float: float,
                 minWidth: 20,
                 maxWidth: 50,
                 padding: 0,
-                marginTop: -paddingTop,
-                marginRight: -padding,
-                marginLeft: -padding,
                 height: 25,
             },
 
@@ -33,12 +26,12 @@ export default class Button extends React.Component {
             }
         };
         return (
-            <div>
+            <div style={{display:'inline-block'}}>
                 <RaisedButton
                     label={open ? '\u2039\u2039' : '\u203A\u203A'}
                     style={styles.root}
                     labelStyle={styles.label}
-                    onClick={this.props.buttonOnClick}
+                    onClick={onClick}
                     backgroundColor={amber700}
                 />
             </div>
