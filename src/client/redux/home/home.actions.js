@@ -22,17 +22,16 @@ const allocationData = (data) => {
     const createDisplayTree = (object) => {
         let result = object;
         for (let firstProp in result ) {
-            let first = result[firstProp];
-            for (let secondProp in first){
-                let second = first[secondProp];
-                for (let thirdProp in second){
-                    let third = second[thirdProp];
-                    for (let fourProp in third){
-                        let four = third[fourProp];
-                        result[firstProp][secondProp][thirdProp][fourProp] = null;
-                    }
-                };
+          let first = result[firstProp];
+          for (let secondProp in first){
+            let second = first[secondProp];
+            for (let thirdProp in second){
+              let third = second[thirdProp];
+              for (let fourProp in third){
+                result[firstProp][secondProp][thirdProp][fourProp] = null;
+              }
             };
+          };
         };
         return result;
     };

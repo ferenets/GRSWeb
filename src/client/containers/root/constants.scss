@@ -38,6 +38,7 @@ $border-home: 1px solid darkgrey;
 $padding: 10px;
 $padingTopListMap: 35px;
 $padding-vertical: 10px;
+$paddingDuble: $padding-vertical * 2;
 $padding-horizontal: 10px;
 $regions-list: rgba(245,190,15,1);
 $shift: 15px;
@@ -57,5 +58,6 @@ $listTitle-height: 30px;
   paddingInnerHomeWrap: $padding-vertical;
   paddingTopListMap: $padingTopListMap;
   padding: $padding;
+  paddingDuble: $paddingDuble;
   heightWrapList: $padingTopListMap;
 }

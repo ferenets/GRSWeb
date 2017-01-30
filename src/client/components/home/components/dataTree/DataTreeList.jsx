@@ -1,4 +1,4 @@
-import classes from './RegionsList.scss';
+import classes from './DataTree.scss';
 import React from 'react';
 
 export default class ListElementTitle extends React.Component {

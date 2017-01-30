@@ -1,4 +1,3 @@
-import classes from './home.scss';
 import React from 'react';
 
 import {connect} from 'react-redux';
@@ -8,7 +7,7 @@ import {
 } from '../../redux/home/home.actions';
 
 import Page from '../../components/page';
-import HomeInnerWrap from '../../components/home';
+import HomeInner from '../../components/home';
 import Loading from '../../components/info/loading';
 
 class Home extends React.Component {
@@ -23,12 +22,11 @@ class Home extends React.Component {
         const {points, displayBranch} = this.props.dataHome;
         return (
             <Page>
-                <div className={classes.home}>
-                    { points.length
-                        ?
-                        <HomeInnerWrap
-                            displayBranchList={displayBranch} />
-                        : <Loading /> }
+                <div>
+                    { points
+                        ? <HomeInner displayBranchList={displayBranch} />
+                        : <Loading />
+                    }
                 </div>
             </Page>
         );
