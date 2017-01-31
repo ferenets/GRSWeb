@@ -27,3 +27,8 @@ export default class PointsMap extends React.Component {
     )
   }
 }
+
+PointsMap.PropTypes = {
+  onButtonClick: React.PropTypes.func.isRequired,
+  fullWidth: React.PropTypes.bool.isRequired,
+};

@@ -44,3 +44,8 @@ export default class DataTreeList extends React.Component {
     );
   }
 }
+
+DataTreeList.PropTypes = {
+  title: React.PropTypes.string.isRequired,
+  listName: React.PropTypes.array.isRequired,
+};

@@ -33,6 +33,15 @@ class HomeWrap extends React.Component {
   }
 }
 
+HomeWrap.PropTypes = {
+  dispatch: React.PropTypes.func.isRequired,
+  home: React.PropTypes.objectOf( React.PropTypes.shape({
+    loading: React.PropTypes.func.isRequired,
+    regionsNames: React.PropTypes.array.isRequired,
+    displayBranch: React.PropTypes.object.isRequired,
+  }) ).isRequired,
+};
+
 const selector = (state) => ({home: state.home});
 
 export default connect(selector)(HomeWrap);

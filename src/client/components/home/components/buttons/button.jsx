@@ -1,6 +1,5 @@
 import React from 'react';
 import RaisedButton from 'material-ui/RaisedButton';
-import {amber700} from 'material-ui/styles/colors';
 
 export default class Button extends React.Component {
   render() {
@@ -11,13 +10,12 @@ export default class Button extends React.Component {
         minWidth: 20,
         maxWidth: 50,
         padding: 0,
-        height: 25,
+        height: 25
       },
       label: {
-        color: '#fff',
         fontSize: 20,
-        lineHeight: 20 + 'px',
-        fontWeight: 900,
+        lineHeight: '20px',
+        fontWeight: 900
       }
     };
 
@@ -25,10 +23,16 @@ export default class Button extends React.Component {
       <RaisedButton
         label={open ? '\u2039\u2039' : '\u203A\u203A'}
         style={styles.root}
+        secondary={true}
         labelStyle={styles.label}
+        labelColor="#fff"
         onClick={onClick}
-        backgroundColor={amber700}
       />
     )
   }
 }
+
+Button.PropTypes = {
+  onClick: React.PropTypes.func.isRequired,
+  open: React.PropTypes.bool.isRequired,
+};

@@ -40,3 +40,10 @@ export default class DataTree extends React.Component {
     );
   }
 }
+
+DataTree.PropTypes = {
+  regionsNames: React.PropTypes.array.isRequired,
+  displayBranch: React.PropTypes.object.isRequired,
+  onButtonClick: React.PropTypes.func.isRequired,
+  open: React.PropTypes.bool.isRequired,
+};

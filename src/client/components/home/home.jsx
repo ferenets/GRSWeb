@@ -1,6 +1,6 @@
 import classes from './home.scss';
 import React from 'react';
-import DataTree from './components/dataTree';
+import DataTree from './components/data-tree';
 import PointsMap from './components/map';
 
 export default class Home extends React.Component {
@@ -40,5 +40,9 @@ export default class Home extends React.Component {
       </div>
     );
   }
+};
 
-}
+Home.PropTypes = {
+  regionsNames: React.PropTypes.array.isRequired,
+  displayBranch: React.PropTypes.object.isRequired,
+};
