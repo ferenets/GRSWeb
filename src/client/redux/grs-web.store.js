@@ -6,13 +6,13 @@ import { browserHistory } from 'react-router';
 import login from './login/login.reducer';
 import profile from './profile/profile.reducer';
 import users from './users/users.reducer';
-import dataHome from './home/home.reducer';
+import home from './home/home.reducer';
 
 const reducers = combineReducers({
   login,
   profile,
   users,
-  dataHome,
+  home,
   routing: routeReducer
 });
 

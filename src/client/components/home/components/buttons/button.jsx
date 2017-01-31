@@ -5,6 +5,7 @@ import {amber700} from 'material-ui/styles/colors';
 export default class Button extends React.Component {
   render() {
     const {open, onClick} = this.props;
+
     const styles = {
       root: {
         minWidth: 20,
@@ -19,6 +20,7 @@ export default class Button extends React.Component {
         fontWeight: 900,
       }
     };
+
     return (
       <RaisedButton
         label={open ? '\u2039\u2039' : '\u203A\u203A'}

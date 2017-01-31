@@ -1,1 +1,1 @@
-export {default as default} from './HomeWrap.jsx';
+export {default as default} from './home-wrap.jsx';

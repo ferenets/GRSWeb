@@ -1,6 +1,6 @@
-import classes from './PointsMap.scss';
+import classes from './points-map.scss';
 import React from 'react';
-import Button from '../buttons/Button.jsx';
+import Button from '../buttons/button.jsx';
 
 export default class PointsMap extends React.Component {
   render () {
@@ -12,19 +12,14 @@ export default class PointsMap extends React.Component {
     return (
       <div
         className={classes.pointsMap}
-        style={
-          fullWidth
-          ? {width: '100%'}
-          : null
-        }
+        style={fullWidth ? {width: '100%'} : {}}
       >
-        {
-          fullWidth
+        {fullWidth
           ? <div className={classes.buttonWrap}>
-             <Button
-               open={false}
-               onClick={onButtonClick}
-             />
+            <Button
+              open={false}
+              onClick={onButtonClick}
+            />
           </div>
           : null
         }

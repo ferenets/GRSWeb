@@ -1,1 +1,1 @@
-export {default as default} from './DataTree.jsx';
+export {default as default} from './data-tree.jsx';
