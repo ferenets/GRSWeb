@@ -6,28 +6,29 @@ import {connect} from 'react-redux';
 
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
+import {amber700} from 'material-ui/styles/colors';
 
 const muiTheme = getMuiTheme({}, {
   fontFamily: 'Open Sans, sans-serif',
   palette: {
-    // textColor: '#5d5d5c',
-    // accent1Color: '#13a7e7',
-    primary1Color: '#1e88e5',
-    // primary2Color: '#C0CA33',
+    // textColor: '#5d5d5c ',
+    primary1Color: '#1e88e5 ',
+    accent1Color: amber700,
+    // primary2Color: '#C0CA33 ',
   },
   // radioButton: {
-  //   checkedColor: '#13a7e7'
+  //   checkedColor: '#13a7e7 '
   // },
   // toggle: {
-  //   trackOnColor: '#81D4FA',
-  //   thumbOnColor: '#13a7e7'
+  //   trackOnColor: '#81D4FA ',
+  //   thumbOnColor: '#13a7e7 '
   // },
   // checkbox: {
-  //   checkedColor: '#13a7e7'
+  //   checkedColor: '#13a7e7 '
   // },
   // flatButton: {
-  //   primaryTextColor: '#13a7e7',
-  //   secondaryTextColor: '#cd1a6b'
+  //   primaryTextColor: '#13a7e7 ',
+  //   secondaryTextColor: '#cd1a6b '
   // }
 });
 
