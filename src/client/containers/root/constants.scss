@@ -34,23 +34,25 @@ $color-error: #e53935;
 
 $footer-height: 50px;
 $header-height: 70px;
+$listTitle-height: 30px;
+
 $border-home: 1px solid darkgrey;
+$regions-list: rgba(245,190,15,1);
+$boxShadowHomeWrap: 0 0 6px rgba(0,0,0,0.3);
+
 $padding: 10px;
+$paddingDuble: 20px;
 $padingTopListMap: 35px;
 $padding-vertical: 10px;
-$paddingDuble: $padding-vertical * 2;
 $padding-horizontal: 10px;
-$regions-list: rgba(245,190,15,1);
+
 $shift: 15px;
 $space-bottom: 2px;
-$boxShadowHomeWrap: 0 0 6px rgba(0,0,0,0.3);
 
 $bg-first: #FFA000;
 $bg-second: #AFB42B;
 $bg-third: #388E3C;
 $bg-four: #0097A7;
-
-$listTitle-height: 30px;
 
 :export {
   footerHeight: $footer-height;

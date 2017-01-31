@@ -25,21 +25,17 @@ export default class DataTree extends React.Component {
     const {
       regionsName,
       displayBranchList,
-      height,
-      heightDataTree,
       onButtonClick,
       open
     } = this.props;
-    const openList = {height: heightDataTree};
     const closeList = {
-      height: heightDataTree,
       width: 0,
       padding: 0,
       margin: 0
     };
     return (
       <div className={classes.wrapListBranch}
-        style={open ? openList : closeList}
+        style={open ? {} : closeList}
       >
         <div className={classes.buttonWrap}>
           <Button
@@ -47,7 +43,7 @@ export default class DataTree extends React.Component {
             onClick={onButtonClick}
           />
         </div>
-        <div className={classes.listWrap} style={{height}}>
+        <div className={classes.listWrap}>
           {this.displayRegions(regionsName, displayBranchList)}
         </div>
       </div>

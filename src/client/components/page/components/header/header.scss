@@ -10,6 +10,7 @@
   line-height: 32px;
   position: relative;
   z-index: 1;
+  margin-top: -$header-height;
   //border-bottom: 1px solid #ebebeb;
 
   .title {

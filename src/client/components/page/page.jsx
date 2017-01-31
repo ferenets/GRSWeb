@@ -10,7 +10,7 @@ export default class Page extends React.Component {
     const {headline, label} = this.props;
     
     return (
-      <section>
+      <section className={classes.pageWrap}>
         <Header />
         
         <div className={classes.page}>

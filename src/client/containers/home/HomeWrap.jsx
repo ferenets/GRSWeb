@@ -1,5 +1,5 @@
 import React from 'react';
-
+import classes from './HomeWrap.scss';
 import {connect} from 'react-redux';
 import {
     startLoading,
@@ -7,10 +7,10 @@ import {
 } from '../../redux/home/home.actions';
 
 import Page from '../../components/page';
-import HomeInner from '../../components/home';
+import Home from '../../components/home';
 import Loading from '../../components/info/loading';
 
-class Home extends React.Component {
+class HomeWrap extends React.Component {
 
     componentDidMount() {
         const {dispatch, dataHome} = this.props;
@@ -22,9 +22,9 @@ class Home extends React.Component {
         const {points, displayBranch} = this.props.dataHome;
         return (
             <Page>
-                <div>
+                <div className={classes.homeWrap}>
                     { points
-                        ? <HomeInner displayBranchList={displayBranch} />
+                        ? <Home displayBranchList={displayBranch} />
                         : <Loading />
                     }
                 </div>
@@ -34,4 +34,4 @@ class Home extends React.Component {
 }
 
 const selector = (state) => ({dataHome: state.dataHome});
-export default connect(selector)(Home);
+export default connect(selector)(HomeWrap);

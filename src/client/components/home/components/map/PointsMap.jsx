@@ -5,8 +5,6 @@ import Button from '../buttons/Button.jsx';
 export default class PointsMap extends React.Component {
   render () {
     const {
-      height,
-      heightPointMap,
       onButtonClick,
       fullWidth
     } = this.props;
@@ -16,8 +14,8 @@ export default class PointsMap extends React.Component {
         className={classes.pointsMap}
         style={
           fullWidth
-          ? {height: heightPointMap, width: '100%'}
-          : {height: heightPointMap}
+          ? {width: '100%'}
+          : null
         }
       >
         {
@@ -31,6 +29,6 @@ export default class PointsMap extends React.Component {
           : null
         }
       </div>
-    );
+    )
   }
 }

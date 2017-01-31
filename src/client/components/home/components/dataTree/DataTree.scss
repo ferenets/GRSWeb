@@ -1,6 +1,7 @@
 @import '../../../../containers/root/constants.scss';
 
 .wrapListBranch {
+  height: 100%;
   background-color: transparent;
   color: #fff;
   width: 35%;
@@ -9,13 +10,15 @@
   vertical-align: top;
   box-shadow: $boxShadowHomeWrap;
   margin-right: $padding-horizontal;
-  padding: 0;
-  padding-left: calc($padding*2);
+  padding: 0 0 55px $paddingDuble;
   overflow: hidden;
   transition: all .3s ease-in-out;
+  text-align: right;
 
   .buttonWrap {
-    text-align: right;
+    width: auto;
+    height: auto;
+    display: inline-block;
   }
 
   .listTitle {
