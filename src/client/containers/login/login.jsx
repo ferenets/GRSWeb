@@ -4,7 +4,7 @@ import {
   clearInputs,
   startLoading,
   submit,
-  changeEmail,
+  changeLogin,
   changePassword,
   closeDialog,
 } from '../../redux/login/login.actions';
@@ -15,16 +15,16 @@ class Login extends React.Component {
   constructor(props) {
     super(props);
 
-    this.changeEmail = this.changeEmail.bind(this);
+    this.changeLogin = this.changeLogin.bind(this);
     this.changePassword = this.changePassword.bind(this);
     this.closeDialog = this.closeDialog.bind(this);
     this.submit = this.submit.bind(this);
   }
 
-  changeEmail(email) {
+  changeLogin(login) {
     const {dispatch} = this.props;
 
-    dispatch(changeEmail(email));
+    dispatch(changeLogin(login));
   }
 
   changePassword(pwd) {
@@ -46,17 +46,17 @@ class Login extends React.Component {
   }
 
   submit(e) {
-    const {dispatch, login:{ email, pwd }} = this.props;
+    const {dispatch, login:{ login, pwd }} = this.props;
     e.preventDefault();
   
     dispatch(startLoading());
-    dispatch(submit({ email, pwd }));
+    dispatch(submit({ login, pwd }));
   }
 
   render() {
     return (
       <_Login
-        onChangeEmail={this.changeEmail}
+        onChangeLogin={this.changeLogin}
         onChangePassword={this.changePassword}
         onCloseDialog={this.closeDialog}
         onSubmit={this.submit}

@@ -30,7 +30,7 @@ const PasswordUtils = {
       if (isEqual) {
         resolve(null);
       } else {
-        reject(AuthError.invalidCredentials());
+        reject(AuthError.invalidCredentials);
       }
     });
   })

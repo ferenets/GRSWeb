@@ -36,9 +36,9 @@ const AuthToken = {
       if (!err) return done(null, data);
 
       if (err.name === 'TokenExpiredError') {
-        done(AuthError.expired());
+        done(AuthError.expired);
       } else {
-        done(AuthError.invalidToken());
+        done(AuthError.invalidToken);
       }
     });
   },
@@ -54,9 +54,9 @@ const AuthToken = {
       if (!err) return done(null, data);
 
       if (err.name === 'TokenExpiredError') {
-        done(AuthError.expired());
+        done(AuthError.expired);
       } else {
-        done(AuthError.invalidToken());
+        done(AuthError.invalidToken);
       }
     });
   },
@@ -94,7 +94,7 @@ const AuthToken = {
     if (!token) return done(AppError.unauthorized());
 
     AuthToken.verifyAuth(token, config.jwt.auth.secret, (err, data) => {
-      if (err) return done(AuthError.invalidToken());
+      if (err) return done(AuthError.invalidToken);
       req.user = data;
 
       done(null, data);
@@ -112,13 +112,13 @@ const AuthToken = {
 
     if (!bearer) return done(AppError.unauthorized());
 
-    if (bearer.indexOf('Bearer') !== 0) return done(AuthError.invalidAuthorizationHeader());
+    if (bearer.indexOf('Bearer') !== 0) return done(AuthError.invalidAuthorizationHeader);
 
     const token = bearer.replace('Bearer ', '').trim();
     if (!token) return done(AppError.unauthorized());
 
     AuthToken.verifyAuth(token, config.jwt.auth.secret, (err, data) => {
-      if (err) return done(AuthError.invalidToken());
+      if (err) return done(AuthError.invalidToken);
       req.user = data;
 
       done(null, data);

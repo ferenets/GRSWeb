@@ -8,6 +8,7 @@ export default class TextInput extends React.Component {
     return (
       <div className={classes.input}>
         <input
+          autoComplete="off"
           required={required || false}
           className={classes.in}
           placeholder={placeholder}

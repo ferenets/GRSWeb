@@ -25,11 +25,11 @@ export default class Login extends React.Component {
 
   render() {
     const {
-      onChangeEmail,
+      onChangeLogin,
       onChangePassword,
       onSubmit,
       login:{
-        email,
+        login,
         pwd,
         loading,
         dialogIsOpen,
@@ -63,9 +63,9 @@ export default class Login extends React.Component {
                 <div className={classes.input}>
                   <TextInput
                     placeholder="Ім'я користувача"
-                    type="email"
-                    value={email}
-                    onChange={onChangeEmail}
+                    type="text"
+                    value={login}
+                    onChange={onChangeLogin}
                     required
                   />
                 </div>
@@ -112,7 +112,7 @@ export default class Login extends React.Component {
 
 Login.propTypes = {
   onCloseDialog: React.PropTypes.func.isRequired,
-  onChangeEmail: React.PropTypes.func.isRequired,
+  onChangeLogin: React.PropTypes.func.isRequired,
   onChangePassword: React.PropTypes.func.isRequired,
   onSubmit: React.PropTypes.func.isRequired,
   login: React.PropTypes.object.isRequired

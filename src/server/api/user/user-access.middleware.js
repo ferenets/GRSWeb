@@ -1,7 +1,8 @@
 'use strict';
 
 // const Promise = require('bluebird');
-const AppError = require('../../libs/app-error/index');
+// const AppError = require('../../libs/app-error/index');
+const AuthErrors = require('../../api/auth/auth.errors');
 const User = require('../../models/user.model');
 
 const UserAccess = {
@@ -17,8 +18,7 @@ const UserAccess = {
     
     User.getById(req.user._id)
       .then(user => {
-        // if (!user.emailVerified) return (next(AppError.forbidden('Email not confirmed')));
-        if (user.banned) return next(AppError.forbidden('You are banned'));
+        if (user.banned) return next(AuthErrors.banned);
         
         next();
       })

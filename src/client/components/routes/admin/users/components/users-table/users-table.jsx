@@ -19,12 +19,11 @@ export default class UsersTable extends React.Component {
 
     return (
       <div className={classes.usersTable}>
-
         <Table selectable={false} className={classes.table} bodyStyle={{overflowX: undefined, overflowY: undefined }}>
 
           <TableHeader adjustForCheckbox={false} displaySelectAll={false} className={classes.th}>
             <TableRow>
-              <TableHeaderColumn className={classes.thEmail}>E-mail</TableHeaderColumn>
+              <TableHeaderColumn className={classes.thUsername}>Ім'я користувача</TableHeaderColumn>
               <TableHeaderColumn className={classes.thName}>Ім'я</TableHeaderColumn>
               <TableHeaderColumn className={classes.thRole}>Роль</TableHeaderColumn>
               <TableHeaderColumn className={classes.thCreated}>Дата створення</TableHeaderColumn>
@@ -36,10 +35,10 @@ export default class UsersTable extends React.Component {
             {users.map((user, i) => (
               <TableRow key={i}>
 
-                <TableRowColumn className={classes.tdEmail}>
-                  <div className={classes.email}>
-                    <span className={classes.email}>
-                      {user.email}
+                <TableRowColumn className={classes.tdUsername}>
+                  <div className={classes.username}>
+                    <span className={classes.username}>
+                      {user.login}
                     </span>
                   </div>
                 </TableRowColumn>
@@ -67,7 +66,6 @@ export default class UsersTable extends React.Component {
 
           </TableBody>
         </Table>
-
       </div>
     );
   }

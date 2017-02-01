@@ -15,7 +15,7 @@ const AuthValidate = {
   login: (req, res, next) => {
     const schema = Joi.object().keys(
       {
-        email: keys.email,
+        login: keys.login,
         pwd: keys.password
       },
       { convert: true }
@@ -24,6 +24,7 @@ const AuthValidate = {
     Joi.validate(req.body, schema, (err, value) => {
       if (err) return next(new AppError.badRequest(err.message));
 
+      // value.login = value.login.toLowerCase();
       req.body = value;
       next();
     });

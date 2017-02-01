@@ -20,8 +20,7 @@ export default class Users extends React.Component {
 
     return (
       <Page headline="Користувачі">
-
-        <section className={classes.users}>
+        <div className={classes.users}>
 
           {usersLoaded
             ? <UsersTable users={users} />
@@ -35,8 +34,7 @@ export default class Users extends React.Component {
             onRequestClose={onCloseSnackbar}
           />
 
-        </section>
-        
+        </div>
       </Page>
     );
   }

@@ -1,5 +1,5 @@
 import {
-  CHANGE_LOGIN_EMAIL,
+  CHANGE_LOGIN_LOGIN,
   CHANGE_LOGIN_PASSWORD,
   CLEAR_LOGIN_INPUTS,
   CLOSE_LOGIN_DIALOG,
@@ -9,7 +9,7 @@ import {
 } from './login.actions';
 
 const initalState = {
-  email: '',
+  login: '',
   pwd: '',
   
   loading: false,
@@ -21,8 +21,8 @@ const initalState = {
 export default function (state = initalState, action) {
   switch (action.type) {
 
-    case CHANGE_LOGIN_EMAIL:
-      return Object.assign({}, state, { email: action.email });
+    case CHANGE_LOGIN_LOGIN:
+      return Object.assign({}, state, { login: action.login });
 
     case CHANGE_LOGIN_PASSWORD:
       return Object.assign({}, state, { pwd: action.pwd });
@@ -39,8 +39,6 @@ export default function (state = initalState, action) {
     case LOGIN_SUCCESS:
       return Object.assign({}, state, {
         loading: false,
-        dialogIsOpen: true,
-        dialogMsg: `Вітаємо! Ви успішно увійшли в систему як "${action.body.email}"`,
         err: null
       });
 

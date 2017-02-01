@@ -1,6 +1,7 @@
 'use strict';
 
-const AppError = require('../libs/app-error');
+// const AppError = require('../libs/app-error');
+const AuthErrors = require('../api/auth/auth.errors');
 const PasswordUtils = require('./utils/password.utils');
 const ObjectId = require('mongodb').ObjectId;
 // const Promise = require('bluebird');
@@ -10,7 +11,7 @@ const config = require('../config');
 const User = MDB.collection({
   name: 'users',
   indexes: [
-    { key: { email: 1 }, unique: true }
+    { key: { login: 1 }, unique: true }
   ]
 }, {
 
@@ -36,7 +37,7 @@ const User = MDB.collection({
       .limit(1)
       .next()
       .then(user => {
-        if (!user) throw AppError.notFound('User Not Found');
+        if (!user) throw AuthErrors.notFound;
         return user;
       });
   },
@@ -45,7 +46,7 @@ const User = MDB.collection({
    *
    * @param $
    * @param data
-   * @param data.email
+   * @param data.login
    * @param data.fname
    * @param data.sname
    * @param data.role
@@ -58,7 +59,7 @@ const User = MDB.collection({
       .then(hash => {
         let user = {
           _id: data._id || new ObjectId(),
-          email: data.email.toLowerCase(),
+          login: data.login,
           password: hash,
           fname: data.fname,
           sname: data.sname,
@@ -76,7 +77,7 @@ const User = MDB.collection({
       })
       .catch(err => {
         if (err.code === 11000) {
-          throw AppError.badRequest(`Email '${data.email}' already used`);
+          throw AuthErrors.userExist;
         }
 
         throw err;
@@ -86,19 +87,19 @@ const User = MDB.collection({
   /**
    *
    * @param $
-   * @param email
+   * @param login
    * @param password
    */
-  auth: ($, email, password) => {
+  auth: ($, login, password) => {
     
     // PasswordUtils.hash(password).then(data => console.log(data));
 
     return $
-      .find({ email: email })
+      .find({ login })
       .limit(1)
       .next()
       .then(user => {
-        if (!user) throw AppError.badRequest('Invalid email or password');
+        if (!user) throw AuthErrors.invalidCredentials;
 
         return PasswordUtils
           .isHashEqual(password, user.password)

@@ -20,7 +20,7 @@ export default class Header extends React.Component {
     const {
       onSignout,
       profile: {
-        user: {email, role},
+        user: {login, role},
         isLoaded,
         logout
       }
@@ -46,7 +46,7 @@ export default class Header extends React.Component {
             key={0}
             iconButtonElement={
               <IconButton
-                tooltip={email}
+                tooltip={login}
                 tooltipPosition="bottom-left"
                 touch={true}
                 style={styles.iconButton}

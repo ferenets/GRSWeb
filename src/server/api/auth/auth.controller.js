@@ -15,13 +15,13 @@ const AuthController = {
    * @param next
    */
   login: (req, res, next) => {
-    User.auth(req.body.email, req.body.pwd)
+    User.auth(req.body.login, req.body.pwd)
       .then(user => {
-        const payload = {_id: user._id, email: user.email, role: user.role};
+        const payload = {_id: user._id, login: user.login, role: user.role};
 
         AuthToken.set(res, payload, config.jwt.auth.secret);
 
-        res.send({email: user.email});
+        res.send({login: user.login});
       })
       .catch(error => next(error));
   },
