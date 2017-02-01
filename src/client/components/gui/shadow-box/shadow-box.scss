@@ -1,0 +1,8 @@
+.shadowBox {
+  display: inline-block;
+  margin: 0 auto;
+  background-color: transparent;
+  -webkit-box-shadow: 0 10px 54px 3px rgba(100,100,100,0.2);
+  -moz-box-shadow: 0 10px 54px 3px rgba(100,100,100,0.2);
+  box-shadow: 0 10px 54px 3px rgba(100,100,100,0.2);
+}

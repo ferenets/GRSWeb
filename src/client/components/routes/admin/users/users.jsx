@@ -44,3 +44,4 @@ Users.propTypes = {
   onCloseSnackbar: React.PropTypes.func.isRequired,
   users: React.PropTypes.object.isRequired,
 };
+
