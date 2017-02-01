@@ -1,47 +1,18 @@
-import _ from 'lodash';
+import geolib from 'geolib';
 
-export const allocationDataArray = (arr, propName) => {
-  const result = {};
-  arr.forEach(target => {
-    let name = target[propName];
-    if ([name] in result == false) {
-      result[name] = [];
-      result[name].push(target)
-    } else if ([name] in result) {
-      result[name].push(target)
-    }
-  });
-  return result;
+export const selectionPoints = (array) => {
+  return array.map(row => ({
+      lat: geolib.sexagesimal2decimal(row['SHYROTA']),
+      lng: geolib.sexagesimal2decimal(row['DOLHOTA']),
+      id: row['GRS_ID'],
+      label: row['NAZVA'],
+    }));
 };
 
-export const createDisplayTree = (object) => {
-  let result = object;
-  for (let firstProp in result) {
-    let first = result[firstProp];
-    for (let secondProp in first){
-      let second = first[secondProp];
-      for (let thirdProp in second){
-        let third = second[thirdProp];
-        for (let fourProp in third){
-          result[firstProp][secondProp][thirdProp][fourProp] = null;
-        }
-      }
-    }
-  }
-  return result;
-};
+export const selectionTargetPoints = (dataSheet, selectionLabel) => {
+  const filteredPoints = [];
+  const draft = selectionLabel.map(label => dataSheet.filter(obj => obj['NAZVA'] == label));
+  draft.map(arr => filteredPoints.push(arr[0]));
 
-export const buildFirstNestingDataTree = (resultArr, propName) => {
-  const keys = _.keys(resultArr);
-  return _.zipObject(keys, keys.map(key => allocationDataArray(resultArr[key], propName)));
-};
-
-export const buildSecondNestingDataTree = (innerArr, innerPropName) => {
-  const keys = _.keys(innerArr);
-  return _.zipObject(keys, keys.map(key => buildFirstNestingDataTree(innerArr[key], innerPropName)));
-};
-
-export const buildThirdNestingDataTree = (innerArr, innerPropName) => {
-  const keys = _.keys(innerArr);
-  return _.zipObject(keys, keys.map(key => buildSecondNestingDataTree(innerArr[key], innerPropName)));
+  return selectionPoints(filteredPoints);
 };

@@ -1,7 +1,7 @@
 import classes from './home.scss';
 import React from 'react';
 import DataTree from './components/data-tree';
-import PointsMap from './components/map';
+import PointsMap from './components/points-map';
 
 export default class Home extends React.Component {
   constructor(props) {
@@ -22,27 +22,34 @@ export default class Home extends React.Component {
   };
 
   render() {
-    const {displayBranch, regionNames} = this.props;
+    const {
+      targetPoints,
+      tree,
+      displayNextBranch
+    } = this.props;
+
     const {dataTreeIsOpen} = this.state;
 
     return (
       <div className={classes.home}>
         <DataTree
-          regionNames={regionNames}
-          displayBranch={displayBranch}
           open={dataTreeIsOpen}
           onButtonClick={this.closeDataTree}
+          tree={tree}
+          displayNextBranch={displayNextBranch}
         />
         <PointsMap
           fullWidth={!dataTreeIsOpen}
           onButtonClick={this.openDataTree}
+          targetPoints={targetPoints}
         />
       </div>
     );
   }
-};
+}
 
 Home.PropTypes = {
-  regionsNames: React.PropTypes.array.isRequired,
-  displayBranch: React.PropTypes.object.isRequired,
+  targetPoints: React.PropTypes.array.isRequired,
+  tree: React.PropTypes.array.isRequired,
+  displayNextBranch: React.PropTypes.func.isRequired
 };

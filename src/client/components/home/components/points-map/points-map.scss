@@ -1,0 +1,44 @@
+@import '../../../../containers/root/constants.scss';
+
+.pointsMap {
+  position: relative;
+  height: 100%;
+  background-color: transparent;
+  width: calc(65% - $padding-horizontal);
+  display: inline-block;
+  overflow: hidden;
+  font-weight: 600;
+  vertical-align: top;
+  box-shadow: $boxShadowHomeWrap;
+  padding: 0;
+  transition: all .3s ease-in-out;
+  text-align: left;
+
+  .buttonWrap {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+  }
+
+}
+
+.pointsMap >div>div:last-child,
+.pointsMap >div>div>div {
+  height: 100%;
+}
+
+.tabsWrap {
+  height: calc(100% - 25px);
+}
+
+.tabLabel,
+.tabLabel div,
+.tabLabel button,
+.tabLabel button div div {
+  height: 25px !important;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+
