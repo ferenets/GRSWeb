@@ -24,6 +24,10 @@ export default function (state = initalState, action) {
       return Object.assign({}, state, { loading: true });
 
     case DATA_HOME_SUCCESS:
+      
+      /* TREE STRUCTURE */
+      // console.dir(action.tree);
+      
       return Object.assign({}, state, {
         loading: false,
         err: null,

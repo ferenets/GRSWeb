@@ -41,7 +41,7 @@ export const getDataSheet = createAsyncAction({
   fn: DataApi.getPoints,
   success: (body) => {
     const dataSheet = allocationData(body.data);
-    return ({type: DATA_HOME_SUCCESS, dataSheet})
+    return ({type: DATA_HOME_SUCCESS, dataSheet, tree: body.tree})
   },
   error: (err) => ({type: DATA_HOME_FAIL, err})
 });
