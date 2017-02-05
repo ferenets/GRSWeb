@@ -10,7 +10,7 @@ const SELECTED_COLUMNS = ['UTG', 'UMH', 'LVUMH', 'NAZVA']; // set selected colum
 const MAX_DEPTH = SELECTED_COLUMNS.length - 1;
 
 const createNode = (uniqNodes, col, records, depth) => {
-  return uniqNodes[col].map((node => {
+  return uniqNodes[col].map(node => {
     const filteredRecords = records.filter(rec => rec[col] === node);
     if (filteredRecords.length === 0) return null;
     const nextDepth = depth + 1;
@@ -20,7 +20,7 @@ const createNode = (uniqNodes, col, records, depth) => {
       open: false,
       children: depth === MAX_DEPTH ? null : createNode(uniqNodes, SELECTED_COLUMNS[nextDepth], filteredRecords, nextDepth)
     };
-  })).filter(r => r !== null);
+  }).filter(r => r !== null);
 };
 
 const createTreeRecursion = (records) => {
