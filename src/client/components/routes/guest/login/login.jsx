@@ -8,6 +8,7 @@ import RaisedButton from 'material-ui/RaisedButton';
 import Page from '../../../page';
 import TextInput from '../../../inputs/text-input';
 import Dialog from '../../../info/dialog';
+import ShadowBox from '../../../../components/gui/shadow-box';
 
 export default class Login extends React.Component {
   constructor(props) {
@@ -50,60 +51,60 @@ export default class Login extends React.Component {
     return (
       <Page>
 
-        <div className={classes.login}>
+          <div className={classes.login}>
+            <ShadowBox>
+              <div className={classes.content}>
 
-            <div className={classes.content}>
+                <div className={classes.caption}>
+                  Авторизація
+                </div>
 
-              <div className={classes.caption}>
-                Авторизація
+                <form action="./" onSubmit={onSubmit}>
+
+                  <div className={classes.input}>
+                    <TextInput
+                      placeholder="Ім'я користувача"
+                      type="text"
+                      value={login}
+                      onChange={onChangeLogin}
+                      required
+                    />
+                  </div>
+
+                  <div className={classes.input}>
+                    <TextInput
+                      placeholder="Пароль"
+                      type="password"
+                      value={pwd}
+                      onChange={onChangePassword}
+                      required
+                    />
+                  </div>
+
+                  <div className={classes.submit}>
+                    <RaisedButton
+                      label={loading ? "Зачекайте..." : "Вхід"}
+                      type="submit"
+                      primary={true}
+                      disabled={loading}
+                    />
+                  </div>
+
+                </form>
+
               </div>
+            </ShadowBox>
+          </div>
 
-              <form action="./" onSubmit={onSubmit}>
-
-                <div className={classes.input}>
-                  <TextInput
-                    placeholder="Ім'я користувача"
-                    type="text"
-                    value={login}
-                    onChange={onChangeLogin}
-                    required
-                  />
-                </div>
-
-                <div className={classes.input}>
-                  <TextInput
-                    placeholder="Пароль"
-                    type="password"
-                    value={pwd}
-                    onChange={onChangePassword}
-                    required
-                  />
-                </div>
-
-                <div className={classes.submit}>
-                  <RaisedButton
-                    label={loading ? "Зачекайте..." : "Вхід"}
-                    type="submit"
-                    primary={true}
-                    disabled={loading}
-                  />
-                </div>
-
-              </form>
-
-            </div>
-
-        </div>
-
-        <Dialog
-          title="Вхід"
-          actions={actions}
-          open={dialogIsOpen}
-          modal={false}
-          onRequestClose={this.closeDialog}
-          msg={dialogMsg}
-          err={err}
-        />
+          <Dialog
+            title="Вхід"
+            actions={actions}
+            open={dialogIsOpen}
+            modal={false}
+            onRequestClose={this.closeDialog}
+            msg={dialogMsg}
+            err={err}
+          />
 
       </Page>
     );
