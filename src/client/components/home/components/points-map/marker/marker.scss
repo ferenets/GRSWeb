@@ -1,0 +1,12 @@
+@import '../../../../../containers/root/constants.scss';
+
+.pointMarker {
+  width: 15px;
+  overflow: hidden;
+  cursor: default;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}

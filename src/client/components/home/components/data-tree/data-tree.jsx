@@ -6,15 +6,31 @@ import Button from '../buttons/button.jsx';
 export default class DataTree extends React.Component {
   constructor(props) {
     super(props);
+    this.displayTree = this.displayTree.bind(this);
+  }
+
+  displayTree(arr, depth) {
+    return arr.map((row, ind) =>
+      <DataTreeList
+        key={ind}
+        index={[...depth, ind]}
+        title={row.label}
+        displayTree={this.displayTree}
+        children={row.children}
+        open={row.open}
+        displayNextBranch={this.props.displayNextBranch}
+      />
+    )
   }
 
   render () {
     const {
-      regionNames,
-      displayBranch,
       onButtonClick,
-      open
+      open,
+      tree
     } = this.props;
+
+    const depth = [];
 
     return (
       <div
@@ -28,13 +44,7 @@ export default class DataTree extends React.Component {
           />
         </div>
         <div className={classes.listWrap}>
-          {regionNames.map((title, ind) => (
-            <DataTreeList
-              key={ind}
-              title={title}
-              listName={displayBranch[title]}
-            />
-          ))}
+          {this.displayTree(tree, depth)}
         </div>
       </div>
     );
@@ -42,8 +52,8 @@ export default class DataTree extends React.Component {
 }
 
 DataTree.PropTypes = {
-  regionsNames: React.PropTypes.array.isRequired,
-  displayBranch: React.PropTypes.object.isRequired,
+  tree: React.PropTypes.array.isRequired,
   onButtonClick: React.PropTypes.func.isRequired,
   open: React.PropTypes.bool.isRequired,
+  displayNextBranch: React.PropTypes.func.isRequired,
 };
