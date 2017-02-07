@@ -1,6 +1,6 @@
 'use strict';
 
-const GRS_INFO = [
+const Points = [
   {
     "GRS_ID": "21",
     "NAZVA": "ГРС с. Попівка Карловський р-н Полтавська обл.",
@@ -3689,4 +3689,4 @@ const GRS_INFO = [
   }
 ];
 
-module.exports = GRS_INFO;
+module.exports = Points;

@@ -1,9 +1,14 @@
 'use strict';
 
+/* THIS IS A VERY RARE CONTROLLER IMPLEMENTATION THAT USES A STATIC GRS_WEB DATA */
+/* THE ALGORITHMS IN THIS MODULE ARE VERY SLOW AND JUST IMITATING A COMMUNICATION WITH DB */
+/* IN THE FUTURE VERSIONS WE'LL PROVIDE AN OPTIMIZED INTERFACE TO COMMUNICATE WITH ORACLE DB NODE.JS INTERFACE (task for Roman or Serhii) */
+
+/* THE DATA IS PROVIDED ONLY FOR GRS_ID "145" */
+
 // const Promise = require('bluebird');
 // const AppError = require('../../libs/app-error');
 // const config = require('../../config');
-const GRS_INFO = require('../../static-data/grs-info');
 const _ = require('lodash');
 
 const SELECTED_COLUMNS = ['UTG', 'UMH', 'LVUMH', 'NAZVA']; // set selected columns here
@@ -39,9 +44,31 @@ const DataController = {
    * @param next
    */
   getPoints: (req, res, next) => {
+    const Points = require('../../static-data/points');
+    
     res.send({
-      data: GRS_INFO,
-      tree: createTreeRecursion(GRS_INFO)
+      data: Points,
+      tree: createTreeRecursion(Points)
+    });
+  },
+
+  /**
+   *
+   * @param req
+   * @param res
+   * @param next
+   */
+  getIndicators: (req, res, next) => {
+    const IndicatorsDaily = require('../../static-data/indicators-daily');
+    const IndicatorsHourly = require('../../static-data/indicators-hourly');
+    const IndicatorsMoment = require('../../static-data/indicators-moment');
+    const {grs_id} = req.query;
+    
+    res.send({
+      grs_id,
+      data_daily: IndicatorsDaily.filter(row => row['GRS_ID'] === grs_id),
+      data_hourly: IndicatorsHourly.filter(row => row['GRS_ID'] === grs_id),
+      data_moment: IndicatorsMoment.filter(row => row['GRS_ID'] === grs_id)
     });
   },
   
