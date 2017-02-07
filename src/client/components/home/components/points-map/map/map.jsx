@@ -11,7 +11,7 @@ export default class Map extends React.Component {
 
   render() {
     const API_KEY = 'AIzaSyDOIBaNsLlTYLI7OskzpjGpQntjqKfsqM8';
-    const {targetPoints} = this.props;
+    const {targetPoints, handleChangeTab} = this.props;
 
     return (
       <GoogleMap
@@ -26,7 +26,7 @@ export default class Map extends React.Component {
       >
 
         {targetPoints.map((point, ind) =>
-          <PointMarker key={ind} {...point} point={point} />
+          <PointMarker key={ind} {...point} point={point} handleChangeTab={handleChangeTab} />
         )}
 
       </GoogleMap>

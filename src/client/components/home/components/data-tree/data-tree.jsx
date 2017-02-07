@@ -19,6 +19,8 @@ export default class DataTree extends React.Component {
         children={row.children}
         open={row.open}
         displayNextBranch={this.props.displayNextBranch}
+        targetPoints={this.props.targetPoints}
+        handleChangeTab={this.props.handleChangeTab}
       />
     )
   }
