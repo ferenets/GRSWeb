@@ -4,14 +4,14 @@
   position: relative;
   height: 100%;
   background-color: transparent;
-  width: calc(65% - $padding-horizontal);
+  width: calc(75% - $padding-horizontal);
   display: inline-block;
   overflow: hidden;
   font-weight: 600;
   vertical-align: top;
   box-shadow: $boxShadowHomeWrap;
   padding: 0;
-  transition: all .3s ease-in-out;
+  //transition: all .3s ease-in-out;
   text-align: left;
 
   .buttonWrap {

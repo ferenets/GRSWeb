@@ -3,23 +3,34 @@ import classes from './marker.scss';
 import ReactTooltip from 'react-tooltip'
 
 export default class PointMarker extends React.Component {
+  constructor(props){
+    super(props);
+    this.handleChangeTab = this.handleChangeTab.bind(this);
+  }
+
+  handleChangeTab() {
+    const {point:{id}, handleChangeTab} = this.props;
+    handleChangeTab('graphA', id);
+  };
+
   render() {
-    const {point:{label}} = this.props;
-    const id = `t_${label}`;
+    const {point:{label, id}} = this.props;
+    const idTooltip = `t_${label}`;
 
     return (
       <div className={classes.pointMarker}>
         <img
           src="../../../../../images/marker.svg"
           data-tip="tooltip"
-          data-for={id}
+          data-for={idTooltip}
+          onClick={this.handleChangeTab}
         />
         <ReactTooltip
           type="light"
           border={true}
           effect="float"
           place="top"
-          id={id}
+          id={idTooltip}
         >
           {label}
         </ReactTooltip>

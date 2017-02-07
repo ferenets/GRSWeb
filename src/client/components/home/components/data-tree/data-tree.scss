@@ -3,8 +3,8 @@
 .wrapListBranch {
   height: 100%;
   background-color: transparent;
-  color: #fff;
-  width: 35%;
+  color: #000;
+  width: 25%;
   display: inline-block;
   font-weight: 600;
   vertical-align: top;
@@ -12,7 +12,7 @@
   margin-right: $padding-horizontal;
   padding: 0 0 55px $paddingDuble;
   overflow: hidden;
-  transition: all .3s ease-in-out;
+  //transition: all .3s ease-in-out;
   text-align: right;
 
   .buttonWrap {
@@ -52,41 +52,56 @@
       border-left: 1px dashed rgba(50,50,50,0.5);
     }
 
-    span {
+    .title {
       display: block;
       z-index: 100;
       position: relative;
       width: 100%;
       height: $listTitle-height;
       padding: 0 5px;
-      background-color: $bg-first;
+      background-color: #fdfcfa;
       cursor: pointer;
       line-height: $listTitle-height;
       overflow: hidden;
       white-space: nowrap;
       text-overflow: ellipsis;
+      text-align: left;
+      border: 1px solid rgba(50,50,50,0.5);
+
+      .openLabel {
+        background-color: $bg-first;
+      }
     }
 
-    span:first-child {
+    .title:first-child {
       margin-bottom: 5px;
     }
 
-    .listTitle span {
-      background-color: $bg-second;
+    .listTitle .title {
+      //background-color: #fff;
+      .openLabel {
+        background-color: $bg-second;
+      }
     }
 
     .listTitle {
       width: 100%;
       margin-left: $shift;
-      .listTitle span {
-        background-color: $bg-third;
+      .listTitle .title {
+        //background-color: #fff;
+        .openLabel {
+          background-color: $bg-third;
+        }
       }
     }
 
     .listTitle {
       .listTitle {
-        .listTitle span {
-          background-color: $bg-four;
+        .listTitle .title {
+          //background-color: #fff;
+          .openLabel {
+            background-color: $bg-four;
+          }
         }
       }
     }
@@ -117,4 +132,21 @@
   border-width: 1px 1px 1px 2px;
   border-color: #555;
   background-color: #777;
+}
+
+.openLabel {
+  display: inline-block;
+  line-height: $listTitle-height;
+}
+.openLabel {
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+  border-radius: 50%;
+  line-height: 20px;
+  padding-left: 5px;
+  color: #fff;
+  font-weight: 600;
+  font-family: monospace;
+  font-size: 18px;
 }

@@ -25,7 +25,11 @@ export default class Home extends React.Component {
     const {
       targetPoints,
       tree,
-      displayNextBranch
+      displayNextBranch,
+      openTab,
+      handleChangeTab,
+      dataGraph,
+      loadingGraph
     } = this.props;
 
     const {dataTreeIsOpen} = this.state;
@@ -37,11 +41,17 @@ export default class Home extends React.Component {
           onButtonClick={this.closeDataTree}
           tree={tree}
           displayNextBranch={displayNextBranch}
+          targetPoints={targetPoints}
+          handleChangeTab={handleChangeTab}
         />
         <PointsMap
           fullWidth={!dataTreeIsOpen}
           onButtonClick={this.openDataTree}
           targetPoints={targetPoints}
+          openTab={openTab}
+          handleChangeTab={handleChangeTab}
+          dataGraph={dataGraph}
+          loadingGraph={loadingGraph}
         />
       </div>
     );
