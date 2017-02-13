@@ -32,6 +32,17 @@ class HomeWrap extends React.Component {
     }
   }
 
+  handleChangeTab(tabsValue, pointId){
+    const {dispatch} = this.props;
+    const grs_id = `grs_id=${pointId}`;
+
+    if (pointId) {
+      dispatch(startDataLoading());
+      dispatch(getGraphData('grs_id=145'));
+    }
+    dispatch(changeOpenTab(tabsValue));
+  }
+
   pointsArray(arr, result) {
     arr.map(row => {
       if(row.children != null) {
