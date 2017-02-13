@@ -8,6 +8,8 @@
 
 // const Promise = require('bluebird');
 // const AppError = require('../../libs/app-error');
+// const DataFilter = require('./data.filter.utils');
+const DataPrepare = require('./data.prepare.utils');
 // const config = require('../../config');
 const _ = require('lodash');
 
@@ -45,6 +47,10 @@ const DataController = {
    */
   getPoints: (req, res, next) => {
     const Points = require('../../static-data/points');
+
+    if (req.user.role === null) { // No user applied
+      return res.send({ data: [], tree: [] });
+    }
     
     res.send({
       data: Points,
@@ -63,12 +69,21 @@ const DataController = {
     const IndicatorsHourly = require('../../static-data/indicators-hourly');
     const IndicatorsMoment = require('../../static-data/indicators-moment');
     const {grs_id} = req.query;
+
+    if (req.user.role === null) { // No user applied
+      return res.send({
+        grs_id,
+        data_daily: [],
+        data_hourly: [],
+        data_moment: []
+      });
+    }
     
     res.send({
       grs_id,
-      data_daily: IndicatorsDaily.filter(row => row['GRS_ID'] === grs_id),
-      data_hourly: IndicatorsHourly.filter(row => row['GRS_ID'] === grs_id),
-      data_moment: IndicatorsMoment.filter(row => row['GRS_ID'] === grs_id)
+      data_daily: DataPrepare.indicatorsGraphData('daily', IndicatorsDaily.filter(row => row['GRS_ID'] === grs_id)),
+      data_hourly: DataPrepare.indicatorsGraphData('hourly', IndicatorsHourly.filter(row => row['GRS_ID'] === grs_id)),
+      data_moment: DataPrepare.indicatorsGraphData('moment', IndicatorsMoment.filter(row => row['GRS_ID'] === grs_id))
     });
   },
   

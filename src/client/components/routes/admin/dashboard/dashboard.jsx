@@ -3,6 +3,7 @@ import React from 'react';
 import {browserHistory} from 'react-router';
 
 import IconUsers from 'material-ui/svg-icons/social/person';
+import IconGroup from 'material-ui/svg-icons/social/group';
 import RaisedButton from 'material-ui/RaisedButton';
 
 import Page from '../../../page';
@@ -34,6 +35,18 @@ export default class Dashboard extends React.Component {
             backgroundColor="#616161"
             icon={<IconUsers />}
             onTouchTap={() => browserHistory.push('/dashboard/users')}
+          />
+          <br />
+
+          <RaisedButton
+            disabled={true}
+            label="Групи користувачів"
+            style={styles.button}
+            labelStyle={styles.label}
+            labelColor="#ffffff"
+            backgroundColor="#616161"
+            icon={<IconGroup />}
+            onTouchTap={() => browserHistory.push('/dashboard/groups')}
           />
           <br />
           

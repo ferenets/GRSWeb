@@ -16,8 +16,9 @@ const UserAccess = {
   approved: (req, res, next) => {
     if (req.user === undefined) return next();
     
-    User.getById(req.user._id)
+    User.getByLogin(req.user.login)
       .then(user => {
+        // if (!user) return next(AuthErrors.notFound);
         if (user.banned) return next(AuthErrors.banned);
         
         next();
