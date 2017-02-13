@@ -2,8 +2,7 @@
 
 const router = require('express').Router();
 const AuthAccess = require('../auth/auth-access.middleware');
-// const UserAccess = require('./user-access.middleware');
-// const UserValidate = require('./user.validate');
+const UserAccess = require('../user/user-access.middleware');
 const DataController = require('./data.controller.js');
 const DataValidate = require('./data.validate.js');
 
@@ -14,7 +13,8 @@ const DataValidate = require('./data.validate.js');
  * @apiVersion 0.1.0
  */
 router.get('/points',
-  AuthAccess.cookie.admin, // will be changed to 'logged'
+  AuthAccess.cookie.logged,
+  UserAccess.approved,
   DataController.getPoints
 );
 
@@ -25,7 +25,8 @@ router.get('/points',
  * @apiVersion 0.1.0
  */
 router.get('/indicators',
-  AuthAccess.cookie.admin, // will be changed to 'logged'
+  AuthAccess.cookie.logged,
+  UserAccess.approved,
   DataValidate.getIndicators,
   DataController.getIndicators
 );

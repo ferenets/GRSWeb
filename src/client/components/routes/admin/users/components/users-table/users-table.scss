@@ -5,15 +5,17 @@
 }
 
 .table {
-  min-width: 580px;
-  max-width: 720px;
+  min-width: 800px;
+  max-width: 960px;
   margin: 0 auto;
 }
 
 .tdUsername,
 .tdRole,
 .tdName,
-.tdCreated {
+.tdCreated,
+.tdUpdated,
+.tdAction {
   text-align: center !important;
   vertical-align: middle;
   white-space: pre-wrap;
@@ -23,17 +25,20 @@
 
 .th {
   text-shadow: rgba(0, 0, 0, 0.14902) 0 2px 2px;
-  background: rgba(0, 0, 0, 0) linear-gradient(#656565 0%, #535353 100%) repeat scroll 0% 0% / auto padding-box border-box;
+  //background: rgba(0, 0, 0, 0) linear-gradient(#656565 0%, #535353 100%) repeat scroll 0% 0% / auto padding-box border-box;
 }
 
 .thUsername,
 .thRole,
 .thName,
-.thCreated {
-  color: #ffffff !important;
+.thCreated,
+.thUpdated,
+.thAction {
+  color: $color-primary-darken !important;
   padding: 0 !important;
   text-align: center !important;
   font-size: 18px !important;
+  font-weight: 700 !important;
 }
 
 .thUsername,
@@ -70,9 +75,27 @@
 
 .thCreated,
 .tdCreated {
-  width: 150px;
+  width: 90px;
 
   .created {
     white-space: pre-wrap;
   }
+}
+
+.thUpdated,
+.tdUpdated {
+  width: 90px;
+
+  .updated {
+    white-space: pre-wrap;
+  }
+}
+
+.thAction,
+.tdAction {
+  width: 110px;
+
+  //.action {
+  //  white-space: pre-wrap;
+  //}
 }

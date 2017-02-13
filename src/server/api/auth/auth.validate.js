@@ -2,7 +2,6 @@
 
 const AppError = require('../../libs/app-error');
 const Joi = require('joi');
-const keys = require('../utils/joi-validators');
 
 const AuthValidate = {
 
@@ -15,8 +14,8 @@ const AuthValidate = {
   login: (req, res, next) => {
     const schema = Joi.object().keys(
       {
-        login: keys.login,
-        pwd: keys.password
+        login: Joi.string().trim().min(1).max(100).required(),
+        pwd: Joi.string().min(1).max(100).required(),
       },
       { convert: true }
     );

@@ -1,0 +1,54 @@
+.editor {
+  //text-align: center;
+  //display: inline-block;
+  margin: 10px auto;
+
+  .wrapper {
+    padding: 0 24px;
+    min-width: 600px;
+    max-width: 600px;
+    border: 1px solid #cfd8dc;
+
+    .editorHead {
+
+      .editorHeadCaption {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 48px;
+        text-align: left;
+        display: inline-block;
+
+        .username {
+          color: #43A047;
+          font-weight: 700;
+          font-size: 1.1em;
+          line-height: 1.1em;
+          display: inline-block;
+        }
+      }
+
+      .closeButton {
+        text-align: right;
+        display: inline-block;
+        float: right;
+        //padding: 5px;
+      }
+    }
+
+    .input {
+      margin: 10px 0;
+
+      .chb {
+        margin-top: 15px;
+        text-align: left;
+      }
+
+    }
+
+    .submit {
+      margin: 15px;
+      text-align: center;
+    }
+
+  }
+}

@@ -69,7 +69,10 @@ export default class Header extends React.Component {
               : null
             }
 
-            <Divider />
+            {role === 'admin'
+              ? <Divider />
+              : null
+            }
 
             <MenuItem
               primaryText="Вихід"
