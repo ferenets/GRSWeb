@@ -274,8 +274,7 @@ export default function (state = initalState, action) {
         nextState.cpwdError = 'Необхідне поле';
         nextState.submitEnabled = false;
       }
-
-
+      
       return nextState;
     }
 

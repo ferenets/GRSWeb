@@ -58,10 +58,10 @@ const DataPrepare = {
     yValues.forEach(yVal => {
       result[yVal] = {
         label: yVal,
-        values: _.map(records, record => ({
+        values: _.sortBy(_.map(records, record => ({
           x: moment(record[xLabel], xDateFormat).toDate(),
           y: parseFloat(record[yVal])
-        }))
+        })), ['x'])
       };
     });
 

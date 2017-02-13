@@ -15,6 +15,7 @@ import {
   startLoading,
   closeSnackbar
 } from '../../redux/users/users.actions';
+import {hasCookie} from '../../utils/tricks';
 
 import _Users from '../../components/routes/admin/users';
 
@@ -38,7 +39,10 @@ class Users extends React.Component {
   componentDidMount() {
     const {dispatch} = this.props;
 
-    dispatch(getUsers());
+    dispatch(closeSnackbar());
+    if (hasCookie('jwt')) {
+      dispatch(getUsers());
+    }
   }
 
   openEditor(editMode, login, fname, sname) {

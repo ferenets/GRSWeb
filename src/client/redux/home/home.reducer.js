@@ -1,4 +1,5 @@
 import {
+  LOGOUT_SUCCESS,
   START_DATA_HOME_LOADING,
   DATA_HOME_SUCCESS,
   DATA_HOME_FAIL,
@@ -19,6 +20,9 @@ const initalState = {
 
 export default function (state = initalState, action) {
   switch (action.type) {
+
+    case LOGOUT_SUCCESS:
+      return Object.assign({}, state, initalState);
 
     case START_DATA_HOME_LOADING:
       return Object.assign({}, state, { loading: true });

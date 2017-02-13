@@ -5,6 +5,7 @@ import {getDataSheet, getTargetPoints, displayNextBranch} from '../../redux/home
 import Page from '../../components/page';
 import Home from '../../components/home';
 import Loading from '../../components/info/loading';
+import {hasCookie} from '../../utils/tricks';
 import _ from 'lodash';
 
 class HomeWrap extends React.Component {
@@ -17,9 +18,13 @@ class HomeWrap extends React.Component {
 
   componentDidMount() {
     const {dispatch} = this.props;
-    dispatch(getDataSheet());
+
+    if (hasCookie('jwt')) {
+      dispatch(getDataSheet());
+    }
   }
-  pointsArray(arr, result){
+  
+  pointsArray(arr, result) {
     arr.map(row => {
       if(row.children != null) {
         this.pointsArray(row.children, result)
@@ -28,12 +33,12 @@ class HomeWrap extends React.Component {
       }
     });
   }
-  insertPoints(arr){
+  
+  insertPoints(arr) {
     const insertLabel = [];
     this.pointsArray(arr, insertLabel);
     return insertLabel;
   }
-
 
   findTrigger(ids, openTrigger) {
     const {home:{defaultTree}} = this.props;
@@ -44,7 +49,6 @@ class HomeWrap extends React.Component {
     const ids1 = ids[1];
     const ids2 = ids[2];
     const ids3 = ids[3];
-
 
     switch (length) {
       case 1:
@@ -148,4 +152,5 @@ HomeWrap.PropTypes = {
 };
 
 const selector = (state) => ({home: state.home});
+
 export default connect(selector)(HomeWrap);

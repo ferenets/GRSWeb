@@ -5,6 +5,7 @@ import {
   selectionTargetPoints
 } from '../../utils/parse-data.js';
 
+export const LOGOUT_SUCCESS = 'LOGOUT_SUCCESS';
 export const START_DATA_HOME_LOADING = 'START_DATA_HOME_LOADING';
 export const DATA_HOME_SUCCESS = 'DATA_HOME_SUCCESS';
 export const DATA_HOME_FAIL = 'DATA_HOME_FAIL';
