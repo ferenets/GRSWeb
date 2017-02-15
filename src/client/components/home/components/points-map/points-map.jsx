@@ -17,7 +17,6 @@ export default class PointsMap extends React.Component {
       }
     };
     this.handleChangeTab = this.handleChangeTab.bind(this);
-    this.dataPrepare = this.dataPrepare.bind(this);
   };
 
   handleChangeTab(value) {
@@ -45,12 +44,6 @@ export default class PointsMap extends React.Component {
     }
   };
 
-  dataPrepare(){
-    let {dataGraph} = this.props;
-    dataGraph["data_moment"]["TEMPERATURE"]["values"].map(row => row.x = new Date(row.x));
-    return dataGraph;
-  };
-
   render () {
     const {
       onButtonClick,
@@ -62,13 +55,14 @@ export default class PointsMap extends React.Component {
       loadingGraph
     } = this.props;
 
-    const styles = {
-      headline: {
-        fontSize: 20,
-        fontWeight: 900,
-        textAlign: 'center',
-      }
-    };
+    const {containerSize:{w, h}} = this.state;
+    // const styles = {
+    //   headline: {
+    //     fontSize: 20,
+    //     fontWeight: 900,
+    //     textAlign: 'center',
+    //   }
+    // };
 
     return (
       <div
@@ -92,18 +86,25 @@ export default class PointsMap extends React.Component {
           onChange={this.handleChangeTab}
         >
 
-          <Tab label="Мапа" className={classes.tabLabel} value="map">
-            <Map targetPoints={targetPoints} handleChangeTab={handleChangeTab} />
+          <Tab
+            label="Мапа"
+            className={classes.tabLabel}
+            value="map"
+          >
+            <Map
+              targetPoints={targetPoints}
+              handleChangeTab={handleChangeTab}
+            />
           </Tab>
 
           <Tab label="Графіки D3" className={classes.tabLabel} value="graphA">
             {loadingGraph
               ? <Loading />
               : <GraphC
-                dataGraph={dataGraph}
-                width={this.state.containerSize.w}
-                height={this.state.containerSize.h}
-              />
+                  dataGraph={dataGraph}
+                  width={w}
+                  height={h}
+                />
               }
           </Tab>
 

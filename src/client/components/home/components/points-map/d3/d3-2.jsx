@@ -259,8 +259,6 @@ export default class GraphC extends React.Component {
   };
 
   handleChangeDomain(axis, val) {
-    console.log("Axis : " + axis + " Value : " + val);
-
     if(axis === 'x'){
       this.setState({
         xDomain: val,
@@ -270,6 +268,7 @@ export default class GraphC extends React.Component {
   };
 
   render() {
+    console.log(this.props.dataGraph);
     const chartSeries = [
       {
         field: 'BMI',
@@ -308,22 +307,16 @@ export default class GraphC extends React.Component {
         }
       }
     ];
-    //chartSeries.reverse();
-    const width = this.state.size.w;
-    const height = this.state.size.h - 150;
-    const brushHeight = 70;
-    const margins = this.state.margins;
-    const marginsBrush = this.state.marginsBrush;
-    const data = this.state.data;
-    const parseDate = d3.time.format("%Y%m%d").parse;
-    const x = (d) => parseDate(d["birthday"]);
-    const xScale = 'time';
-    const interpolate = 'monotone';
-    const xDomain = this.state.xDomain;
-    const xDomainBrush = d3.extent(data, x);
-    const yLabelPosition = "left";
-    const yOrient = "left";
-    const yTickOrient = "left";
+    const {size, data, margins, marginsBrush, xDomain, brushExtent} = this.state,
+    width = size.w,
+    height = size.h - 150,
+    brushHeight = 70,
+    parseDate = d3.time.format("%Y%m%d").parse,
+    x = (d) => parseDate(d["birthday"]),
+    xScale = 'time',
+    yLabelPosition = "left",
+    yOrient = "left",
+    yTickOrient = "left";
 
     return (
       <div className={classes.graphWrap} >
@@ -338,12 +331,12 @@ export default class GraphC extends React.Component {
           xScale= {xScale}
           xDomain= {xDomain}
           xScaleChange={true}
-          gridStyleClassName="gridAxis"
-          xLabel = "Дати"
-          yLabel = "Значення"
-          yLabelPosition = {yLabelPosition}
-          yOrient= {yOrient}
-          yTickOrient= {yTickOrient}
+          //gridStyleClassName="gridAxis"
+          xLabel="Дати"
+          yLabel="Значення"
+          yLabelPosition={yLabelPosition}
+          yOrient={yOrient}
+          yTickOrient={yTickOrient}
         >
         </LineTooltip>
 
@@ -360,12 +353,12 @@ export default class GraphC extends React.Component {
           onBrushDomainChange={this.handleChangeDomain}
           keepBrushOn={true}
           brushStyle={{"fill": "#DDD", "fill-opacity": ".75", "shape-rendering": "crispEdges"}}
-          yGridStyleClassName={"yGridStyleCls"}
-          yAxisClassName={"timeSliderYAxis"}
+          //yGridStyleClassName={"yGridStyleCls"}
+          //yAxisClassName={"timeSliderYAxis"}
           showXGrid={false}
           showYGrid={false}
           yTicks={[0]}
-          brushExtent={this.state.brushExtent}
+          brushExtent={brushExtent}
         />
 
       </div>
