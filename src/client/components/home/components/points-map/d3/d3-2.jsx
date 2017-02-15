@@ -11,231 +11,240 @@ export default class GraphC extends React.Component {
   constructor(props) {
     super(props);
 
+    const data = [
+      {
+        "name": "Darron Weissnat IV",
+        "BMI": 20.72,
+        "age": 39,
+        "birthday": "20111001",
+        "city": "East Russel",
+        "married": false,
+        "index": 17
+      },
+      {
+        "name": "Pablo Ondricka",
+        "BMI": 19.32,
+        "age": 38,
+        "birthday": "20111002",
+        "city": "Lake Edytheville",
+        "married": false,
+        "index": 1
+      },
+      {
+        "name": "Mr. Stella Kiehn Jr.",
+        "BMI": 16.8,
+        "age": 34,
+        "birthday": "20111003",
+        "city": "Lake Veronicaburgh",
+        "married": false,
+        "index": 7
+      },
+      {
+        "name": "Lavon Hilll I",
+        "BMI": 20.57,
+        "age": 12,
+        "birthday": "20111004",
+        "city": "Annatown",
+        "married": true,
+        "index": 12
+      },
+      {
+        "name": "Clovis Pagac",
+        "BMI": 24.28,
+        "age": 26,
+        "birthday": "20111005",
+        "city": "South Eldredtown",
+        "married": false,
+        "index": 14
+      },
+      {
+        "name": "Gaylord Paucek",
+        "BMI": 24.41,
+        "age": 30,
+        "birthday": "20111006",
+        "city": "Koeppchester",
+        "married": true,
+        "index": 5
+      },
+      {
+        "name": "Ashlynn Kuhn MD",
+        "BMI": 23.77,
+        "age": 32,
+        "birthday": "20111007",
+        "city": "West Josiemouth",
+        "married": false,
+        "index": 6
+      },
+      {
+        "name": "Fern Schmeler IV",
+        "BMI": 27.33,
+        "age": 26,
+        "birthday": "20111008",
+        "city": "West Abigaleside",
+        "married": true,
+        "index": 17
+      },
+      {
+        "name": "Enid Weber",
+        "BMI": 18.72,
+        "age": 17,
+        "birthday": "20111009",
+        "city": "Zackton",
+        "married": true,
+        "index": 18
+      },
+      {
+        "name": "Leatha O'Hara",
+        "BMI": 17.68,
+        "age": 42,
+        "birthday": "20111010",
+        "city": "Lake Matilda",
+        "married": false,
+        "index": 9
+      },
+      {
+        "name": "Korbin Steuber",
+        "BMI": 16.35,
+        "age": 39,
+        "birthday": "20111011",
+        "city": "East Armandofort",
+        "married": true,
+        "index": 10
+      },
+      {
+        "name": "Brennon Torphy",
+        "BMI": 27.37,
+        "age": 24,
+        "birthday": "20111012",
+        "city": "Croninfort",
+        "married": true,
+        "index": 11
+      },
+      {
+        "name": "Ms. Genoveva Bradtke",
+        "BMI": 28.63,
+        "age": 19,
+        "birthday": "20111013",
+        "city": "Port Emanuel",
+        "married": true,
+        "index": 2
+      },
+      {
+        "name": "Gregg Halvorson",
+        "BMI": 15.45,
+        "age": 15,
+        "birthday": "20111014",
+        "city": "Lake Angelinastad",
+        "married": false,
+        "index": 3
+      },
+      {
+        "name": "Mr. Sabina Schroeder III",
+        "BMI": 24.27,
+        "age": 26,
+        "birthday": "20111015",
+        "city": "Toyview",
+        "married": true,
+        "index": 4
+      },
+      {
+        "name": "Alanna Mitchell",
+        "BMI": 29.25,
+        "age": 37,
+        "birthday": "20111016",
+        "city": "Lake Monserratmouth",
+        "married": false,
+        "index": 22
+      },
+      {
+        "name": "Ronny Sanford",
+        "BMI": 29.16,
+        "age": 24,
+        "birthday": "20111017",
+        "city": "New Claudhaven",
+        "married": false,
+        "index": 27
+      },
+      {
+        "name": "Emmitt Pouros",
+        "BMI": 27.95,
+        "age": 14,
+        "birthday": "20111018",
+        "city": "Moorefurt",
+        "married": true,
+        "index": 17
+      },
+      {
+        "name": "Earl Purdy",
+        "BMI": 18.34,
+        "age": 38,
+        "birthday": "20111019",
+        "city": "Lake Rowanberg",
+        "married": true,
+        "index": 18
+      },
+      {
+        "name": "Cordelia Klocko",
+        "BMI": 25.85,
+        "age": 36,
+        "birthday": "20111020",
+        "city": "Lakinchester",
+        "married": true,
+        "index": 9
+      },
+      {
+        "name": "Guido Conroy",
+        "BMI": 25.17,
+        "age": 39,
+        "birthday": "20111021",
+        "city": "Scarlettland",
+        "married": true,
+        "index": 20
+      },
+      {
+        "name": "Miss Demond Weissnat V",
+        "BMI": 21.44,
+        "age": 19,
+        "birthday": "20111022",
+        "city": "Savionberg",
+        "married": false,
+        "index": 21
+      },
+      {
+        "name": "Easton Mante",
+        "BMI": 20.61,
+        "age": 43,
+        "birthday": "20111023",
+        "city": "Kutchberg",
+        "married": false,
+        "index": 22
+      },
+      {
+        "name": "Dayton Ebert",
+        "BMI": 29.88,
+        "age": 20,
+        "birthday": "20111024",
+        "city": "West Wiley",
+        "married": true,
+        "index": 23
+      }
+    ];
+    const parseDate = d3.time.format("%Y%m%d").parse;
+    const x = (d) => parseDate(d["birthday"]);
+
     this.state = {
       size: {
-        w: this.props.width,
-        h: this.props.height
+        w: props.width,
+        h: props.height
       },
-      data: [
-        {
-          "name": "Darron Weissnat IV",
-          "BMI": 20.72,
-          "age": 39,
-          "birthday": "20111001",
-          "city": "East Russel",
-          "married": false,
-          "index": 17
-        },
-        {
-          "name": "Pablo Ondricka",
-          "BMI": 19.32,
-          "age": 38,
-          "birthday": "20111002",
-          "city": "Lake Edytheville",
-          "married": false,
-          "index": 1
-        },
-        {
-          "name": "Mr. Stella Kiehn Jr.",
-          "BMI": 16.8,
-          "age": 34,
-          "birthday": "20111003",
-          "city": "Lake Veronicaburgh",
-          "married": false,
-          "index": 7
-        },
-        {
-          "name": "Lavon Hilll I",
-          "BMI": 20.57,
-          "age": 12,
-          "birthday": "20111004",
-          "city": "Annatown",
-          "married": true,
-          "index": 12
-        },
-        {
-          "name": "Clovis Pagac",
-          "BMI": 24.28,
-          "age": 26,
-          "birthday": "20111005",
-          "city": "South Eldredtown",
-          "married": false,
-          "index": 14
-        },
-        {
-          "name": "Gaylord Paucek",
-          "BMI": 24.41,
-          "age": 30,
-          "birthday": "20111006",
-          "city": "Koeppchester",
-          "married": true,
-          "index": 5
-        },
-        {
-          "name": "Ashlynn Kuhn MD",
-          "BMI": 23.77,
-          "age": 32,
-          "birthday": "20111007",
-          "city": "West Josiemouth",
-          "married": false,
-          "index": 6
-        },
-        {
-          "name": "Fern Schmeler IV",
-          "BMI": 27.33,
-          "age": 26,
-          "birthday": "20111008",
-          "city": "West Abigaleside",
-          "married": true,
-          "index": 17
-        },
-        {
-          "name": "Enid Weber",
-          "BMI": 18.72,
-          "age": 17,
-          "birthday": "20111009",
-          "city": "Zackton",
-          "married": true,
-          "index": 18
-        },
-        {
-          "name": "Leatha O'Hara",
-          "BMI": 17.68,
-          "age": 42,
-          "birthday": "20111010",
-          "city": "Lake Matilda",
-          "married": false,
-          "index": 9
-        },
-        {
-          "name": "Korbin Steuber",
-          "BMI": 16.35,
-          "age": 39,
-          "birthday": "20111011",
-          "city": "East Armandofort",
-          "married": true,
-          "index": 10
-        },
-        {
-          "name": "Brennon Torphy",
-          "BMI": 27.37,
-          "age": 24,
-          "birthday": "20111012",
-          "city": "Croninfort",
-          "married": true,
-          "index": 11
-        },
-        {
-          "name": "Ms. Genoveva Bradtke",
-          "BMI": 28.63,
-          "age": 19,
-          "birthday": "20111013",
-          "city": "Port Emanuel",
-          "married": true,
-          "index": 2
-        },
-        {
-          "name": "Gregg Halvorson",
-          "BMI": 15.45,
-          "age": 15,
-          "birthday": "20111014",
-          "city": "Lake Angelinastad",
-          "married": false,
-          "index": 3
-        },
-        {
-          "name": "Mr. Sabina Schroeder III",
-          "BMI": 24.27,
-          "age": 26,
-          "birthday": "20111015",
-          "city": "Toyview",
-          "married": true,
-          "index": 4
-        },
-        {
-          "name": "Alanna Mitchell",
-          "BMI": 29.25,
-          "age": 37,
-          "birthday": "20111016",
-          "city": "Lake Monserratmouth",
-          "married": false,
-          "index": 22
-        },
-        {
-          "name": "Ronny Sanford",
-          "BMI": 29.16,
-          "age": 24,
-          "birthday": "20111017",
-          "city": "New Claudhaven",
-          "married": false,
-          "index": 27
-        },
-        {
-          "name": "Emmitt Pouros",
-          "BMI": 27.95,
-          "age": 14,
-          "birthday": "20111018",
-          "city": "Moorefurt",
-          "married": true,
-          "index": 17
-        },
-        {
-          "name": "Earl Purdy",
-          "BMI": 18.34,
-          "age": 38,
-          "birthday": "20111019",
-          "city": "Lake Rowanberg",
-          "married": true,
-          "index": 18
-        },
-        {
-          "name": "Cordelia Klocko",
-          "BMI": 25.85,
-          "age": 36,
-          "birthday": "20111020",
-          "city": "Lakinchester",
-          "married": true,
-          "index": 9
-        },
-        {
-          "name": "Guido Conroy",
-          "BMI": 25.17,
-          "age": 39,
-          "birthday": "20111021",
-          "city": "Scarlettland",
-          "married": true,
-          "index": 20
-        },
-        {
-          "name": "Miss Demond Weissnat V",
-          "BMI": 21.44,
-          "age": 19,
-          "birthday": "20111022",
-          "city": "Savionberg",
-          "married": false,
-          "index": 21
-        },
-        {
-          "name": "Easton Mante",
-          "BMI": 20.61,
-          "age": 43,
-          "birthday": "20111023",
-          "city": "Kutchberg",
-          "married": false,
-          "index": 22
-        },
-        {
-          "name": "Dayton Ebert",
-          "BMI": 29.88,
-          "age": 20,
-          "birthday": "20111024",
-          "city": "West Wiley",
-          "married": true,
-          "index": 23
-        }
-      ]
+      data: data,
+      margins: {left: 50, right: 30, top: 50, bottom: 50},
+      marginsBrush: {left: 50, right: 30, top: 0, bottom: 20},
+      xDomain: d3.extent(data, x),
+      brushExtent: d3.extent(data, x),
+      xRange: [0, props.width - 100], //[0, width - margins.left - margins.right]
     };
-    this.handleNewDomain = this.handleNewDomain.bind(this);
+    this.handleChangeDomain = this.handleChangeDomain.bind(this);
   };
 
   componentWillReceiveProps(nextProps){
@@ -249,9 +258,15 @@ export default class GraphC extends React.Component {
     }
   };
 
-  handleNewDomain(axis, val) {
+  handleChangeDomain(axis, val) {
     console.log("Axis : " + axis + " Value : " + val);
-    // you can render data or filter existing data or whatever based on brush values
+
+    if(axis === 'x'){
+      this.setState({
+        xDomain: val,
+        brushExtent: val,
+      })
+    }
   };
 
   render() {
@@ -295,28 +310,40 @@ export default class GraphC extends React.Component {
     ];
     //chartSeries.reverse();
     const width = this.state.size.w;
-    const height = this.state.size.h - 200;
-    const brushHeight = 100;
-    const marginsTop = {left: 100, right: 100, top: 50, bottom: 20};
-    const marginsBottom = {left: 100, right: 100, top: 20, bottom: 20};
+    const height = this.state.size.h - 150;
+    const brushHeight = 70;
+    const margins = this.state.margins;
+    const marginsBrush = this.state.marginsBrush;
     const data = this.state.data;
     const parseDate = d3.time.format("%Y%m%d").parse;
     const x = (d) => parseDate(d["birthday"]);
     const xScale = 'time';
     const interpolate = 'monotone';
+    const xDomain = this.state.xDomain;
+    const xDomainBrush = d3.extent(data, x);
+    const yLabelPosition = "left";
+    const yOrient = "left";
+    const yTickOrient = "left";
 
     return (
-      <div>
+      <div className={classes.graphWrap} >
 
         <LineTooltip
           width={width}
           height={height}
           data={data}
           chartSeries={chartSeries}
-          interpolate={interpolate}
-          margins={marginsTop}
+          margins={margins}
           x={x}
           xScale= {xScale}
+          xDomain= {xDomain}
+          xScaleChange={true}
+          gridStyleClassName="gridAxis"
+          xLabel = "Дати"
+          yLabel = "Значення"
+          yLabelPosition = {yLabelPosition}
+          yOrient= {yOrient}
+          yTickOrient= {yTickOrient}
         >
         </LineTooltip>
 
@@ -325,12 +352,12 @@ export default class GraphC extends React.Component {
           height={brushHeight}
           data={data}
           chartSeries={chartSeries}
-          margins={marginsBottom}
+          margins={marginsBrush}
           xScale={xScale}
           x={x}
           isBrushable={true}
           showLegend={false}
-          onBrushDomainChange={this.handleNewDomain}
+          onBrushDomainChange={this.handleChangeDomain}
           keepBrushOn={true}
           brushStyle={{"fill": "#DDD", "fill-opacity": ".75", "shape-rendering": "crispEdges"}}
           yGridStyleClassName={"yGridStyleCls"}
@@ -338,6 +365,7 @@ export default class GraphC extends React.Component {
           showXGrid={false}
           showYGrid={false}
           yTicks={[0]}
+          brushExtent={this.state.brushExtent}
         />
 
       </div>

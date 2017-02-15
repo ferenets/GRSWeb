@@ -5,23 +5,23 @@
   height: 100%;
 }
 
-:global .extent {
-  stroke: #fff;
-  fill: $bg-first;
-  fill-opacity: 1;
-  shape-rendering: crispEdges;
-}
-
-:global .background {
-  fill: $color-primary;
-}
-
-:global .xAxis {
-}
-
-:global .tooltip {
-  background: rgba(30,136,229,0.7); // it's $color-primary but in rgba and with opacity
-  color: #fff;
-  padding: 10px;
-  //border: 2px solid $bg-first;
-}
+//:global .extent {
+//  stroke: #fff;
+//  fill: $bg-first;
+//  fill-opacity: 1;
+//  shape-rendering: crispEdges;
+//}
+//
+//:global .background {
+//  fill: $color-primary;
+//}
+//
+//:global .xAxis {
+//}
+//
+//:global .tooltip {
+//  background: rgba(30,136,229,0.7); // it's $color-primary but in rgba and with opacity
+//  color: #fff;
+//  padding: 10px;
+//  //border: 2px solid $bg-first;
+//}
