@@ -3,13 +3,14 @@
 const AppError = require('../../libs/app-error');
 // const Promise = require('bluebird');
 const moment = require('moment');
+const dateFormat = require('dateformat');
 const _ = require('lodash');
 
 const SELECT_INDICATORS = {
   daily: {
     x: {
       label: 'DAY',
-      convertFunction: (val) => moment(val, "DD.MM.YY").toDate().getTime().toString(),
+      convertFunction: (val) => dateFormat(moment(val, "DD.MM.YY").toDate(), "yyyymmddHHMM"),
     },
     y: [
       {
@@ -33,7 +34,7 @@ const SELECT_INDICATORS = {
   hourly: {
     x: {
       label: 'DAY_HOUR',
-      convertFunction: (val) => moment(val, "DD.MM.YY HH:mm").toDate().getTime().toString(),
+      convertFunction: (val) => dateFormat(moment(val, "DD.MM.YY HH:mm").toDate(), "yyyymmddHHMM"),
     },
     y: [
       {
@@ -57,7 +58,7 @@ const SELECT_INDICATORS = {
   moment: {
     x: {
       label: 'DT_DATA',
-      convertFunction: (val) => moment(val, "DD.MM.YY HH:mm").toDate().getTime().toString(),
+      convertFunction: (val) => dateFormat(moment(val, "DD.MM.YY HH:mm").toDate(), "yyyymmddHHMM"),
     },
     y: [
       {
