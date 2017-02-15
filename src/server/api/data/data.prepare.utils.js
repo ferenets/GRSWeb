@@ -9,23 +9,82 @@ const SELECT_INDICATORS = {
   daily: {
     x: {
       label: 'DAY',
-      dateFormat: 'DD.MM.YY'
+      convertFunction: (val) => moment(val, "DD.MM.YY").toDate().getTime().toString(),
     },
-    y: ['VOL_STD', 'VOL_PY', 'PRESSURE', 'TEMPERATURE']
+    y: [
+      {
+        label: 'VOL_STD',
+        convertFunction: (val) => parseFloat(val),
+      },
+      {
+        label: 'VOL_PY',
+        convertFunction: (val) => parseFloat(val),
+      },
+      {
+        label: 'PRESSURE',
+        convertFunction: (val) => parseFloat(val),
+      },
+      {
+        label: 'TEMPERATURE',
+        convertFunction: (val) => parseFloat(val),
+      }
+    ]
   },
   hourly: {
     x: {
       label: 'DAY_HOUR',
-      dateFormat: 'DD.MM.YY HH:mm'
+      convertFunction: (val) => moment(val, "DD.MM.YY HH:mm").toDate().getTime().toString(),
     },
-    y: ['VOL_STD', 'VOL_PY', 'PRESSURE', 'TEMPERATURE']
+    y: [
+      {
+        label: 'VOL_STD',
+        convertFunction: (val) => parseFloat(val),
+      },
+      {
+        label: 'VOL_PY',
+        convertFunction: (val) => parseFloat(val),
+      },
+      {
+        label: 'PRESSURE',
+        convertFunction: (val) => parseFloat(val),
+      },
+      {
+        label: 'TEMPERATURE',
+        convertFunction: (val) => parseFloat(val),
+      }
+    ]
   },
   moment: {
     x: {
       label: 'DT_DATA',
-      dateFormat: 'DD.MM.YY HH:mm'
+      convertFunction: (val) => moment(val, "DD.MM.YY HH:mm").toDate().getTime().toString(),
     },
-    y: ['P_STAT', 'TEMPERATURE', 'Q_CURR', 'Q_START_DAY', 'Q_LAST_DAY', 'Q_GENERAL']
+    y: [
+      {
+        label: 'P_STAT',
+        convertFunction: (val) => parseFloat(val),
+      },
+      {
+        label: 'TEMPERATURE',
+        convertFunction: (val) => parseFloat(val),
+      },
+      {
+        label: 'Q_CURR',
+        convertFunction: (val) => parseFloat(val),
+      },
+      {
+        label: 'Q_START_DAY',
+        convertFunction: (val) => parseFloat(val),
+      },
+      {
+        label: 'Q_LAST_DAY',
+        convertFunction: (val) => parseFloat(val),
+      },
+      {
+        label: 'Q_GENERAL',
+        convertFunction: (val) => parseFloat(val),
+      }
+    ]
   }
 };
 
@@ -37,35 +96,29 @@ const DataPrepare = {
    * @param records
    */
   indicatorsGraphData: (xAxis, records) => {
-    let result = {};
-    let xLabel = '';
-    let xDateFormat = '';
-    let yValues = [];
+    let x = {};
+    let ys = [];
 
     switch(xAxis) {
       case 'daily':
       case 'hourly':
       case 'moment':
-        xLabel = SELECT_INDICATORS[xAxis].x.label;
-        xDateFormat = SELECT_INDICATORS[xAxis].x.dateFormat;
-        yValues = SELECT_INDICATORS[xAxis].y;
+        x = SELECT_INDICATORS[xAxis].x;
+        ys = SELECT_INDICATORS[xAxis].y;
         break;
       default:
         throw new AppError.badRequest('Invalid indicators type');
         break;
     }
+    const labels = [x.label, ..._.map(ys, y => y.label)];
 
-    yValues.forEach(yVal => {
-      result[yVal] = {
-        label: yVal,
-        values: _.sortBy(_.map(records, record => ({
-          x: moment(record[xLabel], xDateFormat).toDate(),
-          y: parseFloat(record[yVal])
-        })), ['x'])
-      };
-    });
-
-    return result;
+    return _.sortBy(records.map(row => _.zipObject(
+      labels,
+      [
+        x.convertFunction(row[x.label]),
+        ..._.map(ys, y => y.convertFunction(row[y.label]))
+      ]
+    )), x.label);
   },
 
 };
