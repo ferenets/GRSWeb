@@ -2,7 +2,7 @@ import classes from './points-map.scss';
 import React from 'react';
 import Button from '../buttons/button.jsx';
 import Map from './map/map.jsx';
-import GraphC from './d3/d3-2.jsx'
+import GraphLine from './d3/graphLine.jsx'
 import {Tabs, Tab} from 'material-ui/Tabs';
 import Loading from '../../../../components/info/loading';
 
@@ -52,17 +52,11 @@ export default class PointsMap extends React.Component {
       openTab,
       handleChangeTab,
       dataGraph,
-      loadingGraph
+      loadingGraph,
+      selectDataGraph
     } = this.props;
-console.log(dataGraph);
+
     const {containerSize:{w, h}} = this.state;
-    // const styles = {
-    //   headline: {
-    //     fontSize: 20,
-    //     fontWeight: 900,
-    //     textAlign: 'center',
-    //   }
-    // };
 
     return (
       <div
@@ -100,8 +94,9 @@ console.log(dataGraph);
           <Tab label="Графіки D3" className={classes.tabLabel} value="graphA">
             {loadingGraph
               ? <Loading />
-              : <GraphC
+              : <GraphLine
                   dataGraph={dataGraph}
+                  selectDataGraph={selectDataGraph}
                   width={w}
                   height={h}
                 />

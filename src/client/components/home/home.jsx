@@ -29,7 +29,7 @@ export default class Home extends React.Component {
       openTab,
       handleChangeTab,
       dataGraph,
-      loadingGraph
+      loadingGraph,
     } = this.props;
 
     const {dataTreeIsOpen} = this.state;
