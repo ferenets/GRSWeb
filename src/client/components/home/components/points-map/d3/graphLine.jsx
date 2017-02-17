@@ -26,8 +26,8 @@ export default class GraphLine extends React.Component {
         w: props.width,
         h: props.height
       },
-      margins: {left: 30, right: 30, top: 20, bottom: 20},
-      marginsBrush: {left: 30, right: 30, top: 0, bottom: 20},
+      margins: {left: 40, right: 30, top: 20, bottom: 20},
+      marginsBrush: {left: 40, right: 30, top: 0, bottom: 20},
       data: [],
       xAxisLabel: '',
       dataSelectedGraph: '',
