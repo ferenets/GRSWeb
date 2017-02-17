@@ -4,7 +4,11 @@ import {
   DATA_HOME_SUCCESS,
   DATA_HOME_FAIL,
   TAKE_TARGET_POINTS,
-  DISPLAY_BRANCH
+  DISPLAY_BRANCH,
+  CHANGE_OPEN_TAB,
+  START_GRAPH_DATA_LOADING,
+  GRAPH_DATA_SUCCESS,
+  GRAPH_DATA_FAIL,
 } from './home.actions';
 import _ from 'lodash';
 
@@ -14,7 +18,10 @@ const initalState = {
   allPoints: [],
   targetPoints: [],
   defaultTree: [],
-  loading: true,
+  loadingPoints: true,
+  loadingGraph: true,
+  dataGraph: {},
+  openTab: 'map',
   err: null
 };
 
@@ -25,11 +32,11 @@ export default function (state = initalState, action) {
       return Object.assign({}, state, initalState);
 
     case START_DATA_HOME_LOADING:
-      return Object.assign({}, state, { loading: true });
+      return Object.assign({}, state, { loadingPoints: true });
 
     case DATA_HOME_SUCCESS:
       return Object.assign({}, state, {
-        loading: false,
+        loadingPoints: false,
         err: null,
         dataSheet: action.dataSheet,
         tree: action.tree,
@@ -39,7 +46,7 @@ export default function (state = initalState, action) {
 
     case DATA_HOME_FAIL:
       return Object.assign({}, state, {
-        loading: false,
+        loadingPoints: false,
         err: action.err
       });
 
@@ -51,6 +58,27 @@ export default function (state = initalState, action) {
     case TAKE_TARGET_POINTS:
       return Object.assign({}, state, {
         targetPoints: action.selectionPoints
+      });
+
+    case CHANGE_OPEN_TAB:
+      return Object.assign({}, state, {
+        openTab: action.tabsValue,
+      });
+
+    case START_GRAPH_DATA_LOADING:
+      return Object.assign({}, state, { loadingGraph: true });
+
+    case GRAPH_DATA_SUCCESS:
+      return Object.assign({}, state, {
+        loadingGraph: false,
+        err: null,
+        dataGraph: action.body
+      });
+
+    case GRAPH_DATA_FAIL:
+      return Object.assign({}, state, {
+        loadingGraph: false,
+        err: action.err
       });
 
     default:

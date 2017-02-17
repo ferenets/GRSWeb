@@ -1,7 +1,14 @@
 import React from 'react';
 import classes from './home-wrap.scss';
 import {connect} from 'react-redux';
-import {getDataSheet, getTargetPoints, displayNextBranch} from '../../redux/home/home.actions';
+import {
+  getDataSheet,
+  getTargetPoints,
+  displayNextBranch,
+  changeOpenTab,
+  startDataLoading,
+  getGraphData
+} from '../../redux/home/home.actions';
 import Page from '../../components/page';
 import Home from '../../components/home';
 import Loading from '../../components/info/loading';
@@ -14,6 +21,7 @@ class HomeWrap extends React.Component {
 
     this.displayNextBranch = this.displayNextBranch.bind(this);
     this.findTrigger = this.findTrigger.bind(this);
+    this.handleChangeTab = this.handleChangeTab.bind(this);
   }
 
   componentDidMount() {
@@ -23,7 +31,18 @@ class HomeWrap extends React.Component {
       dispatch(getDataSheet());
     }
   }
-  
+
+  handleChangeTab(tabsValue, pointId){
+    const {dispatch} = this.props;
+    const grs_id = `grs_id=${pointId}`;
+
+    if (pointId) {
+      dispatch(startDataLoading());
+      dispatch(getGraphData('grs_id=145'));
+    }
+    dispatch(changeOpenTab(tabsValue));
+  }
+
   pointsArray(arr, result) {
     arr.map(row => {
       if(row.children != null) {
@@ -33,7 +52,7 @@ class HomeWrap extends React.Component {
       }
     });
   }
-  
+
   insertPoints(arr) {
     const insertLabel = [];
     this.pointsArray(arr, insertLabel);
@@ -97,6 +116,7 @@ class HomeWrap extends React.Component {
           nextTree,
           selectionLabel
         };
+
       default:
         return {
           nextTree,
@@ -116,22 +136,29 @@ class HomeWrap extends React.Component {
   render() {
     const {
       home:{
-        loading,
+        loadingPoints,
         tree,
         allPoints,
-        targetPoints
+        targetPoints,
+        openTab,
+        dataGraph,
+        loadingGraph
       }
     } = this.props;
 
     return (
       <Page>
         <div className={classes.homeWrap}>
-          {loading
+          {loadingPoints
             ? <Loading />
             : <Home
                 tree={tree}
                 displayNextBranch={this.displayNextBranch}
                 targetPoints={targetPoints.length > 0 ? targetPoints : allPoints}
+                openTab={openTab}
+                handleChangeTab={this.handleChangeTab}
+                dataGraph={dataGraph}
+                loadingGraph={loadingGraph}
               />
           }
         </div>
@@ -143,7 +170,7 @@ class HomeWrap extends React.Component {
 HomeWrap.PropTypes = {
   dispatch: React.PropTypes.func.isRequired,
   home: React.PropTypes.objectOf(React.PropTypes.shape({
-    loading: React.PropTypes.func.isRequired,
+    loadingloading: React.PropTypes.func.isRequired,
     tree: React.PropTypes.array.isRequired,
     defaultTree: React.PropTypes.array.isRequired,
     allPoints: React.PropTypes.array.isRequired,
