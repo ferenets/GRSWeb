@@ -12,7 +12,7 @@ import {
 import _ from 'lodash';
 
 import * as Tooltip from 'react-d3-tooltip';
-const {LineTooltip} = Tooltip;
+const {LineTooltip, SimpleTooltip} = Tooltip;
 
 import * as reactShape from 'react-d3-shape';
 const {MultiLineBrushChart} = reactShape;
@@ -68,7 +68,7 @@ export default class GraphLine extends React.Component {
   setYAxisDomain(selectedDataArr, prop){
     const draftArr = [];
     selectedDataArr.map(row => draftArr.push(row[prop]));
-    return [_.max(draftArr), _.min(draftArr)];
+    return [_.min(draftArr), _.max(draftArr)];
   };
 
   componentWillReceiveProps(nextProps){
@@ -170,6 +170,13 @@ export default class GraphLine extends React.Component {
       x = (d) => parseDate(d[xDataSelectLabel]),
       id = "line-chart";
 
+    const tooltip_bkg_style = {
+      backgroundColor: 'rgba(50, 50, 50, 0.8)',
+      borderRadius: '4px',
+      padding: '10px',
+      border: '0'
+    };
+
     return (
       <div className={classes.graphWrap} >
 
@@ -184,12 +191,11 @@ export default class GraphLine extends React.Component {
             xScale='time'
             xDomain={xDomain}
             xScaleChange={true}
-            //xLabel={xAxisLabel}
+            //xLabel={xAxisLabel} - we can added xLabel
             xLabel={false}
             showXAxis={true}
             xOrient='bottom'
-            //gridStyleClassName="gridAxis"
-            //yLabel="Значення"
+            //yLabel="Значення"  - we can added yLabel
             yLabel={false}
             yLabelPosition="left"
             yOrient="left"
@@ -200,6 +206,7 @@ export default class GraphLine extends React.Component {
             showLegend={false}
             yDomain={yDomain}
           >
+            <SimpleTooltip style={tooltip_bkg_style} />
           </LineTooltip>
         </div>
 
@@ -231,13 +238,11 @@ export default class GraphLine extends React.Component {
             onBrushDomainChange={this.handleChangeDomain}
             keepBrushOn={true}
             brushStyle={{"fill": "#DDD", "fill-opacity": ".75", "shape-rendering": "crispEdges"}}
-            //yGridStyleClassName={"yGridStyleCls"}
-            //yAxisClassName={"timeSliderYAxis"}
             showXGrid={false}
             showYGrid={false}
             yTicks={[0]}
             brushExtent={brushExtent}
-            //yDomain={yDomain}
+            yDomain={yDomain}
           />
         </div>
 
