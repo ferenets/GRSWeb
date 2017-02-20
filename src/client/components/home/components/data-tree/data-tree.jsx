@@ -10,6 +10,12 @@ export default class DataTree extends React.Component {
   }
 
   displayTree(arr, depth) {
+    const {
+      displayNextBranch,
+      targetPoints,
+      handleChangeTab
+    } = this.props;
+
     return arr.map((row, ind) =>
       <DataTreeList
         key={ind}
@@ -18,9 +24,9 @@ export default class DataTree extends React.Component {
         displayTree={this.displayTree}
         children={row.children}
         open={row.open}
-        displayNextBranch={this.props.displayNextBranch}
-        targetPoints={this.props.targetPoints}
-        handleChangeTab={this.props.handleChangeTab}
+        displayNextBranch={displayNextBranch}
+        targetPoints={targetPoints}
+        handleChangeTab={handleChangeTab}
       />
     )
   }
@@ -58,4 +64,6 @@ DataTree.PropTypes = {
   onButtonClick: React.PropTypes.func.isRequired,
   open: React.PropTypes.bool.isRequired,
   displayNextBranch: React.PropTypes.func.isRequired,
+  targetPoints: React.PropTypes.string.isRequired,
+  handleChangeTab: React.PropTypes.func.isRequired,
 };

@@ -1,31 +1,38 @@
 import * as d3Shape from 'react-d3-shape';
+import moment from 'moment';
+import dateFormat from 'dateformat';
 
 export const _dataGraph = {
-  data_daily: "Денні дані",
-  data_hourly: "Годинні дані",
-  data_moment: "Миттєві дані"
+  data_daily: "Добові",
+  data_hourly: "Годинні",
+  data_moment: "Миттєві"
 };
 
 export const data_daily = {
-  TEMPERATURE: "Температура",
-  PRESSURE: "Тиск",
-  VOL_PY: "VOL_PY",
-  VOL_STD: "VOL_STD"
+  TEMPERATURE: "Температура, °C",
+  PRESSURE: "Тиск, кгс/см2",
+  VOL_PY: "Об’єм при Ру, м3",
+  VOL_STD: "Об’єм, м3"
 };
 
 export const data_hourly = {
-  TEMPERATURE: "Температура",
-  PRESSURE: "Тиск",
-  VOL_PY: "VOL_PY",
-  VOL_STD: "VOL_STD"
+  TEMPERATURE: "Температура, °C",
+  PRESSURE: "Тиск, кгс/см2",
+  VOL_PY: "Об’єм при Ру, м3",
+  VOL_STD: "Об’єм, м3"
 };
 
 export const data_moment = {
-  TEMPERATURE: "Температура",
-  P_STAT: "Статичний тиск",
-  Q_CURR: "Q_CURR",
-  Q_GENERAL: "Q_GENERAL",
-  Q_LAST_DAY: "Q_LAST_DAY",
+  TEMPERATURE: "Температура, °C",
+  P_STAT: "Тиск статичний, кгс/см2",
+  Q_CURR: "Витрата поточна, м3/год",
+  Q_GENERAL: "Об’єм загальний, м3",
+  Q_START_DAY: "Об’єм з початку доби, м3",
+  Q_LAST_DAY: "Об’єм за минулу добу, м3",
 };
 
 export const parseDate = d3.time.format("%Y%m%d%H%M").parse;
+
+export const convertDate = (d) => dateFormat(moment(d, "ddd mmm dd yyyy HH:MM:ss Z").toDate(), "yyyymmddHHMM");
+
+export const convertToDate = (d) => dateFormat(moment(d, "ddd mmm dd yyyy HH:MM:ss Z").toDate(), "yyyy mm dd HH:MM");

@@ -2,7 +2,8 @@ import classes from './points-map.scss';
 import React from 'react';
 import Button from '../buttons/button.jsx';
 import Map from './map/map.jsx';
-import GraphLine from './d3/graphLine.jsx'
+import GraphLine from './graph-line/graph-line.jsx';
+import TableData from './table-data/table-data.jsx';
 import {Tabs, Tab} from 'material-ui/Tabs';
 import Loading from '../../../../components/info/loading';
 
@@ -17,7 +18,17 @@ export default class PointsMap extends React.Component {
       }
     };
     this.handleChangeTab = this.handleChangeTab.bind(this);
+    this.fitToParentSize = this.fitToParentSize.bind(this);
   };
+
+  fitToParentSize() {
+    const w = this.refs.containerWrap.offsetWidth;
+    const h = this.refs.containerWrap.offsetHeight;
+    const currentSize = this.state.containerSize;
+    if (w !== currentSize.w || h !== currentSize.h) {
+      this.setState({containerSize: {w, h}})
+    }
+  }
 
   handleChangeTab(value) {
     const {handleChangeTab} = this.props;
@@ -25,22 +36,17 @@ export default class PointsMap extends React.Component {
   };
 
   componentDidMount(){
-    this.setState({
-      containerSize: {
-        w: this.refs.containerWrap.offsetWidth,
-        h: this.refs.containerWrap.offsetHeight
-      }
-    })
+    window.addEventListener('resize', this.fitToParentSize);
+    this.fitToParentSize();
   };
+
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.fitToParentSize);
+  }
 
   componentDidUpdate(prevProps){
     if (prevProps.fullWidth != this.props.fullWidth) {
-      this.setState({
-        containerSize: {
-          w: this.refs.containerWrap.offsetWidth,
-          h: this.refs.containerWrap.offsetHeight
-        }
-      })
+      this.fitToParentSize();
     }
   };
 
@@ -53,7 +59,10 @@ export default class PointsMap extends React.Component {
       handleChangeTab,
       dataGraph,
       loadingGraph,
-      selectDataGraph
+      selectDataGraph,
+      pointTitle,
+      handleChengeTableRange,
+      tableData
     } = this.props;
 
     const {containerSize:{w, h}} = this.state;
@@ -91,16 +100,36 @@ export default class PointsMap extends React.Component {
             />
           </Tab>
 
-          <Tab label="Графіки D3" className={classes.tabLabel} value="graphA">
+          <Tab
+            label="Графіки D3"
+            className={classes.tabLabel}
+            value="graphA"
+          >
             {loadingGraph
               ? <Loading />
               : <GraphLine
                   dataGraph={dataGraph}
                   selectDataGraph={selectDataGraph}
+                  pointTitle={pointTitle}
+                  handleChengeTableRange={handleChengeTableRange}
                   width={w}
                   height={h}
                 />
               }
+          </Tab>
+
+          <Tab
+            label="Таблиця"
+            className={classes.tabLabel}
+            value="graphB"
+          >
+            {loadingGraph
+              ? <Loading />
+              : <TableData
+                  pointTitle={pointTitle}
+                  tableData={tableData}
+              />
+            }
           </Tab>
 
         </Tabs>
@@ -114,4 +143,12 @@ PointsMap.PropTypes = {
   onButtonClick: React.PropTypes.func.isRequired,
   fullWidth: React.PropTypes.bool.isRequired,
   targetPoints: React.PropTypes.array.isRequired,
+  openTab: React.PropTypes.string.isRequired,
+  handleChangeTab: React.PropTypes.func.isRequired,
+  dataGraph: React.PropTypes.array.isRequired,
+  loadingGraph: React.PropTypes.bool.isRequired,
+  selectDataGraph: React.PropTypes.array.isRequired,
+  pointTitle: React.PropTypes.string.isRequired,
+  handleChengeTableRange: React.PropTypes.func.isRequired,
+  tableData: React.PropTypes.object.isRequired,
 };
