@@ -10,7 +10,7 @@
     "build-server-compact": "webpack --progress --config webpack-server.config.build.js",
     "build-server": "babel --presets babel-preset-es2015 ./src/server --out-dir ./build/server",
     "build": "gulp clean && npm run build-client && npm run build-server && gulp copy-assets",
-    "postinstall": "npm run pre-replacement && npm run first-replacement && npm run second-replacement && npm run third-replacement && npm run fourth-replacement",
+    "postinstall": "npm run first-replacement && npm run second-replacement && npm run third-replacement && npm run fourth-replacement",
     "first-replacement": "sed -i '785 s/timeFormat/timeFormatUaUa/' node_modules/react-d3-core/node_modules/d3-scale/build/d3-scale.js",
     "second-replacement": "sed -i '61 s/formatHour12/formatHour24/' node_modules/react-d3-core/node_modules/d3-time-format/build/d3-time-format.js",
     "third-replacement": "sed -i '777i var uaUa = locale$1({\\\"decimal\\\": \\\".\\\",\"thousands\": \",\",\"currency\": [\"грн\", \"\"],\"periods\": [\"\"],\"days\": [\"Неділя\", \"Понеділок\", \"Вівторок\", \"Середа\", \"Четвер\", \"П\\x27ятниця\", \"Субота\"],\"shortDays\": [\"Нд\", \"Пн\", \"Вт\", \"Ср\", \"Чт\", \"Пт\", \"Сб\"],\"months\": [\"січня\", \"лютого\", \"березня\", \"квітня\", \"травня\", \"червня\", \"липня\", \"серпня\", \"вересня\", \"жовтня\", \"листопада\", \"грудня\"],\"shortMonths\": [\"січ\", \"лют\", \"бер\", \"кві\", \"тра\", \"чер\", \"лип\", \"сер\", \"вер\", \"жов\", \"лис\", \"гру\"]});' node_modules/react-d3-core/node_modules/d3-time-format/build/d3-time-format.js",
