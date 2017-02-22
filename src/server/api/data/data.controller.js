@@ -78,7 +78,7 @@ const DataController = {
         data_moment: []
       });
     }
-    
+
     res.send({
       grs_id,
       data_daily: DataPrepare.indicatorsGraphData('daily', IndicatorsDaily.filter(row => row['GRS_ID'] === grs_id)),
