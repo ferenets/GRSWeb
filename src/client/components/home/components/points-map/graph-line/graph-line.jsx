@@ -159,12 +159,15 @@ export default class GraphLine extends React.Component {
       brushExtent: d3.extent(data, x),
       xDataSelectLabel: dateLabel,
       yDomain,
-      yDomainBrush: yDomain
+      yDomainBrush: yDomain,
     }, () => {
       const {selectedDataGraph, xDataSelectLabel} = this.state;
       const startDate = data[0][xDataSelectLabel];
       const endDate = data[data.length - 1][xDataSelectLabel];
-
+      this.setState({
+        startBrushDate: startDate,
+        endBrushDate: endDate,
+      });
       const resultRange = this.selectTableRange(startDate, endDate);
       handleChengeTableRange(resultRange, selectedDataGraph, xDataSelectLabel);
     });
