@@ -30,6 +30,9 @@ export default class Home extends React.Component {
       handleChangeTab,
       dataGraph,
       loadingGraph,
+      pointTitle,
+      handleChengeTableRange,
+      tableData
     } = this.props;
 
     const {dataTreeIsOpen} = this.state;
@@ -52,6 +55,9 @@ export default class Home extends React.Component {
           handleChangeTab={handleChangeTab}
           dataGraph={dataGraph}
           loadingGraph={loadingGraph}
+          pointTitle={pointTitle}
+          handleChengeTableRange={handleChengeTableRange}
+          tableData={tableData}
         />
       </div>
     );
@@ -61,5 +67,12 @@ export default class Home extends React.Component {
 Home.PropTypes = {
   targetPoints: React.PropTypes.array.isRequired,
   tree: React.PropTypes.array.isRequired,
-  displayNextBranch: React.PropTypes.func.isRequired
+  displayNextBranch: React.PropTypes.func.isRequired,
+  openTab: React.PropTypes.string.isRequired,
+  handleChangeTab: React.PropTypes.func.isRequired,
+  dataGraph: React.PropTypes.array.isRequired,
+  loadingGraph: React.PropTypes.bool.isRequired,
+  pointTitle: React.PropTypes.string.isRequired,
+  handleChengeTableRange: React.PropTypes.func.isRequired,
+  tableData: React.PropTypes.object.isRequired
 };

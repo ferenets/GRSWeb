@@ -4,15 +4,14 @@
   height: 100%;
   background-color: transparent;
   color: #000;
-  width: 25%;
+  width: 22%;
   display: inline-block;
   font-weight: 600;
   vertical-align: top;
   box-shadow: $boxShadowHomeWrap;
   margin-right: $padding-horizontal;
-  padding: 0 0 55px $paddingDuble;
+  padding: 0 0 55px 0;
   overflow: hidden;
-  //transition: all .3s ease-in-out;
   text-align: right;
 
   .buttonWrap {
@@ -46,7 +45,7 @@
       position: absolute;
       z-index: 1;
       top: -$shift;
-      left: -$shift;
+      left: calc(-$shift - 1px);
       width: 50%;
       height: 100%;
       border-left: 1px dashed rgba(50,50,50,0.5);
@@ -58,15 +57,11 @@
       position: relative;
       width: 100%;
       height: $listTitle-height;
-      padding: 0 5px;
       background-color: #fdfcfa;
       cursor: pointer;
       line-height: $listTitle-height;
-      overflow: hidden;
-      white-space: nowrap;
-      text-overflow: ellipsis;
       text-align: left;
-      border: 1px solid rgba(50,50,50,0.5);
+      padding-left: 10px;
 
       .openLabel {
         background-color: $bg-first;
@@ -78,7 +73,6 @@
     }
 
     .listTitle .title {
-      //background-color: #fff;
       .openLabel {
         background-color: $bg-second;
       }
@@ -88,7 +82,6 @@
       width: 100%;
       margin-left: $shift;
       .listTitle .title {
-        //background-color: #fff;
         .openLabel {
           background-color: $bg-third;
         }
@@ -98,9 +91,8 @@
     .listTitle {
       .listTitle {
         .listTitle .title {
-          //background-color: #fff;
           .openLabel {
-            background-color: $bg-four;
+            background-color: transparent;
           }
         }
       }
@@ -114,8 +106,7 @@
 .listWrap {
   height: 100%;
   overflow-y: auto;
-  margin-top: $padding;
-  padding-right: calc($padding*2);
+  padding:$padding $paddingDuble 0;
 }
 .listWrap::-webkit-scrollbar {
   width: 5px;
@@ -139,14 +130,35 @@
   line-height: $listTitle-height;
 }
 .openLabel {
-  width: 20px;
-  height: 20px;
-  margin-right: 20px;
+  position: absolute;
+  z-index: 1;
+  top: 5px;
+  left: -9px;
+  width: 18px;
+  height: 18px;
+  line-height: 18px;
+  margin: 0;
   border-radius: 50%;
-  line-height: 20px;
-  padding-left: 5px;
-  color: #fff;
-  font-weight: 600;
-  font-family: monospace;
-  font-size: 18px;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+  .lastBranch {
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+  }
+}
+.titleLabel {
+  width: 100%;
+  height: 100%;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding-left: 10px;
+}
+.lastBranch {
+  background-color: green;
 }

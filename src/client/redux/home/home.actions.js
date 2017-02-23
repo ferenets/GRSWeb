@@ -3,7 +3,8 @@ import GraphApi from '../../api/data.api';
 import {createAsyncAction} from '../../../client/libs/redux-helpers';
 import {
   selectionPoints,
-  selectionTargetPoints
+  selectionTargetPoints,
+  createTableData
 } from '../../utils/parse-data.js';
 
 export const LOGOUT_SUCCESS = 'LOGOUT_SUCCESS';
@@ -16,6 +17,8 @@ export const CHANGE_OPEN_TAB = 'CHANGE_OPEN_TAB';
 export const START_GRAPH_DATA_LOADING = 'START_GRAPH_DATA_LOADING';
 export const GRAPH_DATA_SUCCESS = 'GRAPH_DATA_SUCCESS';
 export const GRAPH_DATA_FAIL = 'GRAPH_DATA_FAIL';
+export const SELECTED_POINT_TITLE = 'SELECTED_POINT_TITLE';
+export const SELECTED_TABLE_RANGE = 'SELECTED_TABLE_RANGE';
 
 const titleCoordinatePoints = ['SHYROTA', 'DOLHOTA'];
 const [firstCoordinate, secondCoordinate] = titleCoordinatePoints;
@@ -50,3 +53,10 @@ export const getGraphData = createAsyncAction({
   },
   error: (err) => ({type: GRAPH_DATA_FAIL, err})
 });
+
+export const selectedPointTitle = (pointTitle) => ({type: SELECTED_POINT_TITLE, pointTitle});
+
+export const tableRangeDate = (tableRange, dataLabel, dateProp) => {
+  const tableData = createTableData(tableRange, dataLabel, dateProp);
+  return {type: SELECTED_TABLE_RANGE, tableData};
+};

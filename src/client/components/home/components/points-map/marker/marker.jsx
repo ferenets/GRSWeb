@@ -9,8 +9,8 @@ export default class PointMarker extends React.Component {
   }
 
   handleChangeTab() {
-    const {point:{id}, handleChangeTab} = this.props;
-    handleChangeTab('graphA', id);
+    const {point:{id, label}, handleChangeTab} = this.props;
+    handleChangeTab('graphA', id, label);
   };
 
   render() {

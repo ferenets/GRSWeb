@@ -7,7 +7,9 @@ import {
   displayNextBranch,
   changeOpenTab,
   startDataLoading,
-  getGraphData
+  getGraphData,
+  selectedPointTitle,
+  tableRangeDate
 } from '../../redux/home/home.actions';
 import Page from '../../components/page';
 import Home from '../../components/home';
@@ -22,6 +24,7 @@ class HomeWrap extends React.Component {
     this.displayNextBranch = this.displayNextBranch.bind(this);
     this.findTrigger = this.findTrigger.bind(this);
     this.handleChangeTab = this.handleChangeTab.bind(this);
+    this.handleChengeTableRange = this.handleChengeTableRange.bind(this);
   }
 
   componentDidMount() {
@@ -32,14 +35,22 @@ class HomeWrap extends React.Component {
     }
   }
 
-  handleChangeTab(tabsValue, pointId){
+  handleChengeTableRange(tableRange, dataLabel, dateProp) {
+    const {dispatch} = this.props;
+
+    dispatch(tableRangeDate(tableRange, dataLabel, dateProp));
+  };
+
+  handleChangeTab(tabsValue, pointId, pointTitle){
     const {dispatch} = this.props;
     const grs_id = `grs_id=${pointId}`;
 
     if (pointId) {
       dispatch(startDataLoading());
+      dispatch(selectedPointTitle(pointTitle));
       dispatch(getGraphData('grs_id=145'));
     }
+
     dispatch(changeOpenTab(tabsValue));
   }
 
@@ -110,6 +121,7 @@ class HomeWrap extends React.Component {
         nextTree[ids0].open = true;
         nextTree[ids0].children[ids1].open = true;
         nextTree[ids0].children[ids1].children[ids2].open = true;
+        nextTree[ids0].children[ids1].children[ids2].children[ids3].open = true;
 
         selectionLabel = [nextTree[ids0].children[ids1].children[ids2].children[ids3].label];
         return {
@@ -142,7 +154,9 @@ class HomeWrap extends React.Component {
         targetPoints,
         openTab,
         dataGraph,
-        loadingGraph
+        loadingGraph,
+        pointTitle,
+        tableData
       }
     } = this.props;
 
@@ -159,6 +173,9 @@ class HomeWrap extends React.Component {
                 handleChangeTab={this.handleChangeTab}
                 dataGraph={dataGraph}
                 loadingGraph={loadingGraph}
+                pointTitle={pointTitle}
+                handleChengeTableRange={this.handleChengeTableRange}
+                tableData={tableData}
               />
           }
         </div>
@@ -176,6 +193,11 @@ HomeWrap.PropTypes = {
     allPoints: React.PropTypes.array.isRequired,
     targetPoints: React.PropTypes.array.isRequired,
   })).isRequired,
+  openTab: React.PropTypes.string.isRequired,
+  dataGraph: React.PropTypes.array.isRequired,
+  loadingGraph: React.PropTypes.bool.isRequired,
+  pointTitle: React.PropTypes.string.isRequired,
+  tableData: React.PropTypes.object.isRequired
 };
 
 const selector = (state) => ({home: state.home});

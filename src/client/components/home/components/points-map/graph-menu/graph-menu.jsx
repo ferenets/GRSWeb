@@ -35,7 +35,7 @@ export default class GraphMenu extends React.Component {
     const {dataGraphLabel, title} = this.props;
     const styles = {
       customWidth: {
-        width: 200,
+        width: 200
       },
     };
 
@@ -60,3 +60,9 @@ export default class GraphMenu extends React.Component {
     );
   }
 }
+
+GraphMenu.PropTypes = {
+  dataGraphLabel: React.PropTypes.string.isRequired,
+  handleChangeGraphicDisplay: React.PropTypes.func.isRequired,
+  title: React.PropTypes.string.isRequired,
+};

@@ -9,6 +9,8 @@ import {
   START_GRAPH_DATA_LOADING,
   GRAPH_DATA_SUCCESS,
   GRAPH_DATA_FAIL,
+  SELECTED_POINT_TITLE,
+  SELECTED_TABLE_RANGE
 } from './home.actions';
 import _ from 'lodash';
 
@@ -22,6 +24,12 @@ const initalState = {
   loadingGraph: true,
   dataGraph: {},
   openTab: 'map',
+  pointTitle: "Будь-ласка, оберіть дані для відображення",
+  tableData: {
+    tableTitle: "Будь-ласка, оберіть дані для відображення",
+    tHead: null,
+    tBody: null
+  },
   err: null
 };
 
@@ -79,6 +87,20 @@ export default function (state = initalState, action) {
       return Object.assign({}, state, {
         loadingGraph: false,
         err: action.err
+      });
+
+    case SELECTED_POINT_TITLE:
+      return Object.assign({}, state, {
+        pointTitle: action.pointTitle
+      });
+
+    case SELECTED_TABLE_RANGE:
+      return Object.assign({}, state, {
+        tableData: {
+          tableTitle: action.tableData.tableTitle,
+          tHead: action.tableData.tHead,
+          tBody: action.tableData.tBody
+        }
       });
 
     default:
