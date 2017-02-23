@@ -21,15 +21,16 @@ export default class DataTreeList extends React.Component {
     displayNextBranch(index, open);
   }
 
-  openPointGraph(pointTitle) {
+  openPointGraph() {
     const {
       index,
       targetPoints,
-      handleChangeTab
+      handleChangeTab,
+      title
     } = this.props;
 
     if (index.length == 4) {
-      handleChangeTab("graphA", targetPoints[0].id, pointTitle);
+      handleChangeTab("graphA", targetPoints[0].id, title);
     }
   }
 
@@ -59,7 +60,7 @@ export default class DataTreeList extends React.Component {
           ? <span
             className={classes.title}
             onClick={this.displayNextBranch}
-            onDoubleClick={() => this.openPointGraph(title)}
+            onDoubleClick={this.openPointGraph}
           >
             <span className={classes.openLabel}>
               {children == null

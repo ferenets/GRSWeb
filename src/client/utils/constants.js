@@ -35,4 +35,4 @@ export const parseDate = d3.time.format("%Y%m%d%H%M").parse;
 
 export const convertDate = (d) => dateFormat(moment(d, "ddd mmm dd yyyy HH:MM:ss Z").toDate(), "yyyymmddHHMM");
 
-export const convertToDate = (d) => dateFormat(moment(d, "ddd mmm dd yyyy HH:MM:ss Z").toDate(), "yyyy mm dd HH:MM");
+export const convertToDate = (d) => dateFormat(moment(d, "ddd mmm dd yyyy HH:MM:ss Z").toDate(), "dd.mm.yyyy HH:MM");

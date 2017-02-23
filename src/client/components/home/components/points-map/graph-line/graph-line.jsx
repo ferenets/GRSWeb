@@ -27,8 +27,8 @@ export default class GraphLine extends React.Component {
         w: props.width,
         h: props.height
       },
-      margins: {left: 50, right: 30, top: 20, bottom: 20},
-      marginsBrush: {left: 50, right: 30, top: 5, bottom: 20},
+      margins: {left: 50, right: 50, top: 20, bottom: 20},
+      marginsBrush: {left: 50, right: 50, top: 5, bottom: 20},
       data: [],
       xAxisLabel: '',
       dataSelectedGraph: '',
@@ -40,13 +40,15 @@ export default class GraphLine extends React.Component {
       yDomainBrush: [],
       brushExtent: [],
       xRange: [0, props.width - 100], //[0, width - margins.left - margins.right]
+      startBrushDate: "",
+      endBrushDate: ""
     };
 
     this.handleChangeDomain = this.handleChangeDomain.bind(this);
     this.handleChangeDataDisplay = this.handleChangeDataDisplay.bind(this);
     this.handleChangeGraphDisplay = this.handleChangeGraphDisplay.bind(this);
     this.setYAxisDomain = this.setYAxisDomain.bind(this);
-    this.selectedTableRange = this.selectedTableRange.bind(this);
+    this.selectTableRange = this.selectTableRange.bind(this);
     this.binarySearch = this.binarySearch.bind(this);
   };
 
@@ -62,7 +64,7 @@ export default class GraphLine extends React.Component {
     return i;
   };
 
-  selectedTableRange(startDate, endDate) {
+  selectTableRange(startDate, endDate) {
     const {data, xDataSelectLabel} = this.state;
 
     let startIndex = this.binarySearch(startDate, data, xDataSelectLabel);
@@ -76,9 +78,9 @@ export default class GraphLine extends React.Component {
 
   componentDidMount(){
     const {dataGraph} = this.props,
-      data = dataGraph["data_daily"],
-      x = (d) => parseDate(d["DAY"]),
-      yDomain = this.setYAxisDomain(data, "TEMPERATURE");
+    data = dataGraph["data_daily"],
+    x = (d) => parseDate(d["DAY"]),
+    yDomain = this.setYAxisDomain(data, "TEMPERATURE");
 
     const {handleChengeTableRange} = this.props;
     const startDate = data[0]["DAY"];
@@ -94,10 +96,12 @@ export default class GraphLine extends React.Component {
       brushExtent: d3.extent(data, x),
       xDataSelectLabel: "DAY",
       yDomain,
-      yDomainBrush: yDomain
+      yDomainBrush: yDomain,
+      startBrushDate: startDate,
+      endBrushDate: endDate
     }, () => {
       const {selectedDataGraph, xDataSelectLabel} = this.state;
-      const resultRange = this.selectedTableRange(startDate, endDate);
+      const resultRange = this.selectTableRange(startDate, endDate);
       handleChengeTableRange(resultRange, selectedDataGraph, xDataSelectLabel);
     });
 
@@ -122,7 +126,7 @@ export default class GraphLine extends React.Component {
 
   handleChangeDataDisplay(selectedDataGraph){
     const {dataGraph, handleChengeTableRange} = this.props,
-      xAxisLabel = _dataGraph[selectedDataGraph];
+    xAxisLabel = _dataGraph[selectedDataGraph];
     let dateLabel = "";
     let selectedConstant = "";
 
@@ -161,28 +165,28 @@ export default class GraphLine extends React.Component {
       const startDate = data[0][xDataSelectLabel];
       const endDate = data[data.length - 1][xDataSelectLabel];
 
-      const resultRange = this.selectedTableRange(startDate, endDate);
+      const resultRange = this.selectTableRange(startDate, endDate);
       handleChengeTableRange(resultRange, selectedDataGraph, xDataSelectLabel);
     });
 
   };
 
   handleChangeGraphDisplay(selectedGraph) {
-    const {data, selectedDataGraph, xDataSelectLabel} = this.state;
+    const {data, selectedDataGraph, xDataSelectLabel, startBrushDate, endBrushDate} = this.state;
     const {handleChengeTableRange} = this.props;
-    const yDomain = this.setYAxisDomain(data, selectedGraph);
+
+    const resultRange = this.selectTableRange(startBrushDate, endBrushDate);
+
+    const yDomain = this.setYAxisDomain(resultRange, selectedGraph);
+    const yDomainBrush = this.setYAxisDomain(data, selectedGraph);
+
+    handleChengeTableRange(resultRange, selectedDataGraph, xDataSelectLabel);
 
     this.setState({
       dataSelectedGraph: selectedGraph,
       yDomain,
-      yDomainBrush: yDomain
+      yDomainBrush
     });
-
-    const startDate = data[0][xDataSelectLabel];
-    const endDate = data[data.length - 1][xDataSelectLabel];
-
-    const resultRange = this.selectedTableRange(startDate, endDate);
-    handleChengeTableRange(resultRange, selectedDataGraph, xDataSelectLabel);
   };
 
   handleChangeDomain(axis, val) {
@@ -194,14 +198,16 @@ export default class GraphLine extends React.Component {
       const startDate = convertDate(val[0]);
       const endDate = convertDate(val[1]);
 
-      const resultRange = this.selectedTableRange(startDate, endDate);
+      const resultRange = this.selectTableRange(startDate, endDate);
 
       const yDomain = this.setYAxisDomain(resultRange, dataSelectedGraph);
 
       this.setState({
         xDomain: val,
         brushExtent: val,
-        yDomain
+        yDomain,
+        startBrushDate: startDate,
+        endBrushDate: endDate,
       });
 
       handleChengeTableRange(resultRange, selectedDataGraph, xDataSelectLabel);
@@ -222,7 +228,6 @@ export default class GraphLine extends React.Component {
       selectedGraphConstant,
       yDomain,
       yDomainBrush,
-      xAxisLabel
     } = this.state;
 
     const legendName = selectedGraphConstant[dataSelectedGraph];
