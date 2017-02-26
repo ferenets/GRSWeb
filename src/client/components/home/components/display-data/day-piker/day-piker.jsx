@@ -59,8 +59,6 @@ export default class DayPiker extends React.Component {
           onChange={this.handleDisplayData}
           //mode="portrait"
           locale={localeExample}
-          next=">"
-          prev="<"
           //DateTimeFormat={localeExample}
         >
         </DatePicker>
