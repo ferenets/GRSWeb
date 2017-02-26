@@ -1,4 +1,4 @@
-import classes from './graph-line.scss';
+import classes from './graph-multi-line.scss';
 import React from 'react';
 import GraphMenu from '../graph-menu/graph-menu.jsx';
 import {
@@ -18,7 +18,7 @@ const {LineTooltip, SimpleTooltip} = Tooltip;
 import * as reactShape from 'react-d3-shape';
 const {MultiLineBrushChart} = reactShape;
 
-export default class GraphLine extends React.Component {
+export default class GraphMultiLine extends React.Component {
   constructor(props) {
     super(props);
 
@@ -340,7 +340,7 @@ export default class GraphLine extends React.Component {
   }
 }
 
-GraphLine.PropTypes = {
+GraphMultiLine.PropTypes = {
   dataGraph: React.PropTypes.array.isRequired,
   selectDataGraph: React.PropTypes.array.isRequired,
   pointTitle: React.PropTypes.string.isRequired,

@@ -1,1 +1,1 @@
-export {default as default} from './points-map.jsx';
+export {default as default} from './display-data.jsx';

@@ -31,6 +31,20 @@ export const data_moment = {
   Q_LAST_DAY: "Об’єм за минулу добу, м3",
 };
 
+export const data_daily_table = {
+  VOL_STD: "Об’єм, м3",
+  VOL_PY: "Об’єм при Ру, м3",
+  PRESSURE: "Тиск, кгс/см2",
+  TEMPERATURE: "Температура, °C"
+};
+
+export const data_hourly_table = {
+  VOL_STD: "Об’єм, м3",
+  VOL_PY: "Об’єм при Ру, м3",
+  PRESSURE: "Тиск, кгс/см2",
+  TEMPERATURE: "Температура, °C"
+};
+
 export const parseDate = d3.time.format("%Y%m%d%H%M").parse;
 
 export const convertDate = (d) => dateFormat(moment(d, "ddd mmm dd yyyy HH:MM:ss Z").toDate(), "yyyymmddHHMM");

@@ -1,0 +1,9 @@
+@import '../../../../../containers/root/constants.scss';
+
+.pikerWrap {
+  max-width: 100px;
+  overflow: hidden;
+  display: inline-block;
+  color: rgba(0,0,0,0.8);
+  font-size: 14px;
+}
