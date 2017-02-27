@@ -40,7 +40,7 @@ export default class CombinedData extends React.Component {
     let startIndex = binarySearch( convertDate(startDate), displayData, dateLabel );
     let endIndex = binarySearch( convertDate(endDate), displayData, dateLabel );
 
-    if (startIndex > 0) --startIndex;
+    //if (startIndex > 0) --startIndex;
     if (endIndex < displayData.length-1) ++endIndex;
 
     return displayData.slice(startIndex, endIndex);
@@ -104,11 +104,27 @@ export default class CombinedData extends React.Component {
   };
 
   handleChangeStartData(date) {
-    console.log(date);
+    const {selectedDataGraph, dateLabel, endDate} = this.state;
+
+    this.setState({
+      startDate: date
+    }, () => {
+      const {handleChangeTableRange} = this.props;
+      const selectRange = this.selectTableRange(this.state.startDate, endDate);
+      handleChangeTableRange(selectRange, selectedDataGraph, dateLabel);
+    });
   };
 
   handleChangeEndData(date) {
-    console.log(date);
+    const {selectedDataGraph, dateLabel, startDate} = this.state;
+
+    this.setState({
+      endDate: date
+    }, () => {
+      const {handleChangeTableRange} = this.props;
+      const selectRange = this.selectTableRange(startDate, this.state.endDate);
+      handleChangeTableRange(selectRange, selectedDataGraph, dateLabel);
+    });
   };
 
   render() {

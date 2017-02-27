@@ -22,24 +22,24 @@
     display: inline-block;
     vertical-align: top;
     margin-top: -20px;
-    overflow: auto;
+    overflow: hidden;
   }
 }
 
-.tableCombine::-webkit-scrollbar {
-  width: 5px;
-  height: 7px;
-}
-.tableCombine::-webkit-scrollbar-track {
-  background: #ebebeb;
-  border-radius: 10px;
-}
-.tableCombine::-webkit-scrollbar-thumb {
-  background: $color-primary-lighten;
-  border-radius: 10px;
-}
-.tableCombine::-webkit-scrollbar-thumb:hover{
-  border-width: 1px 1px 1px 2px;
-  border-color: #555;
-  background-color: #777;
-}
+//.tableCombine::-webkit-scrollbar {
+//  width: 5px;
+//  height: 7px;
+//}
+//.tableCombine::-webkit-scrollbar-track {
+//  background: #ebebeb;
+//  border-radius: 10px;
+//}
+//.tableCombine::-webkit-scrollbar-thumb {
+//  background: $color-primary-lighten;
+//  border-radius: 10px;
+//}
+//.tableCombine::-webkit-scrollbar-thumb:hover{
+//  border-width: 1px 1px 1px 2px;
+//  border-color: #555;
+//  background-color: #777;
+//}
