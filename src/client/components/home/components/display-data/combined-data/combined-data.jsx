@@ -12,6 +12,7 @@ import {
 import DayPiker from '../day-piker/day-piker.jsx';
 import GraphMenu from '../graph-menu/graph-menu.jsx';
 import TableData from '../table-data/table-data.jsx';
+import SimpleLine from '../graph-simple-line/graph-simple-line.jsx';
 
 export default class CombinedData extends React.Component {
   constructor(props) {
@@ -112,6 +113,10 @@ export default class CombinedData extends React.Component {
       const {handleChangeTableRange} = this.props;
       const selectRange = this.selectTableRange(this.state.startDate, endDate);
       handleChangeTableRange(selectRange, selectedDataGraph, dateLabel);
+
+      this.setState({
+        selectRange
+      });
     });
   };
 
@@ -124,12 +129,26 @@ export default class CombinedData extends React.Component {
       const {handleChangeTableRange} = this.props;
       const selectRange = this.selectTableRange(startDate, this.state.endDate);
       handleChangeTableRange(selectRange, selectedDataGraph, dateLabel);
+
+      this.setState({
+        selectRange
+      });
     });
   };
 
   render() {
     const {pointTitle, tableData} = this.props;
-    const {minDate, maxDate, startDate, endDate, selectRange} = this.state;
+    const {
+      minDate,
+      maxDate,
+      startDate,
+      endDate,
+      selectRange,
+      displayData,
+      dateLabel,
+      selectedDataGraph
+    } = this.state;
+    console.log(selectRange);
 
     return (
       <div className={classes.wrapCombine} >
@@ -162,6 +181,14 @@ export default class CombinedData extends React.Component {
           <TableData
             pointTitle={pointTitle}
             tableData={tableData}
+          />
+        </div>
+
+        <div className={classes.graphCombine} >
+          <SimpleLine
+            dataLine={selectRange}
+            dateLabel={dateLabel}
+            selectedDataGraph={selectedDataGraph}
           />
         </div>
 
