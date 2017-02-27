@@ -31,7 +31,7 @@ export default class Home extends React.Component {
       dataGraph,
       loadingGraph,
       pointTitle,
-      handleChengeTableRange,
+      handleChangeTableRange,
       tableData
     } = this.props;
 
@@ -56,7 +56,7 @@ export default class Home extends React.Component {
           dataGraph={dataGraph}
           loadingGraph={loadingGraph}
           pointTitle={pointTitle}
-          handleChengeTableRange={handleChengeTableRange}
+          handleChangeTableRange={handleChangeTableRange}
           tableData={tableData}
         />
       </div>

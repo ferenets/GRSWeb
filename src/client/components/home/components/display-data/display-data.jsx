@@ -62,7 +62,7 @@ export default class DisplayData extends React.Component {
       loadingGraph,
       selectDataGraph,
       pointTitle,
-      handleChengeTableRange,
+      handleChangeTableRange,
       tableData
     } = this.props;
 
@@ -112,7 +112,7 @@ export default class DisplayData extends React.Component {
                   dataGraph={dataGraph}
                   selectDataGraph={selectDataGraph}
                   pointTitle={pointTitle}
-                  handleChengeTableRange={handleChengeTableRange}
+                  handleChangeTableRange={handleChangeTableRange}
                   width={w}
                   height={h}
                 />
@@ -129,7 +129,7 @@ export default class DisplayData extends React.Component {
               : <TableData
                   pointTitle={pointTitle}
                   tableData={tableData}
-              />
+                />
             }
           </Tab>
 
@@ -142,9 +142,9 @@ export default class DisplayData extends React.Component {
               ? <Loading />
               : <CombinedData
                   dataGraph={dataGraph}
-                  //selectDataGraph={selectDataGraph}
+                  handleChangeTableRange={handleChangeTableRange}
                   pointTitle={pointTitle}
-                  //handleChengeTableRange={handleChengeTableRange}
+                  tableData={tableData}
                   //width={w}
                   //height={h}
                 />
