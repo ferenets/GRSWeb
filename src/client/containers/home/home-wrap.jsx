@@ -24,7 +24,7 @@ class HomeWrap extends React.Component {
     this.displayNextBranch = this.displayNextBranch.bind(this);
     this.findTrigger = this.findTrigger.bind(this);
     this.handleChangeTab = this.handleChangeTab.bind(this);
-    this.handleChengeTableRange = this.handleChengeTableRange.bind(this);
+    this.handleChangeTableRange = this.handleChangeTableRange.bind(this);
   }
 
   componentDidMount() {
@@ -35,7 +35,7 @@ class HomeWrap extends React.Component {
     }
   }
 
-  handleChengeTableRange(tableRange, dataLabel, dateProp) {
+  handleChangeTableRange(tableRange, dataLabel, dateProp) {
     const {dispatch} = this.props;
 
     dispatch(tableRangeDate(tableRange, dataLabel, dateProp));
@@ -174,7 +174,7 @@ class HomeWrap extends React.Component {
                 dataGraph={dataGraph}
                 loadingGraph={loadingGraph}
                 pointTitle={pointTitle}
-                handleChengeTableRange={this.handleChengeTableRange}
+                handleChangeTableRange={this.handleChangeTableRange}
                 tableData={tableData}
               />
           }

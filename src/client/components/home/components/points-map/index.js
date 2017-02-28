@@ -1,1 +1,0 @@
-export {default as default} from './points-map.jsx';

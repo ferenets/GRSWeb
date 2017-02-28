@@ -2,8 +2,8 @@ import geolib from 'geolib';
 import _ from 'lodash';
 import {
   _dataGraph,
-  data_daily,
-  data_hourly,
+  data_daily_table,
+  data_hourly_table,
   data_moment,
   parseDate,
   convertToDate
@@ -38,10 +38,10 @@ export const createTableData = (tableRange, dataLabel, dateProp) => {
 
   switch (dataLabel) {
     case "data_daily":
-      selectedConstant = data_daily;
+      selectedConstant = data_daily_table;
       break;
     case "data_hourly":
-      selectedConstant = data_hourly;
+      selectedConstant = data_hourly_table;
       break;
     case "data_moment":
       selectedConstant = data_moment;

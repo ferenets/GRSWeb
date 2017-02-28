@@ -1,7 +1,7 @@
 import classes from './home.scss';
 import React from 'react';
 import DataTree from './components/data-tree';
-import PointsMap from './components/points-map';
+import DisplayData from './components/display-data';
 
 export default class Home extends React.Component {
   constructor(props) {
@@ -31,7 +31,7 @@ export default class Home extends React.Component {
       dataGraph,
       loadingGraph,
       pointTitle,
-      handleChengeTableRange,
+      handleChangeTableRange,
       tableData
     } = this.props;
 
@@ -47,7 +47,7 @@ export default class Home extends React.Component {
           targetPoints={targetPoints}
           handleChangeTab={handleChangeTab}
         />
-        <PointsMap
+        <DisplayData
           fullWidth={!dataTreeIsOpen}
           onButtonClick={this.openDataTree}
           targetPoints={targetPoints}
@@ -56,7 +56,7 @@ export default class Home extends React.Component {
           dataGraph={dataGraph}
           loadingGraph={loadingGraph}
           pointTitle={pointTitle}
-          handleChengeTableRange={handleChengeTableRange}
+          handleChangeTableRange={handleChangeTableRange}
           tableData={tableData}
         />
       </div>

@@ -1,13 +1,14 @@
-import classes from './points-map.scss';
+import classes from './display-data.scss';
 import React from 'react';
 import Button from '../buttons/button.jsx';
 import Map from './map/map.jsx';
-import GraphLine from './graph-line/graph-line.jsx';
+import GraphMultiLine from './graph-multi-line/graph-multi-line.jsx';
 import TableData from './table-data/table-data.jsx';
+import CombinedData from './combined-data/combined-data.jsx'
 import {Tabs, Tab} from 'material-ui/Tabs';
 import Loading from '../../../../components/info/loading';
 
-export default class PointsMap extends React.Component {
+export default class DisplayData extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -61,7 +62,7 @@ export default class PointsMap extends React.Component {
       loadingGraph,
       selectDataGraph,
       pointTitle,
-      handleChengeTableRange,
+      handleChangeTableRange,
       tableData
     } = this.props;
 
@@ -107,11 +108,11 @@ export default class PointsMap extends React.Component {
           >
             {loadingGraph
               ? <Loading />
-              : <GraphLine
+              : <GraphMultiLine
                   dataGraph={dataGraph}
                   selectDataGraph={selectDataGraph}
                   pointTitle={pointTitle}
-                  handleChengeTableRange={handleChengeTableRange}
+                  handleChangeTableRange={handleChangeTableRange}
                   width={w}
                   height={h}
                 />
@@ -128,7 +129,25 @@ export default class PointsMap extends React.Component {
               : <TableData
                   pointTitle={pointTitle}
                   tableData={tableData}
-              />
+                />
+            }
+          </Tab>
+
+          <Tab
+            label="Комбіновані"
+            className={classes.tabLabel}
+            value="graphC"
+          >
+            {loadingGraph
+              ? <Loading />
+              : <CombinedData
+                  dataGraph={dataGraph}
+                  handleChangeTableRange={handleChangeTableRange}
+                  pointTitle={pointTitle}
+                  tableData={tableData}
+                  width={w}
+                  height={h}
+                />
             }
           </Tab>
 
@@ -139,7 +158,7 @@ export default class PointsMap extends React.Component {
   }
 }
 
-PointsMap.PropTypes = {
+DisplayData.PropTypes = {
   onButtonClick: React.PropTypes.func.isRequired,
   fullWidth: React.PropTypes.bool.isRequired,
   targetPoints: React.PropTypes.array.isRequired,

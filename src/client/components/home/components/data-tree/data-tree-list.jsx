@@ -65,7 +65,7 @@ export default class DataTreeList extends React.Component {
             <span className={classes.openLabel}>
               {children == null
                 ? <img src="../../../../images/marker.svg" />
-                : <img src="../../../../images/ic_add_white_24px.svg" />
+                : <img src="../../../../images/ic_remove_white_24px.svg" />
               }
             </span>
             <span
@@ -83,7 +83,7 @@ export default class DataTreeList extends React.Component {
             <span className={classes.openLabel}>
               {children == null
                 ? <img src="../../../../images/marker.svg" />
-                : <img src="../../../../images/ic_remove_white_24px.svg" />
+                : <img src="../../../../images/ic_add_white_24px.svg" />
               }
             </span>
             <span className={classes.titleLabel} >{title}</span>

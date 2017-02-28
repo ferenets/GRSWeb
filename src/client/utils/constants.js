@@ -31,8 +31,43 @@ export const data_moment = {
   Q_LAST_DAY: "Об’єм за минулу добу, м3",
 };
 
+export const _dataGraphCombine = {
+  data_daily: "Добові",
+  data_hourly: "Годинні",
+};
+
+export const data_daily_table = {
+  VOL_STD: "Об’єм, м3",
+  VOL_PY: "Об’єм при Ру, м3",
+  PRESSURE: "Тиск, кгс/см2",
+  TEMPERATURE: "Температура, °C"
+};
+
+export const data_hourly_table = {
+  VOL_STD: "Об’єм, м3",
+  VOL_PY: "Об’єм при Ру, м3",
+  PRESSURE: "Тиск, кгс/см2",
+  TEMPERATURE: "Температура, °C"
+};
+
 export const parseDate = d3.time.format("%Y%m%d%H%M").parse;
 
 export const convertDate = (d) => dateFormat(moment(d, "ddd mmm dd yyyy HH:MM:ss Z").toDate(), "yyyymmddHHMM");
 
-export const convertToDate = (d) => dateFormat(moment(d, "ddd mmm dd yyyy HH:MM:ss Z").toDate(), "dd.mm.yyyy HH:MM");
+export const convertToDate = (d) => dateFormat(moment(d, "ddd mmm dd yyyy HH:MM:ss Z").toDate(), "dd.mm.yy HH:MM");
+
+export const binarySearch = (val, arr, prop) => {
+  let i = 0, j = arr.length, k;
+
+  while (i < j) {
+    k = Math.floor((i+j)/2);
+    if (val <= arr[k][prop]) j = k;
+    else i = k+1;
+  }
+
+  return i;
+};
+
+export const getDate = (data, dataLabel ,index) => {
+  return new Date( parseDate(data[index][dataLabel]) );
+};
