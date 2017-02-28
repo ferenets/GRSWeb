@@ -55,7 +55,7 @@ export default class SimpleLine extends React.Component {
     return (
       <div className={classes.simpleLine} >
         <LineChart
-          width={width/3.7}
+          width={width/4}
           height={(height - 80)/2}
           margins={margins}
           data={dataLine}
