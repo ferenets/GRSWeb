@@ -171,13 +171,17 @@ export default class CombinedData extends React.Component {
           </div>
         </div>
 
-        <CombinedGraph
-          dataLine={selectRange}
-          dateLabel={dateLabel}
-          selectedDataGraph={selectedDataGraph}
-          width={width}
-          height={height}
-        />
+        <div className={classes.graphCombine} >
+
+          <CombinedGraph
+            dataLine={selectRange}
+            dateLabel={dateLabel}
+            selectedDataGraph={selectedDataGraph}
+            width={width}
+            height={height}
+          />
+
+        </div>
 
       </div>
     )

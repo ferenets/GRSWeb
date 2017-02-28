@@ -10,12 +10,7 @@ export default class CombinedGraph extends React.Component {
   constructor(props) {
     super(props);
 
-    this.state = {
-      graphCombineSize: {
-        w: 0,
-        h: 0
-      }
-    };
+    this.state = {};
 
     this.displayGraphSimpleLine = this.displayGraphSimpleLine.bind(this);
   }
@@ -53,7 +48,7 @@ export default class CombinedGraph extends React.Component {
 
   render() {
     return (
-      <div className={classes.graphCombine} ref="graphCombine" >
+      <div>
         {this.displayGraphSimpleLine()}
       </div>
     )
