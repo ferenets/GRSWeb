@@ -4,24 +4,28 @@
   width: 100%;
   height: 100%;
 
-  .navCombine {
-    display: block;
-    width: 100%;
-    padding: 0 20px;
-
-    .navPikerCombine {
-      display: inline-block;
-      vertical-align: top;
-      margin-left: -10px;
-    }
-  }
-
   .tableCombine {
-    width: 50%;
-    height: calc(100% - 65px);
+    width: 40%;
+    height: 100%;
     display: inline-block;
     vertical-align: top;
-    margin-top: -20px;
     overflow: hidden;
+
+    .navCombine {
+      display: block;
+      width: 100%;
+      padding: 0 20px;
+
+      .navPikerCombine {
+        display: inline-block;
+        vertical-align: top;
+        margin-left: -15px;
+      }
+    }
+
+    .wrapCombinedTable {
+      height: calc(100% - 60px);
+      margin-top: -20px;
+    }
   }
 }

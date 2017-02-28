@@ -145,8 +145,8 @@ export default class DisplayData extends React.Component {
                   handleChangeTableRange={handleChangeTableRange}
                   pointTitle={pointTitle}
                   tableData={tableData}
-                  //width={w}
-                  //height={h}
+                  width={w}
+                  height={h}
                 />
             }
           </Tab>
