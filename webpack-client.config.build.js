@@ -43,7 +43,7 @@ module.exports = {
         warnings: false
       }}),
     new webpack.optimize.AggressiveMergingPlugin(),
-    new ExtractTextPlugin('styles/[name].[chunkhash].css'),
+    //new ExtractTextPlugin('styles/[name].[chunkhash].css'),
     new AssetsPlugin({filename: 'webpack-assets.json', path: __dirname + '/build/server/views'})
     //new webpack.optimize.CommonsChunkPlugin({name: 'commons'})
   ],
@@ -69,8 +69,8 @@ module.exports = {
       },
       {
         test: /\.(scss|css)$/,
-        loader: ExtractTextPlugin.extract('style-loader',
-          'css?modules&localIdentName=[name]__[local]___[hash:base64:5]!postcss?parser=postcss-scss')
+        loader: //ExtractTextPlugin.extract('style-loader',
+          'css?modules&localIdentName=[name]__[local]___[hash:base64:5]!postcss?parser=postcss-scss'
       },
       {
         test: /\.(ttf|eot|woff|woff2)$/,

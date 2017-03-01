@@ -55,6 +55,7 @@
     "node-uuid": "^1.4.7",
     "nodemailer": "^2.3.0",
     "query-string": "^3.0.1",
+    "react-datepicker": "0.41.1",
     "request": "^2.67.0",
     "validator": "^6.2.0"
   },
@@ -115,7 +116,6 @@
     "react-redux": "^4.4.5",
     "react-router": "^2.4.1",
     "react-tap-event-plugin": "^2.0.1",
-    "react-toolbox": "^2.0.0-beta.6",
     "react-tooltip": "^3.2.4",
     "react-transform-catch-errors": "^1.0.0",
     "react-transform-hmr": "^1.0.1",

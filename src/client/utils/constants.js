@@ -69,5 +69,6 @@ export const binarySearch = (val, arr, prop) => {
 };
 
 export const getDate = (data, dataLabel ,index) => {
-  return new Date( parseDate(data[index][dataLabel]) );
+  //return new Date( parseDate(data[index][dataLabel]) );
+  return moment( parseDate(data[index][dataLabel]))
 };
