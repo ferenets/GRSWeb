@@ -30,7 +30,6 @@ export default class DayPiker extends React.Component {
   };
 
   handleDisplayData(date) {
-    console.log(date);
     const {handleChangeData} = this.props;
 
     this.setState({
@@ -39,16 +38,8 @@ export default class DayPiker extends React.Component {
   };
 
   render() {
-    const {label, minDate, maxDate} = this.props;
+    const {label, minDate, maxDate, disabled} = this.props;
     const {defaultDate} = this.state;
-
-    const localeExample = {
-      months: 'січень_лютий_березень_квітень_травень_червень_липень_серпень_вересень_жовтень_листопад_грудень'.split('_'),
-      monthsShort: 'січ_лют_бер_квіт_трав_чер_лип_серп_вер_жов_лист_груд'.split('_'),
-      weekdays: 'понеділок_вівторок_середа_четвер_п\'ятниця_субота_неділя'.split('_'),
-      weekdaysShort: 'пн_вт_ср_чт_пт_сб_нд'.split('_'),
-      weekdaysLetter: 'пн_вт_ср_чт_пт_сб_нд'.split('_')
-    };
 
     moment.locale('ua', {
       months: 'січень_лютий_березень_квітень_травень_червень_липень_серпень_вересень_жовтень_листопад_грудень'.split('_'),
@@ -76,12 +67,17 @@ export default class DayPiker extends React.Component {
         <small>{label}</small>
         <DatePicker
           selected={defaultDate}
-          minDate={minDate}
-          maxDate={maxDate}
+          disabled={disabled}
+          //minDate={minDate}
+          //maxDate={maxDate}
           onChange={this.handleDisplayData}
           container="inline"
           autoOk={true}
           cancelLabel="Закрити"
+          peekNextMonth={true}
+          showMonthDropdown={true}
+          showYearDropdown={true}
+          scrollableYearDropdown={true}
         >
         </DatePicker>
       </div>

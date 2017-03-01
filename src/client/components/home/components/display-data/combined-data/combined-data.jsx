@@ -13,6 +13,10 @@ import GraphMenu from '../graph-menu/graph-menu.jsx';
 import TableData from '../table-data/table-data.jsx';
 import CombinedGraph from '../combined-graph/combined-graph.jsx';
 
+import FloatingActionButton from 'material-ui/FloatingActionButton';
+import ImageNavigateBefore from 'material-ui/svg-icons/image/navigate-before';
+import ImageNavigateNext from 'material-ui/svg-icons/image/navigate-next';
+
 export default class CombinedData extends React.Component {
   constructor(props) {
     super(props);
@@ -133,6 +137,18 @@ export default class CombinedData extends React.Component {
       dateLabel,
       selectedDataGraph
     } = this.state;
+    const style = {
+      button: {
+        width: 25,
+        height: 25,
+        padding: 0,
+      },
+      iconStyle: {
+        width: 25,
+        height: 25,
+        backgroundColor: '#cecece',
+      }
+    };
 
     return (
       <div className={classes.wrapCombine} >
@@ -145,21 +161,39 @@ export default class CombinedData extends React.Component {
               dataGraphLabel={_dataGraphCombine}
               handleChangeGraphicDisplay={this.handleChangeDataDisplay}
             />
-            <div className={classes.navPikerCombine} >
-              <DayPiker
-                label="Початкова дата"
-                defaultDate={startDate}
-                minDate={minDate}
-                maxDate={maxDate}
-                handleChangeData={this.handleChangeStartData}
-              />
-              <DayPiker
-                label="Кінцева дата"
-                defaultDate={endDate}
-                minDate={minDate}
-                maxDate={maxDate}
-                handleChangeData={this.handleChangeEndData}
-              />
+            <div className={classes.wrapSelectDate} >
+
+              <div className={classes.wrapButDate} >
+                <FloatingActionButton mini={true} style={style.button} iconStyle={style.iconStyle} >
+                  <ImageNavigateBefore />
+                </FloatingActionButton>
+              </div>
+
+              <div className={classes.navPikerCombine} >
+                <DayPiker
+                  label="Початкова дата"
+                  defaultDate={startDate}
+                  minDate={minDate}
+                  maxDate={maxDate}
+                  handleChangeData={this.handleChangeStartData}
+                  disabled={false}
+                />
+                <DayPiker
+                  label="Кінцева дата"
+                  defaultDate={endDate}
+                  minDate={minDate}
+                  maxDate={maxDate}
+                  handleChangeData={this.handleChangeEndData}
+                  disabled={true}
+                />
+              </div>
+
+              <div className={classes.wrapButDate} >
+                <FloatingActionButton mini={true} style={style.button} iconStyle={style.iconStyle} >
+                  <ImageNavigateNext />
+                </FloatingActionButton>
+              </div>
+
             </div>
           </div>
 

@@ -16,11 +16,25 @@
       width: 100%;
       padding: 0 20px;
 
-      .navPikerCombine {
+      .wrapSelectDate {
         display: inline-block;
-        vertical-align: top;
         margin-left: -15px;
+        height: 90px;
+
+        .wrapButDate {
+          display: inline-block;
+          margin-top: 30px;
+          overflow: visible;
+          padding: 5px;
+        }
+
+        .navPikerCombine {
+          display: inline-block;
+          vertical-align: top;
+          margin: 0 5px;
+        }
       }
+
     }
 
     .wrapCombinedTable {

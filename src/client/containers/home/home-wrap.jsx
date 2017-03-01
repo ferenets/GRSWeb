@@ -9,7 +9,8 @@ import {
   startDataLoading,
   getGraphData,
   selectedPointTitle,
-  tableRangeDate
+  tableRangeDate,
+  combinedRange
 } from '../../redux/home/home.actions';
 import Page from '../../components/page';
 import Home from '../../components/home';
@@ -25,6 +26,7 @@ class HomeWrap extends React.Component {
     this.findTrigger = this.findTrigger.bind(this);
     this.handleChangeTab = this.handleChangeTab.bind(this);
     this.handleChangeTableRange = this.handleChangeTableRange.bind(this);
+    this.handleChangeCombinedRange = this.handleChangeCombinedRange.bind(this);
   }
 
   componentDidMount() {
@@ -39,6 +41,12 @@ class HomeWrap extends React.Component {
     const {dispatch} = this.props;
 
     dispatch(tableRangeDate(tableRange, dataLabel, dateProp));
+  };
+
+  handleChangeCombinedRange(tableRange, dataLabel, dateProp) {
+    const {dispatch} = this.props;
+
+    dispatch(combinedRange(tableRange, dataLabel, dateProp));
   };
 
   handleChangeTab(tabsValue, pointId, pointTitle){
@@ -156,7 +164,8 @@ class HomeWrap extends React.Component {
         dataGraph,
         loadingGraph,
         pointTitle,
-        tableData
+        tableData,
+        combinedData
       }
     } = this.props;
 
@@ -176,6 +185,8 @@ class HomeWrap extends React.Component {
                 pointTitle={pointTitle}
                 handleChangeTableRange={this.handleChangeTableRange}
                 tableData={tableData}
+                handleChangeCombinedRange={this.handleChangeCombinedRange}
+                combinedData={combinedData}
               />
           }
         </div>
@@ -197,7 +208,8 @@ HomeWrap.PropTypes = {
   dataGraph: React.PropTypes.array.isRequired,
   loadingGraph: React.PropTypes.bool.isRequired,
   pointTitle: React.PropTypes.string.isRequired,
-  tableData: React.PropTypes.object.isRequired
+  tableData: React.PropTypes.object.isRequired,
+  combinedData: React.PropTypes.object.isRequired
 };
 
 const selector = (state) => ({home: state.home});
