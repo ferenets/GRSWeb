@@ -97,9 +97,15 @@ export default class CombinedData extends React.Component {
 
     const startDate = getDate(displayData, dateLabel, 0);
     const firstDayMonth = getFirstDayMonth(new Date(startDate));
+
     const endDate = getEndDate(selectedDataGraph, startDate);
     const selectRange = this.selectTableRange(startDate, endDate, displayData, dateLabel);
-    const maxDate = getDate(displayData, dateLabel, displayData.length-1 );
+
+    let mm, dd, last;
+    last = getDate(displayData, dateLabel, displayData.length-1);
+    dd = moment(last).date();
+    mm = moment(last).month();
+    const maxDate = moment(last).month(mm).date(--dd);
 
     this.setState({
       startDate: firstDayMonth,
@@ -114,7 +120,7 @@ export default class CombinedData extends React.Component {
 
   handleChangeDataDisplay(selectedDataDisplay) {
     const {dataGraph, handleChangeTableRange} = this.props;
-    let dateLabel, selectedDataGraph, firstDayMonth;
+    let dateLabel, selectedDataGraph, firstDayMonth, maxDate, last;
 
     switch (selectedDataDisplay) {
       case "data_daily":
@@ -130,14 +136,21 @@ export default class CombinedData extends React.Component {
     const displayData = dataGraph[selectedDataGraph];
     const startDate = getDate(displayData, dateLabel, 0);
 
+    last = getDate(displayData, dateLabel, displayData.length-1);
+
     if (selectedDataGraph == "data_daily") {
       firstDayMonth = getFirstDayMonth(new Date(startDate));
+
+      let mm, dd;
+      dd = moment(last).date();
+      mm = moment(last).month();
+      maxDate = moment(last).month(mm).date(--dd);
     } else {
       firstDayMonth = startDate;
+      maxDate = last;
     }
 
     const endDate = getEndDate(selectedDataGraph, startDate);
-    const maxDate = getDate(displayData, dateLabel, displayData.length-1 );
     const selectRange = this.selectTableRange(startDate, endDate, displayData, dateLabel);
     handleChangeTableRange(selectRange, selectedDataGraph, dateLabel);
 
@@ -154,21 +167,10 @@ export default class CombinedData extends React.Component {
   };
 
   handleChangeStartData(date) {
-    const {selectedDataGraph, dateLabel, displayData, maxDate} = this.state;
+    const {selectedDataGraph, dateLabel, displayData} = this.state;
     const {handleChangeTableRange} = this.props;
 
-    let startDate;
-
-    if (selectedDataGraph == "data_daily" && moment(new Date(date)).isSame(new Date(maxDate)) ) {
-      let mm, dd;
-      dd = moment(date).date();
-      mm = moment(date).month();
-      startDate = moment(date).month(mm).date(--dd);
-    } else {
-      startDate = date;
-    }
-
-    //const startDate = date;
+    const startDate = date;
     const endDate = getEndDate(selectedDataGraph, startDate);
     const selectRange = this.selectTableRange(startDate, endDate, displayData, dateLabel);
     handleChangeTableRange(selectRange, selectedDataGraph, dateLabel);
