@@ -77,6 +77,13 @@ export const getDate = (data, dateLabel, index) => {
   return moment( parseDate(data[index][dateLabel]))
 };
 
+export const getFirstDayMonth = (date) => {
+  let dd, mm;
+  dd = moment(date).date();
+  mm = moment(date).month();
+  return moment(date).month(mm).date(1);
+};
+
 export const getStartDate = (dataType, startDate) => {
   let resultDate, mm, dd;
 
@@ -113,7 +120,6 @@ export const getEndDate = (dataType, startDate) => {
       break;
   }
 
-  console.log(resultDate);
   return resultDate;
 };
 

@@ -47,7 +47,7 @@ export default class SimpleLine extends React.Component {
         "fill-opacity": .2
       }
     }],
-    margins = {left: 55, right: 0, top: 0, bottom: 5},
+    margins = {left: 55, right: 0, top: 2, bottom: 5},
     x = (d) => parseDate(d[dataXTitle]),
     yDomain = this.setYAxisDomain(dataLine, dataYTitle),
     xScale = 'time';
