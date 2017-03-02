@@ -29,12 +29,16 @@ const initalState = {
   tableData: {
     tableTitle: "Будь-ласка, оберіть дані для відображення",
     tHead: null,
-    tBody: null
+    tBody: null,
+    startDate: '',
+    endDate: ''
   },
   combinedData: {
     tableTitle: "Будь-ласка, оберіть дані для відображення",
     tHead: null,
-    tBody: null
+    tBody: null,
+    startDate: '',
+    endDate: ''
   },
   err: null
 };
@@ -105,7 +109,9 @@ export default function (state = initalState, action) {
         tableData: {
           tableTitle: action.tableData.tableTitle,
           tHead: action.tableData.tHead,
-          tBody: action.tableData.tBody
+          tBody: action.tableData.tBody,
+          startDate: action.tableData.startDate,
+          endDate: action.tableData.endDate,
         }
       });
 
@@ -114,7 +120,9 @@ export default function (state = initalState, action) {
         combinedData: {
           tableTitle: action.combinedData.tableTitle,
           tHead: action.combinedData.tHead,
-          tBody: action.combinedData.tBody
+          tBody: action.combinedData.tBody,
+          startDate: action.combinedData.startDate,
+          endDate: action.combinedData.endDate,
         }
       });
 

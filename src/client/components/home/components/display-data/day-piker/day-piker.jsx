@@ -68,8 +68,8 @@ export default class DayPiker extends React.Component {
         <DatePicker
           selected={defaultDate}
           disabled={disabled}
-          //minDate={minDate}
-          //maxDate={maxDate}
+          minDate={minDate}
+          maxDate={maxDate}
           onChange={this.handleDisplayData}
           container="inline"
           autoOk={true}
@@ -78,6 +78,7 @@ export default class DayPiker extends React.Component {
           showMonthDropdown={true}
           showYearDropdown={true}
           scrollableYearDropdown={true}
+          disabledKeyboardNavigation={true}
         >
         </DatePicker>
       </div>

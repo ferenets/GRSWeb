@@ -31,7 +31,9 @@ export const createTableData = (tableRange, dataLabel, dateProp) => {
   const result = {
     tableTitle: '',
     tHead: [],
-    tBody: []
+    tBody: [],
+    startDate: '',
+    endDate: ''
   };
 
   let selectedConstant;
@@ -65,6 +67,8 @@ export const createTableData = (tableRange, dataLabel, dateProp) => {
       })
     ]
   ));
+  result["startDate"] = convertToDate(parseDate( tableRange[0][dateProp] ));
+  result["endDate"] = convertToDate(parseDate( tableRange[tableRange.length-1][dateProp] ));
 
   return result;
 };

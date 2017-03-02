@@ -6,7 +6,11 @@ import {
   data_hourly,
   binarySearch,
   convertDate,
-  getDate
+  dateCompare,
+  getDate,
+  getStartDate,
+  getEndDate,
+  getNextDate,
 } from '../../../../../utils/constants.js';
 import DayPiker from '../day-piker/day-piker.jsx';
 import GraphMenu from '../graph-menu/graph-menu.jsx';
@@ -35,7 +39,9 @@ export default class CombinedData extends React.Component {
     this.handleChangeDataDisplay = this.handleChangeDataDisplay.bind(this);
     this.selectTableRange = this.selectTableRange.bind(this);
     this.handleChangeStartData = this.handleChangeStartData.bind(this);
-    this.handleChangeEndData = this.handleChangeEndData.bind(this);
+    this.prevDate = this.prevDate.bind(this);
+    this.nextDate = this.nextDate.bind(this);
+    //this.handleChangeEndData = this.handleChangeEndData.bind(this);
   };
 
   selectTableRange(startDate, endDate, displayData, dateLabel) {
@@ -48,19 +54,56 @@ export default class CombinedData extends React.Component {
     return displayData.slice(startIndex, endIndex);
   };
 
+  prevDate() {
+    const {selectedDataGraph, startDate, displayData, dateLabel} = this.state;
+    const {handleChangeTableRange} = this.props;
+
+    const setStartDate = getStartDate(selectedDataGraph, startDate);
+    const endDate = getEndDate(selectedDataGraph, setStartDate);
+    const selectRange = this.selectTableRange(setStartDate, endDate, displayData, dateLabel);
+
+    this.setState({
+      startDate: setStartDate,
+      endDate,
+      selectRange
+    }, () => {
+      handleChangeTableRange(selectRange, selectedDataGraph, dateLabel);
+    });
+  };
+
+  nextDate() {
+    const {selectedDataGraph, startDate, displayData, dateLabel} = this.state;
+    const {handleChangeTableRange} = this.props;
+
+    const setStartDate = getNextDate(selectedDataGraph, startDate);
+    const endDate = getEndDate(selectedDataGraph, setStartDate);
+    const selectRange = this.selectTableRange(setStartDate, endDate, displayData, dateLabel);
+
+    this.setState({
+      startDate: setStartDate,
+      endDate,
+      selectRange
+    }, () => {
+      handleChangeTableRange(selectRange, selectedDataGraph, dateLabel);
+    });
+  };
+
   componentDidMount() {
     const {displayData, dateLabel, selectedDataGraph} = this.state;
     const {handleChangeTableRange} = this.props;
 
     const startDate = getDate(displayData, dateLabel, 0);
-    const endDate = getDate(displayData, dateLabel, displayData.length-1 );
+    // const endDate = getDate(displayData, dateLabel, displayData.length-1 );
+    const endDate = getEndDate(selectedDataGraph, startDate);
+    //
     const selectRange = this.selectTableRange(startDate, endDate, displayData, dateLabel);
+    const maxDate = getDate(displayData, dateLabel, displayData.length-1 );
 
     this.setState({
       startDate,
       endDate,
       minDate: startDate,
-      maxDate: endDate,
+      maxDate,
       selectRange,
     }, () => {
       handleChangeTableRange(selectRange, selectedDataGraph, dateLabel);
@@ -84,7 +127,10 @@ export default class CombinedData extends React.Component {
 
     const displayData = dataGraph[selectedDataGraph];
     const startDate = getDate(displayData, dateLabel, 0);
-    const endDate = getDate(displayData, dateLabel, displayData.length-1 );
+    // const endDate = getDate(displayData, dateLabel, displayData.length-1 );
+    const endDate = getEndDate(selectedDataGraph, startDate);
+    //
+    const maxDate = getDate(displayData, dateLabel, displayData.length-1 );
     const selectRange = this.selectTableRange(startDate, endDate, displayData, dateLabel);
     handleChangeTableRange(selectRange, selectedDataGraph, dateLabel);
 
@@ -95,36 +141,40 @@ export default class CombinedData extends React.Component {
       startDate,
       endDate,
       minDate: startDate,
-      maxDate: endDate,
+      maxDate,
       selectRange
     });
   };
 
   handleChangeStartData(date) {
-    const {selectedDataGraph, dateLabel, endDate, displayData} = this.state;
+    const {selectedDataGraph, dateLabel, displayData} = this.state;
     const {handleChangeTableRange} = this.props;
     const startDate = date;
+    //
+    const endDate = getEndDate(selectedDataGraph, startDate);
+    //
     const selectRange = this.selectTableRange(startDate, endDate, displayData, dateLabel);
     handleChangeTableRange(selectRange, selectedDataGraph, dateLabel);
 
     this.setState({
       startDate,
-      selectRange
-    });
-  };
-
-  handleChangeEndData(date) {
-    const {selectedDataGraph, dateLabel, startDate, displayData} = this.state;
-    const {handleChangeTableRange} = this.props;
-    const endDate = date;
-    const selectRange = this.selectTableRange(startDate, endDate, displayData, dateLabel);
-    handleChangeTableRange(selectRange, selectedDataGraph, dateLabel);
-
-    this.setState({
       endDate,
       selectRange
     });
   };
+
+  // handleChangeEndData(date) {
+  //   const {selectedDataGraph, dateLabel, startDate, displayData} = this.state;
+  //   const {handleChangeTableRange} = this.props;
+  //   const endDate = date;
+  //   const selectRange = this.selectTableRange(startDate, endDate, displayData, dateLabel);
+  //   handleChangeTableRange(selectRange, selectedDataGraph, dateLabel);
+  //
+  //   this.setState({
+  //     endDate,
+  //     selectRange
+  //   });
+  // };
 
   render() {
     const {pointTitle, tableData, width, height} = this.props;
@@ -142,6 +192,7 @@ export default class CombinedData extends React.Component {
         width: 25,
         height: 25,
         padding: 0,
+        boxShadow: "rgba(0, 0, 0, 0.156863) 0px 3px 3px, rgba(0, 0, 0, 0.227451) 0px 3px 3px",
       },
       iconStyle: {
         width: 25,
@@ -164,7 +215,13 @@ export default class CombinedData extends React.Component {
             <div className={classes.wrapSelectDate} >
 
               <div className={classes.wrapButDate} >
-                <FloatingActionButton mini={true} style={style.button} iconStyle={style.iconStyle} >
+                <FloatingActionButton
+                  mini={true}
+                  style={style.button}
+                  iconStyle={style.iconStyle}
+                  onClick={this.prevDate}
+                  disabled={dateCompare(new Date(minDate), new Date(startDate))}
+                >
                   <ImageNavigateBefore />
                 </FloatingActionButton>
               </div>
@@ -181,15 +238,21 @@ export default class CombinedData extends React.Component {
                 <DayPiker
                   label="Кінцева дата"
                   defaultDate={endDate}
-                  minDate={minDate}
-                  maxDate={maxDate}
-                  handleChangeData={this.handleChangeEndData}
+                  //minDate={minDate}
+                  //maxDate={maxDate}
+                  //handleChangeData={this.handleChangeEndData}
                   disabled={true}
                 />
               </div>
 
               <div className={classes.wrapButDate} >
-                <FloatingActionButton mini={true} style={style.button} iconStyle={style.iconStyle} >
+                <FloatingActionButton
+                  mini={true}
+                  style={style.button}
+                  iconStyle={style.iconStyle}
+                  onClick={this.nextDate}
+                  disabled={dateCompare(new Date(endDate), new Date(maxDate))}
+                >
                   <ImageNavigateNext />
                 </FloatingActionButton>
               </div>
