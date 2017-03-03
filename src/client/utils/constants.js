@@ -10,25 +10,25 @@ export const _dataGraph = {
 
 export const data_daily = {
   TEMPERATURE: "Температура, °C",
-  PRESSURE: "Тиск, кгс/см2",
-  VOL_PY: "Об’єм при Ру, м3",
-  VOL_STD: "Об’єм, м3"
+  PRESSURE: "Тиск, кгс/см²",
+  VOL_PY: "Об’єм при Ру, м³",
+  VOL_STD: "Об’єм, м³"
 };
 
 export const data_hourly = {
   TEMPERATURE: "Температура, °C",
-  PRESSURE: "Тиск, кгс/см2",
-  VOL_PY: "Об’єм при Ру, м3",
-  VOL_STD: "Об’єм, м3"
+  PRESSURE: "Тиск, кгс/см²",
+  VOL_PY: "Об’єм при Ру, м³",
+  VOL_STD: "Об’єм, м³"
 };
 
 export const data_moment = {
   TEMPERATURE: "Температура, °C",
-  P_STAT: "Тиск статичний, кгс/см2",
-  Q_CURR: "Витрата поточна, м3/год",
-  Q_GENERAL: "Об’єм загальний, м3",
-  Q_START_DAY: "Об’єм з початку доби, м3",
-  Q_LAST_DAY: "Об’єм за минулу добу, м3",
+  P_STAT: "Тиск статичний, кгс/см²",
+  Q_CURR: "Витрата поточна, м³/год",
+  Q_GENERAL: "Об’єм загальний, м³",
+  Q_START_DAY: "Об’єм з початку доби, м³",
+  Q_LAST_DAY: "Об’єм за минулу добу, м³",
 };
 
 export const _dataGraphCombine = {
@@ -37,16 +37,16 @@ export const _dataGraphCombine = {
 };
 
 export const data_daily_table = {
-  VOL_STD: "Об’єм, м3",
-  VOL_PY: "Об’єм при Ру, м3",
-  PRESSURE: "Тиск, кгс/см2",
+  VOL_STD: "Об’єм, м³",
+  VOL_PY: "Об’єм при Ру, м³",
+  PRESSURE: "Тиск, кгс/см²",
   TEMPERATURE: "Температура, °C"
 };
 
 export const data_hourly_table = {
-  VOL_STD: "Об’єм, м3",
-  VOL_PY: "Об’єм при Ру, м3",
-  PRESSURE: "Тиск, кгс/см2",
+  VOL_STD: "Об’єм, м³",
+  VOL_PY: "Об’єм при Ру, м³",
+  PRESSURE: "Тиск, кгс/см²",
   TEMPERATURE: "Температура, °C"
 };
 
