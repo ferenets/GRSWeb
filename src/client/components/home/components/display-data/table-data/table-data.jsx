@@ -23,7 +23,8 @@ export default class TableData extends React.Component {
       <div className={classes.dataTableWrap} >
         {tHead != null && tBody != null
         ? <div>
-            <h4>{`${pointTitle}, ${tableTitle} данні, (${startDate} - ${endDate})`}</h4>
+            <h4>{`${pointTitle}. ${tableTitle} данні.`}</h4>
+            <p>{`${startDate} - ${endDate}`}</p>
             <div className={classes.dataTableScrollWrap} >
               <table className={classes.dataTable} >
                 <thead>

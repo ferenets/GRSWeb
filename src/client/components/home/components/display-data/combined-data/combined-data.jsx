@@ -28,6 +28,11 @@ export default class CombinedData extends React.Component {
     super(props);
 
     this.state = {
+      combinedSize: {
+        combinedH: props.height,
+        navH: 0,
+        tableH: 0
+      },
       startDate: "",
       endDate: "",
       minDate: "",
@@ -45,6 +50,26 @@ export default class CombinedData extends React.Component {
     this.nextDate = this.nextDate.bind(this);
     this.resolutionChangeDate = this.resolutionChangeDate.bind(this);
     //this.handleChangeEndData = this.handleChangeEndData.bind(this);
+    this.fitToParentSize = this.fitToParentSize.bind(this);
+  };
+
+  fitToParentSize() {
+    const combinedH = this.refs.combinedWrap.offsetHeight;
+    const navH = this.refs.combinedNavWrap.offsetHeight;
+    const tableH = combinedH - navH;
+
+    const currentSize = this.state.combinedSize;
+
+    if (combinedH !== currentSize.combinedH || navH !== currentSize.navH) {
+
+      this.setState({
+        combinedSize: {
+          combinedH,
+          navH,
+          tableH
+        }
+      })
+    }
   };
 
   selectTableRange(startDate, endDate, displayData, dateLabel) {
@@ -92,7 +117,7 @@ export default class CombinedData extends React.Component {
   };
 
   componentDidMount() {
-    const {displayData, dateLabel, selectedDataGraph} = this.state;
+    const {displayData, dateLabel, selectedDataGraph, combinedSize:{combinedH}} = this.state;
     const {handleChangeTableRange} = this.props;
 
     const startDate = getDate(displayData, dateLabel, 0);
@@ -107,15 +132,42 @@ export default class CombinedData extends React.Component {
     mm = moment(last).month();
     const maxDate = moment(last).month(mm).date(--dd);
 
+    const navH = this.refs.combinedNavWrap.offsetHeight;
+    const tableH = combinedH - navH - 15; //calculate with considering height of tabs and margin of h4
+
     this.setState({
       startDate: firstDayMonth,
       endDate,
       minDate: startDate,
       maxDate,
       selectRange,
+      combinedSize:{
+        navH,
+        tableH
+      }
     }, () => {
       handleChangeTableRange(selectRange, selectedDataGraph, dateLabel);
     });
+
+    window.addEventListener('resize', this.fitToParentSize);
+    // this.fitToParentSize();
+  };
+
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.fitToParentSize);
+  };
+
+  // componentWillUpdate(nextProps, nextState) {
+  //   if (nextState.combinedSize.combinedH != this.state.combinedSize.combinedH ||
+  //     nextState.combinedSize.navH != this.state.combinedSize.navH) {
+  //     this.fitToParentSize();
+  //   }
+  // };
+  //
+  componentDidUpdate(prevProps){
+    if (prevProps.height != this.props.height) {
+      this.fitToParentSize();
+    }
   };
 
   handleChangeDataDisplay(selectedDataDisplay) {
@@ -217,7 +269,8 @@ export default class CombinedData extends React.Component {
       endDate,
       selectRange,
       dateLabel,
-      selectedDataGraph
+      selectedDataGraph,
+      combinedSize:{tableH}
     } = this.state;
     const style = {
       button: {
@@ -230,15 +283,18 @@ export default class CombinedData extends React.Component {
         width: 25,
         height: 25,
         backgroundColor: '#cecece',
+      },
+      table: {
+        height: tableH
       }
     };
 
     return (
-      <div className={classes.wrapCombine} >
+      <div className={classes.wrapCombine} ref="combinedWrap" >
 
         <div className={classes.tableCombine} >
 
-          <div className={classes.navCombine} >
+          <div className={classes.navCombine} ref="combinedNavWrap" >
             <GraphMenu
               title="Категорія даних"
               dataGraphLabel={_dataGraphCombine}
@@ -292,7 +348,7 @@ export default class CombinedData extends React.Component {
             </div>
           </div>
 
-          <div className={classes.wrapCombinedTable} >
+          <div className={classes.wrapCombinedTable} style={style.table} >
             <TableData
               pointTitle={pointTitle}
               tableData={tableData}

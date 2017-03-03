@@ -38,15 +38,26 @@ export default class SimpleLine extends React.Component {
       height
     } = this.props;
 
-    const chartSeries = [{
-      field: dataYTitle,
-      color: '#ff7f0e',
-      style: {
-        "stroke-width": 2,
-        "stroke-opacity": .2,
-        "fill-opacity": .2
-      }
-    }],
+    const chartSeries = [
+      {
+        field: dataYTitle,
+        color: '#ff7f0e',
+        style: {
+          "stroke-width": 2,
+          "stroke-opacity": .2,
+          "fill-opacity": .2
+        }
+      },
+      // {
+      //   field: "TEMPERATURE",
+      //   color: 'red',
+      //   style: {
+      //     "stroke-width": 2,
+      //     "stroke-opacity": .2,
+      //     "fill-opacity": .2
+      //   }
+      // }
+    ],
     margins = {left: 55, right: 0, top: 2, bottom: 5},
     x = (d) => parseDate(d[dataXTitle]),
     yDomain = this.setYAxisDomain(dataLine, dataYTitle),
@@ -55,7 +66,7 @@ export default class SimpleLine extends React.Component {
     return (
       <div className={classes.simpleLine} >
         <LineChart
-          width={width/4}
+          width={width/4.2}
           height={(height - 80)/2}
           margins={margins}
           data={dataLine}
