@@ -56,6 +56,14 @@ export const convertDate = (d) => dateFormat(moment(d, "ddd mmm dd yyyy HH:MM:ss
 
 export const convertToDate = (d) => dateFormat(moment(d, "ddd mmm dd yyyy HH:MM:ss Z").toDate(), "dd.mm.yy HH:MM");
 
+export const convertToDateTable = (d, dataLabel) => {
+  if (dataLabel == 'data_daily') {
+    return dateFormat(moment(d, "ddd mmm dd yyyy HH:MM:ss Z").toDate(), "dd.mm.yy")
+  } else {
+    return dateFormat(moment(d, "ddd mmm dd yyyy HH:MM:ss Z").toDate(), "dd.mm.yy HH:MM")
+  }
+};
+
 export const dateCompare = (firstDate, secondDate) => {
   return moment(firstDate).isSameOrAfter(secondDate)
 };

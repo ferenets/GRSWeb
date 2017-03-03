@@ -239,13 +239,6 @@ export default class GraphMultiLine extends React.Component {
       x = (d) => parseDate(d[xDataSelectLabel]),
       id = "line-chart";
 
-    const tooltip_bkg_style = {
-      backgroundColor: "rgba(50, 50, 50, 0.8)",
-      borderRadius: "4px",
-      padding: "10px",
-      border: "0"
-    };
-
     const brushStyle = {
       "fill": "#DDD",
       "fill-opacity": ".75",
@@ -297,7 +290,7 @@ export default class GraphMultiLine extends React.Component {
             showYAxis={true}
             yDomain={yDomain}
           >
-            <SimpleTooltip style={tooltip_bkg_style} />
+            <SimpleTooltip />
           </LineTooltip>
         </div>
 
