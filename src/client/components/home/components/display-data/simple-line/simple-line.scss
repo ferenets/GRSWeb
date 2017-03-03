@@ -3,5 +3,9 @@
 .simpleLine {
   display: inline-block;
   vertical-align: top;
-  margin: 10px 10px 0px;
+  margin: 10px 5px 0 0;
+
+  :global .graphLegend {
+    display: none;
+  }
 }

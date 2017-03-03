@@ -63,7 +63,9 @@ export default class DisplayData extends React.Component {
       selectDataGraph,
       pointTitle,
       handleChangeTableRange,
-      tableData
+      tableData,
+      handleChangeCombinedRange,
+      combinedData
     } = this.props;
 
     const {containerSize:{w, h}} = this.state;
@@ -142,9 +144,9 @@ export default class DisplayData extends React.Component {
               ? <Loading />
               : <CombinedData
                   dataGraph={dataGraph}
-                  handleChangeTableRange={handleChangeTableRange}
+                  handleChangeTableRange={handleChangeCombinedRange}
                   pointTitle={pointTitle}
-                  tableData={tableData}
+                  tableData={combinedData}
                   width={w}
                   height={h}
                 />
@@ -170,4 +172,6 @@ DisplayData.PropTypes = {
   pointTitle: React.PropTypes.string.isRequired,
   handleChengeTableRange: React.PropTypes.func.isRequired,
   tableData: React.PropTypes.object.isRequired,
+  handleChangeCombinedRange: React.PropTypes.func.isRequired,
+  combinedData: React.PropTypes.object.isRequired
 };

@@ -6,7 +6,8 @@ import {
   data_hourly_table,
   data_moment,
   parseDate,
-  convertToDate
+  convertToDate,
+  convertToDateTable
 } from './constants.js';
 
 export const selectionPoints = (array) => {
@@ -31,7 +32,9 @@ export const createTableData = (tableRange, dataLabel, dateProp) => {
   const result = {
     tableTitle: '',
     tHead: [],
-    tBody: []
+    tBody: [],
+    startDate: '',
+    endDate: ''
   };
 
   let selectedConstant;
@@ -58,13 +61,15 @@ export const createTableData = (tableRange, dataLabel, dateProp) => {
   tableData.map((row, ind) => result["tBody"].push(
     [++ind, ..._.keys(row).map(col => {
         if (col == dateProp) {
-          return convertToDate(parseDate( row[col] ))
+          return convertToDateTable(parseDate( row[col] ), dataLabel)
         } else {
           return row[col];
         }
       })
     ]
   ));
+  result["startDate"] = convertToDate(parseDate( tableRange[0][dateProp] ));
+  result["endDate"] = convertToDate(parseDate( tableRange[tableRange.length-1][dateProp] ));
 
   return result;
 };

@@ -10,7 +10,8 @@ import {
   GRAPH_DATA_SUCCESS,
   GRAPH_DATA_FAIL,
   SELECTED_POINT_TITLE,
-  SELECTED_TABLE_RANGE
+  SELECTED_TABLE_RANGE,
+  SELECTED_COMBINED_RANGE
 } from './home.actions';
 import _ from 'lodash';
 
@@ -28,7 +29,16 @@ const initalState = {
   tableData: {
     tableTitle: "Будь-ласка, оберіть дані для відображення",
     tHead: null,
-    tBody: null
+    tBody: null,
+    startDate: '',
+    endDate: ''
+  },
+  combinedData: {
+    tableTitle: "Будь-ласка, оберіть дані для відображення",
+    tHead: null,
+    tBody: null,
+    startDate: '',
+    endDate: ''
   },
   err: null
 };
@@ -99,7 +109,20 @@ export default function (state = initalState, action) {
         tableData: {
           tableTitle: action.tableData.tableTitle,
           tHead: action.tableData.tHead,
-          tBody: action.tableData.tBody
+          tBody: action.tableData.tBody,
+          startDate: action.tableData.startDate,
+          endDate: action.tableData.endDate,
+        }
+      });
+
+    case SELECTED_COMBINED_RANGE:
+      return Object.assign({}, state, {
+        combinedData: {
+          tableTitle: action.combinedData.tableTitle,
+          tHead: action.combinedData.tHead,
+          tBody: action.combinedData.tBody,
+          startDate: action.combinedData.startDate,
+          endDate: action.combinedData.endDate,
         }
       });
 

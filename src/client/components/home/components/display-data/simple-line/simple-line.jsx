@@ -1,24 +1,16 @@
 import classes from './simple-line.scss';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import * as reactD3Basic from 'react-d3-basic';
-const {LineChart} = reactD3Basic;
-import {
-  _dataGraph,
-  data_daily,
-  data_hourly,
-  data_moment,
-  parseDate,
-  convertDate,
-  binarySearch
-} from '../../../../../utils/constants.js';
+
+import * as Tooltip from 'react-d3-tooltip';
+const {LineTooltip, SimpleTooltip} = Tooltip;
+
+import {parseDate} from '../../../../../utils/constants.js';
 
 export default class SimpleLine extends React.Component {
   constructor(props) {
     super(props);
-
     this.state = {};
-
     this.setYAxisDomain = this.setYAxisDomain.bind(this);
   }
 
@@ -40,6 +32,7 @@ export default class SimpleLine extends React.Component {
 
     const chartSeries = [{
       field: dataYTitle,
+      name: title,
       color: '#ff7f0e',
       style: {
         "stroke-width": 2,
@@ -47,15 +40,15 @@ export default class SimpleLine extends React.Component {
         "fill-opacity": .2
       }
     }],
-    margins = {left: 55, right: 0, top: 0, bottom: 5},
+    margins = {left: 55, right: 5, top: 2, bottom: 5},
     x = (d) => parseDate(d[dataXTitle]),
     yDomain = this.setYAxisDomain(dataLine, dataYTitle),
     xScale = 'time';
 
     return (
       <div className={classes.simpleLine} >
-        <LineChart
-          width={width/4}
+        <LineTooltip
+          width={width/4.2}
           height={(height - 80)/2}
           margins={margins}
           data={dataLine}
@@ -65,7 +58,10 @@ export default class SimpleLine extends React.Component {
           yDomain={yDomain}
           yLabel={title}
           showLegend={false}
-        />
+          legendClassName="graphLegend"
+        >
+          <SimpleTooltip />
+        </LineTooltip>
       </div>
     )
   }

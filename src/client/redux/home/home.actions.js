@@ -19,6 +19,7 @@ export const GRAPH_DATA_SUCCESS = 'GRAPH_DATA_SUCCESS';
 export const GRAPH_DATA_FAIL = 'GRAPH_DATA_FAIL';
 export const SELECTED_POINT_TITLE = 'SELECTED_POINT_TITLE';
 export const SELECTED_TABLE_RANGE = 'SELECTED_TABLE_RANGE';
+export const SELECTED_COMBINED_RANGE = 'SELECTED_COMBINED_RANGE';
 
 const titleCoordinatePoints = ['SHYROTA', 'DOLHOTA'];
 const [firstCoordinate, secondCoordinate] = titleCoordinatePoints;
@@ -59,4 +60,9 @@ export const selectedPointTitle = (pointTitle) => ({type: SELECTED_POINT_TITLE, 
 export const tableRangeDate = (tableRange, dataLabel, dateProp) => {
   const tableData = createTableData(tableRange, dataLabel, dateProp);
   return {type: SELECTED_TABLE_RANGE, tableData};
+};
+
+export const combinedRange = (tableRange, dataLabel, dateProp) => {
+  const combinedData = createTableData(tableRange, dataLabel, dateProp);
+  return {type: SELECTED_COMBINED_RANGE, combinedData};
 };
