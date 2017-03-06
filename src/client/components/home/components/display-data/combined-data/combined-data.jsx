@@ -49,7 +49,6 @@ export default class CombinedData extends React.Component {
     this.prevDate = this.prevDate.bind(this);
     this.nextDate = this.nextDate.bind(this);
     this.resolutionChangeDate = this.resolutionChangeDate.bind(this);
-    //this.handleChangeEndData = this.handleChangeEndData.bind(this);
     this.fitToParentSize = this.fitToParentSize.bind(this);
   };
 
@@ -75,9 +74,6 @@ export default class CombinedData extends React.Component {
   selectTableRange(startDate, endDate, displayData, dateLabel) {
     let startIndex = binarySearch( convertDate(startDate), displayData, dateLabel );
     let endIndex = binarySearch( convertDate(endDate), displayData, dateLabel );
-
-    //if (startIndex > 0) --startIndex;
-    if (endIndex < displayData.length-1) ++endIndex;
 
     return displayData.slice(startIndex, endIndex);
   };
@@ -157,13 +153,6 @@ export default class CombinedData extends React.Component {
     window.removeEventListener('resize', this.fitToParentSize);
   };
 
-  // componentWillUpdate(nextProps, nextState) {
-  //   if (nextState.combinedSize.combinedH != this.state.combinedSize.combinedH ||
-  //     nextState.combinedSize.navH != this.state.combinedSize.navH) {
-  //     this.fitToParentSize();
-  //   }
-  // };
-  //
   componentDidUpdate(prevProps){
     if (prevProps.height != this.props.height) {
       this.fitToParentSize();
@@ -247,19 +236,6 @@ export default class CombinedData extends React.Component {
     }
   };
 
-  // handleChangeEndData(date) {
-  //   const {selectedDataGraph, dateLabel, startDate, displayData} = this.state;
-  //   const {handleChangeTableRange} = this.props;
-  //   const endDate = date;
-  //   const selectRange = this.selectTableRange(startDate, endDate, displayData, dateLabel);
-  //   handleChangeTableRange(selectRange, selectedDataGraph, dateLabel);
-  //
-  //   this.setState({
-  //     endDate,
-  //     selectRange
-  //   });
-  // };
-
   render() {
     const {pointTitle, tableData, width, height} = this.props;
     const {
@@ -326,9 +302,6 @@ export default class CombinedData extends React.Component {
                 <DayPiker
                   label="Кінцева дата"
                   defaultDate={endDate}
-                  //minDate={minDate}
-                  //maxDate={maxDate}
-                  //handleChangeData={this.handleChangeEndData}
                   disabled={true}
                 />
               </div>

@@ -25,24 +25,31 @@ export default class TableData extends React.Component {
         ? <div>
             <h4>{`${pointTitle}. ${tableTitle} данні.`}</h4>
             <p>{`${startDate} - ${endDate}`}</p>
-            <div className={classes.dataTableScrollWrap} >
-              <table className={classes.dataTable} >
-                <thead>
-                  <tr>
-                    {tHead.map((row, ind) =>
-                      <td key={ind} >{row}</td>
+
+            <section className={classes.sectionDataTable} >
+              <div className={classes.backgroundHeader} ></div>
+              <div className={classes.dataTableScrollWrap} >
+
+                <table className={classes.dataTable} >
+                  <thead>
+                    <tr>
+                      {tHead.map((row, ind) =>
+                        <th key={ind} ><div>{row}</div></th>
+                      )}
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {tBody.map((row, ind) =>
+                      <tr key={ind} >
+                        {row.map((td, num) => <td key={num+1} >{td}</td> )}
+                      </tr>
                     )}
-                  </tr>
-                </thead>
-                <tbody>
-                {tBody.map((row, ind) =>
-                  <tr key={ind} >
-                    {row.map((td, num) => <td key={num+1} >{td}</td> )}
-                  </tr>
-                )}
-                </tbody>
-              </table>
-            </div>
+                  </tbody>
+                </table>
+
+              </div>
+            </section>
+
           </div>
         : <p>Будь-ласка оберіть дані для відображення</p>
         }
