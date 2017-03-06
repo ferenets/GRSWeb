@@ -31,22 +31,36 @@ export default class TableData extends React.Component {
       }
     } = this.props;
 
+    const style = {
+      margin: 0,
+      cursor: 'pointer',
+    };
+
     return (
 
       <div className={classes.dataTableWrap} >
-        <RaisedButton
-          label="Експортувати"
-          onClick={this.exportToCsv}
-        />
+
         {tHead != null && tBody != null
         ? <div>
 
-            <h4>{`${pointTitle}. ${tableTitle} данні.`}</h4>
-            <p>
-              {tableTitle == 'Добові'
-                ? `${startDate.slice(0, -6)} - ${endDate.slice(0, -6)}`
-                : `${startDate} - ${endDate}`}
-            </p>
+            <section>
+              <div className={classes.titleOfTable} >
+                <h4>{`${pointTitle}. ${tableTitle} данні.`}</h4>
+                <p>
+                  {tableTitle == 'Добові'
+                    ? `${startDate.slice(0, -6)} - ${endDate.slice(0, -6)}`
+                    : `${startDate} - ${endDate}`}
+                </p>
+              </div>
+
+              <RaisedButton
+                className={classes.exportButton}
+                label="Експортувати"
+                primary={true}
+                style={style}
+                onClick={this.exportToCsv}
+              />
+            </section>
 
             <section className={classes.sectionDataTable} >
 
