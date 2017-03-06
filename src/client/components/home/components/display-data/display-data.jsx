@@ -76,7 +76,7 @@ export default class DisplayData extends React.Component {
         ref="containerWrap"
         style={fullWidth ? {width: '100%'} : {}}
       >
-        
+
         {fullWidth
           ? <div className={classes.buttonWrap}>
               <Button
