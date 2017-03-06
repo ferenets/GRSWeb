@@ -19,6 +19,9 @@ export default class Map extends React.Component {
           key: API_KEY,
           language: 'uk',
         }}
+        options={{
+          mapTypeId: 'hybrid'
+        }}
         defaultCenter={this.props.center}
         defaultZoom={this.props.zoom}
         resetBoundsOnResize={true}
