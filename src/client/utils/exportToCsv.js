@@ -1,6 +1,3 @@
-import FileSaver from 'file-saver';
-let csvContent = "data:text/csv;charset=utf-8,";
-
 export default function (filename, rows) {
   var processRow = function (row) {
     var finalVal = '';

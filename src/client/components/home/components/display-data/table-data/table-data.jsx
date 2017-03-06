@@ -1,5 +1,6 @@
 import React from 'react';
 import classes from './table-data.scss';
+import { RaisedButton } from 'material-ui';
 import exportToCsv from '../../../../../utils/exportToCsv.js';
 
 export default class TableData extends React.Component {
@@ -27,6 +28,10 @@ export default class TableData extends React.Component {
 
     return (
       <div className={classes.dataTableWrap} >
+        <RaisedButton
+          label="Експортувати"
+          onClick={this.exportToCsv}
+        />
         {tHead != null && tBody != null
         ? <div>
             <h4>{`${pointTitle}. ${tableTitle} данні.`}</h4>
