@@ -26,7 +26,12 @@ export default class Map extends React.Component {
       >
 
         {targetPoints.map((point, ind) =>
-          <PointMarker key={ind} {...point} point={point} handleChangeTab={handleChangeTab} />
+          <PointMarker
+            key={ind}
+            {...point}
+            point={point}
+            handleChangeTab={handleChangeTab}
+          />
         )}
 
       </GoogleMap>

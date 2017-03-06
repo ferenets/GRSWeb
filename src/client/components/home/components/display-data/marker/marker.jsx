@@ -5,6 +5,7 @@ import ReactTooltip from 'react-tooltip'
 export default class PointMarker extends React.Component {
   constructor(props){
     super(props);
+    this.state={};
     this.handleChangeTab = this.handleChangeTab.bind(this);
   }
 
@@ -14,11 +15,11 @@ export default class PointMarker extends React.Component {
   };
 
   render() {
-    const {point:{label, id}} = this.props;
+    const {point:{label}} = this.props;
     const idTooltip = `t_${label}`;
 
     return (
-      <div className={classes.pointMarker}>
+      <div className={classes.pointMarker} >
         <img
           src="../../../../../images/marker.svg"
           data-tip="tooltip"
