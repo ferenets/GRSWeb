@@ -23,6 +23,7 @@ export default class Map extends React.Component {
           mapTypeId: 'hybrid',
           mapTypeControl: true
         }}
+        clusterRadius={60}
         defaultCenter={this.props.center}
         defaultZoom={this.props.zoom}
         resetBoundsOnResize={true}
