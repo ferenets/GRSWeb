@@ -38,6 +38,7 @@
         .dataTable {
           width: auto;
           min-width: 100%;
+          table-layout: fixed;
 
           thead {
             tr {
