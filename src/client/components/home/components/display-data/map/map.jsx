@@ -20,7 +20,8 @@ export default class Map extends React.Component {
           language: 'uk',
         }}
         options={{
-          mapTypeId: 'hybrid'
+          mapTypeId: 'hybrid',
+          mapTypeControl: true
         }}
         defaultCenter={this.props.center}
         defaultZoom={this.props.zoom}
