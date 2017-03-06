@@ -12,7 +12,12 @@ export default class TableData extends React.Component {
 
   exportToCsv(){
     exportToCsv(`${this.props.pointTitle} ${this.props.tableData.tableTitle}.csv`, [this.props.tableData.tHead, ...this.props.tableData.tBody])
+    this.createHeader = this.createHeader.bind(this);
   }
+
+  createHeader(row){
+    return {__html: row.replace(',', ',<br/>')};
+  };
 
   render() {
     const {
@@ -27,6 +32,7 @@ export default class TableData extends React.Component {
     } = this.props;
 
     return (
+
       <div className={classes.dataTableWrap} >
         <RaisedButton
           label="Експортувати"
@@ -34,26 +40,46 @@ export default class TableData extends React.Component {
         />
         {tHead != null && tBody != null
         ? <div>
+
             <h4>{`${pointTitle}. ${tableTitle} данні.`}</h4>
-            <p>{`${startDate} - ${endDate}`}</p>
-            <div className={classes.dataTableScrollWrap} >
-              <table className={classes.dataTable} >
-                <thead>
-                  <tr>
-                    {tHead.map((row, ind) =>
-                      <td key={ind} >{row}</td>
+            <p>
+              {tableTitle == 'Добові'
+                ? `${startDate.slice(0, -6)} - ${endDate.slice(0, -6)}`
+                : `${startDate} - ${endDate}`}
+            </p>
+
+            <section className={classes.sectionDataTable} >
+
+              <div className={classes.backgroundHeader} ref="headerBg" ></div>
+
+              <div className={classes.dataTableScrollWrap} >
+
+                <table className={classes.dataTable} >
+                  <thead>
+                    <tr>
+                      {tHead.map((row, ind) =>
+                        <th key={ind} ref="headerTh" >
+                          <div
+                            ref="headerDiv"
+                            dangerouslySetInnerHTML={this.createHeader(row)}
+                          >
+                          </div>
+                        </th>
+                      )}
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {tBody.map((row, ind) =>
+                      <tr key={ind} >
+                        {row.map((td, num) => <td key={num+1} >{td}</td> )}
+                      </tr>
                     )}
-                  </tr>
-                </thead>
-                <tbody>
-                {tBody.map((row, ind) =>
-                  <tr key={ind} >
-                    {row.map((td, num) => <td key={num+1} >{td}</td> )}
-                  </tr>
-                )}
-                </tbody>
-              </table>
-            </div>
+                  </tbody>
+                </table>
+
+              </div>
+            </section>
+
           </div>
         : <p>Будь-ласка оберіть дані для відображення</p>
         }

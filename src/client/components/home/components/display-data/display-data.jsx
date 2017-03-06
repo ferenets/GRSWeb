@@ -16,10 +16,13 @@ export default class DisplayData extends React.Component {
       containerSize: {
         w: 0,
         h: 0
-      }
+      },
+      visibile: false
     };
     this.handleChangeTab = this.handleChangeTab.bind(this);
     this.fitToParentSize = this.fitToParentSize.bind(this);
+    this.tabDisabledMouseOver = this.tabDisabledMouseOver.bind(this);
+    this.tabDisabledMouseOut = this.tabDisabledMouseOut.bind(this);
   };
 
   fitToParentSize() {
@@ -51,7 +54,28 @@ export default class DisplayData extends React.Component {
     }
   };
 
-  render () {
+  hoverdiv(e,divid){
+    var left  = e.nativeEvent.clientX + 10 + "px";
+    var top  = e.nativeEvent.clientY - 10 + "px";
+
+    var div = document.getElementById(divid);
+
+    div.style.left = left;
+    div.style.top = top;
+
+    div.style.display == 'none' ? div.style.display = '' : div.style.display = 'none';
+    return false;
+  }
+
+  tabDisabledMouseOver(e){
+    this.props.loadingGraph ? this.hoverdiv(e,'divtoshow') : null;
+  }
+
+  tabDisabledMouseOut(e){
+    this.props.loadingGraph ? this.hoverdiv(e,'divtoshow') : null;
+  }
+  
+  render (){
     const {
       onButtonClick,
       fullWidth,
@@ -86,6 +110,7 @@ export default class DisplayData extends React.Component {
             </div>
           : null
         }
+        <div id="divtoshow" style={{position: 'fixed',display:'none', 'zIndex': 2, background: 'white', border: '1 solid'}}>Будь ласка, оберіть дані для відображення</div>
 
         <Tabs
           className={classes.tabsWrap}
@@ -109,6 +134,8 @@ export default class DisplayData extends React.Component {
             className={classes.tabLabel}
             value="graphA"
             disabled={loadingGraph}
+            onMouseOver={this.tabDisabledMouseOver}
+            onMouseOut={this.tabDisabledMouseOut}
           >
             {loadingGraph
               ? <Loading />
@@ -128,6 +155,8 @@ export default class DisplayData extends React.Component {
             className={classes.tabLabel}
             value="graphB"
             disabled={loadingGraph}
+            onMouseOver={this.tabDisabledMouseOver}
+            onMouseOut={this.tabDisabledMouseOut}
           >
             {loadingGraph
               ? <Loading />
@@ -143,6 +172,8 @@ export default class DisplayData extends React.Component {
             className={classes.tabLabel}
             value="graphC"
             disabled={loadingGraph}
+            onMouseOver={this.tabDisabledMouseOver}
+            onMouseOut={this.tabDisabledMouseOut}
           >
             {loadingGraph
               ? <Loading />
