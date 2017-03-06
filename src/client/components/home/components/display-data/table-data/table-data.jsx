@@ -1,10 +1,16 @@
 import React from 'react';
 import classes from './table-data.scss';
+import exportToCsv from '../../../../../utils/exportToCsv.js';
 
 export default class TableData extends React.Component {
   constructor(props) {
     super(props);
     this.state = {};
+    this.exportToCsv = this.exportToCsv.bind(this);
+  }
+
+  exportToCsv(){
+    exportToCsv(`${this.props.pointTitle} ${this.props.tableData.tableTitle}.csv`, [this.props.tableData.tHead, ...this.props.tableData.tBody])
   }
 
   render() {
