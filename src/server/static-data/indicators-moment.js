@@ -159,18 +159,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "08.09.16 15:07",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.488131285",
-    "TEMPERATURE": "29.6740818",
-    "Q_CURR": "94.92591858",
-    "Q_START_DAY": "568.0091553",
-    "Q_LAST_DAY": "1458.301392",
-    "Q_GENERAL": "6967.828125"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "08.09.16 15:11",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -417,18 +405,6 @@ const IndicatorsMoment = [
     "P_STAT": "2.52062726",
     "TEMPERATURE": "25.95181084",
     "Q_CURR": "49.46721649",
-    "Q_START_DAY": "813.0457153",
-    "Q_LAST_DAY": "1458.301392",
-    "Q_GENERAL": "6968.073242"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "08.09.16 18:46",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.519940138",
-    "TEMPERATURE": "25.84824562",
-    "Q_CURR": "49.4711113",
     "Q_START_DAY": "813.0457153",
     "Q_LAST_DAY": "1458.301392",
     "Q_GENERAL": "6968.073242"
@@ -723,18 +699,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "08.10.16 00:36",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.50270772",
-    "TEMPERATURE": "11.51107693",
-    "Q_CURR": "41.75349045",
-    "Q_START_DAY": "1073.00061",
-    "Q_LAST_DAY": "1458.301392",
-    "Q_GENERAL": "6968.333008"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "08.10.16 00:42",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -768,18 +732,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "1085.558472",
     "Q_LAST_DAY": "1458.301392",
     "Q_GENERAL": "6968.345703"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "08.10.16 01:00",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.51395154",
-    "TEMPERATURE": "11.117589",
-    "Q_CURR": "41.70640182",
-    "Q_START_DAY": "1088.077148",
-    "Q_LAST_DAY": "1458.301392",
-    "Q_GENERAL": "6968.348145"
   },
   {
     "GRS_ID": "145",
@@ -880,18 +832,6 @@ const IndicatorsMoment = [
   {
     "GRS_ID": "145",
     "DT_DATA": "08.10.16 01:58",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.541047812",
-    "TEMPERATURE": "10.22708035",
-    "Q_CURR": "41.6817131",
-    "Q_START_DAY": "1126.120605",
-    "Q_LAST_DAY": "1458.301392",
-    "Q_GENERAL": "6968.38623"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "08.10.16 01:00",
     "NO_DEV": "41",
     "NO_LINE": "1",
     "P_STAT": "2.541047812",
@@ -1275,18 +1215,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "08.09.16 15:33",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.507309198",
-    "TEMPERATURE": "29.33481407",
-    "Q_CURR": "92.66884613",
-    "Q_START_DAY": "607.9238281",
-    "Q_LAST_DAY": "1458.301392",
-    "Q_GENERAL": "6967.868164"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "08.09.16 15:47",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -1503,18 +1431,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "08.09.16 18:00",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.532524347",
-    "TEMPERATURE": "28.54486656",
-    "Q_CURR": "52.32561874",
-    "Q_START_DAY": "774.7530518",
-    "Q_LAST_DAY": "1458.301392",
-    "Q_GENERAL": "6968.034668"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "08.09.16 18:02",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -1560,18 +1476,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "786.6984253",
     "Q_LAST_DAY": "1458.301392",
     "Q_GENERAL": "6968.046875"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "08.09.16 18:16",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.528972864",
-    "TEMPERATURE": "27.72976875",
-    "Q_CURR": "51.0196228",
-    "Q_START_DAY": "789.0898438",
-    "Q_LAST_DAY": "1458.301392",
-    "Q_GENERAL": "6968.049316"
   },
   {
     "GRS_ID": "145",
@@ -1725,30 +1629,6 @@ const IndicatorsMoment = [
     "P_STAT": "2.499140978",
     "TEMPERATURE": "22.68196678",
     "Q_CURR": "47.16217422",
-    "Q_START_DAY": "870.6813965",
-    "Q_LAST_DAY": "1458.301392",
-    "Q_GENERAL": "6968.130859"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "08.09.16 19:00",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.498076677",
-    "TEMPERATURE": "22.57541084",
-    "Q_CURR": "47.16217422",
-    "Q_START_DAY": "870.6813965",
-    "Q_LAST_DAY": "1458.301392",
-    "Q_GENERAL": "6968.130859"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "08.09.16 20:00",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.498076677",
-    "TEMPERATURE": "22.57541084",
-    "Q_CURR": "47.16530991",
     "Q_START_DAY": "870.6813965",
     "Q_LAST_DAY": "1458.301392",
     "Q_GENERAL": "6968.130859"
@@ -2115,30 +1995,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "08.09.16 13:23",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.414616823",
-    "TEMPERATURE": "29.52167702",
-    "Q_CURR": "107.1767578",
-    "Q_START_DAY": "393.1217651",
-    "Q_LAST_DAY": "1458.301392",
-    "Q_GENERAL": "6967.65332"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "08.09.16 13:25",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.415682077",
-    "TEMPERATURE": "29.5653553",
-    "Q_CURR": "106.6545563",
-    "Q_START_DAY": "397.6598816",
-    "Q_LAST_DAY": "1458.301392",
-    "Q_GENERAL": "6967.657715"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "08.09.16 13:27",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -2148,18 +2004,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "399.9298706",
     "Q_LAST_DAY": "1458.301392",
     "Q_GENERAL": "6967.660156"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "08.09.16 13:31",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.419944048",
-    "TEMPERATURE": "29.6359272",
-    "Q_CURR": "105.9978027",
-    "Q_START_DAY": "406.7435303",
-    "Q_LAST_DAY": "1458.301392",
-    "Q_GENERAL": "6967.666992"
   },
   {
     "GRS_ID": "145",
@@ -2319,18 +2163,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "08.09.16 16:41",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.537141085",
-    "TEMPERATURE": "28.60264778",
-    "Q_CURR": "74.7497406",
-    "Q_START_DAY": "698.2089233",
-    "Q_LAST_DAY": "1458.301392",
-    "Q_GENERAL": "6967.958008"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "08.09.16 16:45",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -2364,18 +2196,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "722.1455688",
     "Q_LAST_DAY": "1458.301392",
     "Q_GENERAL": "6967.982422"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "08.09.16 17:12",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.538676977",
-    "TEMPERATURE": "28.60646248",
-    "Q_CURR": "63.03070068",
-    "Q_START_DAY": "731.7225952",
-    "Q_LAST_DAY": "1458.301392",
-    "Q_GENERAL": "6967.991699"
   },
   {
     "GRS_ID": "145",
@@ -2559,18 +2379,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "08.09.16 20:02",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.496610403",
-    "TEMPERATURE": "22.34480858",
-    "Q_CURR": "47.09275436",
-    "Q_START_DAY": "873.0856323",
-    "Q_LAST_DAY": "1458.301392",
-    "Q_GENERAL": "6968.133301"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "08.09.16 20:08",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -2703,18 +2511,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "08.09.16 20:00",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.476056814",
-    "TEMPERATURE": "18.73146248",
-    "Q_CURR": "45.27233124",
-    "Q_START_DAY": "916.4534912",
-    "Q_LAST_DAY": "1458.301392",
-    "Q_GENERAL": "6968.17627"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "08.09.16 21:02",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -2724,18 +2520,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "916.4534912",
     "Q_LAST_DAY": "1458.301392",
     "Q_GENERAL": "6968.17627"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "08.09.16 21:02",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.474635839",
-    "TEMPERATURE": "18.45643425",
-    "Q_CURR": "45.19554901",
-    "Q_START_DAY": "918.8689575",
-    "Q_LAST_DAY": "1458.301392",
-    "Q_GENERAL": "6968.178711"
   },
   {
     "GRS_ID": "145",
@@ -2811,18 +2595,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "08.09.16 21:36",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.458299398",
-    "TEMPERATURE": "16.51842308",
-    "Q_CURR": "44.10690689",
-    "Q_START_DAY": "945.4440918",
-    "Q_LAST_DAY": "1458.301392",
-    "Q_GENERAL": "6968.205566"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "08.09.16 21:46",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -2856,18 +2628,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "952.6923828",
     "Q_LAST_DAY": "1458.301392",
     "Q_GENERAL": "6968.212891"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "08.09.16 22:04",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.452972174",
-    "TEMPERATURE": "15.52628422",
-    "Q_CURR": "43.69423294",
-    "Q_START_DAY": "959.9455566",
-    "Q_LAST_DAY": "1458.301392",
-    "Q_GENERAL": "6968.220215"
   },
   {
     "GRS_ID": "145",
@@ -3033,18 +2793,6 @@ const IndicatorsMoment = [
     "P_STAT": "2.5037148",
     "TEMPERATURE": "11.46817684",
     "Q_CURR": "41.75349045",
-    "Q_START_DAY": "1073.00061",
-    "Q_LAST_DAY": "1458.301392",
-    "Q_GENERAL": "6968.333008"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "08.10.16 00:38",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.5037148",
-    "TEMPERATURE": "11.46817684",
-    "Q_CURR": "41.7678833",
     "Q_START_DAY": "1073.00061",
     "Q_LAST_DAY": "1458.301392",
     "Q_GENERAL": "6968.333008"
@@ -3291,18 +3039,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "08.09.16 15:05",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.486710787",
-    "TEMPERATURE": "29.72349739",
-    "Q_CURR": "95.06926727",
-    "Q_START_DAY": "565.6715088",
-    "Q_LAST_DAY": "1458.301392",
-    "Q_GENERAL": "6967.825684"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "08.09.16 15:17",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -3432,18 +3168,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "695.8175049",
     "Q_LAST_DAY": "1458.301392",
     "Q_GENERAL": "6967.956055"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "08.09.16 16:43",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.537496328",
-    "TEMPERATURE": "28.56025124",
-    "Q_CURR": "73.38059998",
-    "Q_START_DAY": "702.9938965",
-    "Q_LAST_DAY": "1458.301392",
-    "Q_GENERAL": "6967.962891"
   },
   {
     "GRS_ID": "145",
@@ -3579,18 +3303,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "08.09.16 19:02",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.517030001",
-    "TEMPERATURE": "25.21964836",
-    "Q_CURR": "49.01268768",
-    "Q_START_DAY": "822.6408081",
-    "Q_LAST_DAY": "1458.301392",
-    "Q_GENERAL": "6968.08252"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "08.09.16 19:08",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -3624,18 +3336,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "889.9284668",
     "Q_LAST_DAY": "1458.301392",
     "Q_GENERAL": "6968.149902"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "08.09.16 20:24",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.487421274",
-    "TEMPERATURE": "20.82245827",
-    "Q_CURR": "46.35891342",
-    "Q_START_DAY": "892.3366089",
-    "Q_LAST_DAY": "1458.301392",
-    "Q_GENERAL": "6968.152344"
   },
   {
     "GRS_ID": "145",
@@ -3735,18 +3435,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "08.09.16 22:00",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.462561369",
-    "TEMPERATURE": "13.61282063",
-    "Q_CURR": "42.58300018",
-    "Q_START_DAY": "1001.266968",
-    "Q_LAST_DAY": "1458.301392",
-    "Q_GENERAL": "6968.26123"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "08.09.16 23:14",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -3816,18 +3504,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "1025.79895",
     "Q_LAST_DAY": "1458.301392",
     "Q_GENERAL": "6968.285645"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "08.10.16 00:02",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.486710787",
-    "TEMPERATURE": "12.26569843",
-    "Q_CURR": "41.93240356",
-    "Q_START_DAY": "1045.573364",
-    "Q_LAST_DAY": "1458.301392",
-    "Q_GENERAL": "6968.305664"
   },
   {
     "GRS_ID": "145",
@@ -3912,30 +3588,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "1085.558472",
     "Q_LAST_DAY": "1458.301392",
     "Q_GENERAL": "6968.345703"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "08.10.16 01:02",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.51395154",
-    "TEMPERATURE": "11.117589",
-    "Q_CURR": "41.70640182",
-    "Q_START_DAY": "1088.077148",
-    "Q_LAST_DAY": "1458.301392",
-    "Q_GENERAL": "6968.348145"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "08.10.16 01:02",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.516542673",
-    "TEMPERATURE": "10.99418545",
-    "Q_CURR": "41.71187592",
-    "Q_START_DAY": "1090.597778",
-    "Q_LAST_DAY": "1458.301392",
-    "Q_GENERAL": "6968.350586"
   },
   {
     "GRS_ID": "145",
@@ -4047,48 +3699,12 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "08.10.16 02:02",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.542865038",
-    "TEMPERATURE": "10.19928837",
-    "Q_CURR": "41.62155533",
-    "Q_START_DAY": "1131.230835",
-    "Q_LAST_DAY": "1458.301392",
-    "Q_GENERAL": "6968.391113"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "08.10.16 02:10",
     "NO_DEV": "41",
     "NO_LINE": "1",
     "P_STAT": "2.546582937",
     "TEMPERATURE": "10.08620167",
     "Q_CURR": "41.68092346",
-    "Q_START_DAY": "1136.349365",
-    "Q_LAST_DAY": "1458.301392",
-    "Q_GENERAL": "6968.396484"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "08.10.16 02:10",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.546582937",
-    "TEMPERATURE": "10.08620167",
-    "Q_CURR": "41.69876862",
-    "Q_START_DAY": "1136.349365",
-    "Q_LAST_DAY": "1458.301392",
-    "Q_GENERAL": "6968.396484"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "08.10.16 02:12",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.54744029",
-    "TEMPERATURE": "10.06091213",
-    "Q_CURR": "41.69876862",
     "Q_START_DAY": "1136.349365",
     "Q_LAST_DAY": "1458.301392",
     "Q_GENERAL": "6968.396484"
@@ -4143,18 +3759,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "08.10.16 02:30",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.555963755",
-    "TEMPERATURE": "9.923237801",
-    "Q_CURR": "41.6903801",
-    "Q_START_DAY": "1149.183228",
-    "Q_LAST_DAY": "1458.301392",
-    "Q_GENERAL": "6968.40918"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "08.10.16 02:39",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -4164,30 +3768,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "1154.330933",
     "Q_LAST_DAY": "1458.301392",
     "Q_GENERAL": "6968.414551"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "08.10.16 02:39",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.560935736",
-    "TEMPERATURE": "9.879788399",
-    "Q_CURR": "41.66598511",
-    "Q_START_DAY": "1156.907837",
-    "Q_LAST_DAY": "1458.301392",
-    "Q_GENERAL": "6968.416992"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "08.10.16 02:39",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.560935736",
-    "TEMPERATURE": "9.879788399",
-    "Q_CURR": "41.66598511",
-    "Q_START_DAY": "1156.907837",
-    "Q_LAST_DAY": "1458.301392",
-    "Q_GENERAL": "6968.416992"
   },
   {
     "GRS_ID": "145",
@@ -4491,18 +4071,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "08.09.16 16:41",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.537141085",
-    "TEMPERATURE": "28.60264778",
-    "Q_CURR": "74.12747955",
-    "Q_START_DAY": "700.6011963",
-    "Q_LAST_DAY": "1458.301392",
-    "Q_GENERAL": "6967.960449"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "08.09.16 16:49",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -4533,18 +4101,6 @@ const IndicatorsMoment = [
     "P_STAT": "2.539627314",
     "TEMPERATURE": "28.52643013",
     "Q_CURR": "67.72872162",
-    "Q_START_DAY": "719.7506104",
-    "Q_LAST_DAY": "1458.301392",
-    "Q_GENERAL": "6967.97998"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "08.09.16 17:01",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.539627314",
-    "TEMPERATURE": "28.51132011",
-    "Q_CURR": "67.7321701",
     "Q_START_DAY": "719.7506104",
     "Q_LAST_DAY": "1458.301392",
     "Q_GENERAL": "6967.97998"
@@ -4596,18 +4152,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "781.9186401",
     "Q_LAST_DAY": "1458.301392",
     "Q_GENERAL": "6968.041992"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "08.09.16 18:18",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.52861762",
-    "TEMPERATURE": "27.5694294",
-    "Q_CURR": "51.0196228",
-    "Q_START_DAY": "789.0898438",
-    "Q_LAST_DAY": "1458.301392",
-    "Q_GENERAL": "6968.049316"
   },
   {
     "GRS_ID": "145",
@@ -4716,30 +4260,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "863.4699097",
     "Q_LAST_DAY": "1458.301392",
     "Q_GENERAL": "6968.123535"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "08.09.16 19:54",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.499496222",
-    "TEMPERATURE": "22.76587486",
-    "Q_CURR": "47.21445465",
-    "Q_START_DAY": "868.2772217",
-    "Q_LAST_DAY": "1458.301392",
-    "Q_GENERAL": "6968.128418"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "08.09.16 19:56",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.499140978",
-    "TEMPERATURE": "22.68196678",
-    "Q_CURR": "47.21445465",
-    "Q_START_DAY": "868.2772217",
-    "Q_LAST_DAY": "1458.301392",
-    "Q_GENERAL": "6968.128418"
   },
   {
     "GRS_ID": "145",
@@ -4887,18 +4407,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "08.09.16 21:34",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.458961248",
-    "TEMPERATURE": "16.60366249",
-    "Q_CURR": "44.21302032",
-    "Q_START_DAY": "943.0281982",
-    "Q_LAST_DAY": "1458.301392",
-    "Q_GENERAL": "6968.203125"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "08.09.16 21:38",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -4936,18 +4444,6 @@ const IndicatorsMoment = [
   {
     "GRS_ID": "145",
     "DT_DATA": "08.09.16 21:58",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.453327417",
-    "TEMPERATURE": "15.58818531",
-    "Q_CURR": "43.69104004",
-    "Q_START_DAY": "959.9455566",
-    "Q_LAST_DAY": "1458.301392",
-    "Q_GENERAL": "6968.220215"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "08.09.16 21:00",
     "NO_DEV": "41",
     "NO_LINE": "1",
     "P_STAT": "2.453327417",
@@ -5055,18 +4551,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "08.09.16 22:48",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.4599154",
-    "TEMPERATURE": "13.83173275",
-    "Q_CURR": "42.69013977",
-    "Q_START_DAY": "996.3818359",
-    "Q_LAST_DAY": "1458.301392",
-    "Q_GENERAL": "6968.256348"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "08.09.16 22:54",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -5103,30 +4587,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "08.09.16 23:02",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.463478327",
-    "TEMPERATURE": "13.61324787",
-    "Q_CURR": "42.4964447",
-    "Q_START_DAY": "1003.711792",
-    "Q_LAST_DAY": "1458.301392",
-    "Q_GENERAL": "6968.263672"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "08.09.16 23:02",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.463478327",
-    "TEMPERATURE": "13.61324787",
-    "Q_CURR": "42.44929504",
-    "Q_START_DAY": "1006.158447",
-    "Q_LAST_DAY": "1458.301392",
-    "Q_GENERAL": "6968.266113"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "08.09.16 23:04",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -5160,18 +4620,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "1011.05658",
     "Q_LAST_DAY": "1458.301392",
     "Q_GENERAL": "6968.270996"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "08.09.16 23:30",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.475346327",
-    "TEMPERATURE": "12.91634464",
-    "Q_CURR": "42.07739639",
-    "Q_START_DAY": "1025.79895",
-    "Q_LAST_DAY": "1458.301392",
-    "Q_GENERAL": "6968.285645"
   },
   {
     "GRS_ID": "145",
@@ -5679,18 +5127,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "08.10.16 07:17",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.608897924",
-    "TEMPERATURE": "12.25023937",
-    "Q_CURR": "41.00481033",
-    "Q_START_DAY": "13.07442665",
-    "Q_LAST_DAY": "1336.231323",
-    "Q_GENERAL": "6968.609375"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "08.10.16 07:21",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -6111,35 +5547,11 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "08.10.16 13:00",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.347494841",
-    "TEMPERATURE": "36.33910751",
-    "Q_CURR": "39.50305176",
-    "Q_START_DAY": "235.3556213",
-    "Q_LAST_DAY": "1336.231323",
-    "Q_GENERAL": "6968.831543"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "08.10.16 13:02",
     "NO_DEV": "41",
     "NO_LINE": "1",
     "P_STAT": "2.347494841",
     "TEMPERATURE": "36.33910751",
-    "Q_CURR": "39.63743973",
-    "Q_START_DAY": "237.5119324",
-    "Q_LAST_DAY": "1336.231323",
-    "Q_GENERAL": "6968.833984"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "08.10.16 13:02",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.346074343",
-    "TEMPERATURE": "36.36218643",
     "Q_CURR": "39.63743973",
     "Q_START_DAY": "237.5119324",
     "Q_LAST_DAY": "1336.231323",
@@ -6288,18 +5700,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "301.3752747",
     "Q_LAST_DAY": "1336.231323",
     "Q_GENERAL": "6968.897461"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "08.10.16 14:52",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.290672064",
-    "TEMPERATURE": "36.68768692",
-    "Q_CURR": "42.33378983",
-    "Q_START_DAY": "314.006073",
-    "Q_LAST_DAY": "1336.231323",
-    "Q_GENERAL": "6968.910156"
   },
   {
     "GRS_ID": "145",
@@ -6852,18 +6252,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "284.4564819",
     "Q_LAST_DAY": "1336.231323",
     "Q_GENERAL": "6968.880859"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "08.10.16 14:30",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.3002913",
-    "TEMPERATURE": "36.55799484",
-    "Q_CURR": "42.176651",
-    "Q_START_DAY": "299.2650757",
-    "Q_LAST_DAY": "1336.231323",
-    "Q_GENERAL": "6968.895508"
   },
   {
     "GRS_ID": "145",
@@ -7467,18 +6855,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "08.10.16 09:55",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.476411581",
-    "TEMPERATURE": "27.70998955",
-    "Q_CURR": "38.75617599",
-    "Q_START_DAY": "116.8338318",
-    "Q_LAST_DAY": "1336.231323",
-    "Q_GENERAL": "6968.712891"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "08.10.16 10:17",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -7488,18 +6864,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "130.7805634",
     "Q_LAST_DAY": "1336.231323",
     "Q_GENERAL": "6968.727051"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "08.10.16 11:03",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.429532766",
-    "TEMPERATURE": "33.13804245",
-    "Q_CURR": "38.08686447",
-    "Q_START_DAY": "160.4376373",
-    "Q_LAST_DAY": "1336.231323",
-    "Q_GENERAL": "6968.756836"
   },
   {
     "GRS_ID": "145",
@@ -7524,18 +6888,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "187.2562256",
     "Q_LAST_DAY": "1336.231323",
     "Q_GENERAL": "6968.783691"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "08.10.16 13:22",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.3311584",
-    "TEMPERATURE": "36.50240707",
-    "Q_CURR": "40.44084167",
-    "Q_START_DAY": "252.5402985",
-    "Q_LAST_DAY": "1336.231323",
-    "Q_GENERAL": "6968.848633"
   },
   {
     "GRS_ID": "145",
@@ -8115,36 +7467,12 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "08.10.16 23:07",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.38407445",
-    "TEMPERATURE": "16.65309334",
-    "Q_CURR": "46.74849701",
-    "Q_START_DAY": "880.2692871",
-    "Q_LAST_DAY": "1336.231323",
-    "Q_GENERAL": "6969.476563"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "08.10.16 23:09",
     "NO_DEV": "41",
     "NO_LINE": "1",
     "P_STAT": "2.385140181",
     "TEMPERATURE": "16.62534904",
     "Q_CURR": "46.74849701",
-    "Q_START_DAY": "880.2692871",
-    "Q_LAST_DAY": "1336.231323",
-    "Q_GENERAL": "6969.476563"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "08.10.16 23:09",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.385140181",
-    "TEMPERATURE": "16.62534904",
-    "Q_CURR": "46.76557922",
     "Q_START_DAY": "880.2692871",
     "Q_LAST_DAY": "1336.231323",
     "Q_GENERAL": "6969.476563"
@@ -8292,18 +7620,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "899.0650024",
     "Q_LAST_DAY": "1336.231323",
     "Q_GENERAL": "6969.495117"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "08.10.16 23:35",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.397690535",
-    "TEMPERATURE": "16.46586418",
-    "Q_CURR": "44.71692657",
-    "Q_START_DAY": "901.4212646",
-    "Q_LAST_DAY": "1336.231323",
-    "Q_GENERAL": "6969.497559"
   },
   {
     "GRS_ID": "145",
@@ -8775,18 +8091,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.01.16 09:54",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.361700773",
-    "TEMPERATURE": "15.49168682",
-    "Q_CURR": "49.1424942",
-    "Q_START_DAY": "146.7787323",
-    "Q_LAST_DAY": "1494.51416",
-    "Q_GENERAL": "7001.880859"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.01.16 10:30",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -8931,18 +8235,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.01.16 15:38",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.443028212",
-    "TEMPERATURE": "23.32161522",
-    "Q_CURR": "90.06121826",
-    "Q_START_DAY": "655.7930908",
-    "Q_LAST_DAY": "1494.51416",
-    "Q_GENERAL": "7002.389648"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.01.16 15:40",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -8952,18 +8244,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "655.7930908",
     "Q_LAST_DAY": "1494.51416",
     "Q_GENERAL": "7002.389648"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.01.16 15:40",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.443383455",
-    "TEMPERATURE": "23.42835426",
-    "Q_CURR": "89.86710358",
-    "Q_START_DAY": "658.137146",
-    "Q_LAST_DAY": "1494.51416",
-    "Q_GENERAL": "7002.39209"
   },
   {
     "GRS_ID": "145",
@@ -9084,18 +8364,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "709.8013916",
     "Q_LAST_DAY": "1494.51416",
     "Q_GENERAL": "7002.443848"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.01.16 16:22",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.454037905",
-    "TEMPERATURE": "22.98692513",
-    "Q_CURR": "83.0586853",
-    "Q_START_DAY": "716.87323",
-    "Q_LAST_DAY": "1494.51416",
-    "Q_GENERAL": "7002.450684"
   },
   {
     "GRS_ID": "145",
@@ -9303,18 +8571,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.01.16 16:56",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.456898451",
-    "TEMPERATURE": "22.33741951",
-    "Q_CURR": "73.93709564",
-    "Q_START_DAY": "759.3883057",
-    "Q_LAST_DAY": "1494.51416",
-    "Q_GENERAL": "7002.493164"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.01.16 16:58",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -9360,18 +8616,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "764.1212158",
     "Q_LAST_DAY": "1494.51416",
     "Q_GENERAL": "7002.498047"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.01.16 17:02",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.456878901",
-    "TEMPERATURE": "22.20995522",
-    "Q_CURR": "72.39849854",
-    "Q_START_DAY": "766.4884644",
-    "Q_LAST_DAY": "1494.51416",
-    "Q_GENERAL": "7002.500488"
   },
   {
     "GRS_ID": "145",
@@ -9519,18 +8763,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.02.16 11:40",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.36205554",
-    "TEMPERATURE": "28.60814095",
-    "Q_CURR": "50.34220886",
-    "Q_START_DAY": "233.4695892",
-    "Q_LAST_DAY": "1528.166992",
-    "Q_GENERAL": "7003.495605"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.05.16 15:03",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -9660,18 +8892,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "39.09174728",
     "Q_LAST_DAY": "1391.782471",
     "Q_GENERAL": "7012.138184"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.08.16 07:50",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.546375036",
-    "TEMPERATURE": "9.609553337",
-    "Q_CURR": "47.08644485",
-    "Q_START_DAY": "41.65452957",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7012.140625"
   },
   {
     "GRS_ID": "145",
@@ -10128,18 +9348,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "554.3254395",
     "Q_LAST_DAY": "1651.4104",
     "Q_GENERAL": "7008.783203"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.05.16 17:27",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.423828363",
-    "TEMPERATURE": "25.20954323",
-    "Q_CURR": "67.47769928",
-    "Q_START_DAY": "561.2588501",
-    "Q_LAST_DAY": "1651.4104",
-    "Q_GENERAL": "7008.790039"
   },
   {
     "GRS_ID": "145",
@@ -10748,18 +9956,6 @@ const IndicatorsMoment = [
     "NO_LINE": "1",
     "P_STAT": "2.358504057",
     "TEMPERATURE": "25.64593697",
-    "Q_CURR": "101.0320511",
-    "Q_START_DAY": "326.0424194",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7011.033691"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.07.16 12:58",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.358504057",
-    "TEMPERATURE": "25.64978218",
     "Q_CURR": "101.0320511",
     "Q_START_DAY": "326.0424194",
     "Q_LAST_DAY": "1223.490356",
@@ -11823,30 +11019,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.08.16 09:52",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.435215235",
-    "TEMPERATURE": "20.83726311",
-    "Q_CURR": "46.65125656",
-    "Q_START_DAY": "137.3227081",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7012.236328"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.08.16 09:59",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.431644201",
-    "TEMPERATURE": "21.41930962",
-    "Q_CURR": "46.64261246",
-    "Q_START_DAY": "142.0251312",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7012.241211"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.08.16 09:59",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -12243,18 +11415,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.05.16 21:00",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.374402285",
-    "TEMPERATURE": "16.96082878",
-    "Q_CURR": "55.49603271",
-    "Q_START_DAY": "768.1603394",
-    "Q_LAST_DAY": "1651.4104",
-    "Q_GENERAL": "7008.99707"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.05.16 21:04",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -12312,18 +11472,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "805.4654541",
     "Q_LAST_DAY": "1651.4104",
     "Q_GENERAL": "7009.03418"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.05.16 21:00",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.38296771",
-    "TEMPERATURE": "16.50011253",
-    "Q_CURR": "51.97086716",
-    "Q_START_DAY": "819.4968262",
-    "Q_LAST_DAY": "1651.4104",
-    "Q_GENERAL": "7009.04834"
   },
   {
     "GRS_ID": "145",
@@ -12735,18 +11883,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.06.16 04:21",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.584730387",
-    "TEMPERATURE": "13.28756618",
-    "Q_CURR": "47.88163757",
-    "Q_START_DAY": "1130.327637",
-    "Q_LAST_DAY": "1651.4104",
-    "Q_GENERAL": "7009.358887"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.06.16 04:33",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -13040,18 +12176,6 @@ const IndicatorsMoment = [
     "NO_LINE": "1",
     "P_STAT": "2.549216032",
     "TEMPERATURE": "6.687450886",
-    "Q_CURR": "48.63444901",
-    "Q_START_DAY": "1277.331665",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7013.376465"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.09.16 05:09",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.549216032",
-    "TEMPERATURE": "6.732014179",
     "Q_CURR": "48.63444901",
     "Q_START_DAY": "1277.331665",
     "Q_LAST_DAY": "1391.782471",
@@ -13659,18 +12783,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.05.16 18:13",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.423794985",
-    "TEMPERATURE": "25.08394051",
-    "Q_CURR": "61.70090103",
-    "Q_START_DAY": "609.7938843",
-    "Q_LAST_DAY": "1651.4104",
-    "Q_GENERAL": "7008.838379"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.05.16 18:17",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -13791,18 +12903,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.08.16 12:13",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.364897013",
-    "TEMPERATURE": "27.23376274",
-    "Q_CURR": "46.56912613",
-    "Q_START_DAY": "244.7825012",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7012.34375"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.08.16 12:17",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -13820,18 +12920,6 @@ const IndicatorsMoment = [
     "NO_LINE": "1",
     "P_STAT": "2.360990286",
     "TEMPERATURE": "27.49559212",
-    "Q_CURR": "47.07632828",
-    "Q_START_DAY": "253.7273254",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7012.353027"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.08.16 12:23",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.360990286",
-    "TEMPERATURE": "27.49464607",
     "Q_CURR": "47.07632828",
     "Q_START_DAY": "253.7273254",
     "Q_LAST_DAY": "1391.782471",
@@ -13911,18 +12999,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.08.16 12:51",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.351549864",
-    "TEMPERATURE": "28.13755989",
-    "Q_CURR": "49.25667953",
-    "Q_START_DAY": "280.423645",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7012.379395"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.08.16 12:55",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -13942,18 +13018,6 @@ const IndicatorsMoment = [
     "TEMPERATURE": "28.17836952",
     "Q_CURR": "49.23678207",
     "Q_START_DAY": "280.423645",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7012.379395"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.08.16 12:57",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.349270582",
-    "TEMPERATURE": "28.20416451",
-    "Q_CURR": "49.43519974",
-    "Q_START_DAY": "282.6405029",
     "Q_LAST_DAY": "1391.782471",
     "Q_GENERAL": "7012.379395"
   },
@@ -14007,18 +13071,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.08.16 13:09",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.344653845",
-    "TEMPERATURE": "28.24186134",
-    "Q_CURR": "50.40897751",
-    "Q_START_DAY": "291.4989014",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7012.390625"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.08.16 13:11",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -14052,18 +13104,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "298.1304321",
     "Q_LAST_DAY": "1391.782471",
     "Q_GENERAL": "7012.397461"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.08.16 13:19",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.341102362",
-    "TEMPERATURE": "28.28932381",
-    "Q_CURR": "51.69830322",
-    "Q_START_DAY": "300.3390198",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7012.399414"
   },
   {
     "GRS_ID": "145",
@@ -14136,18 +13176,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "320.1925964",
     "Q_LAST_DAY": "1391.782471",
     "Q_GENERAL": "7012.419434"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.08.16 13:39",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.334853888",
-    "TEMPERATURE": "28.15865135",
-    "Q_CURR": "57.50756073",
-    "Q_START_DAY": "322.3968506",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7012.421387"
   },
   {
     "GRS_ID": "145",
@@ -14316,18 +13344,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "375.5148621",
     "Q_LAST_DAY": "1391.782471",
     "Q_GENERAL": "7012.474609"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.08.16 14:28",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.343943357",
-    "TEMPERATURE": "25.82813072",
-    "Q_CURR": "88.70228577",
-    "Q_START_DAY": "384.4269409",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7012.483398"
   },
   {
     "GRS_ID": "145",
@@ -14532,18 +13548,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "1200.270996",
     "Q_LAST_DAY": "1651.4104",
     "Q_GENERAL": "7009.429199"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.06.16 05:51",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.629288435",
-    "TEMPERATURE": "13.77413464",
-    "Q_CURR": "47.61324692",
-    "Q_START_DAY": "1202.881226",
-    "Q_LAST_DAY": "1651.4104",
-    "Q_GENERAL": "7009.431641"
   },
   {
     "GRS_ID": "145",
@@ -15039,18 +14043,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.09.16 03:26",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.497365236",
-    "TEMPERATURE": "6.986484051",
-    "Q_CURR": "48.94509506",
-    "Q_START_DAY": "1195.118286",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7013.294434"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.09.16 03:30",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -15060,30 +14052,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "1197.658325",
     "Q_LAST_DAY": "1391.782471",
     "Q_GENERAL": "7013.296875"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.09.16 03:30",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.498785734",
-    "TEMPERATURE": "6.980989933",
-    "Q_CURR": "48.97409439",
-    "Q_START_DAY": "1197.658325",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7013.296875"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.09.16 03:32",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.499850988",
-    "TEMPERATURE": "6.980989933",
-    "Q_CURR": "48.89242554",
-    "Q_START_DAY": "1200.200195",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7013.299316"
   },
   {
     "GRS_ID": "145",
@@ -15177,18 +14145,6 @@ const IndicatorsMoment = [
     "P_STAT": "2.524000883",
     "TEMPERATURE": "6.842140675",
     "Q_CURR": "48.81708145",
-    "Q_START_DAY": "1235.993042",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7013.334961"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.09.16 04:19",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.52471137",
-    "TEMPERATURE": "6.841804981",
-    "Q_CURR": "48.83096313",
     "Q_START_DAY": "1235.993042",
     "Q_LAST_DAY": "1391.782471",
     "Q_GENERAL": "7013.334961"
@@ -15507,18 +14463,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.05.16 20:00",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.374570131",
-    "TEMPERATURE": "17.00356102",
-    "Q_CURR": "55.49209976",
-    "Q_START_DAY": "768.1603394",
-    "Q_LAST_DAY": "1651.4104",
-    "Q_GENERAL": "7008.99707"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.05.16 21:02",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -15600,18 +14544,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "817.1558838",
     "Q_LAST_DAY": "1651.4104",
     "Q_GENERAL": "7009.045898"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.05.16 22:02",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.38407445",
-    "TEMPERATURE": "16.45785332",
-    "Q_CURR": "51.71483994",
-    "Q_START_DAY": "824.1819458",
-    "Q_LAST_DAY": "1651.4104",
-    "Q_GENERAL": "7009.052734"
   },
   {
     "GRS_ID": "145",
@@ -15891,30 +14823,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.06.16 00:02",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.434149504",
-    "TEMPERATURE": "14.7440691",
-    "Q_CURR": "49.12147522",
-    "Q_START_DAY": "923.7667847",
-    "Q_LAST_DAY": "1651.4104",
-    "Q_GENERAL": "7009.152344"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.06.16 00:02",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.434149504",
-    "TEMPERATURE": "14.7440691",
-    "Q_CURR": "49.15096664",
-    "Q_START_DAY": "923.7667847",
-    "Q_LAST_DAY": "1651.4104",
-    "Q_GENERAL": "7009.152344"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.06.16 00:04",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -16095,18 +15003,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.08.16 14:30",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.344653845",
-    "TEMPERATURE": "25.85157204",
-    "Q_CURR": "88.83800507",
-    "Q_START_DAY": "391.1177979",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7012.48584"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.08.16 14:32",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -16191,18 +15087,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.08.16 14:54",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.35069108",
-    "TEMPERATURE": "25.81756783",
-    "Q_CURR": "88.47323608",
-    "Q_START_DAY": "422.3859558",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7012.521484"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.08.16 14:56",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -16239,18 +15123,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.08.16 15:04",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.352765322",
-    "TEMPERATURE": "25.67163658",
-    "Q_CURR": "88.33900452",
-    "Q_START_DAY": "438.0517578",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7012.537109"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.08.16 15:10",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -16260,18 +15132,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "447.0198059",
     "Q_LAST_DAY": "1391.782471",
     "Q_GENERAL": "7012.546387"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.08.16 15:10",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.354343653",
-    "TEMPERATURE": "25.22340202",
-    "Q_CURR": "88.30649567",
-    "Q_START_DAY": "449.263855",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7012.54834"
   },
   {
     "GRS_ID": "145",
@@ -16299,18 +15159,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.08.16 15:16",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.354953051",
-    "TEMPERATURE": "25.06721306",
-    "Q_CURR": "88.31343079",
-    "Q_START_DAY": "458.247345",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7012.557617"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.08.16 15:18",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -16320,18 +15168,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "458.247345",
     "Q_LAST_DAY": "1391.782471",
     "Q_GENERAL": "7012.557617"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.08.16 15:18",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.35547328",
-    "TEMPERATURE": "25.02136803",
-    "Q_CURR": "88.24015808",
-    "Q_START_DAY": "462.7424927",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7012.562012"
   },
   {
     "GRS_ID": "145",
@@ -16491,18 +15327,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.08.16 16:02",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.366026163",
-    "TEMPERATURE": "24.4896183",
-    "Q_CURR": "88.10279083",
-    "Q_START_DAY": "523.6424561",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7012.623047"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.08.16 16:08",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -16611,18 +15435,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.08.16 17:12",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.379457712",
-    "TEMPERATURE": "22.38237953",
-    "Q_CURR": "85.36799622",
-    "Q_START_DAY": "626.0766602",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7012.725098"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.08.16 17:14",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -16680,18 +15492,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "644.4194946",
     "Q_LAST_DAY": "1391.782471",
     "Q_GENERAL": "7012.743652"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.08.16 17:26",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.38087821",
-    "TEMPERATURE": "22.01471138",
-    "Q_CURR": "83.37828064",
-    "Q_START_DAY": "646.7145386",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7012.746094"
   },
   {
     "GRS_ID": "145",
@@ -17043,18 +15843,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.06.16 17:22",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.354953051",
-    "TEMPERATURE": "24.46397972",
-    "Q_CURR": "59.97811127",
-    "Q_START_DAY": "509.7243958",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7009.993652"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.06.16 17:36",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -17247,18 +16035,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.06.16 18:34",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.343781233",
-    "TEMPERATURE": "21.16773796",
-    "Q_CURR": "59.93712997",
-    "Q_START_DAY": "582.0065918",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7010.065918"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.06.16 18:40",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -17290,18 +16066,6 @@ const IndicatorsMoment = [
     "TEMPERATURE": "20.13026619",
     "Q_CURR": "60.11655426",
     "Q_START_DAY": "600.1404419",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7010.083984"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.06.16 18:54",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.337550879",
-    "TEMPERATURE": "20.13026619",
-    "Q_CURR": "60.2562027",
-    "Q_START_DAY": "602.4083252",
     "Q_LAST_DAY": "1255.19873",
     "Q_GENERAL": "7010.083984"
   },
@@ -17439,18 +16203,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.09.16 03:02",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.483233213",
-    "TEMPERATURE": "7.149278164",
-    "Q_CURR": "49.02952194",
-    "Q_START_DAY": "1174.863281",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7013.273926"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.09.16 03:10",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -17559,36 +16311,12 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.09.16 03:00",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.514853239",
-    "TEMPERATURE": "6.877746105",
-    "Q_CURR": "48.89082336",
-    "Q_START_DAY": "1220.612793",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7013.319824"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.09.16 04:00",
     "NO_DEV": "41",
     "NO_LINE": "1",
     "P_STAT": "2.515832663",
     "TEMPERATURE": "6.91757822",
     "Q_CURR": "48.82514191",
-    "Q_START_DAY": "1223.171875",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7013.322266"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.09.16 04:02",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.516897917",
-    "TEMPERATURE": "6.919456005",
-    "Q_CURR": "48.84560394",
     "Q_START_DAY": "1223.171875",
     "Q_LAST_DAY": "1391.782471",
     "Q_GENERAL": "7013.322266"
@@ -17604,18 +16332,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "1225.732422",
     "Q_LAST_DAY": "1391.782471",
     "Q_GENERAL": "7013.324707"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.09.16 04:06",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.519028902",
-    "TEMPERATURE": "6.896151066",
-    "Q_CURR": "48.86548996",
-    "Q_START_DAY": "1228.295166",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7013.327637"
   },
   {
     "GRS_ID": "145",
@@ -17643,35 +16359,11 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.09.16 04:11",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.521869898",
-    "TEMPERATURE": "6.858822346",
-    "Q_CURR": "48.82417679",
-    "Q_START_DAY": "1230.859253",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7013.330078"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.09.16 04:15",
     "NO_DEV": "41",
     "NO_LINE": "1",
     "P_STAT": "2.522935629",
     "TEMPERATURE": "6.858822346",
-    "Q_CURR": "48.79494095",
-    "Q_START_DAY": "1233.425293",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7013.33252"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.09.16 04:15",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.522935629",
-    "TEMPERATURE": "6.849955082",
     "Q_CURR": "48.79494095",
     "Q_START_DAY": "1233.425293",
     "Q_LAST_DAY": "1391.782471",
@@ -18027,30 +16719,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.06.16 01:00",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.466467619",
-    "TEMPERATURE": "14.17871952",
-    "Q_CURR": "48.74465942",
-    "Q_START_DAY": "967.4381714",
-    "Q_LAST_DAY": "1651.4104",
-    "Q_GENERAL": "7009.196289"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.06.16 01:02",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.468644381",
-    "TEMPERATURE": "14.16539478",
-    "Q_CURR": "48.68234253",
-    "Q_START_DAY": "972.3287964",
-    "Q_LAST_DAY": "1651.4104",
-    "Q_GENERAL": "7009.201172"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.06.16 01:08",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -18081,18 +16749,6 @@ const IndicatorsMoment = [
     "P_STAT": "2.481383562",
     "TEMPERATURE": "14.04543972",
     "Q_CURR": "48.60656357",
-    "Q_START_DAY": "989.506958",
-    "Q_LAST_DAY": "1651.4104",
-    "Q_GENERAL": "7009.218262"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.06.16 01:24",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.481383562",
-    "TEMPERATURE": "14.04543972",
-    "Q_CURR": "48.63211441",
     "Q_START_DAY": "989.506958",
     "Q_LAST_DAY": "1651.4104",
     "Q_GENERAL": "7009.218262"
@@ -18219,30 +16875,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.06.16 02:00",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.502692461",
-    "TEMPERATURE": "14.05905247",
-    "Q_CURR": "48.38666534",
-    "Q_START_DAY": "1019.158386",
-    "Q_LAST_DAY": "1651.4104",
-    "Q_GENERAL": "7009.248047"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.06.16 02:02",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.504108667",
-    "TEMPERATURE": "14.07848072",
-    "Q_CURR": "48.41086578",
-    "Q_START_DAY": "1019.158386",
-    "Q_LAST_DAY": "1651.4104",
-    "Q_GENERAL": "7009.248047"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.06.16 02:04",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -18351,36 +16983,12 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.06.16 02:48",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.531162024",
-    "TEMPERATURE": "13.9200201",
-    "Q_CURR": "48.20667648",
-    "Q_START_DAY": "1059.116821",
-    "Q_LAST_DAY": "1651.4104",
-    "Q_GENERAL": "7009.288086"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.06.16 02:50",
     "NO_DEV": "41",
     "NO_LINE": "1",
     "P_STAT": "2.532129049",
     "TEMPERATURE": "13.88117886",
     "Q_CURR": "48.20667648",
-    "Q_START_DAY": "1059.116821",
-    "Q_LAST_DAY": "1651.4104",
-    "Q_GENERAL": "7009.288086"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.06.16 02:50",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.532129049",
-    "TEMPERATURE": "13.88117886",
-    "Q_CURR": "48.23145676",
     "Q_START_DAY": "1059.116821",
     "Q_LAST_DAY": "1651.4104",
     "Q_GENERAL": "7009.288086"
@@ -18444,18 +17052,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "1076.768799",
     "Q_LAST_DAY": "1651.4104",
     "Q_GENERAL": "7009.305664"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.08.16 11:39",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.378056765",
-    "TEMPERATURE": "26.44769478",
-    "Q_CURR": "45.86803436",
-    "Q_START_DAY": "217.7975769",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7012.316895"
   },
   {
     "GRS_ID": "145",
@@ -19305,18 +17901,6 @@ const IndicatorsMoment = [
     "P_STAT": "2.289985418",
     "TEMPERATURE": "13.29493809",
     "Q_CURR": "56.56885147",
-    "Q_START_DAY": "740.9175415",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7010.224609"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.06.16 21:13",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.289968729",
-    "TEMPERATURE": "13.20712185",
-    "Q_CURR": "56.58610916",
     "Q_START_DAY": "740.9175415",
     "Q_LAST_DAY": "1255.19873",
     "Q_GENERAL": "7010.224609"
@@ -20331,18 +18915,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.06.16 03:54",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.569814444",
-    "TEMPERATURE": "13.30536175",
-    "Q_CURR": "47.98022842",
-    "Q_START_DAY": "1109.822632",
-    "Q_LAST_DAY": "1651.4104",
-    "Q_GENERAL": "7009.338379"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.06.16 03:59",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -20628,18 +19200,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "1189.844238",
     "Q_LAST_DAY": "1651.4104",
     "Q_GENERAL": "7009.418457"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.06.16 05:37",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.624597788",
-    "TEMPERATURE": "13.8226366",
-    "Q_CURR": "47.62725067",
-    "Q_START_DAY": "1192.449219",
-    "Q_LAST_DAY": "1651.4104",
-    "Q_GENERAL": "7009.421387"
   },
   {
     "GRS_ID": "145",
@@ -21315,18 +19875,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.04.16 17:24",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.471084356",
-    "TEMPERATURE": "24.00219154",
-    "Q_CURR": "72.12631226",
-    "Q_START_DAY": "930.3179321",
-    "Q_LAST_DAY": "1815.865967",
-    "Q_GENERAL": "7007.507813"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.04.16 17:33",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -21336,18 +19884,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "937.4199829",
     "Q_LAST_DAY": "1815.865967",
     "Q_GENERAL": "7007.514648"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.04.16 17:43",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.469607115",
-    "TEMPERATURE": "23.15623665",
-    "Q_CURR": "69.18682861",
-    "Q_START_DAY": "951.6411133",
-    "Q_LAST_DAY": "1815.865967",
-    "Q_GENERAL": "7007.528809"
   },
   {
     "GRS_ID": "145",
@@ -21975,18 +20511,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.01.16 18:24",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.443383455",
-    "TEMPERATURE": "19.67502785",
-    "Q_CURR": "62.4727211",
-    "Q_START_DAY": "858.9008789",
-    "Q_LAST_DAY": "1494.51416",
-    "Q_GENERAL": "7002.592773"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.01.16 19:12",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -22611,18 +21135,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.06.16 07:21",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.614895105",
-    "TEMPERATURE": "14.5334444",
-    "Q_CURR": "47.03665161",
-    "Q_START_DAY": "18.18117523",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7009.501953"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.06.16 07:23",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -22632,18 +21144,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "18.18117523",
     "Q_LAST_DAY": "1255.19873",
     "Q_GENERAL": "7009.501953"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.06.16 07:23",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.613497019",
-    "TEMPERATURE": "14.56625652",
-    "Q_CURR": "47.05305481",
-    "Q_START_DAY": "20.76713371",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7009.504883"
   },
   {
     "GRS_ID": "145",
@@ -23391,30 +21891,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.02.16 06:27",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.594704866",
-    "TEMPERATURE": "7.855396748",
-    "Q_CURR": "50.08718109",
-    "Q_START_DAY": "1501.927246",
-    "Q_LAST_DAY": "1494.51416",
-    "Q_GENERAL": "7003.23584"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.02.16 06:27",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.594704866",
-    "TEMPERATURE": "7.855396748",
-    "Q_CURR": "50.087677",
-    "Q_START_DAY": "1504.557617",
-    "Q_LAST_DAY": "1494.51416",
-    "Q_GENERAL": "7003.238281"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.02.16 06:37",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -23652,18 +22128,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "1075.917725",
     "Q_LAST_DAY": "1223.490356",
     "Q_GENERAL": "7011.783203"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.08.16 00:37",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.425981283",
-    "TEMPERATURE": "7.692327976",
-    "Q_CURR": "49.23339081",
-    "Q_START_DAY": "1085.741821",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7011.792969"
   },
   {
     "GRS_ID": "145",
@@ -24021,18 +22485,6 @@ const IndicatorsMoment = [
     "P_STAT": "2.522935629",
     "TEMPERATURE": "5.864490986",
     "Q_CURR": "51.10035706",
-    "Q_START_DAY": "1355.332886",
-    "Q_LAST_DAY": "1494.51416",
-    "Q_GENERAL": "7003.089355"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.02.16 03:33",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.522935629",
-    "TEMPERATURE": "5.864490986",
-    "Q_CURR": "51.12870026",
     "Q_START_DAY": "1355.332886",
     "Q_LAST_DAY": "1494.51416",
     "Q_GENERAL": "7003.089355"
@@ -24651,18 +23103,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.06.16 12:39",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.422197104",
-    "TEMPERATURE": "28.49795341",
-    "Q_CURR": "45.35119629",
-    "Q_START_DAY": "265.361969",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7009.749512"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.06.16 12:46",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -24672,18 +23112,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "269.9275818",
     "Q_LAST_DAY": "1255.19873",
     "Q_GENERAL": "7009.753906"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.06.16 12:48",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.41852355",
-    "TEMPERATURE": "28.57224464",
-    "Q_CURR": "45.37084961",
-    "Q_START_DAY": "272.2084351",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7009.756348"
   },
   {
     "GRS_ID": "145",
@@ -24744,18 +23172,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "294.9138184",
     "Q_LAST_DAY": "1255.19873",
     "Q_GENERAL": "7009.778809"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.06.16 13:26",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.404317617",
-    "TEMPERATURE": "29.6610775",
-    "Q_CURR": "45.4659996",
-    "Q_START_DAY": "299.432312",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7009.783203"
   },
   {
     "GRS_ID": "145",
@@ -24891,18 +23307,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.06.16 14:48",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.375168085",
-    "TEMPERATURE": "29.44451332",
-    "Q_CURR": "48.23389053",
-    "Q_START_DAY": "364.4557495",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7009.848145"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.06.16 15:04",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -24960,18 +23364,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "386.761261",
     "Q_LAST_DAY": "1255.19873",
     "Q_GENERAL": "7009.870605"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.06.16 15:20",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.366317511",
-    "TEMPERATURE": "29.05329704",
-    "Q_CURR": "50.29238129",
-    "Q_START_DAY": "391.2159729",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7009.875"
   },
   {
     "GRS_ID": "145",
@@ -25275,18 +23667,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.02.16 08:04",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.53607583",
-    "TEMPERATURE": "10.71567822",
-    "Q_CURR": "49.37144089",
-    "Q_START_DAY": "51.6962471",
-    "Q_LAST_DAY": "1528.166992",
-    "Q_GENERAL": "7003.313965"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.02.16 08:14",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -25455,18 +23835,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.02.16 16:05",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.450097799",
-    "TEMPERATURE": "24.57056618",
-    "Q_CURR": "73.9274826",
-    "Q_START_DAY": "650.4620972",
-    "Q_LAST_DAY": "1528.166992",
-    "Q_GENERAL": "7003.912598"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.02.16 16:07",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -25476,18 +23844,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "650.4620972",
     "Q_LAST_DAY": "1528.166992",
     "Q_GENERAL": "7003.912598"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.02.16 16:07",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.449775934",
-    "TEMPERATURE": "24.57575798",
-    "Q_CURR": "73.2609787",
-    "Q_START_DAY": "652.8032227",
-    "Q_LAST_DAY": "1528.166992",
-    "Q_GENERAL": "7003.915039"
   },
   {
     "GRS_ID": "145",
@@ -25560,42 +23916,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "823.0570679",
     "Q_LAST_DAY": "1528.166992",
     "Q_GENERAL": "7004.084961"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.02.16 18:47",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.410000086",
-    "TEMPERATURE": "20.64612389",
-    "Q_CURR": "64.91510773",
-    "Q_START_DAY": "830.0626221",
-    "Q_LAST_DAY": "1528.166992",
-    "Q_GENERAL": "7004.092285"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.02.16 18:55",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.404672861",
-    "TEMPERATURE": "20.09350014",
-    "Q_CURR": "64.868927",
-    "Q_START_DAY": "839.3987427",
-    "Q_LAST_DAY": "1528.166992",
-    "Q_GENERAL": "7004.101563"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.02.16 18:55",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.404672861",
-    "TEMPERATURE": "20.09350014",
-    "Q_CURR": "64.86422729",
-    "Q_START_DAY": "839.3987427",
-    "Q_LAST_DAY": "1528.166992",
-    "Q_GENERAL": "7004.101563"
   },
   {
     "GRS_ID": "145",
@@ -25995,18 +24315,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.08.16 07:02",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.581178904",
-    "TEMPERATURE": "6.27554369",
-    "Q_CURR": "47.52378082",
-    "Q_START_DAY": "2.632368326",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7012.099121"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.08.16 07:04",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -26151,18 +24459,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.08.16 07:42",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.553122759",
-    "TEMPERATURE": "8.626360893",
-    "Q_CURR": "47.11580276",
-    "Q_START_DAY": "33.94619751",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7012.133301"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.08.16 07:46",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -26187,18 +24483,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.08.16 07:48",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.548349142",
-    "TEMPERATURE": "9.383225441",
-    "Q_CURR": "47.1207962",
-    "Q_START_DAY": "39.09174728",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7012.138184"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.08.16 07:54",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -26211,18 +24495,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.08.16 08:00",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.535365343",
-    "TEMPERATURE": "10.71602917",
-    "Q_CURR": "46.9661293",
-    "Q_START_DAY": "46.75876617",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7012.145996"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.08.16 08:02",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -26232,18 +24504,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "46.75876617",
     "Q_LAST_DAY": "1391.782471",
     "Q_GENERAL": "7012.145996"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.08.16 08:02",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.533334494",
-    "TEMPERATURE": "10.91355801",
-    "Q_CURR": "46.96657944",
-    "Q_START_DAY": "49.30153656",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7012.148438"
   },
   {
     "GRS_ID": "145",
@@ -26415,18 +24675,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.02.16 06:57",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.585795641",
-    "TEMPERATURE": "8.409556389",
-    "Q_CURR": "49.94575882",
-    "Q_START_DAY": "0",
-    "Q_LAST_DAY": "1494.51416",
-    "Q_GENERAL": "7003.259277"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.02.16 07:29",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -26496,18 +24744,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "226.7891693",
     "Q_LAST_DAY": "1528.166992",
     "Q_GENERAL": "7003.48877"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.02.16 11:34",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.364541769",
-    "TEMPERATURE": "28.52469063",
-    "Q_CURR": "50.05692673",
-    "Q_START_DAY": "231.2445679",
-    "Q_LAST_DAY": "1528.166992",
-    "Q_GENERAL": "7003.493164"
   },
   {
     "GRS_ID": "145",
@@ -26835,18 +25071,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.06.16 18:02",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.351756334",
-    "TEMPERATURE": "23.07403755",
-    "Q_CURR": "59.7836647",
-    "Q_START_DAY": "545.8063354",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7010.029785"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.06.16 18:22",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -27171,18 +25395,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.06.16 21:02",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.289961576",
-    "TEMPERATURE": "13.69378376",
-    "Q_CURR": "58.05286789",
-    "Q_START_DAY": "729.5472412",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7010.213379"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.06.16 21:04",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -27195,18 +25407,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.06.16 21:06",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.289961576",
-    "TEMPERATURE": "13.46661472",
-    "Q_CURR": "57.40595245",
-    "Q_START_DAY": "734.093689",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7010.218262"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.06.16 21:11",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -27216,18 +25416,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "738.6421509",
     "Q_LAST_DAY": "1255.19873",
     "Q_GENERAL": "7010.222656"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.06.16 21:13",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.289968729",
-    "TEMPERATURE": "13.20712185",
-    "Q_CURR": "56.58610916",
-    "Q_START_DAY": "740.9175415",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7010.224609"
   },
   {
     "GRS_ID": "145",
@@ -27483,18 +25671,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.02.16 03:27",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.519384146",
-    "TEMPERATURE": "5.863071918",
-    "Q_CURR": "51.114151",
-    "Q_START_DAY": "1350.182373",
-    "Q_LAST_DAY": "1494.51416",
-    "Q_GENERAL": "7003.083984"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.02.16 03:41",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -27567,18 +25743,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.02.16 22:02",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.317307711",
-    "TEMPERATURE": "13.53854275",
-    "Q_CURR": "57.31666183",
-    "Q_START_DAY": "1033.993164",
-    "Q_LAST_DAY": "1528.166992",
-    "Q_GENERAL": "7004.295898"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.02.16 22:04",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -27624,18 +25788,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "1261.285645",
     "Q_LAST_DAY": "1528.166992",
     "Q_GENERAL": "7004.523438"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.03.16 02:16",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.443383455",
-    "TEMPERATURE": "9.763266563",
-    "Q_CURR": "51.72404861",
-    "Q_START_DAY": "1263.746704",
-    "Q_LAST_DAY": "1528.166992",
-    "Q_GENERAL": "7004.525879"
   },
   {
     "GRS_ID": "145",
@@ -27744,18 +25896,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "25.59234047",
     "Q_LAST_DAY": "1499.42627",
     "Q_GENERAL": "7004.787109"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.03.16 08:07",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.49525094",
-    "TEMPERATURE": "11.73990917",
-    "Q_CURR": "49.44623947",
-    "Q_START_DAY": "55.86959839",
-    "Q_LAST_DAY": "1499.42627",
-    "Q_GENERAL": "7004.817383"
   },
   {
     "GRS_ID": "145",
@@ -27903,18 +26043,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.08.16 09:02",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.473570585",
-    "TEMPERATURE": "15.42126942",
-    "Q_CURR": "47.02970505",
-    "Q_START_DAY": "96.57915497",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7012.195801"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.08.16 09:04",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -27972,18 +26100,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "108.7206192",
     "Q_LAST_DAY": "1391.782471",
     "Q_GENERAL": "7012.208008"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.08.16 09:22",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.455103159",
-    "TEMPERATURE": "17.35727882",
-    "Q_CURR": "46.93768692",
-    "Q_START_DAY": "113.5394058",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7012.212891"
   },
   {
     "GRS_ID": "145",
@@ -28092,30 +26208,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "137.3227081",
     "Q_LAST_DAY": "1391.782471",
     "Q_GENERAL": "7012.236328"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.08.16 09:59",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.431644201",
-    "TEMPERATURE": "21.41930962",
-    "Q_CURR": "46.64261246",
-    "Q_START_DAY": "142.0251312",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7012.241211"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.08.16 10:05",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.427757025",
-    "TEMPERATURE": "21.91775703",
-    "Q_CURR": "46.53891373",
-    "Q_START_DAY": "146.7115936",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7012.246094"
   },
   {
     "GRS_ID": "145",
@@ -28359,42 +26451,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.08.16 11:29",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.382294893",
-    "TEMPERATURE": "26.16364479",
-    "Q_CURR": "45.83931351",
-    "Q_START_DAY": "211.0140991",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7012.310059"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.08.16 11:33",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.380522966",
-    "TEMPERATURE": "26.16364479",
-    "Q_CURR": "45.86815262",
-    "Q_START_DAY": "213.2770538",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7012.3125"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.08.16 11:35",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.379656076",
-    "TEMPERATURE": "26.25551796",
-    "Q_CURR": "45.92378235",
-    "Q_START_DAY": "215.5380707",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7012.314941"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.08.16 11:37",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -28416,18 +26472,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "222.310257",
     "Q_LAST_DAY": "1391.782471",
     "Q_GENERAL": "7012.321289"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.02.16 08:00",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.476197958",
-    "TEMPERATURE": "14.69811535",
-    "Q_CURR": "49.25734711",
-    "Q_START_DAY": "96.62801361",
-    "Q_LAST_DAY": "1528.166992",
-    "Q_GENERAL": "7003.358887"
   },
   {
     "GRS_ID": "145",
@@ -28524,18 +26568,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "538.3967285",
     "Q_LAST_DAY": "1528.166992",
     "Q_GENERAL": "7003.800293"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.02.16 14:53",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.432729006",
-    "TEMPERATURE": "25.6701107",
-    "Q_CURR": "106.076416",
-    "Q_START_DAY": "545.3328857",
-    "Q_LAST_DAY": "1528.166992",
-    "Q_GENERAL": "7003.807129"
   },
   {
     "GRS_ID": "145",
@@ -28935,18 +26967,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.03.16 13:47",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.430243254",
-    "TEMPERATURE": "25.23283195",
-    "Q_CURR": "109.2686157",
-    "Q_START_DAY": "618.0890503",
-    "Q_LAST_DAY": "1499.42627",
-    "Q_GENERAL": "7005.379395"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.03.16 14:01",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -29307,18 +27327,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.06.16 23:59",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.347786188",
-    "TEMPERATURE": "10.09772396",
-    "Q_CURR": "50.68697357",
-    "Q_START_DAY": "886.5667725",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7010.370605"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.07.16 00:01",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -29391,18 +27399,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.07.16 00:23",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.36134553",
-    "TEMPERATURE": "9.758994102",
-    "Q_CURR": "50.35602188",
-    "Q_START_DAY": "905.5153198",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7010.389648"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.07.16 00:25",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -29415,18 +27411,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.07.16 00:25",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.362505198",
-    "TEMPERATURE": "9.731751442",
-    "Q_CURR": "50.36254501",
-    "Q_START_DAY": "907.8932495",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7010.391602"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.07.16 00:27",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -29436,18 +27420,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "907.8932495",
     "Q_LAST_DAY": "1255.19873",
     "Q_GENERAL": "7010.391602"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.07.16 00:27",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.363831282",
-    "TEMPERATURE": "9.691004753",
-    "Q_CURR": "50.23449326",
-    "Q_START_DAY": "910.2729492",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7010.394043"
   },
   {
     "GRS_ID": "145",
@@ -29751,18 +27723,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.03.16 12:27",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.403607607",
-    "TEMPERATURE": "22.70110512",
-    "Q_CURR": "136.0033875",
-    "Q_START_DAY": "460.6185608",
-    "Q_LAST_DAY": "1499.42627",
-    "Q_GENERAL": "7005.222168"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.03.16 12:29",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -29796,18 +27756,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "499.920105",
     "Q_LAST_DAY": "1499.42627",
     "Q_GENERAL": "7005.26123"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.03.16 15:14",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.441607714",
-    "TEMPERATURE": "25.60293007",
-    "Q_CURR": "105.1520309",
-    "Q_START_DAY": "766.3068848",
-    "Q_LAST_DAY": "1499.42627",
-    "Q_GENERAL": "7005.527832"
   },
   {
     "GRS_ID": "145",
@@ -30009,18 +27957,6 @@ const IndicatorsMoment = [
     "P_STAT": "2.455702543",
     "TEMPERATURE": "7.583071232",
     "Q_CURR": "53.01317978",
-    "Q_START_DAY": "1611.682007",
-    "Q_LAST_DAY": "1499.42627",
-    "Q_GENERAL": "7006.373047"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.04.16 03:01",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.455702543",
-    "TEMPERATURE": "7.583071232",
-    "Q_CURR": "53.04504395",
     "Q_START_DAY": "1611.682007",
     "Q_LAST_DAY": "1499.42627",
     "Q_GENERAL": "7006.373047"
@@ -30243,35 +28179,11 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.08.16 12:21",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.361700773",
-    "TEMPERATURE": "27.43558311",
-    "Q_CURR": "46.9803009",
-    "Q_START_DAY": "251.4934692",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7012.350586"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.08.16 12:25",
     "NO_DEV": "41",
     "NO_LINE": "1",
     "P_STAT": "2.360279799",
     "TEMPERATURE": "27.49464607",
-    "Q_CURR": "47.05908203",
-    "Q_START_DAY": "253.7273254",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7012.353027"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.08.16 12:25",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.360279799",
-    "TEMPERATURE": "27.5136013",
     "Q_CURR": "47.05908203",
     "Q_START_DAY": "253.7273254",
     "Q_LAST_DAY": "1391.782471",
@@ -30303,18 +28215,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.08.16 12:57",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.349270582",
-    "TEMPERATURE": "28.20416451",
-    "Q_CURR": "49.23678207",
-    "Q_START_DAY": "280.423645",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7012.379395"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.08.16 13:35",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -30324,18 +28224,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "315.7848206",
     "Q_LAST_DAY": "1391.782471",
     "Q_GENERAL": "7012.415039"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.08.16 13:43",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.334614038",
-    "TEMPERATURE": "28.02718925",
-    "Q_CURR": "58.45493317",
-    "Q_START_DAY": "324.6018066",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7012.423828"
   },
   {
     "GRS_ID": "145",
@@ -30384,18 +28272,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "371.0664063",
     "Q_LAST_DAY": "1391.782471",
     "Q_GENERAL": "7012.470215"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.08.16 14:23",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.342339754",
-    "TEMPERATURE": "25.94872856",
-    "Q_CURR": "88.31220245",
-    "Q_START_DAY": "377.7411499",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7012.477051"
   },
   {
     "GRS_ID": "145",
@@ -30519,42 +28395,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.08.16 15:48",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.36205554",
-    "TEMPERATURE": "24.49141884",
-    "Q_CURR": "88.43222046",
-    "Q_START_DAY": "503.3070679",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7012.602539"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.08.16 15:58",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.36525178",
-    "TEMPERATURE": "24.53992271",
-    "Q_CURR": "88.34552002",
-    "Q_START_DAY": "516.8604126",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7012.616211"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.08.16 16:00",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.365607023",
-    "TEMPERATURE": "24.50668144",
-    "Q_CURR": "88.17739868",
-    "Q_START_DAY": "521.3812866",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7012.620605"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.08.16 16:10",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -30564,18 +28404,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "534.9580078",
     "Q_LAST_DAY": "1391.782471",
     "Q_GENERAL": "7012.634277"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.08.16 16:16",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.369868994",
-    "TEMPERATURE": "24.1250782",
-    "Q_CURR": "87.8811264",
-    "Q_START_DAY": "544.0241089",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7012.643066"
   },
   {
     "GRS_ID": "145",
@@ -30624,18 +28452,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "564.4586182",
     "Q_LAST_DAY": "1391.782471",
     "Q_GENERAL": "7012.663574"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.08.16 16:32",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.373065233",
-    "TEMPERATURE": "23.75855446",
-    "Q_CURR": "87.45141602",
-    "Q_START_DAY": "566.7319336",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7012.666016"
   },
   {
     "GRS_ID": "145",
@@ -30723,30 +28539,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.08.16 16:58",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.377064466",
-    "TEMPERATURE": "22.74951363",
-    "Q_CURR": "86.33588409",
-    "Q_START_DAY": "605.4807129",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7012.70459"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.08.16 17:02",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.377681971",
-    "TEMPERATURE": "22.61701393",
-    "Q_CURR": "86.30673218",
-    "Q_START_DAY": "610.0532227",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7012.709473"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.08.16 17:04",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -30792,18 +28584,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "635.2440796",
     "Q_LAST_DAY": "1391.782471",
     "Q_GENERAL": "7012.734375"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.08.16 17:22",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.3801682",
-    "TEMPERATURE": "22.10440636",
-    "Q_CURR": "83.85088348",
-    "Q_START_DAY": "642.124939",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7012.741211"
   },
   {
     "GRS_ID": "145",
@@ -30999,18 +28779,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.03.16 16:52",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.448193312",
-    "TEMPERATURE": "23.40878868",
-    "Q_CURR": "90.13134003",
-    "Q_START_DAY": "930.3609619",
-    "Q_LAST_DAY": "1499.42627",
-    "Q_GENERAL": "7005.691895"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.03.16 17:00",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -31155,18 +28923,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.03.16 18:02",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.424560785",
-    "TEMPERATURE": "21.26070976",
-    "Q_CURR": "79.5524826",
-    "Q_START_DAY": "1026.622803",
-    "Q_LAST_DAY": "1499.42627",
-    "Q_GENERAL": "7005.788086"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.03.16 18:04",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -31212,18 +28968,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "1035.989868",
     "Q_LAST_DAY": "1499.42627",
     "Q_GENERAL": "7005.797363"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.03.16 18:10",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.419944048",
-    "TEMPERATURE": "20.95170784",
-    "Q_CURR": "78.90365601",
-    "Q_START_DAY": "1038.330811",
-    "Q_LAST_DAY": "1499.42627",
-    "Q_GENERAL": "7005.799805"
   },
   {
     "GRS_ID": "145",
@@ -31587,18 +29331,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.07.16 01:35",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.405028105",
-    "TEMPERATURE": "8.870377541",
-    "Q_CURR": "49.28243256",
-    "Q_START_DAY": "965.5476685",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7010.449707"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.07.16 01:47",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -31647,18 +29379,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.07.16 01:57",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.41643405",
-    "TEMPERATURE": "8.655709267",
-    "Q_CURR": "48.90742111",
-    "Q_START_DAY": "985.0369263",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7010.46875"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.07.16 01:59",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -31668,18 +29388,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "985.0369263",
     "Q_LAST_DAY": "1255.19873",
     "Q_GENERAL": "7010.46875"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.07.16 02:01",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.419233561",
-    "TEMPERATURE": "8.611878395",
-    "Q_CURR": "48.85382462",
-    "Q_START_DAY": "987.482666",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7010.471191"
   },
   {
     "GRS_ID": "145",
@@ -31860,18 +29568,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "1031.853638",
     "Q_LAST_DAY": "1255.19873",
     "Q_GENERAL": "7010.515625"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.07.16 03:03",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.455103159",
-    "TEMPERATURE": "8.011490822",
-    "Q_CURR": "48.45063782",
-    "Q_START_DAY": "1036.825439",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7010.520996"
   },
   {
     "GRS_ID": "145",
@@ -32439,35 +30135,11 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.08.16 17:00",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.384016275",
-    "TEMPERATURE": "21.55027199",
-    "Q_CURR": "76.15969849",
-    "Q_START_DAY": "685.7791748",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7012.785156"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.08.16 18:00",
     "NO_DEV": "41",
     "NO_LINE": "1",
     "P_STAT": "2.38407445",
     "TEMPERATURE": "21.55027199",
-    "Q_CURR": "75.69154358",
-    "Q_START_DAY": "688.0810547",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7012.787109"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.08.16 18:00",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.38407445",
-    "TEMPERATURE": "21.48798561",
     "Q_CURR": "75.69154358",
     "Q_START_DAY": "688.0810547",
     "Q_LAST_DAY": "1391.782471",
@@ -32535,30 +30207,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.08.16 18:46",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.383364439",
-    "TEMPERATURE": "18.83038902",
-    "Q_CURR": "67.38496399",
-    "Q_START_DAY": "741.2495117",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7012.840332"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.08.16 18:49",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.383009195",
-    "TEMPERATURE": "18.67948341",
-    "Q_CURR": "66.90473175",
-    "Q_START_DAY": "745.8969116",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7012.845215"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.08.16 18:51",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -32568,30 +30216,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "745.8969116",
     "Q_LAST_DAY": "1391.782471",
     "Q_GENERAL": "7012.845215"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.08.16 18:51",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.383009195",
-    "TEMPERATURE": "18.53709221",
-    "Q_CURR": "66.70695496",
-    "Q_START_DAY": "748.2219849",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7012.847656"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.08.16 18:53",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.382298708",
-    "TEMPERATURE": "18.38619804",
-    "Q_CURR": "66.39952087",
-    "Q_START_DAY": "748.2219849",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7012.847656"
   },
   {
     "GRS_ID": "145",
@@ -32745,18 +30369,6 @@ const IndicatorsMoment = [
     "P_STAT": "2.364186525",
     "TEMPERATURE": "15.03896809",
     "Q_CURR": "61.67279816",
-    "Q_START_DAY": "801.8661499",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7012.900879"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.08.16 19:45",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.363121271",
-    "TEMPERATURE": "15.03896809",
-    "Q_CURR": "61.66871643",
     "Q_START_DAY": "801.8661499",
     "Q_LAST_DAY": "1391.782471",
     "Q_GENERAL": "7012.900879"
@@ -33735,18 +31347,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.07.16 04:49",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.513346434",
-    "TEMPERATURE": "7.048980236",
-    "Q_CURR": "47.96233749",
-    "Q_START_DAY": "1122.604492",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7010.606445"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.07.16 04:53",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -33900,18 +31500,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "1166.373901",
     "Q_LAST_DAY": "1255.19873",
     "Q_GENERAL": "7010.650391"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.07.16 05:49",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.542113066",
-    "TEMPERATURE": "6.350126743",
-    "Q_CURR": "47.69602966",
-    "Q_START_DAY": "1168.964722",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7010.652832"
   },
   {
     "GRS_ID": "145",
@@ -34611,35 +32199,11 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.08.16 21:21",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.321960688",
-    "TEMPERATURE": "11.3047266",
-    "Q_CURR": "52.61315155",
-    "Q_START_DAY": "890.2612305",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7012.989258"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.08.16 21:23",
     "NO_DEV": "41",
     "NO_LINE": "1",
     "P_STAT": "2.32215476",
     "TEMPERATURE": "11.3047266",
-    "Q_CURR": "52.56114197",
-    "Q_START_DAY": "892.5853882",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7012.991699"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.08.16 21:23",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.32215476",
-    "TEMPERATURE": "11.25337124",
     "Q_CURR": "52.56114197",
     "Q_START_DAY": "892.5853882",
     "Q_LAST_DAY": "1391.782471",
@@ -34884,18 +32448,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "927.5512085",
     "Q_LAST_DAY": "1391.782471",
     "Q_GENERAL": "7013.026855"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.08.16 22:05",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.328316927",
-    "TEMPERATURE": "10.244874",
-    "Q_CURR": "51.70294571",
-    "Q_START_DAY": "929.8901978",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7013.029297"
   },
   {
     "GRS_ID": "145",
@@ -35235,18 +32787,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.04.16 06:59",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.556674242",
-    "TEMPERATURE": "8.819052696",
-    "Q_CURR": "51.26346588",
-    "Q_START_DAY": "1815.865967",
-    "Q_LAST_DAY": "1499.42627",
-    "Q_GENERAL": "7006.577148"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.04.16 07:07",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -35268,30 +32808,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "15.45490456",
     "Q_LAST_DAY": "1815.865967",
     "Q_GENERAL": "7006.592773"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.04.16 07:15",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.547021151",
-    "TEMPERATURE": "9.718184471",
-    "Q_CURR": "51.04356766",
-    "Q_START_DAY": "15.45490456",
-    "Q_LAST_DAY": "1815.865967",
-    "Q_GENERAL": "7006.592773"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.04.16 07:25",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.541047812",
-    "TEMPERATURE": "10.02936649",
-    "Q_CURR": "51.00860214",
-    "Q_START_DAY": "25.69125748",
-    "Q_LAST_DAY": "1815.865967",
-    "Q_GENERAL": "7006.603027"
   },
   {
     "GRS_ID": "145",
@@ -35337,18 +32853,6 @@ const IndicatorsMoment = [
     "P_STAT": "2.434647799",
     "TEMPERATURE": "15.2328043",
     "Q_CURR": "50.38962936",
-    "Q_START_DAY": "97.62255859",
-    "Q_LAST_DAY": "1815.865967",
-    "Q_GENERAL": "7006.674805"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.04.16 08:52",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.434647799",
-    "TEMPERATURE": "15.2328043",
-    "Q_CURR": "50.31708527",
     "Q_START_DAY": "97.62255859",
     "Q_LAST_DAY": "1815.865967",
     "Q_GENERAL": "7006.674805"
@@ -35540,18 +33044,6 @@ const IndicatorsMoment = [
     "NO_LINE": "1",
     "P_STAT": "2.28285861",
     "TEMPERATURE": "23.74949074",
-    "Q_CURR": "91.16443634",
-    "Q_START_DAY": "228.6529083",
-    "Q_LAST_DAY": "1815.865967",
-    "Q_GENERAL": "7006.806152"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.04.16 11:16",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.28285861",
-    "TEMPERATURE": "22.60718346",
     "Q_CURR": "91.16443634",
     "Q_START_DAY": "228.6529083",
     "Q_LAST_DAY": "1815.865967",
@@ -35859,18 +33351,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.07.16 08:02",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.497836828",
-    "TEMPERATURE": "9.894104958",
-    "Q_CURR": "46.93712234",
-    "Q_START_DAY": "48.54805756",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7010.755859"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.07.16 08:06",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -36159,18 +33639,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.04.16 21:55",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.41035533",
-    "TEMPERATURE": "13.56553936",
-    "Q_CURR": "54.21658707",
-    "Q_START_DAY": "1201.359985",
-    "Q_LAST_DAY": "1815.865967",
-    "Q_GENERAL": "7007.778809"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.04.16 22:09",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -36435,30 +33903,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.08.16 15:00",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.351932764",
-    "TEMPERATURE": "25.72981453",
-    "Q_CURR": "88.35254669",
-    "Q_START_DAY": "431.3342896",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7012.530762"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.08.16 15:02",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.351932764",
-    "TEMPERATURE": "25.72981453",
-    "Q_CURR": "88.35254669",
-    "Q_START_DAY": "431.3342896",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7012.530762"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.08.16 15:24",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -36624,18 +34068,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "962.7603149",
     "Q_LAST_DAY": "1391.782471",
     "Q_GENERAL": "7013.062012"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.08.16 22:45",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.341812372",
-    "TEMPERATURE": "9.584540367",
-    "Q_CURR": "51.2567215",
-    "Q_START_DAY": "965.1191406",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7013.064453"
   },
   {
     "GRS_ID": "145",
@@ -36855,18 +34287,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.08.16 23:21",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.357794046",
-    "TEMPERATURE": "9.180872917",
-    "Q_CURR": "50.71383286",
-    "Q_START_DAY": "993.5440063",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7013.092773"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.08.16 23:24",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -36888,18 +34308,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "995.9234619",
     "Q_LAST_DAY": "1391.782471",
     "Q_GENERAL": "7013.095215"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.08.16 23:28",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.361202478",
-    "TEMPERATURE": "9.097743034",
-    "Q_CURR": "50.68272781",
-    "Q_START_DAY": "998.3046265",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7013.097656"
   },
   {
     "GRS_ID": "145",
@@ -37035,18 +34443,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.02.16 12:02",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.351401567",
-    "TEMPERATURE": "28.93196297",
-    "Q_CURR": "53.5557518",
-    "Q_START_DAY": "248.9974518",
-    "Q_LAST_DAY": "1528.166992",
-    "Q_GENERAL": "7003.51123"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.02.16 12:14",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -37119,30 +34515,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.02.16 13:31",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.384784937",
-    "TEMPERATURE": "26.33493996",
-    "Q_CURR": "110.7886124",
-    "Q_START_DAY": "396.7371216",
-    "Q_LAST_DAY": "1528.166992",
-    "Q_GENERAL": "7003.658691"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.02.16 14:45",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.428266287",
-    "TEMPERATURE": "26.2057972",
-    "Q_CURR": "106.6377869",
-    "Q_START_DAY": "531.4705811",
-    "Q_LAST_DAY": "1528.166992",
-    "Q_GENERAL": "7003.793457"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.04.16 11:42",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -37164,30 +34536,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "327.9683228",
     "Q_LAST_DAY": "1815.865967",
     "Q_GENERAL": "7006.905273"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.04.16 11:44",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.348529577",
-    "TEMPERATURE": "17.94513893",
-    "Q_CURR": "204.9110565",
-    "Q_START_DAY": "332.5635986",
-    "Q_LAST_DAY": "1815.865967",
-    "Q_GENERAL": "7006.909668"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.04.16 11:46",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.352466822",
-    "TEMPERATURE": "17.96452141",
-    "Q_CURR": "202.1505127",
-    "Q_START_DAY": "339.4658203",
-    "Q_LAST_DAY": "1815.865967",
-    "Q_GENERAL": "7006.916992"
   },
   {
     "GRS_ID": "145",
@@ -37287,18 +34635,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.04.16 13:16",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.416744947",
-    "TEMPERATURE": "24.58735466",
-    "Q_CURR": "113.8795547",
-    "Q_START_DAY": "533.5598145",
-    "Q_LAST_DAY": "1815.865967",
-    "Q_GENERAL": "7007.11084"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.04.16 13:24",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -37320,18 +34656,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "554.3410034",
     "Q_LAST_DAY": "1815.865967",
     "Q_GENERAL": "7007.131836"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.04.16 13:26",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.420299292",
-    "TEMPERATURE": "24.99139214",
-    "Q_CURR": "112.5355759",
-    "Q_START_DAY": "556.6502075",
-    "Q_LAST_DAY": "1815.865967",
-    "Q_GENERAL": "7007.133789"
   },
   {
     "GRS_ID": "145",
@@ -37563,30 +34887,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.07.16 13:02",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.359569788",
-    "TEMPERATURE": "25.64978218",
-    "Q_CURR": "100.7016373",
-    "Q_START_DAY": "332.779541",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7011.040039"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.07.16 13:06",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.360930681",
-    "TEMPERATURE": "25.65747261",
-    "Q_CURR": "100.3809891",
-    "Q_START_DAY": "339.5203247",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7011.046875"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.07.16 13:06",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -37632,18 +34932,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "391.2957458",
     "Q_LAST_DAY": "1223.490356",
     "Q_GENERAL": "7011.098633"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.07.16 13:52",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.378392458",
-    "TEMPERATURE": "25.74834251",
-    "Q_CURR": "97.12046051",
-    "Q_START_DAY": "413.885437",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7011.121094"
   },
   {
     "GRS_ID": "145",
@@ -37712,18 +35000,6 @@ const IndicatorsMoment = [
     "NO_LINE": "1",
     "P_STAT": "2.394064188",
     "TEMPERATURE": "25.64618111",
-    "Q_CURR": "95.3157196",
-    "Q_START_DAY": "482.0160828",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7011.189453"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.07.16 14:34",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.394064188",
-    "TEMPERATURE": "25.59016991",
     "Q_CURR": "95.3157196",
     "Q_START_DAY": "482.0160828",
     "Q_LAST_DAY": "1223.490356",
@@ -37858,18 +35134,6 @@ const IndicatorsMoment = [
     "TEMPERATURE": "22.64857292",
     "Q_CURR": "60.32723618",
     "Q_START_DAY": "724.9105835",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7011.432129"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.07.16 17:49",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.430243254",
-    "TEMPERATURE": "22.64857292",
-    "Q_CURR": "60.07632828",
-    "Q_START_DAY": "727.2484131",
     "Q_LAST_DAY": "1223.490356",
     "Q_GENERAL": "7011.432129"
   },
@@ -38091,18 +35355,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.07.16 20:02",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.386205435",
-    "TEMPERATURE": "14.7549963",
-    "Q_CURR": "56.09046555",
-    "Q_START_DAY": "854.1636353",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7011.561523"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.07.16 20:16",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -38235,18 +35487,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.02.16 10:41",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.398990393",
-    "TEMPERATURE": "25.22282219",
-    "Q_CURR": "48.26490021",
-    "Q_START_DAY": "181.6509552",
-    "Q_LAST_DAY": "1528.166992",
-    "Q_GENERAL": "7003.443848"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.02.16 10:00",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -38268,18 +35508,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "197.5812225",
     "Q_LAST_DAY": "1528.166992",
     "Q_GENERAL": "7003.459473"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.02.16 11:00",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.35211587",
-    "TEMPERATURE": "28.94176292",
-    "Q_CURR": "52.96837616",
-    "Q_START_DAY": "246.7830963",
-    "Q_LAST_DAY": "1528.166992",
-    "Q_GENERAL": "7003.508789"
   },
   {
     "GRS_ID": "145",
@@ -38679,18 +35907,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.05.16 05:02",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.65577817",
-    "TEMPERATURE": "9.11563015",
-    "Q_CURR": "51.80703354",
-    "Q_START_DAY": "1573.096558",
-    "Q_LAST_DAY": "1815.865967",
-    "Q_GENERAL": "7008.150391"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.05.16 05:08",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -38727,18 +35943,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.05.16 05:12",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.660731077",
-    "TEMPERATURE": "9.074194908",
-    "Q_CURR": "51.73785782",
-    "Q_START_DAY": "1583.836426",
-    "Q_LAST_DAY": "1815.865967",
-    "Q_GENERAL": "7008.161133"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.05.16 05:18",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -38760,18 +35964,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "1586.525757",
     "Q_LAST_DAY": "1815.865967",
     "Q_GENERAL": "7008.164063"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.08.16 13:49",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.333288908",
-    "TEMPERATURE": "27.80327034",
-    "Q_CURR": "62.32188034",
-    "Q_START_DAY": "331.2168579",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7012.430176"
   },
   {
     "GRS_ID": "145",
@@ -38847,30 +36039,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.08.16 23:34",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.364541769",
-    "TEMPERATURE": "9.066670418",
-    "Q_CURR": "50.58114243",
-    "Q_START_DAY": "1003.072144",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7013.102051"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.08.16 23:34",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.364541769",
-    "TEMPERATURE": "9.066670418",
-    "Q_CURR": "50.51494598",
-    "Q_START_DAY": "1005.458008",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7013.104492"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.08.16 23:36",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -38889,18 +36057,6 @@ const IndicatorsMoment = [
     "P_STAT": "2.366672754",
     "TEMPERATURE": "9.062764168",
     "Q_CURR": "50.47908401",
-    "Q_START_DAY": "1007.845947",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7013.106934"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.08.16 23:38",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.366672754",
-    "TEMPERATURE": "9.062764168",
-    "Q_CURR": "50.51131058",
     "Q_START_DAY": "1007.845947",
     "Q_LAST_DAY": "1391.782471",
     "Q_GENERAL": "7013.106934"
@@ -39063,18 +36219,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.09.16 00:02",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.3801682",
-    "TEMPERATURE": "8.84174633",
-    "Q_CURR": "50.19031525",
-    "Q_START_DAY": "1027.016724",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7013.125977"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.09.16 00:04",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -39183,35 +36327,11 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.09.16 00:22",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.39153266",
-    "TEMPERATURE": "8.580302238",
-    "Q_CURR": "49.92887115",
-    "Q_START_DAY": "1043.891235",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7013.143066"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.09.16 00:24",
     "NO_DEV": "41",
     "NO_LINE": "1",
     "P_STAT": "2.392597914",
     "TEMPERATURE": "8.580302238",
-    "Q_CURR": "49.927948",
-    "Q_START_DAY": "1046.309937",
-    "Q_LAST_DAY": "1391.782471",
-    "Q_GENERAL": "7013.145508"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.09.16 00:24",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.392597914",
-    "TEMPERATURE": "8.550755501",
     "Q_CURR": "49.927948",
     "Q_START_DAY": "1046.309937",
     "Q_LAST_DAY": "1391.782471",
@@ -39384,18 +36504,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "188.6528015",
     "Q_LAST_DAY": "1499.42627",
     "Q_GENERAL": "7004.950195"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.03.16 10:53",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.279662371",
-    "TEMPERATURE": "25.81009102",
-    "Q_CURR": "49.41058731",
-    "Q_START_DAY": "195.1731567",
-    "Q_LAST_DAY": "1499.42627",
-    "Q_GENERAL": "7004.956543"
   },
   {
     "GRS_ID": "145",
@@ -39651,18 +36759,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.03.16 13:51",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.430440187",
-    "TEMPERATURE": "25.53629494",
-    "Q_CURR": "108.7397156",
-    "Q_START_DAY": "625.0332642",
-    "Q_LAST_DAY": "1499.42627",
-    "Q_GENERAL": "7005.386719"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.03.16 13:57",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -39747,18 +36843,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.03.16 15:01",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.440542459",
-    "TEMPERATURE": "25.86860466",
-    "Q_CURR": "105.1429672",
-    "Q_START_DAY": "745.4008789",
-    "Q_LAST_DAY": "1499.42627",
-    "Q_GENERAL": "7005.506836"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.03.16 15:08",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -39768,18 +36852,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "754.6893921",
     "Q_LAST_DAY": "1499.42627",
     "Q_GENERAL": "7005.516113"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.03.16 15:22",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.443028212",
-    "TEMPERATURE": "25.44243813",
-    "Q_CURR": "105.0072174",
-    "Q_START_DAY": "780.2651367",
-    "Q_LAST_DAY": "1499.42627",
-    "Q_GENERAL": "7005.541504"
   },
   {
     "GRS_ID": "145",
@@ -39963,18 +37035,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.05.16 12:11",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.394735575",
-    "TEMPERATURE": "30.11096382",
-    "Q_CURR": "41.60865402",
-    "Q_START_DAY": "185.628418",
-    "Q_LAST_DAY": "1651.4104",
-    "Q_GENERAL": "7008.414551"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.05.16 12:17",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -40068,18 +37128,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "205.6862335",
     "Q_LAST_DAY": "1651.4104",
     "Q_GENERAL": "7008.43457"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.05.16 12:47",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.373729467",
-    "TEMPERATURE": "32.26864243",
-    "Q_CURR": "42.81912613",
-    "Q_START_DAY": "210.1083221",
-    "Q_LAST_DAY": "1651.4104",
-    "Q_GENERAL": "7008.438965"
   },
   {
     "GRS_ID": "145",
@@ -40191,18 +37239,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.05.16 13:35",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.352111578",
-    "TEMPERATURE": "30.07793617",
-    "Q_CURR": "58.56116867",
-    "Q_START_DAY": "254.1292114",
-    "Q_LAST_DAY": "1651.4104",
-    "Q_GENERAL": "7008.48291"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.05.16 13:43",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -40212,18 +37248,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "260.7555542",
     "Q_LAST_DAY": "1651.4104",
     "Q_GENERAL": "7008.489258"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.05.16 13:49",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.352822065",
-    "TEMPERATURE": "28.46965599",
-    "Q_CURR": "73.20217133",
-    "Q_START_DAY": "269.6190796",
-    "Q_LAST_DAY": "1651.4104",
-    "Q_GENERAL": "7008.498535"
   },
   {
     "GRS_ID": "145",
@@ -40575,18 +37599,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.03.16 12:25",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.402569532",
-    "TEMPERATURE": "22.56646538",
-    "Q_CURR": "136.8658752",
-    "Q_START_DAY": "458.3067017",
-    "Q_LAST_DAY": "1499.42627",
-    "Q_GENERAL": "7005.219727"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.03.16 12:35",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -40704,18 +37716,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "546.1940308",
     "Q_LAST_DAY": "1499.42627",
     "Q_GENERAL": "7005.307617"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.03.16 13:15",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.424916029",
-    "TEMPERATURE": "23.76377296",
-    "Q_CURR": "116.0194626",
-    "Q_START_DAY": "555.4811401",
-    "Q_LAST_DAY": "1499.42627",
-    "Q_GENERAL": "7005.316895"
   },
   {
     "GRS_ID": "145",
@@ -41079,18 +38079,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.05.16 18:11",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.423850775",
-    "TEMPERATURE": "25.15109062",
-    "Q_CURR": "61.70090103",
-    "Q_START_DAY": "609.7938843",
-    "Q_LAST_DAY": "1651.4104",
-    "Q_GENERAL": "7008.838379"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.05.16 18:29",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -41223,18 +38211,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.05.16 19:17",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.411560774",
-    "TEMPERATURE": "21.20147896",
-    "Q_CURR": "59.01845551",
-    "Q_START_DAY": "672.4814453",
-    "Q_LAST_DAY": "1651.4104",
-    "Q_GENERAL": "7008.901367"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.05.16 19:20",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -41253,30 +38229,6 @@ const IndicatorsMoment = [
     "P_STAT": "2.409289598",
     "TEMPERATURE": "20.74938393",
     "Q_CURR": "58.72456741",
-    "Q_START_DAY": "679.4772949",
-    "Q_LAST_DAY": "1651.4104",
-    "Q_GENERAL": "7008.908203"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.05.16 19:24",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.409289598",
-    "TEMPERATURE": "20.74938393",
-    "Q_CURR": "58.72757721",
-    "Q_START_DAY": "679.4772949",
-    "Q_LAST_DAY": "1651.4104",
-    "Q_GENERAL": "7008.908203"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.05.16 19:24",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.408224344",
-    "TEMPERATURE": "20.60624504",
-    "Q_CURR": "58.72757721",
     "Q_START_DAY": "679.4772949",
     "Q_LAST_DAY": "1651.4104",
     "Q_GENERAL": "7008.908203"
@@ -41355,18 +38307,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.05.16 20:02",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.394373655",
-    "TEMPERATURE": "18.4700489",
-    "Q_CURR": "57.22482681",
-    "Q_START_DAY": "712.1798096",
-    "Q_LAST_DAY": "1651.4104",
-    "Q_GENERAL": "7008.940918"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.05.16 20:30",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -41400,30 +38340,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "758.8479614",
     "Q_LAST_DAY": "1651.4104",
     "Q_GENERAL": "7008.987793"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.05.16 21:02",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.374402285",
-    "TEMPERATURE": "16.96082878",
-    "Q_CURR": "55.49603271",
-    "Q_START_DAY": "768.1603394",
-    "Q_LAST_DAY": "1651.4104",
-    "Q_GENERAL": "7008.99707"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.05.16 21:02",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.374485731",
-    "TEMPERATURE": "16.8814373",
-    "Q_CURR": "55.40346527",
-    "Q_START_DAY": "770.4902954",
-    "Q_LAST_DAY": "1651.4104",
-    "Q_GENERAL": "7008.999023"
   },
   {
     "GRS_ID": "145",
@@ -41703,18 +38619,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.05.16 23:02",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.403252363",
-    "TEMPERATURE": "15.8259306",
-    "Q_CURR": "49.86454773",
-    "Q_START_DAY": "873.6449585",
-    "Q_LAST_DAY": "1651.4104",
-    "Q_GENERAL": "7009.102539"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.05.16 23:12",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -41811,18 +38715,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.06.16 00:00",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.430953264",
-    "TEMPERATURE": "14.88377285",
-    "Q_CURR": "49.20462418",
-    "Q_START_DAY": "921.3599854",
-    "Q_LAST_DAY": "1651.4104",
-    "Q_GENERAL": "7009.149902"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.06.16 00:34",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -41844,18 +38736,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "955.2411499",
     "Q_LAST_DAY": "1651.4104",
     "Q_GENERAL": "7009.184082"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.06.16 01:00",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.46753335",
-    "TEMPERATURE": "14.17836857",
-    "Q_CURR": "48.73889542",
-    "Q_START_DAY": "969.8825073",
-    "Q_LAST_DAY": "1651.4104",
-    "Q_GENERAL": "7009.19873"
   },
   {
     "GRS_ID": "145",
@@ -42099,30 +38979,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.06.16 08:45",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.537496328",
-    "TEMPERATURE": "15.50293446",
-    "Q_CURR": "46.80109406",
-    "Q_START_DAY": "84.34666443",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7009.568359"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.06.16 08:49",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.534315348",
-    "TEMPERATURE": "15.53789806",
-    "Q_CURR": "46.85162735",
-    "Q_START_DAY": "89.34542847",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7009.573242"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.06.16 08:51",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -42303,30 +39159,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.05.16 19:17",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.411560774",
-    "TEMPERATURE": "21.20147896",
-    "Q_CURR": "59.01845551",
-    "Q_START_DAY": "672.4814453",
-    "Q_LAST_DAY": "1651.4104",
-    "Q_GENERAL": "7008.901367"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.05.16 19:24",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.408224344",
-    "TEMPERATURE": "20.60624504",
-    "Q_CURR": "58.72757721",
-    "Q_START_DAY": "679.4772949",
-    "Q_LAST_DAY": "1651.4104",
-    "Q_GENERAL": "7008.908203"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.05.16 19:32",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -42456,18 +39288,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "744.871582",
     "Q_LAST_DAY": "1651.4104",
     "Q_GENERAL": "7008.973633"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.05.16 20:46",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.375550985",
-    "TEMPERATURE": "17.22408867",
-    "Q_CURR": "55.84132004",
-    "Q_START_DAY": "756.5195923",
-    "Q_LAST_DAY": "1651.4104",
-    "Q_GENERAL": "7008.985352"
   },
   {
     "GRS_ID": "145",
@@ -42603,30 +39423,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.05.16 22:26",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.391177416",
-    "TEMPERATURE": "16.02779579",
-    "Q_CURR": "50.74199295",
-    "Q_START_DAY": "845.3209229",
-    "Q_LAST_DAY": "1651.4104",
-    "Q_GENERAL": "7009.074219"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.05.16 22:28",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.39153266",
-    "TEMPERATURE": "16.03199196",
-    "Q_CURR": "50.57645035",
-    "Q_START_DAY": "847.675354",
-    "Q_LAST_DAY": "1651.4104",
-    "Q_GENERAL": "7009.076172"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.06.16 08:19",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -42648,18 +39444,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "94.33226013",
     "Q_LAST_DAY": "1255.19873",
     "Q_GENERAL": "7009.578125"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.06.16 09:15",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.512991667",
-    "TEMPERATURE": "15.63395596",
-    "Q_CURR": "46.795681",
-    "Q_START_DAY": "106.7546616",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7009.59082"
   },
   {
     "GRS_ID": "145",
@@ -42720,18 +39504,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "138.6854858",
     "Q_LAST_DAY": "1255.19873",
     "Q_GENERAL": "7009.622559"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.06.16 10:03",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.485645533",
-    "TEMPERATURE": "18.80110359",
-    "Q_CURR": "46.5784111",
-    "Q_START_DAY": "143.5428772",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7009.627441"
   },
   {
     "GRS_ID": "145",
@@ -42816,18 +39588,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "775.6105347",
     "Q_LAST_DAY": "1499.42627",
     "Q_GENERAL": "7005.537109"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.03.16 15:20",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.442672968",
-    "TEMPERATURE": "25.47143364",
-    "Q_CURR": "105.0072174",
-    "Q_START_DAY": "780.2651367",
-    "Q_LAST_DAY": "1499.42627",
-    "Q_GENERAL": "7005.541504"
   },
   {
     "GRS_ID": "145",
@@ -42927,18 +39687,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.05.16 22:00",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.401476622",
-    "TEMPERATURE": "15.83977222",
-    "Q_CURR": "49.85425949",
-    "Q_START_DAY": "871.2785034",
-    "Q_LAST_DAY": "1651.4104",
-    "Q_GENERAL": "7009.100098"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.05.16 23:06",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -42972,18 +39720,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "909.3573608",
     "Q_LAST_DAY": "1651.4104",
     "Q_GENERAL": "7009.138184"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.05.16 23:54",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.42988801",
-    "TEMPERATURE": "14.90756512",
-    "Q_CURR": "49.1738739",
-    "Q_START_DAY": "916.5526733",
-    "Q_LAST_DAY": "1651.4104",
-    "Q_GENERAL": "7009.145508"
   },
   {
     "GRS_ID": "145",
@@ -43143,18 +39879,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.06.16 01:22",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.480318308",
-    "TEMPERATURE": "14.06413555",
-    "Q_CURR": "48.60656357",
-    "Q_START_DAY": "989.506958",
-    "Q_LAST_DAY": "1651.4104",
-    "Q_GENERAL": "7009.218262"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.06.16 01:30",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -43275,18 +39999,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.06.16 03:02",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.537851572",
-    "TEMPERATURE": "13.67315006",
-    "Q_CURR": "48.17228317",
-    "Q_START_DAY": "1066.666504",
-    "Q_LAST_DAY": "1651.4104",
-    "Q_GENERAL": "7009.29541"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.06.16 03:04",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -43359,18 +40071,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.05.16 15:19",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.381943941",
-    "TEMPERATURE": "27.20794106",
-    "Q_CURR": "84.4974823",
-    "Q_START_DAY": "394.5968628",
-    "Q_LAST_DAY": "1651.4104",
-    "Q_GENERAL": "7008.623535"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.06.16 08:47",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -43380,18 +40080,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "84.34666443",
     "Q_LAST_DAY": "1255.19873",
     "Q_GENERAL": "7009.568359"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.06.16 08:47",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.53607583",
-    "TEMPERATURE": "15.5438509",
-    "Q_CURR": "46.81806946",
-    "Q_START_DAY": "86.84759521",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7009.570801"
   },
   {
     "GRS_ID": "145",
@@ -43443,18 +40131,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.06.16 09:23",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.506953955",
-    "TEMPERATURE": "15.87099743",
-    "Q_CURR": "46.81550217",
-    "Q_START_DAY": "114.1742249",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7009.598145"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.06.16 09:31",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -43491,30 +40167,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.06.16 09:51",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.491265535",
-    "TEMPERATURE": "17.81294441",
-    "Q_CURR": "46.64647293",
-    "Q_START_DAY": "136.2516785",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7009.620117"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.06.16 09:59",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.486637354",
-    "TEMPERATURE": "18.66068077",
-    "Q_CURR": "46.61975479",
-    "Q_START_DAY": "143.5428772",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7009.627441"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.06.16 10:09",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -43524,18 +40176,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "148.3856049",
     "Q_LAST_DAY": "1255.19873",
     "Q_GENERAL": "7009.632324"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.06.16 10:15",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.480318308",
-    "TEMPERATURE": "20.25031471",
-    "Q_CURR": "46.44561768",
-    "Q_START_DAY": "155.6156158",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7009.639648"
   },
   {
     "GRS_ID": "145",
@@ -43779,18 +40419,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.06.16 12:48",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.41852355",
-    "TEMPERATURE": "28.57224464",
-    "Q_CURR": "45.37084961",
-    "Q_START_DAY": "272.2084351",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7009.756348"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.06.16 12:52",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -43863,18 +40491,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.06.16 13:06",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.413196325",
-    "TEMPERATURE": "29.19657326",
-    "Q_CURR": "45.30619812",
-    "Q_START_DAY": "285.8545227",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7009.77002"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.06.16 13:14",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -43920,30 +40536,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "94.33226013",
     "Q_LAST_DAY": "1255.19873",
     "Q_GENERAL": "7009.578125"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.06.16 14:00",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.39153266",
-    "TEMPERATURE": "29.89882469",
-    "Q_CURR": "46.01049805",
-    "Q_START_DAY": "326.4437561",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7009.810547"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.06.16 14:02",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.39153266",
-    "TEMPERATURE": "29.89882469",
-    "Q_CURR": "46.01049805",
-    "Q_START_DAY": "326.4437561",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7009.810547"
   },
   {
     "GRS_ID": "145",
@@ -44103,18 +40695,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.06.16 15:32",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.363476515",
-    "TEMPERATURE": "28.72120094",
-    "Q_CURR": "51.38358688",
-    "Q_START_DAY": "402.3490601",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7009.88623"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.06.16 15:40",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -44136,18 +40716,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "411.2564087",
     "Q_LAST_DAY": "1255.19873",
     "Q_GENERAL": "7009.89502"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.06.16 15:48",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.359925032",
-    "TEMPERATURE": "28.23227501",
-    "Q_CURR": "53.37544632",
-    "Q_START_DAY": "415.7096558",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7009.899414"
   },
   {
     "GRS_ID": "145",
@@ -44199,47 +40767,11 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.06.16 16:00",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.35814929",
-    "TEMPERATURE": "27.83873558",
-    "Q_CURR": "55.36322784",
-    "Q_START_DAY": "426.8474731",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7009.910645"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.06.16 16:00",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.357800722",
-    "TEMPERATURE": "27.77448463",
-    "Q_CURR": "55.36322784",
-    "Q_START_DAY": "426.8474731",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7009.910645"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.06.16 16:02",
     "NO_DEV": "41",
     "NO_LINE": "1",
     "P_STAT": "2.357800722",
     "TEMPERATURE": "27.77448463",
-    "Q_CURR": "55.72623062",
-    "Q_START_DAY": "429.0759583",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7009.913086"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.06.16 16:02",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.357794046",
-    "TEMPERATURE": "27.68343544",
     "Q_CURR": "55.72623062",
     "Q_START_DAY": "429.0759583",
     "Q_LAST_DAY": "1255.19873",
@@ -44268,18 +40800,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "440.2259216",
     "Q_LAST_DAY": "1255.19873",
     "Q_GENERAL": "7009.924316"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.06.16 16:18",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.357083559",
-    "TEMPERATURE": "27.04345131",
-    "Q_CURR": "58.04720688",
-    "Q_START_DAY": "444.6904907",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7009.928711"
   },
   {
     "GRS_ID": "145",
@@ -44388,18 +40908,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "476.0186768",
     "Q_LAST_DAY": "1255.19873",
     "Q_GENERAL": "7009.959961"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.06.16 17:02",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.355663061",
-    "TEMPERATURE": "25.21995354",
-    "Q_CURR": "59.97485733",
-    "Q_START_DAY": "487.2384644",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7009.971191"
   },
   {
     "GRS_ID": "145",
@@ -44523,18 +41031,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.06.16 18:02",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.351401567",
-    "TEMPERATURE": "22.98646736",
-    "Q_CURR": "59.88095093",
-    "Q_START_DAY": "548.0648193",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7010.032227"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.06.16 18:06",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -44556,30 +41052,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "559.3654175",
     "Q_LAST_DAY": "1255.19873",
     "Q_GENERAL": "7010.043457"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.06.16 18:26",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.345719099",
-    "TEMPERATURE": "21.49798393",
-    "Q_CURR": "59.91025543",
-    "Q_START_DAY": "575.2097778",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7010.059082"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.06.16 18:26",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.345719099",
-    "TEMPERATURE": "21.49798393",
-    "Q_CURR": "59.96017838",
-    "Q_START_DAY": "577.4750977",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7010.061523"
   },
   {
     "GRS_ID": "145",
@@ -44616,18 +41088,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "480.710022",
     "Q_LAST_DAY": "1651.4104",
     "Q_GENERAL": "7008.709473"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.06.16 10:17",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.479607821",
-    "TEMPERATURE": "20.45578194",
-    "Q_CURR": "46.48825836",
-    "Q_START_DAY": "158.0168915",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7009.64209"
   },
   {
     "GRS_ID": "145",
@@ -44811,30 +41271,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.06.16 11:25",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.450131178",
-    "TEMPERATURE": "25.41429329",
-    "Q_CURR": "45.97847366",
-    "Q_START_DAY": "207.6876526",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7009.691406"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.06.16 11:25",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.449627638",
-    "TEMPERATURE": "25.55430412",
-    "Q_CURR": "45.92192841",
-    "Q_START_DAY": "210.0219421",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7009.693848"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.06.16 11:31",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -44856,30 +41292,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "221.6524963",
     "Q_LAST_DAY": "1255.19873",
     "Q_GENERAL": "7009.705566"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.06.16 11:41",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.444093943",
-    "TEMPERATURE": "26.47797203",
-    "Q_CURR": "45.71332932",
-    "Q_START_DAY": "221.6524963",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7009.705566"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.06.16 11:43",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.443383455",
-    "TEMPERATURE": "26.62164497",
-    "Q_CURR": "45.76091003",
-    "Q_START_DAY": "223.9709167",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7009.708008"
   },
   {
     "GRS_ID": "145",
@@ -44979,18 +41391,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.06.16 12:39",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.422197104",
-    "TEMPERATURE": "28.49795341",
-    "Q_CURR": "45.35119629",
-    "Q_START_DAY": "265.361969",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7009.749512"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.06.16 12:42",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -45027,42 +41427,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.06.16 13:02",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.414616823",
-    "TEMPERATURE": "29.11751747",
-    "Q_CURR": "45.34916687",
-    "Q_START_DAY": "283.5844727",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7009.767578"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.06.16 13:04",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.414236784",
-    "TEMPERATURE": "29.17157173",
-    "Q_CURR": "45.34916687",
-    "Q_START_DAY": "283.5844727",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7009.767578"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.06.16 13:14",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.40943265",
-    "TEMPERATURE": "29.53043938",
-    "Q_CURR": "45.35486221",
-    "Q_START_DAY": "290.3887024",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7009.774414"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.06.16 13:16",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -45084,18 +41448,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "595.605957",
     "Q_LAST_DAY": "1255.19873",
     "Q_GENERAL": "7010.07959"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.06.16 04:23",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.586150885",
-    "TEMPERATURE": "13.33916569",
-    "Q_CURR": "47.88163757",
-    "Q_START_DAY": "1130.327637",
-    "Q_LAST_DAY": "1651.4104",
-    "Q_GENERAL": "7009.358887"
   },
   {
     "GRS_ID": "145",
@@ -45159,18 +41511,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.06.16 05:53",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.62983346",
-    "TEMPERATURE": "13.75602055",
-    "Q_CURR": "47.53327942",
-    "Q_START_DAY": "1205.492554",
-    "Q_LAST_DAY": "1651.4104",
-    "Q_GENERAL": "7009.434082"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.06.16 06:01",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -45204,18 +41544,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "1249.981567",
     "Q_LAST_DAY": "1651.4104",
     "Q_GENERAL": "7009.478516"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.06.16 07:19",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.616338015",
-    "TEMPERATURE": "14.47232151",
-    "Q_CURR": "47.00882721",
-    "Q_START_DAY": "15.59204578",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7009.499512"
   },
   {
     "GRS_ID": "145",
@@ -45279,18 +41607,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.06.16 08:51",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.532542467",
-    "TEMPERATURE": "15.57800579",
-    "Q_CURR": "46.85162735",
-    "Q_START_DAY": "89.34542847",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7009.573242"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.06.16 08:53",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -45309,18 +41625,6 @@ const IndicatorsMoment = [
     "P_STAT": "2.529328108",
     "TEMPERATURE": "15.59537411",
     "Q_CURR": "46.86220932",
-    "Q_START_DAY": "91.84008789",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7009.575684"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.06.16 08:57",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.52790761",
-    "TEMPERATURE": "15.63436794",
-    "Q_CURR": "46.82928467",
     "Q_START_DAY": "91.84008789",
     "Q_LAST_DAY": "1255.19873",
     "Q_GENERAL": "7009.575684"
@@ -45387,18 +41691,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.06.16 13:00",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.39224267",
-    "TEMPERATURE": "29.91863441",
-    "Q_CURR": "45.89050674",
-    "Q_START_DAY": "324.1990662",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7009.808105"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.06.16 14:04",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -45408,18 +41700,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "328.6869202",
     "Q_LAST_DAY": "1255.19873",
     "Q_GENERAL": "7009.8125"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.06.16 14:14",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.385850191",
-    "TEMPERATURE": "30.07146645",
-    "Q_CURR": "46.40262604",
-    "Q_START_DAY": "337.6445313",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7009.821777"
   },
   {
     "GRS_ID": "145",
@@ -45456,30 +41736,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "424.6192322",
     "Q_LAST_DAY": "1255.19873",
     "Q_GENERAL": "7009.908691"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.06.16 16:02",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.357800722",
-    "TEMPERATURE": "27.77448463",
-    "Q_CURR": "55.36322784",
-    "Q_START_DAY": "426.8474731",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7009.910645"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.06.16 16:04",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.357794046",
-    "TEMPERATURE": "27.60462379",
-    "Q_CURR": "56.20943832",
-    "Q_START_DAY": "431.3052063",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7009.915039"
   },
   {
     "GRS_ID": "145",
@@ -45567,18 +41823,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.05.16 15:51",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.393070936",
-    "TEMPERATURE": "27.84108925",
-    "Q_CURR": "82.98136902",
-    "Q_START_DAY": "439.7956848",
-    "Q_LAST_DAY": "1651.4104",
-    "Q_GENERAL": "7008.668457"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.06.16 10:23",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -45639,18 +41883,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.06.16 19:00",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.335775137",
-    "TEMPERATURE": "19.77383232",
-    "Q_CURR": "60.32263565",
-    "Q_START_DAY": "606.9454956",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7010.09082"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.06.16 19:04",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -45708,30 +41940,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "654.6411743",
     "Q_LAST_DAY": "1255.19873",
     "Q_GENERAL": "7010.138672"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.06.16 20:00",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.311472654",
-    "TEMPERATURE": "16.52634621",
-    "Q_CURR": "61.92817688",
-    "Q_START_DAY": "668.2664795",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7010.152344"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.06.16 20:02",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.310204744",
-    "TEMPERATURE": "16.45142555",
-    "Q_CURR": "61.91032791",
-    "Q_START_DAY": "670.5368042",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7010.154297"
   },
   {
     "GRS_ID": "145",
@@ -45828,18 +42036,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "1184.532349",
     "Q_LAST_DAY": "1255.19873",
     "Q_GENERAL": "7010.668457"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.07.16 06:14",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.54744029",
-    "TEMPERATURE": "6.290744305",
-    "Q_CURR": "47.60273361",
-    "Q_START_DAY": "1189.727783",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7010.673828"
   },
   {
     "GRS_ID": "145",
@@ -45963,18 +42159,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.07.16 09:02",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.44125247",
-    "TEMPERATURE": "14.92793941",
-    "Q_CURR": "46.79384995",
-    "Q_START_DAY": "95.34873199",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7010.802734"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.07.16 09:50",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -46059,18 +42243,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.07.16 11:36",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.348243952",
-    "TEMPERATURE": "28.24604225",
-    "Q_CURR": "47.90845871",
-    "Q_START_DAY": "219.2901001",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7010.926758"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.07.16 11:56",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -46140,30 +42312,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "239.1892242",
     "Q_LAST_DAY": "1223.490356",
     "Q_GENERAL": "7010.946777"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.07.16 12:00",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.33984971",
-    "TEMPERATURE": "28.41230202",
-    "Q_CURR": "53.60399246",
-    "Q_START_DAY": "239.1892242",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7010.946777"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.07.16 12:02",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.33984971",
-    "TEMPERATURE": "28.41230202",
-    "Q_CURR": "54.4777298",
-    "Q_START_DAY": "241.3957825",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7010.94873"
   },
   {
     "GRS_ID": "145",
@@ -46383,18 +42531,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.07.16 13:54",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.379102468",
-    "TEMPERATURE": "25.7450161",
-    "Q_CURR": "97.03411865",
-    "Q_START_DAY": "418.4122925",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7011.125977"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.07.16 14:04",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -46476,18 +42612,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "475.1798401",
     "Q_LAST_DAY": "1223.490356",
     "Q_GENERAL": "7011.182617"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.07.16 14:36",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.394863367",
-    "TEMPERATURE": "25.59016991",
-    "Q_CURR": "95.24028015",
-    "Q_START_DAY": "484.2960815",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7011.191895"
   },
   {
     "GRS_ID": "145",
@@ -46596,30 +42720,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "548.3988647",
     "Q_LAST_DAY": "1223.490356",
     "Q_GENERAL": "7011.255859"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.07.16 15:19",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.41106534",
-    "TEMPERATURE": "25.13555336",
-    "Q_CURR": "91.36937714",
-    "Q_START_DAY": "550.6977539",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7011.258301"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.07.16 15:19",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.41106534",
-    "TEMPERATURE": "25.13555336",
-    "Q_CURR": "91.36937714",
-    "Q_START_DAY": "550.6977539",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7011.258301"
   },
   {
     "GRS_ID": "145",
@@ -46935,18 +43035,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.06.16 21:31",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.29031682",
-    "TEMPERATURE": "12.76233959",
-    "Q_CURR": "55.19776154",
-    "Q_START_DAY": "756.8626709",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7010.240723"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.06.16 21:51",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -47067,18 +43155,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.06.16 22:51",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.313756227",
-    "TEMPERATURE": "10.92776585",
-    "Q_CURR": "52.46347427",
-    "Q_START_DAY": "828.0958862",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7010.312012"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.06.16 22:55",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -47088,18 +43164,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "830.4154053",
     "Q_LAST_DAY": "1255.19873",
     "Q_GENERAL": "7010.314453"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.06.16 22:57",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.316597223",
-    "TEMPERATURE": "10.84642315",
-    "Q_CURR": "52.41181564",
-    "Q_START_DAY": "832.7366943",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7010.316895"
   },
   {
     "GRS_ID": "145",
@@ -47247,18 +43311,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.07.16 01:59",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.382298708",
-    "TEMPERATURE": "9.419211388",
-    "Q_CURR": "49.81230545",
-    "Q_START_DAY": "934.1751099",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7010.417969"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.07.16 01:01",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -47307,18 +43359,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.06.16 17:00",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.355663061",
-    "TEMPERATURE": "25.21995354",
-    "Q_CURR": "59.97485733",
-    "Q_START_DAY": "487.2384644",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7009.971191"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.06.16 17:06",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -47328,18 +43368,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "493.9785767",
     "Q_LAST_DAY": "1255.19873",
     "Q_GENERAL": "7009.978027"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.06.16 17:10",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.355663061",
-    "TEMPERATURE": "24.86371422",
-    "Q_CURR": "60.09235382",
-    "Q_START_DAY": "496.2266235",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7009.97998"
   },
   {
     "GRS_ID": "145",
@@ -47403,18 +43431,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.06.16 18:30",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.345009089",
-    "TEMPERATURE": "21.37898827",
-    "Q_CURR": "59.92798615",
-    "Q_START_DAY": "579.7409668",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7010.061523"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.06.16 18:38",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -47463,18 +43479,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.07.16 08:00",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.443028212",
-    "TEMPERATURE": "14.75148487",
-    "Q_CURR": "46.78131485",
-    "Q_START_DAY": "92.93315125",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7010.800293"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.07.16 09:00",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -47496,18 +43500,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "97.75888062",
     "Q_LAST_DAY": "1223.490356",
     "Q_GENERAL": "7010.805176"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.07.16 09:08",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.434504747",
-    "TEMPERATURE": "15.64054775",
-    "Q_CURR": "46.77281189",
-    "Q_START_DAY": "102.5647125",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7010.810059"
   },
   {
     "GRS_ID": "145",
@@ -47907,18 +43899,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.05.16 16:27",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.409449339",
-    "TEMPERATURE": "26.3398838",
-    "Q_CURR": "81.65157318",
-    "Q_START_DAY": "487.5706482",
-    "Q_LAST_DAY": "1651.4104",
-    "Q_GENERAL": "7008.716309"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.06.16 14:38",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -47931,42 +43911,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.06.16 15:02",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.372354746",
-    "TEMPERATURE": "29.33008003",
-    "Q_CURR": "48.93162155",
-    "Q_START_DAY": "373.3815308",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7009.857422"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.07.16 11:56",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.341053724",
-    "TEMPERATURE": "28.35644341",
-    "Q_CURR": "51.98994827",
-    "Q_START_DAY": "234.7740784",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7010.942383"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.07.16 13:08",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.361521482",
-    "TEMPERATURE": "25.7281971",
-    "Q_CURR": "100.2576752",
-    "Q_START_DAY": "341.7676697",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7011.049316"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.07.16 13:16",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -47976,18 +43920,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "355.2542725",
     "Q_LAST_DAY": "1223.490356",
     "Q_GENERAL": "7011.0625"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.07.16 13:26",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.367382765",
-    "TEMPERATURE": "25.8039875",
-    "Q_CURR": "98.76833344",
-    "Q_START_DAY": "373.2629395",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7011.080566"
   },
   {
     "GRS_ID": "145",
@@ -48099,18 +44031,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.07.16 16:53",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.434149504",
-    "TEMPERATURE": "24.03265572",
-    "Q_CURR": "65.44743347",
-    "Q_START_DAY": "671.2223511",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7011.378418"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.07.16 17:01",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -48183,18 +44103,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.07.16 17:23",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.432815313",
-    "TEMPERATURE": "23.36153984",
-    "Q_CURR": "62.57579041",
-    "Q_START_DAY": "699.211853",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7011.406738"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.07.16 17:29",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -48204,18 +44112,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "706.2163086",
     "Q_LAST_DAY": "1223.490356",
     "Q_GENERAL": "7011.413574"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.07.16 17:39",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.431936979",
-    "TEMPERATURE": "22.94037819",
-    "Q_CURR": "60.92031479",
-    "Q_START_DAY": "717.8983154",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7011.425293"
   },
   {
     "GRS_ID": "145",
@@ -48291,18 +44187,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.07.16 18:25",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.422785044",
-    "TEMPERATURE": "20.92791557",
-    "Q_CURR": "58.1244812",
-    "Q_START_DAY": "760.0213013",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7011.467285"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.07.16 18:29",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -48339,36 +44223,12 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.07.16 18:47",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.415714025",
-    "TEMPERATURE": "19.65295982",
-    "Q_CURR": "57.32342148",
-    "Q_START_DAY": "783.4853516",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7011.48877"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.07.16 19:01",
     "NO_DEV": "41",
     "NO_LINE": "1",
     "P_STAT": "2.411420584",
     "TEMPERATURE": "18.83194542",
     "Q_CURR": "57.05525208",
-    "Q_START_DAY": "795.2335205",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7011.502441"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.07.16 19:01",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.411420584",
-    "TEMPERATURE": "18.83194542",
-    "Q_CURR": "57.03482437",
     "Q_START_DAY": "795.2335205",
     "Q_LAST_DAY": "1223.490356",
     "Q_GENERAL": "7011.502441"
@@ -48460,18 +44320,6 @@ const IndicatorsMoment = [
   {
     "GRS_ID": "145",
     "DT_DATA": "09.07.16 20:00",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.387040377",
-    "TEMPERATURE": "14.85659122",
-    "Q_CURR": "56.28286362",
-    "Q_START_DAY": "849.4446411",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7011.556641"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.07.16 20:02",
     "NO_DEV": "41",
     "NO_LINE": "1",
     "P_STAT": "2.387040377",
@@ -48651,18 +44499,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.07.16 16:53",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.434149504",
-    "TEMPERATURE": "23.99514198",
-    "Q_CURR": "65.44743347",
-    "Q_START_DAY": "671.2223511",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7011.378418"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.07.16 22:14",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -48744,18 +44580,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "1071.017944",
     "Q_LAST_DAY": "1223.490356",
     "Q_GENERAL": "7011.77832"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.08.16 00:37",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.424560785",
-    "TEMPERATURE": "7.713739872",
-    "Q_CURR": "49.20055771",
-    "Q_START_DAY": "1083.282349",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7011.790527"
   },
   {
     "GRS_ID": "145",
@@ -48927,18 +44751,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.08.16 01:31",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.454540014",
-    "TEMPERATURE": "7.164722919",
-    "Q_CURR": "48.82662964",
-    "Q_START_DAY": "1127.846924",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7011.835449"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.08.16 01:33",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -49020,18 +44832,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "1147.869995",
     "Q_LAST_DAY": "1223.490356",
     "Q_GENERAL": "7011.855469"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.08.16 01:59",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.470374346",
-    "TEMPERATURE": "6.87095499",
-    "Q_CURR": "48.7193718",
-    "Q_START_DAY": "1150.381104",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7011.85791"
   },
   {
     "GRS_ID": "145",
@@ -49140,18 +44940,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "244.745224",
     "Q_LAST_DAY": "1255.19873",
     "Q_GENERAL": "7009.728516"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.06.16 13:02",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.415327311",
-    "TEMPERATURE": "29.06855583",
-    "Q_CURR": "45.31003189",
-    "Q_START_DAY": "279.039978",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7009.763184"
   },
   {
     "GRS_ID": "145",
@@ -49299,18 +45087,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.07.16 02:03",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.420568228",
-    "TEMPERATURE": "8.593960762",
-    "Q_CURR": "48.79266357",
-    "Q_START_DAY": "989.9303589",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7010.473633"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.07.16 02:07",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -49443,18 +45219,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.07.16 03:21",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.465402365",
-    "TEMPERATURE": "7.80146265",
-    "Q_CURR": "48.35293579",
-    "Q_START_DAY": "1051.790894",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7010.535645"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.07.16 03:23",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -49464,18 +45228,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "1051.790894",
     "Q_LAST_DAY": "1255.19873",
     "Q_GENERAL": "7010.535645"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.07.16 03:23",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.466734171",
-    "TEMPERATURE": "7.782706738",
-    "Q_CURR": "48.35523224",
-    "Q_START_DAY": "1054.292603",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7010.538086"
   },
   {
     "GRS_ID": "145",
@@ -49695,18 +45447,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.07.16 04:47",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.512281179",
-    "TEMPERATURE": "7.038815975",
-    "Q_CURR": "47.9395256",
-    "Q_START_DAY": "1120.048584",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7010.604004"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.07.16 04:51",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -49911,18 +45651,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.07.16 14:02",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.382298708",
-    "TEMPERATURE": "25.71665764",
-    "Q_CURR": "96.60001373",
-    "Q_START_DAY": "432.0065613",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7011.139648"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.07.16 14:10",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -49959,30 +45687,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.07.16 14:48",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.398990393",
-    "TEMPERATURE": "25.47555351",
-    "Q_CURR": "94.56166077",
-    "Q_START_DAY": "504.8439331",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7011.212402"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.07.16 14:00",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.403252363",
-    "TEMPERATURE": "25.32678413",
-    "Q_CURR": "94.02199554",
-    "Q_START_DAY": "520.8619995",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7011.228516"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.07.16 15:02",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -50004,30 +45708,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "532.3243408",
     "Q_LAST_DAY": "1223.490356",
     "Q_GENERAL": "7011.239746"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.07.16 15:14",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.409359217",
-    "TEMPERATURE": "25.09550667",
-    "Q_CURR": "92.233078",
-    "Q_START_DAY": "543.802002",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7011.251465"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.07.16 15:14",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.409359217",
-    "TEMPERATURE": "25.09550667",
-    "Q_CURR": "92.233078",
-    "Q_START_DAY": "543.802002",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7011.251465"
   },
   {
     "GRS_ID": "145",
@@ -50067,18 +45747,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.07.16 16:13",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.433084249",
-    "TEMPERATURE": "24.84121895",
-    "Q_CURR": "75.60972595",
-    "Q_START_DAY": "622.3469238",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7011.32959"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.07.16 16:17",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -50088,18 +45756,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "626.9938354",
     "Q_LAST_DAY": "1223.490356",
     "Q_GENERAL": "7011.334473"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.07.16 16:25",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.434504747",
-    "TEMPERATURE": "24.59593391",
-    "Q_CURR": "72.06848145",
-    "Q_START_DAY": "636.2918701",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7011.34375"
   },
   {
     "GRS_ID": "145",
@@ -50127,18 +45783,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.07.16 16:43",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.434859991",
-    "TEMPERATURE": "24.32583046",
-    "Q_CURR": "67.6171875",
-    "Q_START_DAY": "657.243042",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7011.364746"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.07.16 16:47",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -50160,18 +45804,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "673.5532837",
     "Q_LAST_DAY": "1223.490356",
     "Q_GENERAL": "7011.380859"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.07.16 17:07",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.433470011",
-    "TEMPERATURE": "23.7371273",
-    "Q_CURR": "64.0872345",
-    "Q_START_DAY": "682.8789063",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7011.390137"
   },
   {
     "GRS_ID": "145",
@@ -50223,42 +45855,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.07.16 17:35",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.432709932",
-    "TEMPERATURE": "23.0784359",
-    "Q_CURR": "61.4896965",
-    "Q_START_DAY": "710.8881836",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7011.418457"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.07.16 17:43",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.431488752",
-    "TEMPERATURE": "22.85982704",
-    "Q_CURR": "60.6186409",
-    "Q_START_DAY": "720.2354736",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7011.427734"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.07.16 17:45",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.431308508",
-    "TEMPERATURE": "22.80241203",
-    "Q_CURR": "60.49533844",
-    "Q_START_DAY": "722.5728149",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7011.430176"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.07.16 17:51",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -50295,18 +45891,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.07.16 18:03",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.428360701",
-    "TEMPERATURE": "22.19382286",
-    "Q_CURR": "59.3118248",
-    "Q_START_DAY": "738.9408569",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7011.446289"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.07.16 18:05",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -50316,18 +45900,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "741.2802124",
     "Q_LAST_DAY": "1223.490356",
     "Q_GENERAL": "7011.44873"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.07.16 18:09",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.427401781",
-    "TEMPERATURE": "21.85006905",
-    "Q_CURR": "58.90235138",
-    "Q_START_DAY": "745.9611816",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7011.453613"
   },
   {
     "GRS_ID": "145",
@@ -50352,18 +45924,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "755.3330078",
     "Q_LAST_DAY": "1223.490356",
     "Q_GENERAL": "7011.462891"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.07.16 18:25",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.4224298",
-    "TEMPERATURE": "20.80891991",
-    "Q_CURR": "58.05989838",
-    "Q_START_DAY": "762.3657837",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7011.469727"
   },
   {
     "GRS_ID": "145",
@@ -50595,30 +46155,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.06.16 15:00",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.35814929",
-    "TEMPERATURE": "27.83873558",
-    "Q_CURR": "54.97999191",
-    "Q_START_DAY": "424.6192322",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7009.908691"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.07.16 09:10",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.432729006",
-    "TEMPERATURE": "15.85034847",
-    "Q_CURR": "46.71478271",
-    "Q_START_DAY": "104.9602585",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7010.8125"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.07.16 09:14",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -50679,18 +46215,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.07.16 10:34",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.379102468",
-    "TEMPERATURE": "24.99655342",
-    "Q_CURR": "46.19834137",
-    "Q_START_DAY": "170.02565",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7010.877441"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.07.16 10:38",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -50700,18 +46224,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "172.2922821",
     "Q_LAST_DAY": "1223.490356",
     "Q_GENERAL": "7010.879883"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.07.16 12:04",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.33932662",
-    "TEMPERATURE": "28.41834831",
-    "Q_CURR": "55.42017746",
-    "Q_START_DAY": "243.6019897",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7010.951172"
   },
   {
     "GRS_ID": "145",
@@ -50811,18 +46323,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.07.16 20:46",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.359569788",
-    "TEMPERATURE": "12.71896648",
-    "Q_CURR": "52.66988754",
-    "Q_START_DAY": "891.8208008",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7011.599121"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.08.16 02:43",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -50841,18 +46341,6 @@ const IndicatorsMoment = [
     "P_STAT": "2.495078802",
     "TEMPERATURE": "6.253765583",
     "Q_CURR": "48.56233978",
-    "Q_START_DAY": "1188.313354",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7011.895508"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.08.16 02:47",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.495944738",
-    "TEMPERATURE": "6.239877224",
-    "Q_CURR": "48.58176804",
     "Q_START_DAY": "1188.313354",
     "Q_LAST_DAY": "1223.490356",
     "Q_GENERAL": "7011.895508"
@@ -51123,43 +46611,7 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.07.16 20:48",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.358859301",
-    "TEMPERATURE": "12.67133617",
-    "Q_CURR": "52.49939346",
-    "Q_START_DAY": "894.1700439",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7011.601563"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.07.16 20:48",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.358859301",
-    "TEMPERATURE": "12.67133617",
-    "Q_CURR": "52.51377869",
-    "Q_START_DAY": "894.1700439",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7011.601563"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.07.16 20:58",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.356373549",
-    "TEMPERATURE": "12.27911472",
-    "Q_CURR": "52.064888",
-    "Q_START_DAY": "901.2200928",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7011.608398"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.07.16 20:00",
     "NO_DEV": "41",
     "NO_LINE": "1",
     "P_STAT": "2.356373549",
@@ -51291,18 +46743,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.07.16 22:28",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.368803263",
-    "TEMPERATURE": "9.760855675",
-    "Q_CURR": "50.48594666",
-    "Q_START_DAY": "979.2478638",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7011.686523"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.07.16 22:34",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -51411,36 +46851,12 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.07.16 23:00",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.3801682",
-    "TEMPERATURE": "9.055010796",
-    "Q_CURR": "50.09284592",
-    "Q_START_DAY": "1005.569641",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7011.712891"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.07.16 23:02",
     "NO_DEV": "41",
     "NO_LINE": "1",
     "P_STAT": "2.3801682",
     "TEMPERATURE": "9.055010796",
     "Q_CURR": "50.09284592",
-    "Q_START_DAY": "1005.569641",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7011.712891"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.07.16 23:02",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.38087821",
-    "TEMPERATURE": "9.055010796",
-    "Q_CURR": "50.11223221",
     "Q_START_DAY": "1005.569641",
     "Q_LAST_DAY": "1223.490356",
     "Q_GENERAL": "7011.712891"
@@ -51567,30 +46983,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.07.16 23:52",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.401831865",
-    "TEMPERATURE": "8.331112862",
-    "Q_CURR": "49.59701157",
-    "Q_START_DAY": "1046.629883",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7011.753906"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.08.16 00:00",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.405738115",
-    "TEMPERATURE": "8.17645359",
-    "Q_CURR": "49.50450134",
-    "Q_START_DAY": "1053.92627",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7011.76123"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.08.16 00:02",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -51624,18 +47016,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "1078.370361",
     "Q_LAST_DAY": "1223.490356",
     "Q_GENERAL": "7011.785645"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.08.16 00:32",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.4224298",
-    "TEMPERATURE": "7.780157566",
-    "Q_CURR": "49.19989014",
-    "Q_START_DAY": "1080.825317",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7011.788086"
   },
   {
     "GRS_ID": "145",
@@ -51819,18 +47199,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.07.16 05:58",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.544599295",
-    "TEMPERATURE": "6.355575085",
-    "Q_CURR": "47.69326401",
-    "Q_START_DAY": "1174.150391",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7010.658203"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.07.16 06:02",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -51867,18 +47235,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.07.16 06:16",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.547795534",
-    "TEMPERATURE": "6.244745731",
-    "Q_CURR": "47.60273361",
-    "Q_START_DAY": "1189.727783",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7010.673828"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.07.16 06:18",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -51888,18 +47244,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "1189.727783",
     "Q_LAST_DAY": "1255.19873",
     "Q_GENERAL": "7010.673828"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.07.16 06:18",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.547795534",
-    "TEMPERATURE": "6.238763332",
-    "Q_CURR": "47.58029175",
-    "Q_START_DAY": "1192.32605",
-    "Q_LAST_DAY": "1255.19873",
-    "Q_GENERAL": "7010.67627"
   },
   {
     "GRS_ID": "145",
@@ -51987,18 +47331,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.07.16 07:02",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.540440321",
-    "TEMPERATURE": "6.765741825",
-    "Q_CURR": "47.32709885",
-    "Q_START_DAY": "2.586737633",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7010.709961"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.07.16 07:10",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -52044,18 +47376,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "18.04557419",
     "Q_LAST_DAY": "1223.490356",
     "Q_GENERAL": "7010.725586"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.07.16 07:24",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.52861762",
-    "TEMPERATURE": "7.848727703",
-    "Q_CURR": "47.1586113",
-    "Q_START_DAY": "20.60966301",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7010.728027"
   },
   {
     "GRS_ID": "145",
@@ -52131,18 +47451,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.07.16 07:44",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.512991667",
-    "TEMPERATURE": "8.738320351",
-    "Q_CURR": "47.08096695",
-    "Q_START_DAY": "35.90880585",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7010.743164"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.07.16 07:48",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -52168,18 +47476,6 @@ const IndicatorsMoment = [
   {
     "GRS_ID": "145",
     "DT_DATA": "09.07.16 07:58",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.501271963",
-    "TEMPERATURE": "9.584906578",
-    "Q_CURR": "47.00140381",
-    "Q_START_DAY": "46.02997971",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7010.753418"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.07.16 07:00",
     "NO_DEV": "41",
     "NO_LINE": "1",
     "P_STAT": "2.501271963",
@@ -52260,18 +47556,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "85.65666962",
     "Q_LAST_DAY": "1223.490356",
     "Q_GENERAL": "7010.792969"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.07.16 08:48",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.450486422",
-    "TEMPERATURE": "14.04753017",
-    "Q_CURR": "46.84064484",
-    "Q_START_DAY": "88.08735657",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7010.79541"
   },
   {
     "GRS_ID": "145",
@@ -52407,18 +47691,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.07.16 19:54",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.389390707",
-    "TEMPERATURE": "15.09433651",
-    "Q_CURR": "56.44083786",
-    "Q_START_DAY": "847.0853882",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7011.554688"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.07.16 19:58",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -52428,18 +47700,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "849.4446411",
     "Q_LAST_DAY": "1223.490356",
     "Q_GENERAL": "7011.556641"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.07.16 20:02",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.386205435",
-    "TEMPERATURE": "14.7549963",
-    "Q_CURR": "56.17178345",
-    "Q_START_DAY": "851.8042603",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7011.559082"
   },
   {
     "GRS_ID": "145",
@@ -52512,18 +47772,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "1273.299194",
     "Q_LAST_DAY": "1223.490356",
     "Q_GENERAL": "7011.980957"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.08.16 04:35",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.552102804",
-    "TEMPERATURE": "5.667816639",
-    "Q_CURR": "48.23035049",
-    "Q_START_DAY": "1275.90686",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7011.983398"
   },
   {
     "GRS_ID": "145",
@@ -52623,18 +47871,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.08.16 05:16",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.571234941",
-    "TEMPERATURE": "5.628732204",
-    "Q_CURR": "48.10313034",
-    "Q_START_DAY": "1307.319702",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7012.014648"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.08.16 05:20",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -52659,18 +47895,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.08.16 05:22",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.573716879",
-    "TEMPERATURE": "5.670106411",
-    "Q_CURR": "48.04486847",
-    "Q_START_DAY": "1312.577271",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7012.02002"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.08.16 05:24",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -52683,35 +47907,11 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.08.16 05:24",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.574496508",
-    "TEMPERATURE": "5.729594707",
-    "Q_CURR": "47.97463989",
-    "Q_START_DAY": "1315.208008",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7012.022461"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.08.16 05:26",
     "NO_DEV": "41",
     "NO_LINE": "1",
     "P_STAT": "2.575496435",
     "TEMPERATURE": "5.729594707",
-    "Q_CURR": "47.99025726",
-    "Q_START_DAY": "1315.208008",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7012.022461"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.08.16 05:26",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.575496435",
-    "TEMPERATURE": "5.755218983",
     "Q_CURR": "47.99025726",
     "Q_START_DAY": "1315.208008",
     "Q_LAST_DAY": "1223.490356",
@@ -52851,18 +48051,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.07.16 11:18",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.357083559",
-    "TEMPERATURE": "27.63767815",
-    "Q_CURR": "46.2443161",
-    "Q_START_DAY": "203.7324371",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7010.911133"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.07.16 11:26",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -52899,30 +48087,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.07.16 13:50",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.377326727",
-    "TEMPERATURE": "25.74834251",
-    "Q_CURR": "97.30761719",
-    "Q_START_DAY": "411.6227417",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7011.119141"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.07.16 19:54",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.390678167",
-    "TEMPERATURE": "15.20774555",
-    "Q_CURR": "56.48631287",
-    "Q_START_DAY": "844.725708",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7011.552246"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.07.16 20:08",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -52956,18 +48120,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "1112.921631",
     "Q_LAST_DAY": "1223.490356",
     "Q_GENERAL": "7011.820313"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.08.16 01:33",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.456166029",
-    "TEMPERATURE": "7.164722919",
-    "Q_CURR": "48.8122406",
-    "Q_START_DAY": "1130.342529",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7011.837891"
   },
   {
     "GRS_ID": "145",
@@ -53331,18 +48483,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.08.16 05:13",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.569850206",
-    "TEMPERATURE": "5.642039776",
-    "Q_CURR": "48.07470322",
-    "Q_START_DAY": "1307.319702",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7012.014648"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.07.16 20:56",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -53475,18 +48615,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.07.16 21:00",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.359569788",
-    "TEMPERATURE": "10.47137165",
-    "Q_CURR": "50.7869072",
-    "Q_START_DAY": "953.1039429",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7011.660645"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.07.16 22:04",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -53559,18 +48687,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.07.16 23:02",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.38087821",
-    "TEMPERATURE": "9.031035423",
-    "Q_CURR": "50.11223221",
-    "Q_START_DAY": "1005.569641",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7011.712891"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.07.16 23:04",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -53580,18 +48696,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "1007.972168",
     "Q_LAST_DAY": "1223.490356",
     "Q_GENERAL": "7011.715332"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.07.16 23:06",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.382298708",
-    "TEMPERATURE": "9.004496574",
-    "Q_CURR": "49.98056412",
-    "Q_START_DAY": "1010.376892",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7011.717773"
   },
   {
     "GRS_ID": "145",
@@ -53703,36 +48807,12 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.07.16 23:54",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.402541876",
-    "TEMPERATURE": "8.304938316",
-    "Q_CURR": "49.53312683",
-    "Q_START_DAY": "1049.060181",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7011.756348"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.07.16 23:58",
     "NO_DEV": "41",
     "NO_LINE": "1",
     "P_STAT": "2.404695272",
     "TEMPERATURE": "8.201375008",
     "Q_CURR": "49.47879028",
-    "Q_START_DAY": "1053.92627",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7011.76123"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.08.16 00:02",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.405738115",
-    "TEMPERATURE": "8.17645359",
-    "Q_CURR": "49.50450134",
     "Q_START_DAY": "1053.92627",
     "Q_LAST_DAY": "1223.490356",
     "Q_GENERAL": "7011.76123"
@@ -53760,18 +48840,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "1068.571045",
     "Q_LAST_DAY": "1223.490356",
     "Q_GENERAL": "7011.775879"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.08.16 00:37",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.425981283",
-    "TEMPERATURE": "7.713739872",
-    "Q_CURR": "49.23339081",
-    "Q_START_DAY": "1085.741821",
-    "Q_LAST_DAY": "1223.490356",
-    "Q_GENERAL": "7011.792969"
   },
   {
     "GRS_ID": "145",
@@ -53820,18 +48888,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "1103.01062",
     "Q_LAST_DAY": "1223.490356",
     "Q_GENERAL": "7011.810547"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.01.16 17:00",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.449775934",
-    "TEMPERATURE": "21.13632774",
-    "Q_CURR": "64.45981598",
-    "Q_START_DAY": "828.0664673",
-    "Q_LAST_DAY": "1494.51416",
-    "Q_GENERAL": "7002.562012"
   },
   {
     "GRS_ID": "145",
@@ -53931,18 +48987,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.01.16 19:38",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.411775827",
-    "TEMPERATURE": "15.61828136",
-    "Q_CURR": "60.91466904",
-    "Q_START_DAY": "930.2442017",
-    "Q_LAST_DAY": "1494.51416",
-    "Q_GENERAL": "7002.664063"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.01.16 19:42",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -53964,18 +49008,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "939.753479",
     "Q_LAST_DAY": "1494.51416",
     "Q_GENERAL": "7002.673828"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.01.16 20:00",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.39970088",
-    "TEMPERATURE": "14.31251621",
-    "Q_CURR": "60.84529877",
-    "Q_START_DAY": "954.0150757",
-    "Q_LAST_DAY": "1494.51416",
-    "Q_GENERAL": "7002.687988"
   },
   {
     "GRS_ID": "145",
@@ -54036,18 +49068,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "1008.490295",
     "Q_LAST_DAY": "1494.51416",
     "Q_GENERAL": "7002.742188"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.01.16 21:00",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.360635042",
-    "TEMPERATURE": "11.67491055",
-    "Q_CURR": "55.55425644",
-    "Q_START_DAY": "1010.849915",
-    "Q_LAST_DAY": "1494.51416",
-    "Q_GENERAL": "7002.744629"
   },
   {
     "GRS_ID": "145",
@@ -54483,35 +49503,11 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.03.16 20:00",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.30487752",
-    "TEMPERATURE": "12.76522541",
-    "Q_CURR": "75.71300507",
-    "Q_START_DAY": "1254.503662",
-    "Q_LAST_DAY": "1499.42627",
-    "Q_GENERAL": "7006.016113"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.03.16 22:32",
     "NO_DEV": "41",
     "NO_LINE": "1",
     "P_STAT": "2.301800489",
     "TEMPERATURE": "9.844031334",
-    "Q_CURR": "64.20491791",
-    "Q_START_DAY": "1362.710083",
-    "Q_LAST_DAY": "1499.42627",
-    "Q_GENERAL": "7006.124023"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.03.16 22:34",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.302526236",
-    "TEMPERATURE": "9.790783882",
     "Q_CURR": "64.20491791",
     "Q_START_DAY": "1362.710083",
     "Q_LAST_DAY": "1499.42627",
@@ -54723,18 +49719,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.04.16 01:33",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.398990393",
-    "TEMPERATURE": "8.513472557",
-    "Q_CURR": "54.4043541",
-    "Q_START_DAY": "1533.031128",
-    "Q_LAST_DAY": "1499.42627",
-    "Q_GENERAL": "7006.294434"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.04.16 01:51",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -54792,18 +49776,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "1586.872192",
     "Q_LAST_DAY": "1499.42627",
     "Q_GENERAL": "7006.348145"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.04.16 03:03",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.456878901",
-    "TEMPERATURE": "7.550303936",
-    "Q_CURR": "52.98523712",
-    "Q_START_DAY": "1614.175293",
-    "Q_LAST_DAY": "1499.42627",
-    "Q_GENERAL": "7006.375488"
   },
   {
     "GRS_ID": "145",
@@ -55095,18 +50067,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.01.16 21:02",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.359359026",
-    "TEMPERATURE": "11.6263628",
-    "Q_CURR": "55.46115112",
-    "Q_START_DAY": "1013.208618",
-    "Q_LAST_DAY": "1494.51416",
-    "Q_GENERAL": "7002.74707"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.01.16 21:48",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -55176,18 +50136,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "1095.88562",
     "Q_LAST_DAY": "1494.51416",
     "Q_GENERAL": "7002.82959"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.01.16 22:44",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.360589266",
-    "TEMPERATURE": "8.989127159",
-    "Q_CURR": "53.97440338",
-    "Q_START_DAY": "1105.406372",
-    "Q_LAST_DAY": "1494.51416",
-    "Q_GENERAL": "7002.839355"
   },
   {
     "GRS_ID": "145",
@@ -55464,18 +50412,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "1012.554565",
     "Q_LAST_DAY": "1499.42627",
     "Q_GENERAL": "7005.773926"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.03.16 18:02",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.425626516",
-    "TEMPERATURE": "21.27684212",
-    "Q_CURR": "79.99456787",
-    "Q_START_DAY": "1021.93573",
-    "Q_LAST_DAY": "1499.42627",
-    "Q_GENERAL": "7005.783203"
   },
   {
     "GRS_ID": "145",
@@ -55875,18 +50811,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.04.16 01:59",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.416392565",
-    "TEMPERATURE": "8.519545555",
-    "Q_CURR": "53.95967865",
-    "Q_START_DAY": "1554.942017",
-    "Q_LAST_DAY": "1499.42627",
-    "Q_GENERAL": "7006.316406"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.04.16 02:05",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -55944,18 +50868,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "1271.421631",
     "Q_LAST_DAY": "1494.51416",
     "Q_GENERAL": "7003.005371"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.02.16 02:55",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.464607477",
-    "TEMPERATURE": "6.541520596",
-    "Q_CURR": "51.77744293",
-    "Q_START_DAY": "1276.44397",
-    "Q_LAST_DAY": "1494.51416",
-    "Q_GENERAL": "7003.010254"
   },
   {
     "GRS_ID": "145",
@@ -56307,18 +51219,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.02.16 15:17",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.443028212",
-    "TEMPERATURE": "24.61379051",
-    "Q_CURR": "96.58978271",
-    "Q_START_DAY": "584.8807373",
-    "Q_LAST_DAY": "1528.166992",
-    "Q_GENERAL": "7003.84668"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.02.16 15:19",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -56487,18 +51387,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.03.16 19:38",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.363476515",
-    "TEMPERATURE": "15.39592075",
-    "Q_CURR": "79.17577362",
-    "Q_START_DAY": "1152.824463",
-    "Q_LAST_DAY": "1499.42627",
-    "Q_GENERAL": "7005.914063"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.03.16 19:46",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -56664,18 +51552,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "1295.845337",
     "Q_LAST_DAY": "1499.42627",
     "Q_GENERAL": "7006.057129"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.03.16 21:00",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.295644045",
-    "TEMPERATURE": "10.67886639",
-    "Q_CURR": "66.20316315",
-    "Q_START_DAY": "1323.459229",
-    "Q_LAST_DAY": "1499.42627",
-    "Q_GENERAL": "7006.084961"
   },
   {
     "GRS_ID": "145",
@@ -57039,30 +51915,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.01.16 18:20",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.444448709",
-    "TEMPERATURE": "19.94076347",
-    "Q_CURR": "62.82886124",
-    "Q_START_DAY": "851.7774048",
-    "Q_LAST_DAY": "1494.51416",
-    "Q_GENERAL": "7002.585449"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.01.16 18:30",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.442302942",
-    "TEMPERATURE": "19.32150841",
-    "Q_CURR": "62.36514664",
-    "Q_START_DAY": "863.6536255",
-    "Q_LAST_DAY": "1494.51416",
-    "Q_GENERAL": "7002.597656"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.01.16 18:48",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -57100,18 +51952,6 @@ const IndicatorsMoment = [
   {
     "GRS_ID": "145",
     "DT_DATA": "09.01.16 18:58",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.433439493",
-    "TEMPERATURE": "17.96751213",
-    "Q_CURR": "61.35243607",
-    "Q_START_DAY": "889.8146362",
-    "Q_LAST_DAY": "1494.51416",
-    "Q_GENERAL": "7002.623535"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.01.16 18:00",
     "NO_DEV": "41",
     "NO_LINE": "1",
     "P_STAT": "2.433439493",
@@ -57207,18 +52047,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.01.16 21:22",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.351788282",
-    "TEMPERATURE": "10.99348354",
-    "Q_CURR": "54.83464813",
-    "Q_START_DAY": "1029.705322",
-    "Q_LAST_DAY": "1494.51416",
-    "Q_GENERAL": "7002.763672"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.01.16 21:30",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -57288,30 +52116,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "1084.014771",
     "Q_LAST_DAY": "1494.51416",
     "Q_GENERAL": "7002.817871"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.01.16 22:53",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.363792658",
-    "TEMPERATURE": "8.874619484",
-    "Q_CURR": "53.9180069",
-    "Q_START_DAY": "1112.560547",
-    "Q_LAST_DAY": "1494.51416",
-    "Q_GENERAL": "7002.846191"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.01.16 22:55",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.364186525",
-    "TEMPERATURE": "8.832972527",
-    "Q_CURR": "53.9180069",
-    "Q_START_DAY": "1112.560547",
-    "Q_LAST_DAY": "1494.51416",
-    "Q_GENERAL": "7002.846191"
   },
   {
     "GRS_ID": "145",
@@ -57579,30 +52383,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.02.16 03:27",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.520287275",
-    "TEMPERATURE": "5.858371258",
-    "Q_CURR": "51.10035706",
-    "Q_START_DAY": "1355.332886",
-    "Q_LAST_DAY": "1494.51416",
-    "Q_GENERAL": "7003.089355"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.01.16 17:08",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.456878901",
-    "TEMPERATURE": "22.06994438",
-    "Q_CURR": "70.6919632",
-    "Q_START_DAY": "775.9597778",
-    "Q_LAST_DAY": "1494.51416",
-    "Q_GENERAL": "7002.509766"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.03.16 16:04",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -57663,18 +52443,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.03.16 16:50",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.44871068",
-    "TEMPERATURE": "23.3999958",
-    "Q_CURR": "91.04470062",
-    "Q_START_DAY": "925.6633301",
-    "Q_LAST_DAY": "1499.42627",
-    "Q_GENERAL": "7005.687012"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.03.16 16:54",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -57684,30 +52452,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "930.3609619",
     "Q_LAST_DAY": "1499.42627",
     "Q_GENERAL": "7005.691895"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.03.16 16:00",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.447290182",
-    "TEMPERATURE": "23.3404789",
-    "Q_CURR": "88.81176758",
-    "Q_START_DAY": "937.4061279",
-    "Q_LAST_DAY": "1499.42627",
-    "Q_GENERAL": "7005.69873"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.03.16 17:02",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.447131872",
-    "TEMPERATURE": "23.28336906",
-    "Q_CURR": "88.35900116",
-    "Q_START_DAY": "939.7545776",
-    "Q_LAST_DAY": "1499.42627",
-    "Q_GENERAL": "7005.701172"
   },
   {
     "GRS_ID": "145",
@@ -57771,42 +52515,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.03.16 18:06",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.422075033",
-    "TEMPERATURE": "21.13638878",
-    "Q_CURR": "79.38890839",
-    "Q_START_DAY": "1031.307251",
-    "Q_LAST_DAY": "1499.42627",
-    "Q_GENERAL": "7005.792969"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.03.16 18:08",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.420654535",
-    "TEMPERATURE": "21.04956627",
-    "Q_CURR": "78.99748993",
-    "Q_START_DAY": "1035.989868",
-    "Q_LAST_DAY": "1499.42627",
-    "Q_GENERAL": "7005.797363"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.03.16 18:10",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.41852355",
-    "TEMPERATURE": "20.85394096",
-    "Q_CURR": "78.90365601",
-    "Q_START_DAY": "1038.330811",
-    "Q_LAST_DAY": "1499.42627",
-    "Q_GENERAL": "7005.799805"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.03.16 18:16",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -57867,18 +52575,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.03.16 20:02",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.345009089",
-    "TEMPERATURE": "14.72261143",
-    "Q_CURR": "79.34016418",
-    "Q_START_DAY": "1183.058472",
-    "Q_LAST_DAY": "1499.42627",
-    "Q_GENERAL": "7005.944336"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.03.16 20:20",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -57936,18 +52632,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "1249.914185",
     "Q_LAST_DAY": "1499.42627",
     "Q_GENERAL": "7006.01123"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.03.16 21:02",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.3044312",
-    "TEMPERATURE": "12.64049244",
-    "Q_CURR": "74.63731384",
-    "Q_START_DAY": "1259.093384",
-    "Q_LAST_DAY": "1499.42627",
-    "Q_GENERAL": "7006.020508"
   },
   {
     "GRS_ID": "145",
@@ -58179,18 +52863,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.01.16 19:00",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.42922616",
-    "TEMPERATURE": "17.58878136",
-    "Q_CURR": "61.10807037",
-    "Q_START_DAY": "896.9506226",
-    "Q_LAST_DAY": "1494.51416",
-    "Q_GENERAL": "7002.630859"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.01.16 19:26",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -58227,18 +52899,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.01.16 19:52",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.404672861",
-    "TEMPERATURE": "14.80209255",
-    "Q_CURR": "60.94412231",
-    "Q_START_DAY": "946.8851318",
-    "Q_LAST_DAY": "1494.51416",
-    "Q_GENERAL": "7002.680664"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.01.16 19:54",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -58248,30 +52908,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "946.8851318",
     "Q_LAST_DAY": "1494.51416",
     "Q_GENERAL": "7002.680664"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.01.16 19:00",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.401121378",
-    "TEMPERATURE": "14.44137096",
-    "Q_CURR": "60.94005203",
-    "Q_START_DAY": "951.6384277",
-    "Q_LAST_DAY": "1494.51416",
-    "Q_GENERAL": "7002.685547"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.01.16 20:02",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.39970088",
-    "TEMPERATURE": "14.31251621",
-    "Q_CURR": "60.84529877",
-    "Q_START_DAY": "954.0150757",
-    "Q_LAST_DAY": "1494.51416",
-    "Q_GENERAL": "7002.687988"
   },
   {
     "GRS_ID": "145",
@@ -58332,18 +52968,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "1065.080688",
     "Q_LAST_DAY": "1494.51416",
     "Q_GENERAL": "7002.798828"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.01.16 22:02",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.349639654",
-    "TEMPERATURE": "9.971404076",
-    "Q_CURR": "54.42303085",
-    "Q_START_DAY": "1067.443604",
-    "Q_LAST_DAY": "1494.51416",
-    "Q_GENERAL": "7002.80127"
   },
   {
     "GRS_ID": "145",
@@ -58635,18 +53259,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.02.16 05:59",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.570209742",
-    "TEMPERATURE": "5.923659801",
-    "Q_CURR": "50.58953094",
-    "Q_START_DAY": "1428.236328",
-    "Q_LAST_DAY": "1494.51416",
-    "Q_GENERAL": "7003.162109"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.02.16 05:05",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -58899,18 +53511,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.03.16 17:58",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.427757025",
-    "TEMPERATURE": "21.38596153",
-    "Q_CURR": "80.24323273",
-    "Q_START_DAY": "1019.591125",
-    "Q_LAST_DAY": "1499.42627",
-    "Q_GENERAL": "7005.78125"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.03.16 18:40",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -58983,18 +53583,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.03.16 19:36",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.364897013",
-    "TEMPERATURE": "15.51482296",
-    "Q_CURR": "79.10248566",
-    "Q_START_DAY": "1150.492798",
-    "Q_LAST_DAY": "1499.42627",
-    "Q_GENERAL": "7005.912109"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.03.16 19:44",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -59007,18 +53595,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.03.16 19:48",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.356728792",
-    "TEMPERATURE": "15.03770161",
-    "Q_CURR": "79.19924927",
-    "Q_START_DAY": "1164.47522",
-    "Q_LAST_DAY": "1499.42627",
-    "Q_GENERAL": "7005.925781"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.03.16 19:50",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -59028,18 +53604,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "1166.802246",
     "Q_LAST_DAY": "1499.42627",
     "Q_GENERAL": "7005.928223"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.03.16 23:46",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.334354639",
-    "TEMPERATURE": "8.705004692",
-    "Q_CURR": "58.38639832",
-    "Q_START_DAY": "1435.160034",
-    "Q_LAST_DAY": "1499.42627",
-    "Q_GENERAL": "7006.196777"
   },
   {
     "GRS_ID": "145",
@@ -59088,18 +53652,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "1494.49231",
     "Q_LAST_DAY": "1499.42627",
     "Q_GENERAL": "7006.255859"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.04.16 00:59",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.377326727",
-    "TEMPERATURE": "9.088280678",
-    "Q_CURR": "55.24380875",
-    "Q_START_DAY": "1501.677856",
-    "Q_LAST_DAY": "1499.42627",
-    "Q_GENERAL": "7006.263184"
   },
   {
     "GRS_ID": "145",
@@ -59655,30 +54207,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.02.16 08:04",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.533944845",
-    "TEMPERATURE": "10.8564806",
-    "Q_CURR": "49.37144089",
-    "Q_START_DAY": "51.6962471",
-    "Q_LAST_DAY": "1528.166992",
-    "Q_GENERAL": "7003.313965"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.02.16 08:04",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.533944845",
-    "TEMPERATURE": "10.8564806",
-    "Q_CURR": "49.37556076",
-    "Q_START_DAY": "54.23633575",
-    "Q_LAST_DAY": "1528.166992",
-    "Q_GENERAL": "7003.316406"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.02.16 08:32",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -59712,18 +54240,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "99.0769577",
     "Q_LAST_DAY": "1528.166992",
     "Q_GENERAL": "7003.361328"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.02.16 09:02",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.472150087",
-    "TEMPERATURE": "15.016366",
-    "Q_CURR": "49.23150253",
-    "Q_START_DAY": "101.5209045",
-    "Q_LAST_DAY": "1528.166992",
-    "Q_GENERAL": "7003.36377"
   },
   {
     "GRS_ID": "145",
@@ -59943,18 +54459,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.03.16 22:30",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.301076651",
-    "TEMPERATURE": "9.8935709",
-    "Q_CURR": "64.3704834",
-    "Q_START_DAY": "1360.394409",
-    "Q_LAST_DAY": "1499.42627",
-    "Q_GENERAL": "7006.12207"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.03.16 22:40",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -59964,18 +54468,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "1369.66687",
     "Q_LAST_DAY": "1499.42627",
     "Q_GENERAL": "7006.131348"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.03.16 23:02",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.31271863",
-    "TEMPERATURE": "9.288969994",
-    "Q_CURR": "61.66436386",
-    "Q_START_DAY": "1390.605225",
-    "Q_LAST_DAY": "1499.42627",
-    "Q_GENERAL": "7006.151855"
   },
   {
     "GRS_ID": "145",
@@ -60024,18 +54516,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "1446.96582",
     "Q_LAST_DAY": "1499.42627",
     "Q_GENERAL": "7006.208496"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.04.16 00:01",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.341812372",
-    "TEMPERATURE": "8.886860847",
-    "Q_CURR": "57.56590652",
-    "Q_START_DAY": "1449.330078",
-    "Q_LAST_DAY": "1499.42627",
-    "Q_GENERAL": "7006.210938"
   },
   {
     "GRS_ID": "145",
@@ -60168,18 +54648,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "1669.46814",
     "Q_LAST_DAY": "1499.42627",
     "Q_GENERAL": "7006.431152"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.04.16 04:29",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.510505438",
-    "TEMPERATURE": "8.395073891",
-    "Q_CURR": "52.07804871",
-    "Q_START_DAY": "1689.749512",
-    "Q_LAST_DAY": "1499.42627",
-    "Q_GENERAL": "7006.451172"
   },
   {
     "GRS_ID": "145",
@@ -60531,18 +54999,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.01.16 18:16",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.445514441",
-    "TEMPERATURE": "20.19747734",
-    "Q_CURR": "63.07883072",
-    "Q_START_DAY": "847.03125",
-    "Q_LAST_DAY": "1494.51416",
-    "Q_GENERAL": "7002.581055"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.01.16 18:18",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -60699,18 +55155,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.02.16 05:01",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.571590185",
-    "TEMPERATURE": "6.004362583",
-    "Q_CURR": "50.59563446",
-    "Q_START_DAY": "1430.861938",
-    "Q_LAST_DAY": "1494.51416",
-    "Q_GENERAL": "7003.164551"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.02.16 05:13",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -60855,18 +55299,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.02.16 07:01",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.583484411",
-    "TEMPERATURE": "8.465092659",
-    "Q_CURR": "49.83792114",
-    "Q_START_DAY": "0",
-    "Q_LAST_DAY": "1528.166992",
-    "Q_GENERAL": "7003.262207"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.02.16 07:05",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -60927,18 +55359,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.02.16 07:51",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.546375036",
-    "TEMPERATURE": "10.06903172",
-    "Q_CURR": "49.43563843",
-    "Q_START_DAY": "41.48321533",
-    "Q_LAST_DAY": "1528.166992",
-    "Q_GENERAL": "7003.303711"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.02.16 07:56",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -60948,18 +55368,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "46.59962845",
     "Q_LAST_DAY": "1528.166992",
     "Q_GENERAL": "7003.308594"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.02.16 08:00",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.53607583",
-    "TEMPERATURE": "10.71567822",
-    "Q_CURR": "49.4380188",
-    "Q_START_DAY": "51.6962471",
-    "Q_LAST_DAY": "1528.166992",
-    "Q_GENERAL": "7003.313965"
   },
   {
     "GRS_ID": "145",
@@ -61023,18 +55431,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.03.16 17:00",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.426691771",
-    "TEMPERATURE": "21.32884026",
-    "Q_CURR": "80.24323273",
-    "Q_START_DAY": "1019.591125",
-    "Q_LAST_DAY": "1499.42627",
-    "Q_GENERAL": "7005.78125"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.03.16 18:00",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -61083,18 +55479,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.03.16 19:00",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.390822172",
-    "TEMPERATURE": "18.04655266",
-    "Q_CURR": "78.1754837",
-    "Q_START_DAY": "1101.48877",
-    "Q_LAST_DAY": "1499.42627",
-    "Q_GENERAL": "7005.862793"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.03.16 19:16",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -61107,18 +55491,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.03.16 19:20",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.375906229",
-    "TEMPERATURE": "16.70060158",
-    "Q_CURR": "78.63729858",
-    "Q_START_DAY": "1127.169678",
-    "Q_LAST_DAY": "1499.42627",
-    "Q_GENERAL": "7005.888672"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.03.16 19:22",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -61128,30 +55500,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "1129.502686",
     "Q_LAST_DAY": "1499.42627",
     "Q_GENERAL": "7005.891113"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.03.16 19:24",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.373420477",
-    "TEMPERATURE": "16.5547924",
-    "Q_CURR": "78.78673553",
-    "Q_START_DAY": "1131.835449",
-    "Q_LAST_DAY": "1499.42627",
-    "Q_GENERAL": "7005.893066"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.03.16 19:42",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.361479998",
-    "TEMPERATURE": "15.16078472",
-    "Q_CURR": "79.29103088",
-    "Q_START_DAY": "1159.817871",
-    "Q_LAST_DAY": "1499.42627",
-    "Q_GENERAL": "7005.921387"
   },
   {
     "GRS_ID": "145",
@@ -61239,30 +55587,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.03.16 21:04",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.302999258",
-    "TEMPERATURE": "12.42179394",
-    "Q_CURR": "73.19525909",
-    "Q_START_DAY": "1265.979492",
-    "Q_LAST_DAY": "1499.42627",
-    "Q_GENERAL": "7006.027344"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.03.16 21:06",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.302391768",
-    "TEMPERATURE": "12.34362507",
-    "Q_CURR": "73.19525909",
-    "Q_START_DAY": "1265.979492",
-    "Q_LAST_DAY": "1499.42627",
-    "Q_GENERAL": "7006.027344"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.03.16 21:12",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -61347,30 +55671,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.03.16 22:00",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.295644045",
-    "TEMPERATURE": "10.60999203",
-    "Q_CURR": "66.16668701",
-    "Q_START_DAY": "1325.761719",
-    "Q_LAST_DAY": "1499.42627",
-    "Q_GENERAL": "7006.087402"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.03.16 22:02",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.295644045",
-    "TEMPERATURE": "10.56776333",
-    "Q_CURR": "66.12445068",
-    "Q_START_DAY": "1328.065063",
-    "Q_LAST_DAY": "1499.42627",
-    "Q_GENERAL": "7006.089355"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.03.16 22:04",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -61404,18 +55704,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "1351.139282",
     "Q_LAST_DAY": "1499.42627",
     "Q_GENERAL": "7006.112793"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.03.16 22:32",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.301800489",
-    "TEMPERATURE": "9.844031334",
-    "Q_CURR": "64.3704834",
-    "Q_START_DAY": "1360.394409",
-    "Q_LAST_DAY": "1499.42627",
-    "Q_GENERAL": "7006.12207"
   },
   {
     "GRS_ID": "145",
@@ -61488,18 +55776,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "1674.529419",
     "Q_LAST_DAY": "1499.42627",
     "Q_GENERAL": "7006.436035"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.04.16 04:23",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.506953955",
-    "TEMPERATURE": "8.332882881",
-    "Q_CURR": "52.19029236",
-    "Q_START_DAY": "1682.133057",
-    "Q_LAST_DAY": "1499.42627",
-    "Q_GENERAL": "7006.443359"
   },
   {
     "GRS_ID": "145",
@@ -61671,18 +55947,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.02.16 14:35",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.422075033",
-    "TEMPERATURE": "26.55272484",
-    "Q_CURR": "107.0717163",
-    "Q_START_DAY": "519.9475708",
-    "Q_LAST_DAY": "1528.166992",
-    "Q_GENERAL": "7003.781738"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.02.16 14:57",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -61848,18 +56112,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "638.7456055",
     "Q_LAST_DAY": "1528.166992",
     "Q_GENERAL": "7003.900879"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.02.16 16:03",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.450131178",
-    "TEMPERATURE": "24.43882942",
-    "Q_CURR": "74.59273529",
-    "Q_START_DAY": "648.1207275",
-    "Q_LAST_DAY": "1528.166992",
-    "Q_GENERAL": "7003.910156"
   },
   {
     "GRS_ID": "145",
@@ -62031,18 +56283,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.02.16 17:43",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.432729006",
-    "TEMPERATURE": "23.63978767",
-    "Q_CURR": "66.38043213",
-    "Q_START_DAY": "762.3840942",
-    "Q_LAST_DAY": "1528.166992",
-    "Q_GENERAL": "7004.024414"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.02.16 17:51",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -62088,18 +56328,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "781.0395508",
     "Q_LAST_DAY": "1528.166992",
     "Q_GENERAL": "7004.042969"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.03.16 16:02",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.454392672",
-    "TEMPERATURE": "23.85320854",
-    "Q_CURR": "103.7328644",
-    "Q_START_DAY": "850.4238892",
-    "Q_LAST_DAY": "1499.42627",
-    "Q_GENERAL": "7005.611816"
   },
   {
     "GRS_ID": "145",
@@ -62151,18 +56379,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.04.16 01:35",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.400411367",
-    "TEMPERATURE": "8.4712286",
-    "Q_CURR": "54.44323349",
-    "Q_START_DAY": "1535.458374",
-    "Q_LAST_DAY": "1499.42627",
-    "Q_GENERAL": "7006.296875"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.04.16 09:50",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -62175,18 +56391,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.04.16 10:10",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.331513643",
-    "TEMPERATURE": "21.11870003",
-    "Q_CURR": "49.72297287",
-    "Q_START_DAY": "162.7778015",
-    "Q_LAST_DAY": "1815.865967",
-    "Q_GENERAL": "7006.740234"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.04.16 10:18",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -62196,18 +56400,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "169.5168915",
     "Q_LAST_DAY": "1815.865967",
     "Q_GENERAL": "7006.74707"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.04.16 10:18",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.321924448",
-    "TEMPERATURE": "21.69502831",
-    "Q_CURR": "49.73654556",
-    "Q_START_DAY": "171.7541809",
-    "Q_LAST_DAY": "1815.865967",
-    "Q_GENERAL": "7006.749023"
   },
   {
     "GRS_ID": "145",
@@ -62307,18 +56499,6 @@ const IndicatorsMoment = [
   },
   {
     "GRS_ID": "145",
-    "DT_DATA": "09.04.16 11:02",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.279307604",
-    "TEMPERATURE": "25.57945442",
-    "Q_CURR": "50.33392334",
-    "Q_START_DAY": "204.7321777",
-    "Q_LAST_DAY": "1815.865967",
-    "Q_GENERAL": "7006.782227"
-  },
-  {
-    "GRS_ID": "145",
     "DT_DATA": "09.04.16 11:04",
     "NO_DEV": "41",
     "NO_LINE": "1",
@@ -62412,18 +56592,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "300.515686",
     "Q_LAST_DAY": "1815.865967",
     "Q_GENERAL": "7006.87793"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.04.16 12:02",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.373965502",
-    "TEMPERATURE": "19.2394619",
-    "Q_CURR": "169.7421265",
-    "Q_START_DAY": "374.0679321",
-    "Q_LAST_DAY": "1815.865967",
-    "Q_GENERAL": "7006.951172"
   },
   {
     "GRS_ID": "145",
@@ -62544,18 +56712,6 @@ const IndicatorsMoment = [
     "Q_START_DAY": "503.5622559",
     "Q_LAST_DAY": "1815.865967",
     "Q_GENERAL": "7007.081055"
-  },
-  {
-    "GRS_ID": "145",
-    "DT_DATA": "09.04.16 13:02",
-    "NO_DEV": "41",
-    "NO_LINE": "1",
-    "P_STAT": "2.409644842",
-    "TEMPERATURE": "24.08353615",
-    "Q_CURR": "116.9431152",
-    "Q_START_DAY": "508.17453",
-    "Q_LAST_DAY": "1815.865967",
-    "Q_GENERAL": "7007.085449"
   },
   {
     "GRS_ID": "145",
