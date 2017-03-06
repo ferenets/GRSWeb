@@ -76,6 +76,7 @@ export default class DisplayData extends React.Component {
         ref="containerWrap"
         style={fullWidth ? {width: '100%'} : {}}
       >
+
         {fullWidth
           ? <div className={classes.buttonWrap}>
               <Button
@@ -104,9 +105,10 @@ export default class DisplayData extends React.Component {
           </Tab>
 
           <Tab
-            label="Графіки D3"
+            label="Графіки"
             className={classes.tabLabel}
             value="graphA"
+            disabled={loadingGraph}
           >
             {loadingGraph
               ? <Loading />
@@ -125,6 +127,7 @@ export default class DisplayData extends React.Component {
             label="Таблиця"
             className={classes.tabLabel}
             value="graphB"
+            disabled={loadingGraph}
           >
             {loadingGraph
               ? <Loading />
@@ -139,6 +142,7 @@ export default class DisplayData extends React.Component {
             label="Комбіновані"
             className={classes.tabLabel}
             value="graphC"
+            disabled={loadingGraph}
           >
             {loadingGraph
               ? <Loading />
