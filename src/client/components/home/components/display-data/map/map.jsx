@@ -20,7 +20,7 @@ export default class Map extends React.Component {
           language: 'uk',
         }}
         options={{
-          mapTypeId: 'hybrid',
+          mapTypeId: 'roadmap',
           mapTypeControl: true
         }}
         clusterRadius={60}
