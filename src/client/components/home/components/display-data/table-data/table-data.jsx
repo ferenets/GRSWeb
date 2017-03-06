@@ -1,11 +1,18 @@
 import React from 'react';
 import classes from './table-data.scss';
+import { RaisedButton } from 'material-ui';
+import exportToCsv from '../../../../../utils/exportToCsv.js';
 
 export default class TableData extends React.Component {
   constructor(props) {
     super(props);
     this.state = {};
+    this.exportToCsv = this.exportToCsv.bind(this);
     this.createHeader = this.createHeader.bind(this);
+  }
+
+  exportToCsv(){
+    exportToCsv(`${this.props.pointTitle} ${this.props.tableData.tableTitle}.csv`, [this.props.tableData.tHead, ...this.props.tableData.tBody])
   }
 
   createHeader(row){
@@ -24,18 +31,36 @@ export default class TableData extends React.Component {
       }
     } = this.props;
 
+    const style = {
+      margin: 0,
+      cursor: 'pointer',
+    };
+
     return (
 
       <div className={classes.dataTableWrap} >
+
         {tHead != null && tBody != null
         ? <div>
 
-            <h4>{`${pointTitle}. ${tableTitle} данні.`}</h4>
-            <p>
-              {tableTitle == 'Добові'
-                ? `${startDate.slice(0, -6)} - ${endDate.slice(0, -6)}`
-                : `${startDate} - ${endDate}`}
-            </p>
+            <section>
+              <div className={classes.titleOfTable} >
+                <h4>{`${pointTitle}. ${tableTitle} данні.`}</h4>
+                <p>
+                  {tableTitle == 'Добові'
+                    ? `${startDate.slice(0, -6)} - ${endDate.slice(0, -6)}`
+                    : `${startDate} - ${endDate}`}
+                </p>
+              </div>
+
+              <RaisedButton
+                className={classes.exportButton}
+                label="Експортувати"
+                primary={true}
+                style={style}
+                onClick={this.exportToCsv}
+              />
+            </section>
 
             <section className={classes.sectionDataTable} >
 
