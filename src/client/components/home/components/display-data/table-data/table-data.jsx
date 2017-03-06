@@ -8,11 +8,11 @@ export default class TableData extends React.Component {
     super(props);
     this.state = {};
     this.exportToCsv = this.exportToCsv.bind(this);
+    this.createHeader = this.createHeader.bind(this);
   }
 
   exportToCsv(){
     exportToCsv(`${this.props.pointTitle} ${this.props.tableData.tableTitle}.csv`, [this.props.tableData.tHead, ...this.props.tableData.tBody])
-    this.createHeader = this.createHeader.bind(this);
   }
 
   createHeader(row){
