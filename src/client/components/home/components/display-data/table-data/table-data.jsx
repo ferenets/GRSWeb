@@ -4,8 +4,53 @@ import classes from './table-data.scss';
 export default class TableData extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {};
+
+    this.state = {
+      headerHeight: 0,
+      sellWidth: 0
+    };
+
+    this.fitToParentSize = this.fitToParentSize.bind(this);
   }
+
+  fitToParentSize() {
+    const sellWidth = this.refs.headerTh.offsetWidth;
+    const divWidth = this.refs.headerDiv.offsetWidth;
+    const headerHeight = this.refs.headerBg.offsetHeight;
+
+    //const currentSize = this.state.combinedSize;
+
+    if (sellWidth !== divWidth ||
+      sellWidth !== this.state.sellWidth ||
+      headerHeight !== this.state.headerHeight) {
+
+      this.setState({
+        sellWidth
+      })
+    }
+  };
+
+  componentDidMount() {
+    // const {headerHeight, thWidth} = this.state;
+
+    const sellWidth = this.refs.headerTh.offsetWidth;
+
+    this.setState({
+      sellWidth
+    });
+
+    window.addEventListener('resize', this.fitToParentSize);
+  };
+
+  // shouldComponentUpdate(nextProps, nextState) {
+  //   const sellWidth = this.refs.headerTh.offsetWidth;
+  //   const divWidth = this.refs.headerDiv.offsetWidth;
+  //   return nextState.sellWidth !== sellWidth;
+  // };
+
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.fitToParentSize);
+  };
 
   render() {
     const {
@@ -18,6 +63,15 @@ export default class TableData extends React.Component {
         endDate
       }
     } = this.props;
+
+    const {sellWidth} = this.state;
+
+    const style = {
+      sell: {
+        width: sellWidth,
+      }
+    };
+
     return (
 
       <div className={classes.dataTableWrap} >
@@ -32,14 +86,20 @@ export default class TableData extends React.Component {
             </p>
 
             <section className={classes.sectionDataTable} >
-              <div className={classes.backgroundHeader} ></div>
+
+              <div className={classes.backgroundHeader} ref="headerBg" ></div>
+
               <div className={classes.dataTableScrollWrap} >
 
                 <table className={classes.dataTable} >
                   <thead>
                     <tr>
                       {tHead.map((row, ind) =>
-                        <th key={ind} ><div>{row}</div></th>
+                        <th key={ind} ref="headerTh" >
+                          <div ref="headerDiv" style={style.sell}>
+                            {row}
+                          </div>
+                        </th>
                       )}
                     </tr>
                   </thead>

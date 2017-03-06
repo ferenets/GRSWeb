@@ -146,7 +146,6 @@ export default class CombinedData extends React.Component {
     });
 
     window.addEventListener('resize', this.fitToParentSize);
-    // this.fitToParentSize();
   };
 
   componentWillUnmount() {
