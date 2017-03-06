@@ -18,13 +18,14 @@ export default class TableData extends React.Component {
         endDate
       }
     } = this.props;
-
     return (
+
       <div className={classes.dataTableWrap} >
         {tHead != null && tBody != null
         ? <div>
-            <h4>{`${pointTitle}. ${tableTitle} данні.`}</h4>
-            <p>{`${startDate} - ${endDate}`}</p>
+          <h4>{`${pointTitle}. ${tableTitle} данні.`}</h4>
+            <p>{tableTitle == 'Добові' ? `${startDate.slice(0, -6)} - ${endDate.slice(0, -6)}`
+            : `${startDate} - ${endDate}`}</p>
             <div className={classes.dataTableScrollWrap} >
               <table className={classes.dataTable} >
                 <thead>
