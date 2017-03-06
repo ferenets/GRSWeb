@@ -48,7 +48,7 @@ export default class SimpleLine extends React.Component {
     return (
       <div className={classes.simpleLine} >
         <LineTooltip
-          width={width/4.2}
+          width={width/4.5}
           height={(height - 80)/2}
           margins={margins}
           data={dataLine}
