@@ -1,10 +1,10 @@
 import DataApi from '../../api/data.api';
 import GraphApi from '../../api/data.api';
-import {createAsyncAction} from '../../../client/libs/redux-helpers';
+import { createAsyncAction } from '../../../client/libs/redux-helpers';
 import {
   selectionPoints,
   selectionTargetPoints,
-  createTableData
+  createTableData,
 } from '../../utils/parse-data.js';
 
 export const LOGOUT_SUCCESS = 'LOGOUT_SUCCESS';
@@ -24,45 +24,44 @@ export const SELECTED_COMBINED_RANGE = 'SELECTED_COMBINED_RANGE';
 const titleCoordinatePoints = ['SHYROTA', 'DOLHOTA'];
 const [firstCoordinate, secondCoordinate] = titleCoordinatePoints;
 
-export const startPointsLoading = () => ({type: START_DATA_HOME_LOADING});
+export const startPointsLoading = () => ({ type: START_DATA_HOME_LOADING });
 
-export const startDataLoading = () => ({type: START_GRAPH_DATA_LOADING});
+export const startDataLoading = () => ({ type: START_GRAPH_DATA_LOADING });
 
 export const getDataSheet = createAsyncAction({
   fn: DataApi.getPoints,
   success: (body) => {
     const allPoints = selectionPoints(body.data, firstCoordinate, secondCoordinate);
-    return ({type: DATA_HOME_SUCCESS, dataSheet: body.data, tree: body.tree, allPoints})
+    return ({ type: DATA_HOME_SUCCESS, dataSheet: body.data, tree: body.tree, allPoints });
   },
-  error: (err) => ({type: DATA_HOME_FAIL, err})
+  error: err => ({ type: DATA_HOME_FAIL, err }),
 });
 
-export const displayNextBranch = (changeTree) => ({type: DISPLAY_BRANCH, changeTree});
+export const displayNextBranch = changeTree => ({ type: DISPLAY_BRANCH, changeTree });
 
 export const getTargetPoints = (dataSheet, selectionLabel) => {
   const selectionPoints = selectionTargetPoints(dataSheet, selectionLabel);
-  return {type: TAKE_TARGET_POINTS, selectionPoints};
+  return { type: TAKE_TARGET_POINTS, selectionPoints };
 };
 
-export const changeOpenTab = (tabsValue) => ({type: CHANGE_OPEN_TAB, tabsValue});
+export const changeOpenTab = tabsValue => ({ type: CHANGE_OPEN_TAB, tabsValue });
 
 export const getGraphData = createAsyncAction({
   fn: DataApi.endpoint,
-  success: (body) => {
+  success: body =>
     // const dataGraphPoint = dataRestructuring(body);
-    return ({type: GRAPH_DATA_SUCCESS, body})
-  },
-  error: (err) => ({type: GRAPH_DATA_FAIL, err})
+     ({ type: GRAPH_DATA_SUCCESS, body }),
+  error: err => ({ type: GRAPH_DATA_FAIL, err }),
 });
 
-export const selectedPointTitle = (pointTitle) => ({type: SELECTED_POINT_TITLE, pointTitle});
+export const selectedPointTitle = pointTitle => ({ type: SELECTED_POINT_TITLE, pointTitle });
 
 export const tableRangeDate = (tableRange, dataLabel, dateProp) => {
   const tableData = createTableData(tableRange, dataLabel, dateProp);
-  return {type: SELECTED_TABLE_RANGE, tableData};
+  return { type: SELECTED_TABLE_RANGE, tableData };
 };
 
 export const combinedRange = (tableRange, dataLabel, dateProp) => {
   const combinedData = createTableData(tableRange, dataLabel, dateProp);
-  return {type: SELECTED_COMBINED_RANGE, combinedData};
+  return { type: SELECTED_COMBINED_RANGE, combinedData };
 };

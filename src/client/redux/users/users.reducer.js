@@ -14,7 +14,7 @@ import {
   UPDATE_USER_FAIL,
   REMOVE_USER_SUCCESS,
   REMOVE_USER_FAIL,
-  CLOSE_USERS_SNACKBAR
+  CLOSE_USERS_SNACKBAR,
 } from './users.actions';
 
 import {
@@ -28,7 +28,7 @@ export const checkSumbitEnabled = (state) => {
   const errors = [
     state.loginError,
     state.fnameError,
-    state.snameError
+    state.snameError,
   ];
 
   if (state.updatePassword) {
@@ -45,36 +45,44 @@ const initalState = {
 
   editorStarted: false,
   editMode: false,
-  login: '', loginError: 'Необхідне поле',
-  fname: '', fnameError: 'Необхідне поле',
-  sname: '', snameError: 'Необхідне поле',
+  login: '',
+  loginError: 'Необхідне поле',
+  fname: '',
+  fnameError: 'Необхідне поле',
+  sname: '',
+  snameError: 'Необхідне поле',
   updatePassword: false,
-  pwd: '', pwdError: 'Необхідне поле',
-  cpwd: '', cpwdError: 'Необхідне поле',
+  pwd: '',
+  pwdError: 'Необхідне поле',
+  cpwd: '',
+  cpwdError: 'Необхідне поле',
   submitEnabled: false,
 
   loading: false,
   snackbarIsOpen: false,
   msg: '',
-  err: null
+  err: null,
 };
 
 export default function (state = initalState, action) {
   switch (action.type) {
 
     case OPEN_USER_EDITOR: {
-      const {editMode, login, fname, sname} = action;
+      const { editMode, login, fname, sname } = action;
       const loginError = validateStr(login, loginValidator);
       const fnameError = validateStr(fname, nameValidator);
       const snameError = validateStr(sname, nameValidator);
 
-      let nextState = Object.assign({}, state, {
+      const nextState = Object.assign({}, state, {
         editorStarted: true,
         editMode,
-        login, loginError,
-        fname, fnameError,
-        sname, snameError,
-        updatePassword: !editMode
+        login,
+        loginError,
+        fname,
+        fnameError,
+        sname,
+        snameError,
+        updatePassword: !editMode,
       });
 
       nextState.submitEnabled = checkSumbitEnabled(nextState);
@@ -86,22 +94,27 @@ export default function (state = initalState, action) {
       return Object.assign({}, state, {
         editorStarted: false,
         editMode: false,
-        login: '', loginError: 'Необхідне поле',
-        fname: '', fnameError: 'Необхідне поле',
-        sname: '', snameError: 'Необхідне поле',
+        login: '',
+        loginError: 'Необхідне поле',
+        fname: '',
+        fnameError: 'Необхідне поле',
+        sname: '',
+        snameError: 'Необхідне поле',
         updatePassword: false,
-        pwd: '', pwdError: 'Необхідне поле',
-        cpwd: '', cpwdError: 'Необхідне поле',
-        submitEnabled: false
+        pwd: '',
+        pwdError: 'Необхідне поле',
+        cpwd: '',
+        cpwdError: 'Необхідне поле',
+        submitEnabled: false,
       });
 
     case CHANGE_USER_LOGIN: {
-      const {login} = action;
+      const { login } = action;
       const loginError = validateStr(login, loginValidator);
 
-      let nextState = Object.assign({}, state, {
+      const nextState = Object.assign({}, state, {
         login,
-        loginError
+        loginError,
       });
 
       nextState.submitEnabled = checkSumbitEnabled(nextState);
@@ -110,13 +123,13 @@ export default function (state = initalState, action) {
     }
 
     case CHANGE_USER_FIELD: {
-      const {field, value} = action;
+      const { field, value } = action;
       const error = validateStr(value, nameValidator);
       const nextErr = `${field}Error`;
 
-      let nextState = Object.assign({}, state, {
+      const nextState = Object.assign({}, state, {
         [field]: value,
-        [nextErr]: error
+        [nextErr]: error,
       });
 
       nextState.submitEnabled = checkSumbitEnabled(nextState);
@@ -125,7 +138,7 @@ export default function (state = initalState, action) {
     }
 
     case TOGGLE_USER_UPDATE_PASSWORD: {
-      let nextState = Object.assign({}, state, {
+      const nextState = Object.assign({}, state, {
         updatePassword: !state.updatePassword,
       });
 
@@ -135,9 +148,9 @@ export default function (state = initalState, action) {
     }
 
     case CHANGE_USER_PASSWORD: {
-      const {pwd} = action;
+      const { pwd } = action;
       const pwdError = validateStr(pwd, pwdValidator);
-      let {cpwdError, cpwd} = state;
+      let { cpwdError, cpwd } = state;
 
       if (cpwdError === '' && cpwd !== '' && pwd !== cpwd) {
         cpwdError = 'Паролі не співпадають';
@@ -145,9 +158,10 @@ export default function (state = initalState, action) {
         cpwdError = '';
       }
 
-      let nextState = Object.assign({}, state, {
-        pwd, pwdError,
-        cpwdError
+      const nextState = Object.assign({}, state, {
+        pwd,
+        pwdError,
+        cpwdError,
       });
 
       nextState.submitEnabled = checkSumbitEnabled(nextState);
@@ -156,14 +170,14 @@ export default function (state = initalState, action) {
     }
 
     case CHANGE_USER_CPASSWORD: {
-      const {cpwd} = action;
+      const { cpwd } = action;
       let cpwdError = validateStr(cpwd, pwdValidator);
 
       if (cpwd !== '' && cpwdError === '' && cpwd !== state.pwd) {
         cpwdError = 'Паролі не співпадають';
       }
 
-      let nextState = Object.assign({}, state, { cpwd, cpwdError });
+      const nextState = Object.assign({}, state, { cpwd, cpwdError });
 
       nextState.submitEnabled = checkSumbitEnabled(nextState);
 
@@ -171,31 +185,36 @@ export default function (state = initalState, action) {
     }
 
     case CREATE_USER_SUCCESS: {
-      const {user} = action.body;
+      const { user } = action.body;
 
       return Object.assign({}, state, {
         // push to users
         users: [
           ...state.users,
-          user
+          user,
         ],
 
         // close editor
         editorStarted: false,
         editMode: false,
-        login: '', loginError: 'Необхідне поле',
-        fname: '', fnameError: 'Необхідне поле',
-        sname: '', snameError: 'Необхідне поле',
+        login: '',
+        loginError: 'Необхідне поле',
+        fname: '',
+        fnameError: 'Необхідне поле',
+        sname: '',
+        snameError: 'Необхідне поле',
         updatePassword: false,
-        pwd: '', pwdError: 'Необхідне поле',
-        cpwd: '', cpwdError: 'Необхідне поле',
+        pwd: '',
+        pwdError: 'Необхідне поле',
+        cpwd: '',
+        cpwdError: 'Необхідне поле',
         submitEnabled: false,
 
         // show snackbar
         loading: false,
         snackbarIsOpen: true,
         msg: `Користувача "${user.login}" створено`,
-        err: null
+        err: null,
       });
     }
 
@@ -204,34 +223,39 @@ export default function (state = initalState, action) {
         loading: false,
         snackbarIsOpen: true,
         msg: `${action.err.message}`,
-        err: action.err
+        err: action.err,
       });
 
     case UPDATE_USER_SUCCESS: {
-      const {user:{login}} = action.body;
+      const { user: { login } } = action.body;
       const index = state.users.findIndex(user => user.login === login);
 
       return Object.assign({}, state, {
         users: [
           ...state.users.slice(0, index),
           action.body.user,
-          ...state.users.slice(index + 1)
+          ...state.users.slice(index + 1),
         ],
 
         editorStarted: false,
         editMode: false,
-        login: '', loginError: 'Необхідне поле',
-        fname: '', fnameError: 'Необхідне поле',
-        sname: '', snameError: 'Необхідне поле',
+        login: '',
+        loginError: 'Необхідне поле',
+        fname: '',
+        fnameError: 'Необхідне поле',
+        sname: '',
+        snameError: 'Необхідне поле',
         updatePassword: false,
-        pwd: '', pwdError: 'Необхідне поле',
-        cpwd: '', cpwdError: 'Необхідне поле',
+        pwd: '',
+        pwdError: 'Необхідне поле',
+        cpwd: '',
+        cpwdError: 'Необхідне поле',
         submitEnabled: false,
 
         loading: false,
         snackbarIsOpen: true,
         msg: `Користувача "${login}" оновлено`,
-        err: null
+        err: null,
       });
     }
 
@@ -240,22 +264,22 @@ export default function (state = initalState, action) {
         loading: false,
         snackbarIsOpen: true,
         msg: `${action.err.message}`,
-        err: action.err
+        err: action.err,
       });
 
     case REMOVE_USER_SUCCESS: {
-      const {user:{login}} = action.body;
+      const { user: { login } } = action.body;
       const index = state.users.findIndex(user => user.login === login);
       const closeEditor = state.editorStarted && state.login === login;
-      let nextState = Object.assign({}, state, {
+      const nextState = Object.assign({}, state, {
         loading: false,
         users: [
           ...state.users.slice(0, index),
-          ...state.users.slice(index + 1)
+          ...state.users.slice(index + 1),
         ],
         snackbarIsOpen: true,
         msg: `Користувача "${login}" видалено`,
-        err: null
+        err: null,
       });
 
       if (closeEditor) {
@@ -274,7 +298,7 @@ export default function (state = initalState, action) {
         nextState.cpwdError = 'Необхідне поле';
         nextState.submitEnabled = false;
       }
-      
+
       return nextState;
     }
 
@@ -283,20 +307,20 @@ export default function (state = initalState, action) {
         loading: false,
         snackbarIsOpen: true,
         msg: `${action.err.message}`,
-        err: action.err
+        err: action.err,
       });
 
     case GET_USERS_SUCCESS:
       return Object.assign({}, state, {
         users: action.body.users,
-        usersLoaded: true
+        usersLoaded: true,
       });
 
     case GET_USERS_FAIL:
       return Object.assign({}, state, initalState, {
         snackbarIsOpen: true,
         msg: `${action.err.message}`,
-        err: action.err
+        err: action.err,
       });
 
     case CLOSE_USERS_SNACKBAR:

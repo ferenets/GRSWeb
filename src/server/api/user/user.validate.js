@@ -1,4 +1,4 @@
-'use strict';
+
 
 const AppError = require('../../libs/app-error');
 const Joi = require('joi');
@@ -30,14 +30,14 @@ const UserValidate = {
       sname: keys.sname,
       // tname: keys.tname,
       pwd: keys.password_reg_required,
-      cpwd: keys.password_reg_required
+      cpwd: keys.password_reg_required,
     }, { convert: true });
 
     Joi.validate(req.body, schema, (err, value) => {
       if (err) return next(new AppError.badRequest(err.message));
-      
+
       if (value.pwd !== value.cpwd) return next(new AppError.badRequest('Паролі не співпадають'));
-      
+
       next();
     });
   },
@@ -56,7 +56,7 @@ const UserValidate = {
       // tname: keys.tname,
       updatePassword: keys.boolean,
       pwd: keys.password_reg_optional,
-      cpwd: keys.password_reg_optional
+      cpwd: keys.password_reg_optional,
     }, { convert: true });
 
     Joi.validate(req.body, schema, (err, value) => {
@@ -77,7 +77,7 @@ const UserValidate = {
   updateGroup: (req, res, next) => {
     const schema = Joi.object().keys({
       login: keys.login,
-      group: keys.group
+      group: keys.group,
     }, { convert: true });
 
     Joi.validate(req.body, schema, (err, value) => {

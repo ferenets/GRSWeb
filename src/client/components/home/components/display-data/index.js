@@ -1,1 +1,1 @@
-export {default as default} from './display-data.jsx';
+export { default } from './display-data.jsx';

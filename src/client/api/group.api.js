@@ -1,25 +1,25 @@
-import {createApi} from '../../client/libs/rapi';
+import { createApi } from '../../client/libs/rapi';
 
 const GroupApi = createApi({
   get: {
     url: '/api/v1/group',
-    method: 'get'
+    method: 'get',
   },
   create: {
     url: '/api/v1/group',
-    method: 'post'
+    method: 'post',
   },
   addRight: {
     url: '/api/v1/group/add',
-    method: 'put'
+    method: 'put',
   },
   removeRight: {
     url: '/api/v1/group/remove',
-    method: 'put'
+    method: 'put',
   },
   remove: {
     url: '/api/v1/group',
-    method: 'delete'
+    method: 'delete',
   },
 });
 

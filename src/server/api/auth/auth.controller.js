@@ -1,4 +1,4 @@
-'use strict';
+
 
 // const Promise = require('bluebird');
 // const AppError = require('../../libs/app-error');
@@ -16,12 +16,12 @@ const AuthController = {
    */
   login: (req, res, next) => {
     User.auth(req.body.login, req.body.pwd)
-      .then(user => {
-        const payload = {_id: user._id, login: user.login, role: user.role};
+      .then((user) => {
+        const payload = { _id: user._id, login: user.login, role: user.role };
 
         AuthToken.set(res, payload, config.jwt.auth.secret);
 
-        res.send({login: user.login});
+        res.send({ login: user.login });
       })
       .catch(error => next(error));
   },

@@ -1,4 +1,4 @@
-'use strict';
+
 
 const router = require('express').Router();
 const ProfileController = require('./profile.controller.js');
@@ -17,7 +17,7 @@ const AuthAccess = require('../auth/auth-access.middleware');
  */
 router.get('/',
   AuthAccess.cookie.logged,
-  ProfileController.fetchProfile
+  ProfileController.fetchProfile,
 );
 
 module.exports = router;

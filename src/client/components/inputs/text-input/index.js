@@ -1,1 +1,1 @@
-export {default as default} from './text-input.jsx';
+export { default } from './text-input.jsx';

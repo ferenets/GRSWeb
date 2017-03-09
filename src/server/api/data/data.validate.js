@@ -1,4 +1,4 @@
-'use strict';
+
 
 const AppError = require('../../libs/app-error');
 const Joi = require('joi');
@@ -22,7 +22,7 @@ const DataValidate = {
       next();
     });
   },
-  
+
 };
 
 module.exports = DataValidate;

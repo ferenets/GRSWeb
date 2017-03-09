@@ -1,4 +1,4 @@
-'use strict';
+
 
 const AppError = require('../libs/app-error');
 const AuthErrors = require('../api/auth/auth.errors');
@@ -11,52 +11,46 @@ const MDB = require('./mdb');
 const User = MDB.collection({
   name: 'users',
   indexes: [
-    { key: { login: 1 }, unique: true }
-  ]
+    { key: { login: 1 }, unique: true },
+  ],
 }, {
 
   /**
    *
    * @param $
    */
-  get: ($) => {
-    return $
+  get: $ => $
       .find({}, { password: 0 })
       .sort({ createdAt: 1 })
-      .toArray();
-  },
+      .toArray(),
 
   /**
    *
    * @param $
    * @param id
    */
-  getById: ($, id) => {
-    return $
+  getById: ($, id) => $
       .find({ _id: new ObjectId(id) }, { password: 0 })
       .limit(1)
       .next()
-      .then(user => {
+      .then((user) => {
         if (!user) throw AppError.notFound(`Користувач "${id}" не знайдений`);
         return user;
-      });
-  },
+      }),
 
   /**
    *
    * @param $
    * @param login
    */
-  getByLogin: ($, login) => {
-    return $
+  getByLogin: ($, login) => $
       .find({ login }, { password: 0 })
       .limit(1)
       .next()
-      .then(user => {
+      .then((user) => {
         if (!user) throw AppError.notFound(`Користувач "${login}" не знайдений`);
         return user;
-      });
-  },
+      }),
 
   /**
    *
@@ -68,10 +62,9 @@ const User = MDB.collection({
    * @param data.pwd
    * @param data.cpwd
    */
-  create: ($, data) => {
-    return PasswordUtils
+  create: ($, data) => PasswordUtils
       .hash(data.pwd)
-      .then(hash => {
+      .then((hash) => {
         const date = new Date();
         const user = {
           login: data.login,
@@ -91,14 +84,13 @@ const User = MDB.collection({
             return user;
           });
       })
-      .catch(err => {
+      .catch((err) => {
         if (err.code === 11000) {
           throw AuthErrors.userExist;
         }
 
         throw err;
-      });
-  },
+      }),
 
   /**
    *
@@ -112,15 +104,15 @@ const User = MDB.collection({
       .find(sQuery, { password: 0 })
       .limit(1)
       .next()
-      .then(user => {
+      .then((user) => {
         if (!user) throw AppError.notFound(`Користувач "${params.login}" не знайдений`);
-        
+
         const uQuery = {
           $set: {
             fname: params.fname,
             sname: params.sname,
-            updatedAt: new Date()
-          }
+            updatedAt: new Date(),
+          },
         };
 
         return $
@@ -134,17 +126,16 @@ const User = MDB.collection({
    * @param $
    * @param params
    */
-  updateWithPassword: ($, params) => {
-    return PasswordUtils
+  updateWithPassword: ($, params) => PasswordUtils
       .hash(params.pwd)
-      .then(hash => {
+      .then((hash) => {
         const sQuery = { login: params.login };
 
         return $
           .find(sQuery, { password: 0 })
           .limit(1)
           .next()
-          .then(user => {
+          .then((user) => {
             if (!user) throw AppError.notFound(`Користувач "${params.login}" не знайдений`);
 
             const uQuery = {
@@ -152,16 +143,15 @@ const User = MDB.collection({
                 fname: params.fname,
                 sname: params.sname,
                 password: hash,
-                updatedAt: new Date()
-              }
+                updatedAt: new Date(),
+              },
             };
 
             return $
               .findOneAndUpdate(sQuery, uQuery, { projection: { password: 0 }, returnOriginal: false })
               .then(r => r.value);
           });
-      });
-  },
+      }),
 
   /**
    *
@@ -175,9 +165,9 @@ const User = MDB.collection({
       .find(sQuery)
       .limit(1)
       .next()
-      .then(user => {
+      .then((user) => {
         if (!user) throw AppError.notFound(`Користувач "${params.login}" не знайдений`);
-        if (user.role === 'admin') throw AppError.forbidden(`Неможливо видалити користувача-адміністратора`);
+        if (user.role === 'admin') throw AppError.forbidden('Неможливо видалити користувача-адміністратора');
 
         return $
           .removeOne(sQuery)
@@ -191,15 +181,15 @@ const User = MDB.collection({
    * @param login
    * @param password
    */
-  auth: ($, login, password) => {
-    
+  auth: ($, login, password) =>
+
     // PasswordUtils.hash(password).then(data => console.log(data));
 
-    return $
+     $
       .find({ login })
       .limit(1)
       .next()
-      .then(user => {
+      .then((user) => {
         if (!user) throw AuthErrors.invalidCredentials;
 
         return PasswordUtils
@@ -208,9 +198,8 @@ const User = MDB.collection({
             delete user.password;
             return user;
           });
-      });
-  },
-  
+      }),
+
 });
 
 module.exports = User;

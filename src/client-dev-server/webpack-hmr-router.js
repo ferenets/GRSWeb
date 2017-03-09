@@ -1,17 +1,17 @@
-'use strict';
 
-var webpack = require('webpack');
-var router = require('express').Router();
-var config = require('../../webpack-client.config.dev.js');
-var compiler = webpack(config);
+
+const webpack = require('webpack');
+const router = require('express').Router();
+const config = require('../../webpack-client.config.dev.js');
+const compiler = webpack(config);
 
 router.use(require('webpack-dev-middleware')(compiler, {
   noInfo: true,
   publicPath: config.output.publicPath,
   watchOptions: {
     aggregateTimeout: 300,
-    poll: 1000
-  }
+    poll: 1000,
+  },
 }));
 
 router.use(require('webpack-hot-middleware')(compiler));

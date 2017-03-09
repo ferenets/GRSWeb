@@ -1,4 +1,4 @@
-'use strict';
+
 
 const router = require('express').Router();
 // const AuthAccess = require('./auth-access.middleware');
@@ -13,7 +13,7 @@ const AuthController = require('./auth.controller.js');
  */
 router.post('/login',
   AuthValidate.login,
-  AuthController.login
+  AuthController.login,
 );
 
 module.exports = router;

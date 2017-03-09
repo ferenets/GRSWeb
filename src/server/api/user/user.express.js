@@ -1,4 +1,4 @@
-'use strict';
+
 
 const router = require('express').Router();
 const AuthAccess = require('../auth/auth-access.middleware');
@@ -14,7 +14,7 @@ const UserController = require('./user.controller.js');
  */
 router.get('/',
   AuthAccess.cookie.admin,
-  UserController.get
+  UserController.get,
 );
 
 /**
@@ -26,7 +26,7 @@ router.get('/',
 router.post('/',
   AuthAccess.cookie.admin,
   UserValidate.create,
-  UserController.create
+  UserController.create,
 );
 
 /**
@@ -38,7 +38,7 @@ router.post('/',
 router.put('/',
   AuthAccess.cookie.admin,
   UserValidate.update,
-  UserController.update
+  UserController.update,
 );
 
 // /**
@@ -62,7 +62,7 @@ router.put('/',
 router.delete('/',
   AuthAccess.cookie.admin,
   UserValidate.remove,
-  UserController.remove
+  UserController.remove,
 );
 
 module.exports = router;

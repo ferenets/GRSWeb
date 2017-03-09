@@ -1,4 +1,4 @@
-'use strict';
+
 
 const router = require('express').Router();
 const AuthAccess = require('../auth/auth-access.middleware');
@@ -14,7 +14,7 @@ const GroupController = require('./group.controller.js');
  */
 router.get('/',
   AuthAccess.cookie.admin,
-  GroupController.get
+  GroupController.get,
 );
 
 /**
@@ -26,7 +26,7 @@ router.get('/',
 router.post('/',
   AuthAccess.cookie.admin,
   GroupValidate.create,
-  GroupController.create
+  GroupController.create,
 );
 
 /**
@@ -38,7 +38,7 @@ router.post('/',
 router.put('/add',
   AuthAccess.cookie.admin,
   GroupValidate.addRight,
-  GroupController.addRight
+  GroupController.addRight,
 );
 
 // /**
@@ -62,7 +62,7 @@ router.put('/add',
 router.put('/remove',
   AuthAccess.cookie.admin,
   GroupValidate.removeRight,
-  GroupController.removeRight
+  GroupController.removeRight,
 );
 
 /**
@@ -74,7 +74,7 @@ router.put('/remove',
 router.delete('/',
   AuthAccess.cookie.admin,
   GroupValidate.remove,
-  GroupController.remove
+  GroupController.remove,
 );
 
 module.exports = router;

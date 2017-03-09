@@ -1,4 +1,4 @@
-'use strict';
+
 
 // const Promise = require('bluebird');
 const User = require('../../models/user.model');
@@ -15,7 +15,7 @@ const UserController = {
    */
   get: (req, res, next) => {
     User.get()
-      .then(users => res.send({users}))
+      .then(users => res.send({ users }))
       .catch(error => next(error));
   },
 
@@ -27,7 +27,7 @@ const UserController = {
    */
   create: (req, res, next) => {
     User.create(req.body)
-      .then(user => res.send({user}))
+      .then(user => res.send({ user }))
       .catch(error => next(error));
   },
 
@@ -40,11 +40,11 @@ const UserController = {
   update: (req, res, next) => {
     if (req.body.updatePassword) {
       User.updateWithPassword(req.body)
-        .then(user => res.send({user}))
+        .then(user => res.send({ user }))
         .catch(error => next(error));
     } else {
       User.update(req.body)
-        .then(user => res.send({user}))
+        .then(user => res.send({ user }))
         .catch(error => next(error));
     }
   },
@@ -69,7 +69,7 @@ const UserController = {
    */
   remove: (req, res, next) => {
     User.removeByLogin(req.body)
-      .then(user => res.send({user}))
+      .then(user => res.send({ user }))
       .catch(error => next(error));
   },
 

@@ -1,4 +1,4 @@
-'use strict';
+
 
 const AppError = require('../../libs/app-error');
 // const Promise = require('bluebird');
@@ -10,83 +10,83 @@ const SELECT_INDICATORS = {
   daily: {
     x: {
       label: 'DAY',
-      convertFunction: (val) => dateFormat(moment(val, "DD.MM.YY").toDate(), "yyyymmddHHMM"),
+      convertFunction: val => dateFormat(moment(val, 'DD.MM.YY').toDate(), 'yyyymmddHHMM'),
     },
     y: [
       {
         label: 'VOL_STD',
-        convertFunction: (val) => parseFloat(val),
+        convertFunction: val => parseFloat(val),
       },
       {
         label: 'VOL_PY',
-        convertFunction: (val) => parseFloat(val),
+        convertFunction: val => parseFloat(val),
       },
       {
         label: 'PRESSURE',
-        convertFunction: (val) => parseFloat(val),
+        convertFunction: val => parseFloat(val),
       },
       {
         label: 'TEMPERATURE',
-        convertFunction: (val) => parseFloat(val),
-      }
-    ]
+        convertFunction: val => parseFloat(val),
+      },
+    ],
   },
   hourly: {
     x: {
       label: 'DAY_HOUR',
-      convertFunction: (val) => dateFormat(moment(val, "DD.MM.YY HH:mm").toDate(), "yyyymmddHHMM"),
+      convertFunction: val => dateFormat(moment(val, 'DD.MM.YY HH:mm').toDate(), 'yyyymmddHHMM'),
     },
     y: [
       {
         label: 'VOL_STD',
-        convertFunction: (val) => parseFloat(val),
+        convertFunction: val => parseFloat(val),
       },
       {
         label: 'VOL_PY',
-        convertFunction: (val) => parseFloat(val),
+        convertFunction: val => parseFloat(val),
       },
       {
         label: 'PRESSURE',
-        convertFunction: (val) => parseFloat(val),
+        convertFunction: val => parseFloat(val),
       },
       {
         label: 'TEMPERATURE',
-        convertFunction: (val) => parseFloat(val),
-      }
-    ]
+        convertFunction: val => parseFloat(val),
+      },
+    ],
   },
   moment: {
     x: {
       label: 'DT_DATA',
-      convertFunction: (val) => dateFormat(moment(val, "DD.MM.YY HH:mm").toDate(), "yyyymmddHHMM"),
+      convertFunction: val => dateFormat(moment(val, 'DD.MM.YY HH:mm').toDate(), 'yyyymmddHHMM'),
     },
     y: [
       {
         label: 'P_STAT',
-        convertFunction: (val) => parseFloat(val),
+        convertFunction: val => parseFloat(val),
       },
       {
         label: 'TEMPERATURE',
-        convertFunction: (val) => parseFloat(val),
+        convertFunction: val => parseFloat(val),
       },
       {
         label: 'Q_CURR',
-        convertFunction: (val) => parseFloat(val),
+        convertFunction: val => parseFloat(val),
       },
       {
         label: 'Q_START_DAY',
-        convertFunction: (val) => parseFloat(val),
+        convertFunction: val => parseFloat(val),
       },
       {
         label: 'Q_LAST_DAY',
-        convertFunction: (val) => parseFloat(val),
+        convertFunction: val => parseFloat(val),
       },
       {
         label: 'Q_GENERAL',
-        convertFunction: (val) => parseFloat(val),
-      }
-    ]
-  }
+        convertFunction: val => parseFloat(val),
+      },
+    ],
+  },
 };
 
 const DataPrepare = {
@@ -100,7 +100,7 @@ const DataPrepare = {
     let x = {};
     let ys = [];
 
-    switch(xAxis) {
+    switch (xAxis) {
       case 'daily':
       case 'hourly':
       case 'moment':
@@ -117,8 +117,8 @@ const DataPrepare = {
       labels,
       [
         x.convertFunction(row[x.label]),
-        ..._.map(ys, y => y.convertFunction(row[y.label]))
-      ]
+        ..._.map(ys, y => y.convertFunction(row[y.label])),
+      ],
     )), x.label);
   },
 

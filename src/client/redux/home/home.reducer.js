@@ -11,7 +11,7 @@ import {
   GRAPH_DATA_FAIL,
   SELECTED_POINT_TITLE,
   SELECTED_TABLE_RANGE,
-  SELECTED_COMBINED_RANGE
+  SELECTED_COMBINED_RANGE,
 } from './home.actions';
 import _ from 'lodash';
 
@@ -25,22 +25,22 @@ const initalState = {
   loadingGraph: true,
   dataGraph: {},
   openTab: 'map',
-  pointTitle: "Будь-ласка, оберіть дані для відображення",
+  pointTitle: 'Будь-ласка, оберіть дані для відображення',
   tableData: {
-    tableTitle: "Будь-ласка, оберіть дані для відображення",
+    tableTitle: 'Будь-ласка, оберіть дані для відображення',
     tHead: null,
     tBody: null,
     startDate: '',
-    endDate: ''
+    endDate: '',
   },
   combinedData: {
-    tableTitle: "Будь-ласка, оберіть дані для відображення",
+    tableTitle: 'Будь-ласка, оберіть дані для відображення',
     tHead: null,
     tBody: null,
     startDate: '',
-    endDate: ''
+    endDate: '',
   },
-  err: null
+  err: null,
 };
 
 export default function (state = initalState, action) {
@@ -59,23 +59,23 @@ export default function (state = initalState, action) {
         dataSheet: action.dataSheet,
         tree: action.tree,
         defaultTree: _.cloneDeep(action.tree),
-        allPoints: action.allPoints
+        allPoints: action.allPoints,
       });
 
     case DATA_HOME_FAIL:
       return Object.assign({}, state, {
         loadingPoints: false,
-        err: action.err
+        err: action.err,
       });
 
     case DISPLAY_BRANCH:
       return Object.assign({}, state, {
-        tree: action.changeTree
+        tree: action.changeTree,
       });
 
     case TAKE_TARGET_POINTS:
       return Object.assign({}, state, {
-        targetPoints: action.selectionPoints
+        targetPoints: action.selectionPoints,
       });
 
     case CHANGE_OPEN_TAB:
@@ -90,18 +90,18 @@ export default function (state = initalState, action) {
       return Object.assign({}, state, {
         loadingGraph: false,
         err: null,
-        dataGraph: action.body
+        dataGraph: action.body,
       });
 
     case GRAPH_DATA_FAIL:
       return Object.assign({}, state, {
         loadingGraph: false,
-        err: action.err
+        err: action.err,
       });
 
     case SELECTED_POINT_TITLE:
       return Object.assign({}, state, {
-        pointTitle: action.pointTitle
+        pointTitle: action.pointTitle,
       });
 
     case SELECTED_TABLE_RANGE:
@@ -112,7 +112,7 @@ export default function (state = initalState, action) {
           tBody: action.tableData.tBody,
           startDate: action.tableData.startDate,
           endDate: action.tableData.endDate,
-        }
+        },
       });
 
     case SELECTED_COMBINED_RANGE:
@@ -123,7 +123,7 @@ export default function (state = initalState, action) {
           tBody: action.combinedData.tBody,
           startDate: action.combinedData.startDate,
           endDate: action.combinedData.endDate,
-        }
+        },
       });
 
     default:

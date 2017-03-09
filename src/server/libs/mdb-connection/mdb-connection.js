@@ -1,4 +1,4 @@
-'use strict';
+
 
 const MongoClient = require('mongodb').MongoClient;
 const Promise = require('bluebird');
@@ -13,7 +13,7 @@ class MDBConnection {
     this.lastError = null;
     this.isConnected = false;
     this.onConnectCallback = null;
-    this.logger = logger || {info: console.log, error: console.error};
+    this.logger = logger || { info: console.log, error: console.error };
   }
 
   /**
@@ -37,7 +37,7 @@ class MDBConnection {
 
     const uri = config.uri;
     const options = Object.assign({}, config.options || {}, {
-      promiseLibrary: Promise
+      promiseLibrary: Promise,
     });
 
     if (this._reconnectTimer) {
@@ -46,19 +46,19 @@ class MDBConnection {
 
     return MongoClient
       .connect(uri, options)
-      .then(db => {
+      .then((db) => {
         this._db = db;
         this.isConnected = true;
 
-        db.on('error', (err) => this._onError(err));
+        db.on('error', err => this._onError(err));
         db.on('close', () => this._onClose());
         db.on('reconnect', () => this._onReconnect());
 
-        this.logger.info('[MDB] connect: ' + config.uri);
+        this.logger.info(`[MDB] connect: ${config.uri}`);
 
         return Promise
-          .all(Object.keys(this._models).map(name => {
-            let item = this._models[name];
+          .all(Object.keys(this._models).map((name) => {
+            const item = this._models[name];
             if (this._collections[name]) return;
 
             return this._createCollection(item.params);
@@ -67,9 +67,9 @@ class MDBConnection {
             if (this.onConnectCallback) this.onConnectCallback();
           });
       })
-      .catch(err => {
-        this.logger.error(err, '[MDB] can not connect to the mongodb, uri:' + uri);
-        return new Promise(resolve => {
+      .catch((err) => {
+        this.logger.error(err, `[MDB] can not connect to the mongodb, uri:${uri}`);
+        return new Promise((resolve) => {
           setTimeout(() => resolve(this.connect(config)), 5000);
         });
       });
@@ -135,10 +135,10 @@ class MDBConnection {
    * @returns {*}
    */
   collection(params, model) {
-    const {name} = params;
+    const { name } = params;
     this._models[name] = {
       params,
-      model
+      model,
     };
 
     this._createCollection(params);
@@ -149,7 +149,6 @@ class MDBConnection {
         return obj;
       }, {});
   }
-
 
 
   /**
@@ -163,19 +162,19 @@ class MDBConnection {
   _createCollection(params) {
     if (!this.isConnected) return;
 
-    const {name, indexes} = params;
-    const options = Object.assign({}, params.opts || {}, {strict: false});
+    const { name, indexes } = params;
+    const options = Object.assign({}, params.opts || {}, { strict: false });
 
     return this._db
       .createCollection(name, options)
-      .then(collection => {
+      .then((collection) => {
         this._collections[name] = collection;
 
         if (indexes) {
           return collection.createIndexes(indexes);
         }
       })
-      .catch(err => {
+      .catch((err) => {
         this.logger.error(err, '[MDB] failed create collection');
       });
   }
@@ -193,7 +192,7 @@ class MDBConnection {
     return (a, b, c, d, e, f) => {
       const $ = this._collections[collectionName];
 
-      //if (!this.isConnected || !$) {
+      // if (!this.isConnected || !$) {
       if (!$) {
         return Promise.reject(new Error('Database is unavailable'));
       }

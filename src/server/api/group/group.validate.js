@@ -1,4 +1,4 @@
-'use strict';
+
 
 const AppError = require('../../libs/app-error');
 const Joi = require('joi');
@@ -25,7 +25,7 @@ const GroupValidate = {
 
     Joi.validate(req.body, schema, (err, value) => {
       if (err) return next(new AppError.badRequest(err.message));
-      
+
       next();
     });
   },

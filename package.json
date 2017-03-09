@@ -23,7 +23,10 @@
     "tenth-replacement": "sed -i '686 s/\"%b %d\"/\"%d.%m.%y %H:%M\"/' node_modules/react-d3-core/node_modules/d3-scale/build/d3-scale.js",
     "eleventh-replacement": "sed -i '687 s/\"%B\"/\"%d.%m.%y %H:%M\"/' node_modules/react-d3-core/node_modules/d3-scale/build/d3-scale.js",
     "twelfth-replacement": "sed -i '688 s/\"%Y\"/\"%d.%m.%y %H:%M\"/' node_modules/react-d3-core/node_modules/d3-scale/build/d3-scale.js",
-    "thirteenth-replacement": "sed -i '56i title = new Date(title).toLocaleString(\"ru\", {day: \"2-digit\", month: \"2-digit\", year: \"numeric\", hour: \"numeric\", minute:\"2-digit\", hour12: false});' node_modules/react-d3-tooltip/lib/tooltip/simple/index.js"
+    "thirteenth-replacement": "sed -i '56i title = new Date(title).toLocaleString(\"ru\", {day: \"2-digit\", month: \"2-digit\", year: \"numeric\", hour: \"numeric\", minute:\"2-digit\", hour12: false});' node_modules/react-d3-tooltip/lib/tooltip/simple/index.js",
+    "cs": "node ./node_modules/eslint/bin/eslint.js src/**/*.js",
+    "cs:fix": "node ./node_modules/eslint/bin/eslint.js --fix src/**/*.js",
+    "test": "npm run cs"
   },
   "dependencies": {
     "async": "^1.5.0",
@@ -75,8 +78,11 @@
     "d3": "^4.5.0",
     "dateformat": "^1.0.12",
     "del": "^2.2.0",
-    "eslint": "^2.12.0",
-    "eslint-plugin-react": "^3.11.3",
+    "eslint": "^3.17.1",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.0",
     "extract-text-webpack-plugin": "^0.9.1",
     "file-loader": "^0.8.5",
     "geolib": "^2.0.22",

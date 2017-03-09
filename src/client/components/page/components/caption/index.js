@@ -1,1 +1,1 @@
-export {default as default} from './caption.jsx';
+export { default } from './caption.jsx';
