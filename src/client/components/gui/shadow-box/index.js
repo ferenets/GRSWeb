@@ -1,1 +1,1 @@
-export {default as default} from './shadow-box.jsx';
+export { default } from './shadow-box.jsx';

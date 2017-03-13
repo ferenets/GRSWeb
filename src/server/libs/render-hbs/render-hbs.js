@@ -1,4 +1,4 @@
-'use strict';
+
 
 const path = require('path');
 const fs = require('fs');
@@ -13,11 +13,11 @@ module.exports = function RenderHBS(dir) {
       return templateCache[filePath](ctx);
     }
 
-    let html = fs.readFileSync(path.join(dir, filePath), 'utf-8');
+    const html = fs.readFileSync(path.join(dir, filePath), 'utf-8');
     templateCache[filePath] = handlebars.compile(html);
 
     return templateCache[filePath](ctx);
   };
 
-  return {render, handlebars};
+  return { render, handlebars };
 };

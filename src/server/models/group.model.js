@@ -1,4 +1,4 @@
-'use strict';
+
 
 // const Promise = require('bluebird');
 const AppError = require('../libs/app-error');
@@ -9,52 +9,46 @@ const MDB = require('./mdb');
 const Group = MDB.collection({
   name: 'groups',
   indexes: [
-    { key: { name: 1 }, unique: true }
-  ]
+    { key: { name: 1 }, unique: true },
+  ],
 }, {
 
   /**
    *
    * @param $
    */
-  get: ($) => {
-    return $
+  get: $ => $
       .find({})
       .sort({ name: 1 })
-      .toArray();
-  },
+      .toArray(),
 
   /**
    *
    * @param $
    * @param id
    */
-  getById: ($, id) => {
-    return $
+  getById: ($, id) => $
       .find({ _id: new ObjectId(id) })
       .limit(1)
       .next()
-      .then(group => {
+      .then((group) => {
         if (!group) throw AppError.notFound(`Групу "${id}" не знайдено`);
         return group;
-      });
-  },
+      }),
 
   /**
    *
    * @param $
    * @param name
    */
-  getByName: ($, name) => {
-    return $
+  getByName: ($, name) => $
       .find({ name })
       .limit(1)
       .next()
-      .then(group => {
+      .then((group) => {
         if (!group) throw AppError.notFound(`Групу "${name}" не знайдено`);
         return group;
-      });
-  },
+      }),
 
   /**
    *
@@ -72,7 +66,7 @@ const Group = MDB.collection({
     return $
       .insertOne(group)
       .then(() => group)
-      .catch(err => {
+      .catch((err) => {
         if (err.code === 11000) {
           throw AppError.badRequest(`Группа "${data.name}" вже існує`);
         }
@@ -93,11 +87,11 @@ const Group = MDB.collection({
       .find(sQuery)
       .limit(1)
       .next()
-      .then(group => {
+      .then((group) => {
         if (!group) throw AppError.notFound(`Групу "${params.name}" не знайдено`);
 
         const uQuery = {
-          $push: { rights: params.right }
+          $push: { rights: params.right },
         };
 
         return $
@@ -118,11 +112,11 @@ const Group = MDB.collection({
       .find(sQuery)
       .limit(1)
       .next()
-      .then(group => {
+      .then((group) => {
         if (!group) throw AppError.notFound(`Групу "${params.name}" не знайдено`);
 
         const uQuery = {
-          $pull: { rights: params.right }
+          $pull: { rights: params.right },
         };
 
         return $
@@ -143,7 +137,7 @@ const Group = MDB.collection({
       .find(sQuery)
       .limit(1)
       .next()
-      .then(group => {
+      .then((group) => {
         if (!group) throw AppError.notFound(`Групу "${params.name}" не знайдено`);
 
         return $
@@ -151,7 +145,7 @@ const Group = MDB.collection({
           .then(() => group);
       });
   },
-  
+
 });
 
 module.exports = Group;

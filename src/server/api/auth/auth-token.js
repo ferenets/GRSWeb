@@ -1,4 +1,4 @@
-'use strict';
+
 
 const jwt = require('jsonwebtoken');
 const AuthError = require('./auth.errors');
@@ -12,19 +12,15 @@ const AuthToken = {
    * @param payload
    * @param secret
    */
-  generateAuth: (payload, secret) => {
-    return jwt.sign(payload, secret, config.jwt.auth.options);
-  },
+  generateAuth: (payload, secret) => jwt.sign(payload, secret, config.jwt.auth.options),
 
   /**
    *
    * @param payload
    * @param secret
    */
-  generatePassword: (payload, secret) => {
-    return jwt.sign(payload, secret, config.jwt.password.options);
-  },
-  
+  generatePassword: (payload, secret) => jwt.sign(payload, secret, config.jwt.password.options),
+
   /**
    *
    * @param token
@@ -70,19 +66,19 @@ const AuthToken = {
    */
   set: (res, data, secret) => {
     const token = AuthToken.generateAuth(data, secret);
-    res.cookie('jwt', token, {expires: 0, path: '/'});
+    res.cookie('jwt', token, { expires: 0, path: '/' });
 
     return token;
   },
-  
+
   /**
    *
    * @param res
    */
   remove: (res) => {
-    res.clearCookie('jwt', {path: '/'});
+    res.clearCookie('jwt', { path: '/' });
   },
-  
+
   /**
    *
    * @param req
@@ -100,7 +96,7 @@ const AuthToken = {
       done(null, data);
     });
   },
-  
+
   /**
    *
    * @param req
@@ -123,7 +119,7 @@ const AuthToken = {
 
       done(null, data);
     });
-  }
+  },
 };
 
 module.exports = AuthToken;

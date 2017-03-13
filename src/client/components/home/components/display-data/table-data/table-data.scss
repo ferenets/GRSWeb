@@ -91,6 +91,10 @@
         tbody {
           height: 200px;
           overflow-y: auto;
+
+          tr {
+            height: auto;
+          }
         }
 
         tr {

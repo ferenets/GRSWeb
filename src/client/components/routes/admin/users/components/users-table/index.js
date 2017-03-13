@@ -1,1 +1,1 @@
-export {default as default} from './users-table.jsx';
+export { default } from './users-table.jsx';

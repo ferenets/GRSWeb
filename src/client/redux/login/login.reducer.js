@@ -5,17 +5,17 @@ import {
   CLOSE_LOGIN_DIALOG,
   START_LOGIN_LOADING,
   LOGIN_SUCCESS,
-  LOGIN_FAIL
+  LOGIN_FAIL,
 } from './login.actions';
 
 const initalState = {
   login: '',
   pwd: '',
-  
+
   loading: false,
   dialogIsOpen: false,
   dialogMsg: '',
-  err: null
+  err: null,
 };
 
 export default function (state = initalState, action) {
@@ -39,7 +39,7 @@ export default function (state = initalState, action) {
     case LOGIN_SUCCESS:
       return Object.assign({}, state, {
         loading: false,
-        err: null
+        err: null,
       });
 
     case LOGIN_FAIL:
@@ -47,7 +47,7 @@ export default function (state = initalState, action) {
         loading: false,
         dialogIsOpen: true,
         dialogMsg: `${action.err.message}`,
-        err: action.err
+        err: action.err,
       });
 
     default:

@@ -9,12 +9,12 @@
  * @returns {Function}
  */
 export function createAsyncAction(opts) {
-  const {preFn, fn, success, error} = opts;
-  const {transformData} = opts;
-  const createSuccess = typeof success === 'function' ? success : (body, data) => ({type: success, data: body});
-  const createError = typeof error === 'function' ? error : (err) => ({type: error, error: err});
+  const { preFn, fn, success, error } = opts;
+  const { transformData } = opts;
+  const createSuccess = typeof success === 'function' ? success : (body, data) => ({ type: success, data: body });
+  const createError = typeof error === 'function' ? error : err => ({ type: error, error: err });
 
-  return (data) => (dispatch, getState) => {
+  return data => (dispatch, getState) => {
     if (preFn && preFn(dispatch, getState, data)) return;
     if (transformData) data = transformData(data, getState);
 

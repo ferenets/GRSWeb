@@ -1,11 +1,11 @@
-'use strict';
+
 
 var ExpressUtils = {
   getFn(fn) {
     return (req, res, next) => {
       fn(req.query).then(
-        (responseData) => res.send(responseData),
-        (error) => next(error)
+        responseData => res.send(responseData),
+        error => next(error),
       );
     };
   },
@@ -13,8 +13,8 @@ var ExpressUtils = {
   postFn(fn) {
     return (req, res, next) => {
       fn(req.body).then(
-        (responseData) => res.send(responseData),
-        (error) => next(error)
+        responseData => res.send(responseData),
+        error => next(error),
       );
     };
   },
@@ -22,15 +22,15 @@ var ExpressUtils = {
   wrap(fn) {
     return (req, res, next) => {
       fn(req, res).then(
-        (responseData) => res.send(responseData),
-        (error) => next(error)
+        responseData => res.send(responseData),
+        error => next(error),
       );
     };
   },
 
   validate: {
     wrapAll(target) {
-      for (var method in target) {
+      for (const method in target) {
         if (typeof target[method] !== 'function') continue;
 
         target[method].$query = ExpressUtils.validate.wrapQuery(target[method]);
@@ -56,8 +56,8 @@ var ExpressUtils = {
           next();
         });
       };
-    }
-  }
+    },
+  },
 };
 
 

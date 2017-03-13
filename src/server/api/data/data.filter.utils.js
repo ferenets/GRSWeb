@@ -1,4 +1,4 @@
-'use strict';
+
 
 // const AppError = require('../../libs/app-error');
 const Promise = require('bluebird');

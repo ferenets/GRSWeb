@@ -1,4 +1,4 @@
-'use strict';
+
 
 const AppError = require('../../libs/app-error');
 
@@ -16,14 +16,14 @@ const AppError = require('../../libs/app-error');
  */
 
 const AuthErrors = {
-  notFound: AppError.notFound("Користувача не знайдено", {code: 101}), //
-  userExist: AppError.badRequest("Ім'я користувача вже використовується", {code: 102}), //
-  invalidCredentials: AppError.badRequest("Неправильне ім'я користувача або пароль!", {code: 103}), //
-  expired: AppError.badRequest('Закінчився термін дії токена для авторизації', {code: 107}),
-  invalidToken: AppError.badRequest('Невірний токен для авторизації', {code: 106}),
-  invalidAuthorizationHeader: AppError.badRequest('Невірний заголовок авторизації', {code: 105}),
-  banned: AppError.forbidden('Вашого користувача заблоковано', {code: 105}),
-  
+  notFound: AppError.notFound('Користувача не знайдено', { code: 101 }), //
+  userExist: AppError.badRequest("Ім'я користувача вже використовується", { code: 102 }), //
+  invalidCredentials: AppError.badRequest("Неправильне ім'я користувача або пароль!", { code: 103 }), //
+  expired: AppError.badRequest('Закінчився термін дії токена для авторизації', { code: 107 }),
+  invalidToken: AppError.badRequest('Невірний токен для авторизації', { code: 106 }),
+  invalidAuthorizationHeader: AppError.badRequest('Невірний заголовок авторизації', { code: 105 }),
+  banned: AppError.forbidden('Вашого користувача заблоковано', { code: 105 }),
+
   // passwordsMismatch: AppError.badRequest('Паролі не співпадають', {code: 104}),
   // missedSignupData: AppError.badRequest('Деякі з введений даних не співпадають', {code: 104}),
   // missedPassword: AppError.badRequest('Не встановлений пароль', {code: 104}),

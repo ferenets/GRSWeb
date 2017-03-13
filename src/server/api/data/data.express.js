@@ -1,4 +1,4 @@
-'use strict';
+
 
 const router = require('express').Router();
 const AuthAccess = require('../auth/auth-access.middleware');
@@ -15,7 +15,7 @@ const DataValidate = require('./data.validate.js');
 router.get('/points',
   AuthAccess.cookie.logged,
   UserAccess.approved,
-  DataController.getPoints
+  DataController.getPoints,
 );
 
 /**
@@ -28,7 +28,7 @@ router.get('/indicators',
   AuthAccess.cookie.logged,
   UserAccess.approved,
   DataValidate.getIndicators,
-  DataController.getIndicators
+  DataController.getIndicators,
 );
 
 module.exports = router;

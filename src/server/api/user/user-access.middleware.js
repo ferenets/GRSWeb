@@ -1,4 +1,4 @@
-'use strict';
+
 
 // const Promise = require('bluebird');
 // const AppError = require('../../libs/app-error/index');
@@ -15,16 +15,16 @@ const UserAccess = {
    */
   approved: (req, res, next) => {
     if (req.user === undefined) return next();
-    
+
     User.getByLogin(req.user.login)
-      .then(user => {
+      .then((user) => {
         // if (!user) return next(AuthErrors.notFound);
         if (user.banned) return next(AuthErrors.banned);
-        
+
         next();
-      })
+      });
   },
-  
+
 };
 
 module.exports = UserAccess;

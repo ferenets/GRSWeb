@@ -1,4 +1,4 @@
-'use strict';
+
 
 const AppError = require('../../libs/app-error');
 const Joi = require('joi');
@@ -17,7 +17,7 @@ const AuthValidate = {
         login: Joi.string().trim().min(1).max(100).required(),
         pwd: Joi.string().min(1).max(100).required(),
       },
-      { convert: true }
+      { convert: true },
     );
 
     Joi.validate(req.body, schema, (err, value) => {
@@ -28,7 +28,7 @@ const AuthValidate = {
       next();
     });
   },
-  
+
 };
 
 module.exports = AuthValidate;

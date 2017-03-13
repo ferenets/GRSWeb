@@ -1,4 +1,4 @@
-'use strict';
+
 
 const _ = require('lodash');
 const bunyan = require('bunyan');
@@ -7,19 +7,19 @@ const log = bunyan.createLogger({
   name: config.logger.name,
   level: config.logger.level,
   serializers: {
-    error: (error) => ({
+    error: error => ({
       message: error.message,
       stack: error.stack,
-      json: error.json
+      json: error.json,
     }),
     req: req => ({
       method: req.method,
       url: req.url,
       body: req.body,
       query: req.query,
-      headers: _.omit(req.headers, ['Authorization'])
-    })
-  }
+      headers: _.omit(req.headers, ['Authorization']),
+    }),
+  },
 });
 
 const Logger = {
@@ -34,9 +34,9 @@ const Logger = {
    * @param name
    * @returns {XMLList}
    */
-  create: function(name) {
-    return log.child({widget_type: name});
-  }
+  create(name) {
+    return log.child({ widget_type: name });
+  },
 };
 
 module.exports = Logger;

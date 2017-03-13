@@ -1,7 +1,7 @@
 import request from 'superagent';
 
 const noop = (data, done) => done(null, data);
-var jwtToken = null;
+let jwtToken = null;
 
 
 /**
@@ -10,9 +10,9 @@ var jwtToken = null;
  * @returns {*}
  */
 export function createApi(actions) {
-  let instance = {};
+  const instance = {};
 
-  for (let name in actions) {
+  for (const name in actions) {
     instance[name] = createRequest(actions[name]);
   }
 
@@ -40,7 +40,7 @@ export function reduxAction() {
  * @returns {Function}
  */
 function createRequest(opts) {
-  const {url: baseUrl, method = 'get', validate = noop} = opts;
+  const { url: baseUrl, method = 'get', validate = noop } = opts;
   const sendType = method === 'get' || method === 'header' ? 'query' : 'send';
   const urlParams = getUrlParams(baseUrl);
 
@@ -49,7 +49,7 @@ function createRequest(opts) {
     const req = request(method, url);
 
     if (data) req[sendType](data);
-    if (jwtToken) req.set('Authorization', 'Bearer ' + jwtToken);
+    if (jwtToken) req.set('Authorization', `Bearer ${jwtToken}`);
 
     req.end((err, res) => {
       if (err) return done(res ? res.body || err : err);
@@ -66,7 +66,7 @@ function createRequest(opts) {
  */
 function getUrlParams(url) {
   const re = /:([^\/\?]+)/g;
-  let params = {};
+  const params = {};
   let g;
 
   while ((g = re.exec(url))) {
@@ -87,7 +87,7 @@ function getUrlParams(url) {
 function replaceUrlParams(url, urlParams, data) {
   if (!data) return url;
 
-  for (var key in urlParams) {
+  for (const key in urlParams) {
     url = url.replace(urlParams[key], data[key]);
   }
 

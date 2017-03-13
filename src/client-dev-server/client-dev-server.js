@@ -1,5 +1,3 @@
-'use strict';
-
 const express = require('express');
 const path = require('path');
 const HMRRouter = require('./webpack-hmr-router');
@@ -23,15 +21,14 @@ app.listen(port);
 function proxyToMainServer() {
   return (req, res) => {
     req.url = req.originalUrl;
-    proxy.web(req, res, {target: `http://127.0.0.1:9000`});
+    proxy.web(req, res, { target: 'http://127.0.0.1:9000' });
 
-    proxy.on('error', function (error) {
+    proxy.on('error', (error) => {
       if (res._headerSent) return;
       res.status(500).send(new Error('Основний сервер недоступний'));
     });
   };
 }
-
 
 /**
  *
@@ -43,4 +40,3 @@ function sendFile(file) {
     res.sendFile(path.join(ROOT, file));
   };
 }
-

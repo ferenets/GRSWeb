@@ -1,6 +1,6 @@
 import thunk from 'redux-thunk';
-import {createStore, applyMiddleware, combineReducers} from 'redux';
-import {syncHistory, routeReducer} from 'redux-simple-router';
+import { createStore, applyMiddleware, combineReducers } from 'redux';
+import { syncHistory, routeReducer } from 'redux-simple-router';
 import { browserHistory } from 'react-router';
 
 import login from './login/login.reducer';
@@ -13,7 +13,7 @@ const reducers = combineReducers({
   profile,
   users,
   home,
-  routing: routeReducer
+  routing: routeReducer,
 });
 
 const middleware = [thunk, syncHistory(browserHistory)];

@@ -1,4 +1,4 @@
-'use strict';
+
 
 const AppError = require('../../libs/app-error');
 
@@ -10,9 +10,9 @@ const AppError = require('../../libs/app-error');
  */
 
 const UserErrors = {
-  error: function () {
-    return AppError.badRequest('Bad request', {code: 101});
-  }
+  error() {
+    return AppError.badRequest('Bad request', { code: 101 });
+  },
 };
 
 module.exports = UserErrors;

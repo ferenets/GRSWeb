@@ -1,4 +1,4 @@
-'use strict';
+
 
 /**
  * @apiDefine AppError
@@ -26,7 +26,7 @@ function AppError(msg, httpCode, data) {
     status: httpCode,
     code: data ? data.code : 0,
     message: this.message,
-    data: data
+    data,
   };
 }
 
@@ -47,10 +47,8 @@ AppError.unauthorized = function (msg, data) {
 AppError.forbidden = function (msg, data) {
   if (typeof msg === 'object') {
     return new AppError('Forbidden', 403, msg);
-  } else {
-    return new AppError(msg || 'Forbidden', 403, data);
   }
-
+  return new AppError(msg || 'Forbidden', 403, data);
 };
 
 
@@ -62,9 +60,8 @@ AppError.notFound = function (msg, data) {
 AppError.internalServerError = function (msg, data) {
   if (typeof msg === 'object') {
     return new AppError('Internal Server Error', 500, msg);
-  } else {
-    return new AppError(msg || 'Internal Server Error', 500, data);
   }
+  return new AppError(msg || 'Internal Server Error', 500, data);
 };
 
 

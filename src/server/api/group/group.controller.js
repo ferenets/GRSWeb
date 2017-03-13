@@ -1,4 +1,4 @@
-'use strict';
+
 
 // const Promise = require('bluebird');
 const Group = require('../../models/group.model');
@@ -15,7 +15,7 @@ const GroupController = {
    */
   get: (req, res, next) => {
     Group.get()
-      .then(groups => res.send({groups}))
+      .then(groups => res.send({ groups }))
       .catch(error => next(error));
   },
 
@@ -27,7 +27,7 @@ const GroupController = {
    */
   create: (req, res, next) => {
     Group.create(req.body)
-      .then(group => res.send({group}))
+      .then(group => res.send({ group }))
       .catch(error => next(error));
   },
 
@@ -39,7 +39,7 @@ const GroupController = {
    */
   addRight: (req, res, next) => {
     Group.addRight(req.body)
-      .then(group => res.send({group}))
+      .then(group => res.send({ group }))
       .catch(error => next(error));
   },
 
@@ -51,7 +51,7 @@ const GroupController = {
    */
   removeRight: (req, res, next) => {
     Group.removeRight(req.body)
-      .then(group => res.send({group}))
+      .then(group => res.send({ group }))
       .catch(error => next(error));
   },
 
@@ -63,7 +63,7 @@ const GroupController = {
    */
   remove: (req, res, next) => {
     Group.removeByName(req.body)
-      .then(group => res.send({group}))
+      .then(group => res.send({ group }))
       .catch(error => next(error));
   },
 
