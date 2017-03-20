@@ -1,7 +1,7 @@
-
+'use strict';
 
 const Promise = require('bluebird');
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 const AuthError = require('../../api/auth/auth.errors.js');
 const SALT_FACTOR = 5;
 
