@@ -181,11 +181,11 @@ const User = MDB.collection({
    * @param login
    * @param password
    */
-  auth: ($, login, password) =>
+  auth: ($, login, password) => {
 
     // PasswordUtils.hash(password).then(data => console.log(data));
 
-     $
+    return $
       .find({ login })
       .limit(1)
       .next()
@@ -198,8 +198,8 @@ const User = MDB.collection({
             delete user.password;
             return user;
           });
-      }),
-
+      });
+  },
 });
 
 module.exports = User;
